@@ -90,7 +90,9 @@ export async function prepareGit(home,target,stage,report) {
   const names=(await git(home,['ls-tree','--name-only','-z',target.revision])).split('\0').filter(Boolean);
   if(names.some(n=>['data','backups','.wrangler','.env','settings.json'].includes(n)))throw new Error('Repo chứa đường dẫn dữ liệu riêng; dừng cập nhật.');
   const archive=resolve(home,`core-${target.revision}.zip`);
-  await git(home,['archive','--format=zip',`--output=${archive}`,target.revision,'--',...names.filter(n=>n!=='media')]);
+  // This archive never crosses the network. Store locally without recompressing
+  // bundled executables, reducing CPU use while the old application is running.
+  await git(home,['archive','--format=zip','-0',`--output=${archive}`,target.revision,'--',...names.filter(n=>n!=='media')]);
   report('verifying','Đang kiểm tra các tệp ứng dụng…',70);
   await expandArchive(archive,stage);await verifyCore(stage);
   report('verifying','Đang kiểm tra và bổ sung media thay đổi…',78);
