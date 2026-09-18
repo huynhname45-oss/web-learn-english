@@ -1,0 +1,134 @@
+[
+  {
+    "id": "De_008_Q1",
+    "part": 1,
+    "question_number": 1,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A wooden post is being painted.\n\n(B) Flowerpots have been placed under some chairs.\n\n(C) A rug has been spread out on the ground.\n\n(D) Some furniture has been placed on a covered patio.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t8/1.mp3",
+    "audio_file": "part1/audio/q1.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t8/1.webp",
+    "image_file": "part1/images/asset_1.webp",
+    "options": {
+      "A": "A wooden post is being painted.",
+      "B": "Flowerpots have been placed under some chairs.",
+      "C": "A rug has been spread out on the ground.",
+      "D": "Some furniture has been placed on a covered patio."
+    },
+    "answer": "D",
+    "transcript": "(A) A wooden post is being painted.\n\n(B) Flowerpots have been placed under some chairs.\n\n(C) A rug has been spread out on the ground.\n\n(D) Some furniture has been placed on a covered patio.",
+    "explanation_vi": "(A) Một chiếc cột gỗ đang được sơn.\n\n(B) Những chậu hoa đã được đặt dưới một vài chiếc ghế.\n\n(C) Một tấm thảm đã được trải ra trên mặt đất.\n\n(D) Một số đồ nội thất đã được đặt trên một hiên nhà có mái che.",
+    "explanation_en": null,
+    "vocabulary": "Wooden post (n): Cột gỗ\n\nFlowerpot (n): Chậu hoa\n\nRug (n): Tấm thảm trải sàn\n\nCovered patio (n): Hiên nhà có mái che"
+  },
+  {
+    "id": "De_008_Q2",
+    "part": 1,
+    "question_number": 2,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Some people are exiting a parked vehicle.\n\n(B) A woman is walking past a pedestrian crosswalk.\n\n(C) Some cars are crossing an intersection.\n\n(D) A woman is taping a flyer to a light pole.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t8/2.mp3",
+    "audio_file": "part1/audio/q2.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t8/2.webp",
+    "image_file": "part1/images/asset_2.webp",
+    "options": {
+      "A": "Some people are exiting a parked vehicle.",
+      "B": "A woman is walking past a pedestrian crosswalk.",
+      "C": "Some cars are crossing an intersection.",
+      "D": "A woman is taping a flyer to a light pole."
+    },
+    "answer": "B",
+    "transcript": "(A) Some people are exiting a parked vehicle.\n\n(B) A woman is walking past a pedestrian crosswalk.\n\n(C) Some cars are crossing an intersection.\n\n(D) A woman is taping a flyer to a light pole.",
+    "explanation_vi": "(A) Một số người đang bước ra khỏi một phương tiện đang đỗ.\n\n(B) Một người phụ nữ đang đi bộ ngang qua vạch kẻ đường cho người đi bộ.\n\n(C) Một số chiếc xe ô tô đang đi băng qua một ngã tư.\n\n(D) Một người phụ nữ đang dán một tờ rơi lên cột đèn.",
+    "explanation_en": null,
+    "vocabulary": "Pedestrian crosswalk (n): Vạch kẻ đường cho người đi bộ\n\nIntersection (n): Ngã tư/Giao lộ\n\nFlyer (n): Tờ rơi\n\nLight pole (n): Cột đèn"
+  },
+  {
+    "id": "De_008_Q3",
+    "part": 1,
+    "question_number": 3,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A man is standing behind a counter.\n\n(B) A man is setting up a display of items.\n\n(C) Some floor tiles are being repaired.\n\n(D) Customers are lined up at a cash register.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t8/3.mp3",
+    "audio_file": "part1/audio/q3.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t8/3.webp",
+    "image_file": "part1/images/asset_3.webp",
+    "options": {
+      "A": "A man is standing behind a counter.",
+      "B": "A man is setting up a display of items.",
+      "C": "Some floor tiles are being repaired.",
+      "D": "Customers are lined up at a cash register."
+    },
+    "answer": "A",
+    "transcript": "(A) A man is standing behind a counter.\n\n(B) A man is setting up a display of items.\n\n(C) Some floor tiles are being repaired.\n\n(D) Customers are lined up at a cash register.",
+    "explanation_vi": "(A) Một người đàn ông đang đứng sau quầy.\n\n(B) Một người đàn ông đang thiết lập một khu trưng bày hàng hóa.\n\n(C) Một số viên gạch lát sàn đang được sửa chữa.\n\n(D) Khách hàng đang xếp hàng tại máy tính tiền.",
+    "explanation_en": null,
+    "vocabulary": "Counter (n): Quầy hàng/Quầy thu ngân\n\nDisplay (n): Sự trưng bày/Khu trưng bày\n\nFloor tile (n): Gạch lát sàn\n\nCash register (n): Máy tính tiền"
+  },
+  {
+    "id": "De_008_Q4",
+    "part": 1,
+    "question_number": 4,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Some desks are pushed up against a window.\n\n(B) A light fixture is hanging from the ceiling.\n\n(C) Some armchairs have been stacked in a corner.\n\n(D) A fence is visible through the window.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t8/4.mp3",
+    "audio_file": "part1/audio/q4.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t8/4.webp",
+    "image_file": "part1/images/asset_4.webp",
+    "options": {
+      "A": "Some desks are pushed up against a window.",
+      "B": "A light fixture is hanging from the ceiling.",
+      "C": "Some armchairs have been stacked in a corner.",
+      "D": "A fence is visible through the window."
+    },
+    "answer": "D",
+    "transcript": "(A) Some desks are pushed up against a window.\n\n(B) A light fixture is hanging from the ceiling.\n\n(C) Some armchairs have been stacked in a corner.\n\n(D) A fence is visible through the window.",
+    "explanation_vi": "(A) Một số bàn làm việc được đẩy sát vào cửa sổ.\n\n(B) Một thiết bị chiếu sáng đang treo trên trần nhà.\n\n(C) Một số chiếc ghế bành đã được xếp chồng trong góc.\n\n(D) Một hàng rào có thể nhìn thấy qua cửa sổ.",
+    "explanation_en": null,
+    "vocabulary": "Light fixture (n): Thiết bị chiếu sáng/Đèn cố định\n\nCeiling (n): Trần nhà\n\nArmchair (n): Ghế bành\n\nFence (n): Hàng rào"
+  },
+  {
+    "id": "De_008_Q5",
+    "part": 1,
+    "question_number": 5,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) The women are assembling a shelving unit.\n\n(B) One of the women is packing some store decorations.\n\n(C) One of the women is holding up a book.\n\n(D) The women are unloading a shipment of books.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t8/5.mp3",
+    "audio_file": "part1/audio/q5.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t8/5.webp",
+    "image_file": "part1/images/asset_5.webp",
+    "options": {
+      "A": "The women are assembling a shelving unit.",
+      "B": "One of the women is packing some store decorations.",
+      "C": "One of the women is holding up a book.",
+      "D": "The women are unloading a shipment of books."
+    },
+    "answer": "C",
+    "transcript": "(A) The women are assembling a shelving unit.\n\n(B) One of the women is packing some store decorations.\n\n(C) One of the women is holding up a book.\n\n(D) The women are unloading a shipment of books.",
+    "explanation_vi": "(A) Những người phụ nữ đang lắp ráp một kệ để đồ.\n\n(B) Một trong những người phụ nữ đang đóng gói đồ trang trí cửa hàng.\n\n(C) Một trong những người phụ nữ đang giơ một cuốn sách lên.\n\n(D) Những người phụ nữ đang dỡ một lô hàng sách xuống.",
+    "explanation_en": null,
+    "vocabulary": "Assemble (v): Lắp ráp\n\nShelving unit (n): Kệ để đồ/Giá sách\n\nHold up (v): Giơ lên/Cầm lên\n\nUnload (v): Dỡ hàng"
+  },
+  {
+    "id": "De_008_Q6",
+    "part": 1,
+    "question_number": 6,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) They're climbing some stairs.\n\n(B) They're sitting in a park.\n\n(C) They're raking some leaves.\n\n(D) They're planting some trees.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t8/6.mp3",
+    "audio_file": "part1/audio/q6.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t8/6.webp",
+    "image_file": "part1/images/asset_6.webp",
+    "options": {
+      "A": "They're climbing some stairs.",
+      "B": "They're sitting in a park.",
+      "C": "They're raking some leaves.",
+      "D": "They're planting some trees."
+    },
+    "answer": "A",
+    "transcript": "(A) They're climbing some stairs.\n\n(B) They're sitting in a park.\n\n(C) They're raking some leaves.\n\n(D) They're planting some trees.",
+    "explanation_vi": "(A) Họ đang leo lên một số bậc thang.\n\n(B) Họ đang ngồi trong công viên.\n\n(C) Họ đang cào lá cây.\n\n(D) Họ đang trồng một số cây xanh.",
+    "explanation_en": null,
+    "vocabulary": "Climb (v): Leo/Trèo lên\n\nStairs (n): Bậc thang/Cầu thang\n\nRake (v): Cào (lá, cỏ)\n\nPlant (v): Trồng cây"
+  }
+]

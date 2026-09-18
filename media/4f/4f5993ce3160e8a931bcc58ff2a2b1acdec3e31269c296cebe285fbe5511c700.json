@@ -1,0 +1,134 @@
+[
+  {
+    "id": "De_001_Q1",
+    "part": 1,
+    "question_number": 1,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) The woman is carrying a tray of food.\n(B) The woman is wearing a jacket.\n(C) The woman is tying up her hair.\n(D) The woman is removing her hat.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t1/1.mp3",
+    "audio_file": "part1/audio/q1.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t1/1.webp",
+    "image_file": "part1/images/asset_1.webp",
+    "options": {
+      "A": "The woman is carrying a tray of food.",
+      "B": "The woman is wearing a jacket.",
+      "C": "The woman is tying up her hair.",
+      "D": "The woman is removing her hat."
+    },
+    "answer": "B",
+    "transcript": "(A) The woman is carrying a tray of food.\n(B) The woman is wearing a jacket.\n(C) The woman is tying up her hair.\n(D) The woman is removing her hat.",
+    "explanation_vi": "(A) Người phụ nữ đang bê một khay thức ăn.\n\n(B) Người phụ nữ đang mặc một chiếc áo khoác.\n\n(C) Người phụ nữ đang buộc tóc.\n\n(D) Người phụ nữ đang tháo mũ của mình.",
+    "explanation_en": null,
+    "vocabulary": "Tray (n): Khay\n\nWear (v): Mặc/Đeo\n\nTie up (v): Buộc/Cột lên\n\nRemove (v): Tháo/Gỡ bỏ"
+  },
+  {
+    "id": "De_001_Q2",
+    "part": 1,
+    "question_number": 2,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Some people are standing next to a filing cabinet.\n(B) Some people are searching through a desk.\n(C) Some people are watching a presentation.\n(D) Some people are looking at a book.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t1/2.mp3",
+    "audio_file": "part1/audio/q2.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t1/2.webp",
+    "image_file": "part1/images/asset_2.webp",
+    "options": {
+      "A": "Some people are standing next to a filing cabinet.",
+      "B": "Some people are searching through a desk.",
+      "C": "Some people are watching a presentation.",
+      "D": "Some people are looking at a book."
+    },
+    "answer": "D",
+    "transcript": "(A) Some people are standing next to a filing cabinet.\n(B) Some people are searching through a desk.\n(C) Some people are watching a presentation.\n(D) Some people are looking at a book.",
+    "explanation_vi": "(A) Một vài người đang đứng cạnh tủ đựng hồ sơ.\n\n(B) Một vài người đang tìm kiếm thứ gì đó trong bàn làm việc.\n\n(C) Một vài người đang xem một bài thuyết trình.\n\n(D) Một vài người đang nhìn vào một cuốn sách.",
+    "explanation_en": null,
+    "vocabulary": "Filing cabinet (n): Tủ đựng hồ sơ\n\nSearch through (v): Tìm kiếm khắp/Lục tìm\n\nPresentation (n): Bài thuyết trình"
+  },
+  {
+    "id": "De_001_Q3",
+    "part": 1,
+    "question_number": 3,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A woman is holding a phone up to her ear.\n(B) A woman is pouring a beverage into a glass.\n(C) Some light fixtures are hanging from the ceiling.\n(D) Some tiles are being installed in a hallway.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t1/3.mp3",
+    "audio_file": "part1/audio/q3.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t1/3.webp",
+    "image_file": "part1/images/asset_3.webp",
+    "options": {
+      "A": "A woman is holding a phone up to her ear.",
+      "B": "A woman is pouring a beverage into a glass.",
+      "C": "Some light fixtures are hanging from the ceiling.",
+      "D": "Some tiles are being installed in a hallway."
+    },
+    "answer": "C",
+    "transcript": "(A) A woman is holding a phone up to her ear.\n(B) A woman is pouring a beverage into a glass.\n(C) Some light fixtures are hanging from the ceiling.\n(D) Some tiles are being installed in a hallway.",
+    "explanation_vi": "(A) Một người phụ nữ đang áp điện thoại lên tai.\n\n(B) Một người phụ nữ đang rót đồ uống vào ly.\n\n(C) Một số đèn trang trí đang treo trên trần nhà.\n\n(D) Một số viên gạch lát đang được lắp đặt ở hành lang.",
+    "explanation_en": null,
+    "vocabulary": "Beverage (n): Đồ uống\n\nLight fixture (n): Đèn (cố định)\n\nCeiling (n): Trần nhà\n\nHallway (n): Hành lang"
+  },
+  {
+    "id": "De_001_Q4",
+    "part": 1,
+    "question_number": 4,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A wooden crate is filled with vegetables.\n(B) One of the men is putting vegetables into a shopping bag.\n(C) A backpack has been set on the ground.\n(D) One of the men is reaching into a bucket.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t1/4.mp3",
+    "audio_file": "part1/audio/q4.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t1/4.webp",
+    "image_file": "part1/images/asset_4.webp",
+    "options": {
+      "A": "A wooden crate is filled with vegetables.",
+      "B": "One of the men is putting vegetables into a shopping bag.",
+      "C": "A backpack has been set on the ground.",
+      "D": "One of the men is reaching into a bucket."
+    },
+    "answer": "A",
+    "transcript": "(A) A wooden crate is filled with vegetables.\n(B) One of the men is putting vegetables into a shopping bag.\n(C) A backpack has been set on the ground.\n(D) One of the men is reaching into a bucket.",
+    "explanation_vi": "(A) Một thùng gỗ chứa đầy rau củ.\n\n(B) Một trong những người đàn ông đang cho rau vào túi mua hàng.\n\n(C) Một chiếc ba lô đã được đặt trên mặt đất.\n\n(D) Một trong những người đàn ông đang với tay vào một cái xô.",
+    "explanation_en": null,
+    "vocabulary": "Crate (n): Thùng gỗ/Thùng thưa\n\nBackpack (n): Ba lô\n\nReach into (v): Với tay vào trong\n\nBucket (n): Cái xô"
+  },
+  {
+    "id": "De_001_Q5",
+    "part": 1,
+    "question_number": 5,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Painting supplies have been laid out on the floor.\n(B) He's laying a brush down on a windowsill.\n(C) He's lifting a can of paint by its handle.\n(D) Cans of paint have been placed on a step stool.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t1/5.mp3",
+    "audio_file": "part1/audio/q5.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t1/5.webp",
+    "image_file": "part1/images/asset_5.webp",
+    "options": {
+      "A": "Painting supplies have been laid out on the floor.",
+      "B": "He's laying a brush down on a windowsill.",
+      "C": "He's lifting a can of paint by its handle.",
+      "D": "Cans of paint have been placed on a step stool."
+    },
+    "answer": "A",
+    "transcript": "(A) Painting supplies have been laid out on the floor.\n(B) He's laying a brush down on a windowsill.\n(C) He's lifting a can of paint by its handle.\n(D) Cans of paint have been placed on a step stool.",
+    "explanation_vi": "(A) Dụng cụ sơn đã được bày ra trên sàn.\n\n(B) Anh ấy đang đặt một chiếc cọ xuống bậu cửa sổ.\n\n(C) Anh ấy đang nhấc một lon sơn bằng tay cầm.\n\n(D) Những lon sơn đã được đặt trên một chiếc ghế thang.",
+    "explanation_en": null,
+    "vocabulary": "Supply (n): Đồ dùng/Vật tư\n\nWindowsill (n): Bậu cửa sổ\n\nHandle (n): Tay cầm\n\nStep stool (n): Ghế thang"
+  },
+  {
+    "id": "De_001_Q6",
+    "part": 1,
+    "question_number": 6,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A path is covered with fallen branches.\n(B) A tree is lying across a grassy area.\n(C) Some water has pooled on a path.\n(D) Some cyclists are riding through a field.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t1/6.mp3",
+    "audio_file": "part1/audio/q6.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t1/6.webp",
+    "image_file": "part1/images/asset_6.webp",
+    "options": {
+      "A": "A path is covered with fallen branches.",
+      "B": "A tree is lying across a grassy area.",
+      "C": "Some water has pooled on a path.",
+      "D": "Some cyclists are riding through a field."
+    },
+    "answer": "C",
+    "transcript": "(A) A path is covered with fallen branches.\n(B) A tree is lying across a grassy area.\n(C) Some water has pooled on a path.\n(D) Some cyclists are riding through a field.",
+    "explanation_vi": "(A) Một con đường bị phủ đầy bởi những cành cây gãy.\n\n(B) Một cái cây đang nằm chắn ngang khu vực thảm cỏ.\n\n(C) Một ít nước đọng lại thành vũng trên đường.\n\n(D) Một số người đi xe đạp đang đạp xe qua một cánh đồng.",
+    "explanation_en": null,
+    "vocabulary": "Branch (n): Cành cây\n\nLying across (v): Nằm ngang qua\n\nPool (v): Đọng nước/Tụ lại\n\nCyclist (n): Người đi xe đạp"
+  }
+]

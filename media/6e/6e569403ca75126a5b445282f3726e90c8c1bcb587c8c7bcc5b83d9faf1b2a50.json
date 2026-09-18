@@ -1,0 +1,128 @@
+[
+  {
+    "id": "De_042_Q1",
+    "part": 1,
+    "question_number": 1,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) She’s shoveling snow from a walkway. \n\n(B) She’s using walking sticks.\n\n(C) She’s removing her cap.\n\n(D) She’s drinking from a water bottle.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_6/Test_6-1.mp3",
+    "audio_file": "part1/audio/q1.mp3",
+    "image_url": "https://s4-media1.study4.com/media/e24/images_fixed2/image39.png",
+    "image_file": "part1/images/asset_1.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "B",
+    "transcript": "(A) She’s shoveling snow from a walkway. \n\n(B) She’s using walking sticks.\n\n(C) She’s removing her cap.\n\n(D) She’s drinking from a water bottle.",
+    "explanation_vi": "Dịch đáp án:\n\n(A) Cô ấy đang xúc tuyết trên lối đi. \n\n(B) Cô ấy đang sử dụng gậy chống.\n\n(C) Cô ấy đang tháo mũ ra.\n\n(D) Cô ấy đang uống nước từ chai nước.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_042_Q2",
+    "part": 1,
+    "question_number": 2,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A woman is carrying a tray.\n\n(B) A woman is pushing a food trolley.\n\n(C) Some people are leaving a restaurant. \n\n(D) Some diners are looking out a window.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_6/Test_6-2.mp3",
+    "audio_file": "part1/audio/q2.mp3",
+    "image_url": "https://s4-media1.study4.com/media/e24/images_fixed2/image37.png",
+    "image_file": "part1/images/asset_2.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "A",
+    "transcript": "(A) A woman is carrying a tray.\n\n(B) A woman is pushing a food trolley.\n\n(C) Some people are leaving a restaurant. \n\n(D) Some diners are looking out a window.",
+    "explanation_vi": "Dịch đáp án:\n\n(A) Một người phụ nữ đang bưng một cái khay.\n\n(B) Một người phụ nữ đang đẩy xe đẩy thức ăn.\n\n(C) Một số người đang rời khỏi nhà hàng. \n\n(D) Một số thực khách đang nhìn ra cửa sổ.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_042_Q3",
+    "part": 1,
+    "question_number": 3,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) The man is holding a bucket of water. \n\n(B) The man is replacing a tire.\n\n(C) The man is watering a tree.\n\n(D) The man is scrubbing the front of a car.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_6/Test_6-3.mp3",
+    "audio_file": "part1/audio/q3.mp3",
+    "image_url": "https://s4-media1.study4.com/media/e24/images_fixed2/image8.png",
+    "image_file": "part1/images/asset_3.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "D",
+    "transcript": "(A) The man is holding a bucket of water. \n\n(B) The man is replacing a tire.\n\n(C) The man is watering a tree.\n\n(D) The man is scrubbing the front of a car.",
+    "explanation_vi": "Dịch đáp án:\n\n(A) Người đàn ông đang cầm một xô nước.\n\n(B) Người đàn ông đang thay lốp xe.\n\n(C) Người đàn ông đang tưới cây.\n\n(D) Người đàn ông đang cọ rửa phần trước xe.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_042_Q4",
+    "part": 1,
+    "question_number": 4,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Some tiles are being installed on a roof.\n\n(B) An outdoor dining area is unoccupied.\n\n(C) Flowers have been placed on tables.\n\n(D) Some chairs have been arranged around a fountain.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_6/Test_6-4.mp3",
+    "audio_file": "part1/audio/q4.mp3",
+    "image_url": "https://s4-media1.study4.com/media/e24/images_fixed2/image314.png",
+    "image_file": "part1/images/asset_4.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "B",
+    "transcript": "(A) Some tiles are being installed on a roof.\n\n(B) An outdoor dining area is unoccupied.\n\n(C) Flowers have been placed on tables.\n\n(D) Some chairs have been arranged around a fountain.",
+    "explanation_vi": "Dịch đáp án:\n\n(A) Một số viên ngói đang được lắp đặt trên mái nhà.\n\n(B) Khu vực ăn uống ngoài trời không có người sử dụng.\n\n(C) Hoa đã được đặt trên bàn.\n\n(D) Một số ghế đã được bố trí xung quanh đài phun nước.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_042_Q5",
+    "part": 1,
+    "question_number": 5,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Some people are gathered on top of a building. \n\n(B) Some trees are blocking the entrance to a stairway.\n\n(C) A woman is taking some stairs to a lower level. \n\n(D) A woman is walking across a pedestrian bridge.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_6/Test_6-5.mp3",
+    "audio_file": "part1/audio/q5.mp3",
+    "image_url": "https://s4-media1.study4.com/media/e24/images_fixed2/image168.png",
+    "image_file": "part1/images/asset_5.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "C",
+    "transcript": "(A) Some people are gathered on top of a building. \n\n(B) Some trees are blocking the entrance to a stairway.\n\n(C) A woman is taking some stairs to a lower level. \n\n(D) A woman is walking across a pedestrian bridge.",
+    "explanation_vi": "Dịch đáp án:\n\n(A) Một số người đang tập trung trên nóc một tòa nhà. \n\n(B) Một số cây đang chặn lối vào cầu thang.\n\n(C) Một người phụ nữ đang đi cầu thang xuống tầng thấp hơn. \n\n(D) Một người phụ nữ đang đi qua cầu dành cho người đi bộ.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_042_Q6",
+    "part": 1,
+    "question_number": 6,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Some wooden planter boxes have been set next to each other.\n\n(B) Some wood logs have been piled in a corner.\n\n(C) The outside walls of a house are made of bricks. \n\n(D) Some windows are being installed.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_6/Test_6-6.mp3",
+    "audio_file": "part1/audio/q6.mp3",
+    "image_url": "https://s4-media1.study4.com/media/e24/images_fixed2/image368.png",
+    "image_file": "part1/images/asset_6.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "A",
+    "transcript": "(A) Some wooden planter boxes have been set next to each other.\n\n(B) Some wood logs have been piled in a corner.\n\n(C) The outside walls of a house are made of bricks. \n\n(D) Some windows are being installed.",
+    "explanation_vi": "Dịch đáp án:\n\n(A) Một số hộp trồng cây bằng gỗ đã được đặt cạnh nhau.\n\n(B) Một số khúc gỗ đã được chất thành đống ở một góc.\n\n(C) Các bức tường bên ngoài của một ngôi nhà được làm bằng gạch. \n\n(D) Một số cửa sổ đang được lắp đặt.",
+    "vocabulary": []
+  }
+]

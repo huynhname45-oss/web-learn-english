@@ -1,0 +1,502 @@
+[
+  {
+    "id": "De_025_Q7",
+    "part": 2,
+    "question_number": 7,
+    "prompt": "Nghe câu hỏi và chọn câu phản hồi phù hợp nhất.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/06/88609253.mp3",
+    "audio_file": "part2/audio/q7.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "A",
+    "transcript": null,
+    "explanation_vi": "Chú ý từ để hỏi (Wh-question) hoặc dạng câu đề nghị/xác nhận.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_025_Q8",
+    "part": 2,
+    "question_number": 8,
+    "prompt": "Nghe câu hỏi và chọn câu phản hồi phù hợp nhất.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/06/37931553.mp3",
+    "audio_file": "part2/audio/q8.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "B",
+    "transcript": null,
+    "explanation_vi": "Chú ý từ để hỏi (Wh-question) hoặc dạng câu đề nghị/xác nhận.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_025_Q9",
+    "part": 2,
+    "question_number": 9,
+    "prompt": "Nghe câu hỏi và chọn câu phản hồi phù hợp nhất.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/06/86203583.mp3",
+    "audio_file": "part2/audio/q9.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "C",
+    "transcript": null,
+    "explanation_vi": "Chú ý từ để hỏi (Wh-question) hoặc dạng câu đề nghị/xác nhận.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_025_Q10",
+    "part": 2,
+    "question_number": 10,
+    "prompt": "Nghe câu hỏi và chọn câu phản hồi phù hợp nhất.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/06/22791796.mp3",
+    "audio_file": "part2/audio/q10.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "B",
+    "transcript": null,
+    "explanation_vi": "Chú ý từ để hỏi (Wh-question) hoặc dạng câu đề nghị/xác nhận.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_025_Q11",
+    "part": 2,
+    "question_number": 11,
+    "prompt": "Nghe câu hỏi và chọn câu phản hồi phù hợp nhất.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/06/25125741.mp3",
+    "audio_file": "part2/audio/q11.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "A",
+    "transcript": null,
+    "explanation_vi": "Chú ý từ để hỏi (Wh-question) hoặc dạng câu đề nghị/xác nhận.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_025_Q12",
+    "part": 2,
+    "question_number": 12,
+    "prompt": "Nghe câu hỏi và chọn câu phản hồi phù hợp nhất.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/06/86702262.mp3",
+    "audio_file": "part2/audio/q12.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "A",
+    "transcript": null,
+    "explanation_vi": "Chú ý từ để hỏi (Wh-question) hoặc dạng câu đề nghị/xác nhận.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_025_Q13",
+    "part": 2,
+    "question_number": 13,
+    "prompt": "Nghe câu hỏi và chọn câu phản hồi phù hợp nhất.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/06/25139318.mp3",
+    "audio_file": "part2/audio/q13.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "C",
+    "transcript": null,
+    "explanation_vi": "Chú ý từ để hỏi (Wh-question) hoặc dạng câu đề nghị/xác nhận.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_025_Q14",
+    "part": 2,
+    "question_number": 14,
+    "prompt": "Nghe câu hỏi và chọn câu phản hồi phù hợp nhất.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/06/65863439.mp3",
+    "audio_file": "part2/audio/q14.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "C",
+    "transcript": null,
+    "explanation_vi": "Chú ý từ để hỏi (Wh-question) hoặc dạng câu đề nghị/xác nhận.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_025_Q15",
+    "part": 2,
+    "question_number": 15,
+    "prompt": "Nghe câu hỏi và chọn câu phản hồi phù hợp nhất.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/06/89828721.mp3",
+    "audio_file": "part2/audio/q15.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "C",
+    "transcript": null,
+    "explanation_vi": "Chú ý từ để hỏi (Wh-question) hoặc dạng câu đề nghị/xác nhận.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_025_Q16",
+    "part": 2,
+    "question_number": 16,
+    "prompt": "Nghe câu hỏi và chọn câu phản hồi phù hợp nhất.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/06/19760284.mp3",
+    "audio_file": "part2/audio/q16.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "A",
+    "transcript": null,
+    "explanation_vi": "Chú ý từ để hỏi (Wh-question) hoặc dạng câu đề nghị/xác nhận.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_025_Q17",
+    "part": 2,
+    "question_number": 17,
+    "prompt": "Nghe câu hỏi và chọn câu phản hồi phù hợp nhất.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/06/94842587.mp3",
+    "audio_file": "part2/audio/q17.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "A",
+    "transcript": null,
+    "explanation_vi": "Chú ý từ để hỏi (Wh-question) hoặc dạng câu đề nghị/xác nhận.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_025_Q18",
+    "part": 2,
+    "question_number": 18,
+    "prompt": "Nghe câu hỏi và chọn câu phản hồi phù hợp nhất.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/06/70669246.mp3",
+    "audio_file": "part2/audio/q18.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "B",
+    "transcript": null,
+    "explanation_vi": "Chú ý từ để hỏi (Wh-question) hoặc dạng câu đề nghị/xác nhận.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_025_Q19",
+    "part": 2,
+    "question_number": 19,
+    "prompt": "Nghe câu hỏi và chọn câu phản hồi phù hợp nhất.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/06/31385684.mp3",
+    "audio_file": "part2/audio/q19.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "C",
+    "transcript": null,
+    "explanation_vi": "Chú ý từ để hỏi (Wh-question) hoặc dạng câu đề nghị/xác nhận.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_025_Q20",
+    "part": 2,
+    "question_number": 20,
+    "prompt": "Nghe câu hỏi và chọn câu phản hồi phù hợp nhất.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/06/57555542.mp3",
+    "audio_file": "part2/audio/q20.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "C",
+    "transcript": null,
+    "explanation_vi": "Chú ý từ để hỏi (Wh-question) hoặc dạng câu đề nghị/xác nhận.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_025_Q21",
+    "part": 2,
+    "question_number": 21,
+    "prompt": "Nghe câu hỏi và chọn câu phản hồi phù hợp nhất.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/06/61128177.mp3",
+    "audio_file": "part2/audio/q21.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "B",
+    "transcript": null,
+    "explanation_vi": "Chú ý từ để hỏi (Wh-question) hoặc dạng câu đề nghị/xác nhận.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_025_Q22",
+    "part": 2,
+    "question_number": 22,
+    "prompt": "Nghe câu hỏi và chọn câu phản hồi phù hợp nhất.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/06/87824874.mp3",
+    "audio_file": "part2/audio/q22.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "A",
+    "transcript": null,
+    "explanation_vi": "Chú ý từ để hỏi (Wh-question) hoặc dạng câu đề nghị/xác nhận.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_025_Q23",
+    "part": 2,
+    "question_number": 23,
+    "prompt": "Nghe câu hỏi và chọn câu phản hồi phù hợp nhất.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/06/72602479.mp3",
+    "audio_file": "part2/audio/q23.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "B",
+    "transcript": null,
+    "explanation_vi": "Chú ý từ để hỏi (Wh-question) hoặc dạng câu đề nghị/xác nhận.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_025_Q24",
+    "part": 2,
+    "question_number": 24,
+    "prompt": "Nghe câu hỏi và chọn câu phản hồi phù hợp nhất.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/06/95757101.mp3",
+    "audio_file": "part2/audio/q24.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "A",
+    "transcript": null,
+    "explanation_vi": "Chú ý từ để hỏi (Wh-question) hoặc dạng câu đề nghị/xác nhận.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_025_Q25",
+    "part": 2,
+    "question_number": 25,
+    "prompt": "Nghe câu hỏi và chọn câu phản hồi phù hợp nhất.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/06/34238438.mp3",
+    "audio_file": "part2/audio/q25.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "B",
+    "transcript": null,
+    "explanation_vi": "Chú ý từ để hỏi (Wh-question) hoặc dạng câu đề nghị/xác nhận.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_025_Q26",
+    "part": 2,
+    "question_number": 26,
+    "prompt": "Nghe câu hỏi và chọn câu phản hồi phù hợp nhất.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/06/53084680.mp3",
+    "audio_file": "part2/audio/q26.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "A",
+    "transcript": null,
+    "explanation_vi": "Chú ý từ để hỏi (Wh-question) hoặc dạng câu đề nghị/xác nhận.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_025_Q27",
+    "part": 2,
+    "question_number": 27,
+    "prompt": "Nghe câu hỏi và chọn câu phản hồi phù hợp nhất.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/06/78250999.mp3",
+    "audio_file": "part2/audio/q27.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "C",
+    "transcript": null,
+    "explanation_vi": "Chú ý từ để hỏi (Wh-question) hoặc dạng câu đề nghị/xác nhận.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_025_Q28",
+    "part": 2,
+    "question_number": 28,
+    "prompt": "Nghe câu hỏi và chọn câu phản hồi phù hợp nhất.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/06/4928998.mp3",
+    "audio_file": "part2/audio/q28.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "B",
+    "transcript": null,
+    "explanation_vi": "Chú ý từ để hỏi (Wh-question) hoặc dạng câu đề nghị/xác nhận.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_025_Q29",
+    "part": 2,
+    "question_number": 29,
+    "prompt": "Nghe câu hỏi và chọn câu phản hồi phù hợp nhất.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/06/35847062.mp3",
+    "audio_file": "part2/audio/q29.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "A",
+    "transcript": null,
+    "explanation_vi": "Chú ý từ để hỏi (Wh-question) hoặc dạng câu đề nghị/xác nhận.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_025_Q30",
+    "part": 2,
+    "question_number": 30,
+    "prompt": "Nghe câu hỏi và chọn câu phản hồi phù hợp nhất.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/06/43049468.mp3",
+    "audio_file": "part2/audio/q30.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "B",
+    "transcript": null,
+    "explanation_vi": "Chú ý từ để hỏi (Wh-question) hoặc dạng câu đề nghị/xác nhận.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_025_Q31",
+    "part": 2,
+    "question_number": 31,
+    "prompt": "Nghe câu hỏi và chọn câu phản hồi phù hợp nhất.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/06/49401567.mp3",
+    "audio_file": "part2/audio/q31.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "B",
+    "transcript": null,
+    "explanation_vi": "Chú ý từ để hỏi (Wh-question) hoặc dạng câu đề nghị/xác nhận.",
+    "vocabulary": []
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "De_036_Q1",
+    "part": 1,
+    "question_number": 1,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A man is carrying a backpack.\n\n(B) A man is tying his shoelace.\n\n(C) A woman is purchasing a snack.\n\n(D) A woman is picking up a ticket from the ground.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-06-part-1-1.mp3",
+    "audio_file": "part1/audio/q1.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/6/image10.png",
+    "image_file": "part1/images/asset_1.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "A",
+    "transcript": "(A) A man is carrying a backpack.\n\n(B) A man is tying his shoelace.\n\n(C) A woman is purchasing a snack.\n\n(D) A woman is picking up a ticket from the ground.",
+    "explanation_vi": "1.\n\n(A) Một người đàn ông đang mang theo 1 chiếc balo.\n\n(B) Một người đàn ông đang buộc dây giày của anh ấy.\n\n(C) Một người phụ nữ đang mua đồ ăn vặt.\n\n(D) Một người phụ nữ đang nhặt vé từ dưới đất.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_036_Q2",
+    "part": 1,
+    "question_number": 2,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) She’s wiping off a counter.\n\n(B) She’s putting dishes in a sink.\n\n(C) She’s using a microwave oven.\n\n(D) She’s rinsing a cloth under a faucet.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-06-part-1-2.mp3",
+    "audio_file": "part1/audio/q2.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/6/image9.png",
+    "image_file": "part1/images/asset_2.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "C",
+    "transcript": "(A) She’s wiping off a counter.\n\n(B) She’s putting dishes in a sink.\n\n(C) She’s using a microwave oven.\n\n(D) She’s rinsing a cloth under a faucet.",
+    "explanation_vi": "2.\n\n(A) Cô ấy đang lau cái quầy.\n\n(B) Cô ấy đang đặt những cái đĩa vào trong bồn rửa chén.\n\n(C) Cô ấy đang sử dụng lò vi sóng.\n\n(D) Cô ấy đang giặt một cái khăn dưới vòi rửa.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_036_Q3",
+    "part": 1,
+    "question_number": 3,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A man is walking behind some parked cars.\n\n(B) A woman is cleaning snow off a walkway.\n\n(C) A man is maintaining a fence.\n\n(D) A woman is taking off a snow jacket.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-06-part-1-3.mp3",
+    "audio_file": "part1/audio/q3.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/6/image11.png",
+    "image_file": "part1/images/asset_3.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "A",
+    "transcript": "(A) A man is walking behind some parked cars.\n\n(B) A woman is cleaning snow off a walkway.\n\n(C) A man is maintaining a fence.\n\n(D) A woman is taking off a snow jacket.",
+    "explanation_vi": "3.\n\n(A) Một người đàn ông đang bước đi đằng sau những cái xe đang đỗ.\n\n(B) Một người phụ nữ đang dọn tuyết ra khỏi đường đi bộ\n\n(C) Một người đàn ông đang sửa chữa hàng rào.\n\n(D) Một người phụ nữ đang cởi một cái áo khoác mùa đông.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_036_Q4",
+    "part": 1,
+    "question_number": 4,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) He’s placing a pan in an oven.\n\n(B) He’s hanging up an apron.\n\n(C) Some pots are stacked on the floor.\n\n(D) Some jars are arranged on shelves.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-06-part-1-4.mp3",
+    "audio_file": "part1/audio/q4.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/6/image24.png",
+    "image_file": "part1/images/asset_4.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "D",
+    "transcript": "(A) He’s placing a pan in an oven.\n\n(B) He’s hanging up an apron.\n\n(C) Some pots are stacked on the floor.\n\n(D) Some jars are arranged on shelves.",
+    "explanation_vi": "4.\n\n(A) Anh ấy đang đặt 1 cái chảo vào trong lò nướng.\n\n(B) Anh ấy đang treo 1 cái tạp dề.\n\n(C) Những cái chậu được xếp chồng lên nhau trên sàn nhà.\n\n(D) Những cái lọ được sắp xếp trên kệ.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_036_Q5",
+    "part": 1,
+    "question_number": 5,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A building is under construction.\n\n(B) A metal bench is unoccupied.\n\n(C) A bicycle is propped against a tree.\n\n(D) A tree has fallen down.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-06-part-1-5.mp3",
+    "audio_file": "part1/audio/q5.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/6/image12.png",
+    "image_file": "part1/images/asset_5.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "B",
+    "transcript": "(A) A building is under construction.\n\n(B) A metal bench is unoccupied.\n\n(C) A bicycle is propped against a tree.\n\n(D) A tree has fallen down.",
+    "explanation_vi": "5.\n\n(A) Một tòa nhà đang thi công.\n\n(B) Một băng ghế đang không có người ngồi.\n\n(C) Một chiếc xe đạp được dựng dựa vào cái cây.\n\n(D) Một cái cây đã bị đổ.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_036_Q6",
+    "part": 1,
+    "question_number": 6,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A customer is standing near a shopping cart.\n\n(B) Some bags have been left on the floor.\n\n(C) A shopping cart has been left in a parking area.\n\n(D) A customer is leaning into a freezer.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-06-part-1-6.mp3",
+    "audio_file": "part1/audio/q6.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/6/image13.png",
+    "image_file": "part1/images/asset_6.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "A",
+    "transcript": "(A) A customer is standing near a shopping cart.\n\n(B) Some bags have been left on the floor.\n\n(C) A shopping cart has been left in a parking area.\n\n(D) A customer is leaning into a freezer.",
+    "explanation_vi": "6.\n\n(A) Một khách hàng đang đứng gần một chiếc xe đẩy hàng.\n\n(B) Một vài cái túi bị bỏ lại trên sàn nhà.\n\n(C) Một chiếc xe đẩy hàng đã bị bỏ lại ở bãi đỗ xe.\n\n(D) Một khách hàng đang dựa vào một chiếc tủ đông.",
+    "vocabulary": []
+  }
+]

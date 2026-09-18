@@ -1,0 +1,128 @@
+[
+  {
+    "id": "De_041_Q1",
+    "part": 1,
+    "question_number": 1,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) The worker is carrying some plants.\n\n(B) The worker is reading a sign.\n\n(C) The worker is pushing a cart.\n\n(D) The worker is writing some notes.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_5/Test_5-1.mp3",
+    "audio_file": "part1/audio/q1.mp3",
+    "image_url": "https://s4-media1.study4.com/media/e24/images_fixed2/image98.png",
+    "image_file": "part1/images/asset_1.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "D",
+    "transcript": "(A) The worker is carrying some plants.\n\n(B) The worker is reading a sign.\n\n(C) The worker is pushing a cart.\n\n(D) The worker is writing some notes.",
+    "explanation_vi": "Dịch đáp án:\n\n(A) Người công nhân đang bê một số cây.\n\n(B) Người công nhân đang đọc một tấm biển.\n\n(C) Người công nhân đang đẩy xe đẩy.\n\n(D) Người công nhân đang viết một số ghi chú.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_041_Q2",
+    "part": 1,
+    "question_number": 2,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Some of the people are pulling suitcases.\n\n(B) Some of the people are relaxing on benches.\n\n(C) Some of the people are putting luggage onto a rack.\n\n(D) Some of the people are waiting in line to purchase a ticket.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_5/Test_5-2.mp3",
+    "audio_file": "part1/audio/q2.mp3",
+    "image_url": "https://s4-media1.study4.com/media/e24/images_fixed2/image334.png",
+    "image_file": "part1/images/asset_2.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "A",
+    "transcript": "(A) Some of the people are pulling suitcases.\n\n(B) Some of the people are relaxing on benches.\n\n(C) Some of the people are putting luggage onto a rack.\n\n(D) Some of the people are waiting in line to purchase a ticket.",
+    "explanation_vi": "Dịch đáp án:\n\n(A) Một số người đang kéo vali.\n\n(B) Một số người đang thư giãn trên ghế dài.\n\n(C) Một số người đang đặt hành lý lên giá.\n\n(D) Một số người đang xếp hàng chờ mua vé.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_041_Q3",
+    "part": 1,
+    "question_number": 3,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) She's looking into her backpack.\n\n(B) She's tying the laces of her boots.\n\n(C) She's hiking on an outdoor path.\n\n(D) She's walking out of a tunnel.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_5/Test_5-3.mp3",
+    "audio_file": "part1/audio/q3.mp3",
+    "image_url": "https://s4-media1.study4.com/media/e24/images_fixed2/image272.png",
+    "image_file": "part1/images/asset_3.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "C",
+    "transcript": "(A) She's looking into her backpack.\n\n(B) She's tying the laces of her boots.\n\n(C) She's hiking on an outdoor path.\n\n(D) She's walking out of a tunnel.",
+    "explanation_vi": "Dịch đáp án:\n\n(A) Cô ấy đang nhìn vào ba lô của mình.\n\n(B) Cô ấy đang buộc dây bốt của mình.\n\n(C) Cô ấy đang đi bộ trên con đường ngoài trời.\n\n(D) Cô ấy đang bước ra khỏi đường hầm.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_041_Q4",
+    "part": 1,
+    "question_number": 4,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) He’s holding the handle of a shopping cart. \n\n(B) He’s plugging a cord into a wall outlet.\n(C) He’s looking into a kitchen cupboard.\n(D) He’s kneeling down on a tile floor.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_5/Test_5-4.mp3",
+    "audio_file": "part1/audio/q4.mp3",
+    "image_url": "https://s4-media1.study4.com/media/e24/images_fixed2/image299.png",
+    "image_file": "part1/images/asset_4.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "D",
+    "transcript": "(A) He’s holding the handle of a shopping cart. \n\n(B) He’s plugging a cord into a wall outlet.\n(C) He’s looking into a kitchen cupboard.\n(D) He’s kneeling down on a tile floor.",
+    "explanation_vi": "Dịch đáp án:\n\n(A) Anh ấy đang cầm tay cầm của một chiếc xe đẩy hàng.\n\n(B) Anh ấy đang cắm dây vào ổ cắm trên tường.\n\n(C) Anh ấy đang nhìn vào tủ bếp.\n\n(D) Anh ấy đang quỳ trên sàn gạch.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_041_Q5",
+    "part": 1,
+    "question_number": 5,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Seats have been arranged under some umbrellas. \n\n(B) Some street signs are being taken down.\n\n(C) Some bushes are being trimmed.\n\n(D) Some chairs are being folded and stacked.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_5/Test_5-5.mp3",
+    "audio_file": "part1/audio/q5.mp3",
+    "image_url": "https://s4-media1.study4.com/media/e24/images_fixed2/image379.png",
+    "image_file": "part1/images/asset_5.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "A",
+    "transcript": "(A) Seats have been arranged under some umbrellas. \n\n(B) Some street signs are being taken down.\n\n(C) Some bushes are being trimmed.\n\n(D) Some chairs are being folded and stacked.",
+    "explanation_vi": "Dịch đáp án:\n\n(A) Chỗ ngồi đã được sắp xếp dưới một vài chiếc ô. \n\n(B) Một số biển báo đường phố đang được gỡ xuống.\n\n(C) Một số bụi cây đang được cắt tỉa.\n\n(D) Một số ghế đang được gấp lại và xếp chồng lên nhau.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_041_Q6",
+    "part": 1,
+    "question_number": 6,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Some cushions have been laid on the floor. \n\n(B) Books have been piled up by a glass door. \n\n(C) A light fixture is suspended from the ceiling.\n\n(D) A rug has been rolled up against a wall.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_5/Test_5-6.mp3",
+    "audio_file": "part1/audio/q6.mp3",
+    "image_url": "https://s4-media1.study4.com/media/e24/images_fixed2/image266.png",
+    "image_file": "part1/images/asset_6.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "B",
+    "transcript": "(A) Some cushions have been laid on the floor. \n\n(B) Books have been piled up by a glass door. \n\n(C) A light fixture is suspended from the ceiling.\n\n(D) A rug has been rolled up against a wall.",
+    "explanation_vi": "Dịch đáp án:\n\n(A) Một số chiếc đệm đã được đặt trên sàn. \n\n(B) Sách được chất chồng cạnh cửa kính. \n\n(C) Một đèn chiếu sáng được treo trên trần nhà. \n\n(D) Một tấm thảm đã được cuộn dựa vào tường.",
+    "vocabulary": []
+  }
+]
