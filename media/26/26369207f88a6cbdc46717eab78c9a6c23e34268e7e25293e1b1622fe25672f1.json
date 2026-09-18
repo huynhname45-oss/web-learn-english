@@ -1,0 +1,128 @@
+[
+  {
+    "id": "De_030_Q1",
+    "part": 1,
+    "question_number": 1,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "W-Am(A) He's leaning over a container.(B) He's digging in a garden.(C) He's replacing some floor tiles.(D) He's trimming some trees.",
+    "audio_url": "https://s4-media1.study4.com/media/tez_media1/sound/ets_toeic_2022_test_3_1.mp3",
+    "audio_file": "part1/audio/q1.mp3",
+    "image_url": "https://s4-media1.study4.com/media/tez_media1/img/ets_toeic_2022_test_3_1.png",
+    "image_file": "part1/images/asset_1.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "A",
+    "transcript": "W-Am(A) He's leaning over a container.(B) He's digging in a garden.(C) He's replacing some floor tiles.(D) He's trimming some trees.",
+    "explanation_vi": "Dịch đáp án:\n\n1. A. Anh ấy đang tựa vào một thùng chứa.\n\nB. Anh ấy đang đào đất trong vườn.\n\nC. Anh ấy đang thay một số viên gạch lát sàn.\n\nD. Anh ấy đang cắt tỉa một số cây.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_030_Q2",
+    "part": 1,
+    "question_number": 2,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "M-Cn(A) A customer is picking up some clothing at a dry cleaner's.(B) A customer is trying on a jacket.(C) A customer is handing a worker some cash.(D) A worker is typing on a computer.",
+    "audio_url": "https://s4-media1.study4.com/media/tez_media1/sound/ets_toeic_2022_test_3_2.mp3",
+    "audio_file": "part1/audio/q2.mp3",
+    "image_url": "https://s4-media1.study4.com/media/tez_media1/img/ets_toeic_2022_test_3_2.png",
+    "image_file": "part1/images/asset_2.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "A",
+    "transcript": "M-Cn(A) A customer is picking up some clothing at a dry cleaner's.(B) A customer is trying on a jacket.(C) A customer is handing a worker some cash.(D) A worker is typing on a computer.",
+    "explanation_vi": "Dịch đáp án:\n\n2. A. Một khách hàng đang lấy một số quần áo ở tiệm giặt khô. \n\nB. Một khách hàng đang thử áo khoác. \n\nC. Một khách hàng đang đưa cho một công nhân một số tiền mặt. \n\nD. Một công nhân đang gõ máy tính.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_030_Q3",
+    "part": 1,
+    "question_number": 3,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "M-Au(A) She's paying for her meal.(B) She's pouring a beverage.(C) She's facing a refrigerated display case.(D) She's ordering her lunch from a server.",
+    "audio_url": "https://s4-media1.study4.com/media/tez_media1/sound/ets_toeic_2022_test_3_3.mp3",
+    "audio_file": "part1/audio/q3.mp3",
+    "image_url": "https://s4-media1.study4.com/media/tez_media1/img/ets_toeic_2022_test_3_3.png",
+    "image_file": "part1/images/asset_3.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "C",
+    "transcript": "M-Au(A) She's paying for her meal.(B) She's pouring a beverage.(C) She's facing a refrigerated display case.(D) She's ordering her lunch from a server.",
+    "explanation_vi": "Dịch đáp án:\n\n3. A. Cô ấy đang trả tiền cho bữa ăn của mình.\n\nB. Cô ấy đang rót đồ uống.\n\nC. Cô ấy đang đối mặt với tủ lạnh trưng bày.\n\nD. Cô ấy đang gọi bữa trưa từ máy chủ.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_030_Q4",
+    "part": 1,
+    "question_number": 4,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "W-Am(A) He's putting vegetables into a bag.(B) He's setting up a tent.(C) The rear doors of a van are closed.(D) Some boxes have been stored inside a vehicle.",
+    "audio_url": "https://s4-media1.study4.com/media/tez_media1/sound/ets_toeic_2022_test_3_4.mp3",
+    "audio_file": "part1/audio/q4.mp3",
+    "image_url": "https://s4-media1.study4.com/media/tez_media1/img/ets_toeic_2022_test_3_4.png",
+    "image_file": "part1/images/asset_4.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "D",
+    "transcript": "W-Am(A) He's putting vegetables into a bag.(B) He's setting up a tent.(C) The rear doors of a van are closed.(D) Some boxes have been stored inside a vehicle.",
+    "explanation_vi": "Dịch đáp án:\n\n4. A. Anh ấy đang cho rau vào túi.\n\nB. Anh ấy đang dựng lều.\n\nC. Cửa sau của một chiếc xe tải đã đóng.\n\nD. Một số hộp đã được cất bên trong xe.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_030_Q5",
+    "part": 1,
+    "question_number": 5,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "M-Au(A) The speaker is positioned next to a podium.(B) The man is drawing a graph on a presentation board.(C) One of the women is watching a video.(D) One of the women is adjusting her glasses.",
+    "audio_url": "https://s4-media1.study4.com/media/tez_media1/sound/ets_toeic_2022_test_3_5.mp3",
+    "audio_file": "part1/audio/q5.mp3",
+    "image_url": "https://s4-media1.study4.com/media/tez_media1/img/ets_toeic_2022_test_3_5.png",
+    "image_file": "part1/images/asset_5.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "B",
+    "transcript": "M-Au(A) The speaker is positioned next to a podium.(B) The man is drawing a graph on a presentation board.(C) One of the women is watching a video.(D) One of the women is adjusting her glasses.",
+    "explanation_vi": "Dịch đáp án:\n\n5. A. Người phát biểu đang đứng cạnh bục phát biểu.\n\nB. Người đàn ông đang vẽ biểu đồ trên bảng thuyết trình.\n\nC. Một trong những người phụ nữ đang xem video.\n\nD. Một trong những người phụ nữ đang điều chỉnh mắt kính.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_030_Q6",
+    "part": 1,
+    "question_number": 6,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "W-Br(A) Some chairs have been arranged on a balcony.(B) A clock has been propped up on a shelf.(C) Some place mats are laid out on a bench.(D) A light fixture is hanging above a dining area.",
+    "audio_url": "https://s4-media1.study4.com/media/tez_media1/sound/ets_toeic_2022_test_3_6.mp3",
+    "audio_file": "part1/audio/q6.mp3",
+    "image_url": "https://s4-media1.study4.com/media/tez_media1/img/ets_toeic_2022_test_3_6.png",
+    "image_file": "part1/images/asset_6.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "D",
+    "transcript": "W-Br(A) Some chairs have been arranged on a balcony.(B) A clock has been propped up on a shelf.(C) Some place mats are laid out on a bench.(D) A light fixture is hanging above a dining area.",
+    "explanation_vi": "Dịch đáp án:\n\n6. A. Một số ghế đã được bố trí trên ban công. \n\nB. Một chiếc đồng hồ đã được đặt trên kệ. \n\nC. Một số tấm thảm được trải trên một chiếc ghế dài. \n\nD. Một chiếc đèn chiếu sáng được treo phía trên một khu vực ăn uống.",
+    "vocabulary": []
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "De_028_Q1",
+    "part": 1,
+    "question_number": 1,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "M-Au(A) He's parking a truck.(B) He's lifting some furniture.(C) He's starting an engine.(D) He's driving a car.",
+    "audio_url": "https://s4-media1.study4.com/media/tez_media1/sound/ets_toeic_2022_test_1_1.mp3",
+    "audio_file": "part1/audio/q1.mp3",
+    "image_url": "https://s4-media1.study4.com/media/tez_media1/img/ets_toeic_2022_test_1_1.png",
+    "image_file": "part1/images/asset_1.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "B",
+    "transcript": "M-Au(A) He's parking a truck.(B) He's lifting some furniture.(C) He's starting an engine.(D) He's driving a car.",
+    "explanation_vi": "Dịch đáp án:\n\nA. Anh ấy đang đỗ một chiếc xe tải.\n\nB. Anh ấy đang nâng một số đồ đạc.\n\nC. Anh ấy đang khởi động động cơ.\n\nD. Anh ấy đang lái một chiếc ô tô.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_028_Q2",
+    "part": 1,
+    "question_number": 2,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "W-Br(A) Some curtains have been closed.(B) Some jackets have been laid on a chair.(C) Some people are gathered around a desk.(D) Someone is turning on a lamp.",
+    "audio_url": "https://s4-media1.study4.com/media/tez_media1/sound/ets_toeic_2022_test_1_2.mp3",
+    "audio_file": "part1/audio/q2.mp3",
+    "image_url": "https://s4-media1.study4.com/media/tez_media1/img/ets_toeic_2022_test_1_2.png",
+    "image_file": "part1/images/asset_2.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "C",
+    "transcript": "W-Br(A) Some curtains have been closed.(B) Some jackets have been laid on a chair.(C) Some people are gathered around a desk.(D) Someone is turning on a lamp.",
+    "explanation_vi": "Dịch đáp án:\n\nA. Một số rèm cửa đã được đóng lại.\n\nB. Một số áo khoác đã được trải trên ghế.\n\nC. Một số người đang tụ tập quanh bàn làm việc.\n\nD. Ai đó đang bật đèn.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_028_Q3",
+    "part": 1,
+    "question_number": 3,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "M-Cn(A) One of the women is reaching into her bag.(B) The women are waiting in a line.(C) The man is leading a tour group.(D) The man is opening a cash register.",
+    "audio_url": "https://s4-media1.study4.com/media/tez_media1/sound/ets_toeic_2022_test_1_3.mp3",
+    "audio_file": "part1/audio/q3.mp3",
+    "image_url": "https://s4-media1.study4.com/media/tez_media1/img/ets_toeic_2022_test_1_3.png",
+    "image_file": "part1/images/asset_3.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "B",
+    "transcript": "M-Cn(A) One of the women is reaching into her bag.(B) The women are waiting in a line.(C) The man is leading a tour group.(D) The man is opening a cash register.",
+    "explanation_vi": "Dịch đáp án:\n\nA. Một trong những người phụ nữ đang thò tay vào túi xách của mình.\n\nB. Những người phụ nữ đang xếp hàng chờ đợi.\n\nC. Người đàn ông đang dẫn đầu một nhóm du lịch.\n\nD. Người đàn ông đang mở máy tính tiền.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_028_Q4",
+    "part": 1,
+    "question_number": 4,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "W-Am(A) The man is bending over a bicycle.(B) A wheel has been propped against a stack of bricks.(C) The man is collecting some pieces of wood.(D) A handrail is being installed.",
+    "audio_url": "https://s4-media1.study4.com/media/tez_media1/sound/ets_toeic_2022_test_1_4.mp3",
+    "audio_file": "part1/audio/q4.mp3",
+    "image_url": "https://s4-media1.study4.com/media/tez_media1/img/ets_toeic_2022_test_1_4.png",
+    "image_file": "part1/images/asset_4.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "A",
+    "transcript": "W-Am(A) The man is bending over a bicycle.(B) A wheel has been propped against a stack of bricks.(C) The man is collecting some pieces of wood.(D) A handrail is being installed.",
+    "explanation_vi": "Dịch đáp án:\n\nA. Người đàn ông đang cúi xuống một chiếc xe đạp.\n\nB. Một bánh xe được tựa vào một đống gạch.\n\nC. Người đàn ông đang nhặt một số mảnh gỗ.\n\nD. Một tay vịn đang được lắp đặt.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_028_Q5",
+    "part": 1,
+    "question_number": 5,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "M-Au(A) An armchair has been placed under a window.(B) Some reading materials have fallen on the floor.(C) Some flowers are being watered.(D) Some picture frames are hanging on a wall.",
+    "audio_url": "https://s4-media1.study4.com/media/tez_media1/sound/ets_toeic_2022_test_1_5.mp3",
+    "audio_file": "part1/audio/q5.mp3",
+    "image_url": "https://s4-media1.study4.com/media/tez_media1/img/ets_toeic_2022_test_1_5.png",
+    "image_file": "part1/images/asset_5.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "D",
+    "transcript": "M-Au(A) An armchair has been placed under a window.(B) Some reading materials have fallen on the floor.(C) Some flowers are being watered.(D) Some picture frames are hanging on a wall.",
+    "explanation_vi": "Dịch đáp án:\n\nA. Một chiếc ghế bành được đặt dưới cửa sổ. \n\nB. Một số tài liệu đọc đã rơi trên sàn. \n\nC. Một số bông hoa đang được tưới. \n\nD. Một số khung tranh đang treo trên tường.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_028_Q6",
+    "part": 1,
+    "question_number": 6,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "W-Br(A) She's adjusting the height of an umbrella.(B) She's inspecting the tires on a vending cart.(C) There's a mobile food stand on a walkway.(D) There are some cooking utensils on the ground.",
+    "audio_url": "https://s4-media1.study4.com/media/tez_media1/sound/ets_toeic_2022_test_1_6.mp3",
+    "audio_file": "part1/audio/q6.mp3",
+    "image_url": "https://s4-media1.study4.com/media/tez_media1/img/ets_toeic_2022_test_1_6.png",
+    "image_file": "part1/images/asset_6.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "C",
+    "transcript": "W-Br(A) She's adjusting the height of an umbrella.(B) She's inspecting the tires on a vending cart.(C) There's a mobile food stand on a walkway.(D) There are some cooking utensils on the ground.",
+    "explanation_vi": "Dịch đáp án:\n\n6. A. Cô ấy đang điều chỉnh độ cao của một chiếc ô.\n\nB. Cô ấy đang kiểm tra lốp xe trên xe bán hàng tự động.\n\nC. Có một quầy bán đồ ăn di động trên lối đi.\n\nD. Có một số dụng cụ nấu ăn trên mặt đất.",
+    "vocabulary": []
+  }
+]

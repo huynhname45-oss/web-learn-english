@@ -1,0 +1,134 @@
+[
+  {
+    "id": "De_006_Q1",
+    "part": 1,
+    "question_number": 1,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A restaurant buffet is filled with food.\n\n(B) Cups are sitting in a sink.\n\n(C) A dining area is empty.\n\n(D) Some candles have been lit.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t6/1.mp3",
+    "audio_file": "part1/audio/q1.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t6/1.webp",
+    "image_file": "part1/images/asset_1.webp",
+    "options": {
+      "A": "A restaurant buffet is filled with food.",
+      "B": "Cups are sitting in a sink.",
+      "C": "A dining area is empty.",
+      "D": "Some candles have been lit."
+    },
+    "answer": "C",
+    "transcript": "(A) A restaurant buffet is filled with food.\n\n(B) Cups are sitting in a sink.\n\n(C) A dining area is empty.\n\n(D) Some candles have been lit.",
+    "explanation_vi": "(A) Một bữa tiệc buffet tại nhà hàng đầy ắp đồ ăn.\n\n(B) Những chiếc tách đang nằm trong bồn rửa.\n\n(C) Khu vực ăn uống đang trống không.\n\n(D) Một số cây nến đã được thắp sáng.",
+    "explanation_en": null,
+    "vocabulary": "Buffet (n): Tiệc đứng/Tiệc buffet\n\nSink (n): Bồn rửa\n\nEmpty (adj): Trống/Vắng vẻ\n\nCandle (n): Cây nến"
+  },
+  {
+    "id": "De_006_Q2",
+    "part": 1,
+    "question_number": 2,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) He's facing a machine.\n\n(B) He's lifting up a machine.\n\n(C) He's wiping down a machine.\n\n(D) He's repairing a machine with a tool.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t6/2.mp3",
+    "audio_file": "part1/audio/q2.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t6/2.webp",
+    "image_file": "part1/images/asset_2.webp",
+    "options": {
+      "A": "He's facing a machine.",
+      "B": "He's lifting up a machine.",
+      "C": "He's wiping down a machine.",
+      "D": "He's repairing a machine with a tool."
+    },
+    "answer": "A",
+    "transcript": "(A) He's facing a machine.\n\n(B) He's lifting up a machine.\n\n(C) He's wiping down a machine.\n\n(D) He's repairing a machine with a tool.",
+    "explanation_vi": "(A) Anh ấy đang đối mặt với một chiếc máy.\n\n(B) Anh ấy đang nhấc một chiếc máy lên.\n\n(C) Anh ấy đang lau chùi một chiếc máy.\n\n(D) Anh ấy đang sửa chữa một chiếc máy bằng dụng cụ.",
+    "explanation_en": null,
+    "vocabulary": "Facing (v): Đối mặt/Hướng về phía\n\nLift up (v): Nhấc lên/Nâng lên\n\nWipe down (v): Lau chùi sạch\n\nRepair (v): Sửa chữa"
+  },
+  {
+    "id": "De_006_Q3",
+    "part": 1,
+    "question_number": 3,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A man is tying his shoe.\n\n(B) A woman is looking through her purse.\n\n(C) They're boarding a bus.\n\n(D) They're walking past a bench.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t6/3.mp3",
+    "audio_file": "part1/audio/q3.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t6/3.webp",
+    "image_file": "part1/images/asset_3.webp",
+    "options": {
+      "A": "A man is tying his shoe.",
+      "B": "A woman is looking through her purse.",
+      "C": "They're boarding a bus.",
+      "D": "They're walking past a bench."
+    },
+    "answer": "D",
+    "transcript": "(A) A man is tying his shoe.\n\n(B) A woman is looking through her purse.\n\n(C) They're boarding a bus.\n\n(D) They're walking past a bench.",
+    "explanation_vi": "(A) Người đàn ông đang buộc dây giày.\n\n(B) Người phụ nữ đang tìm đồ trong túi xách.\n\n(C) Họ đang bước lên xe buýt.\n\n(D) Họ đang đi bộ ngang qua một chiếc ghế dài.",
+    "explanation_en": null,
+    "vocabulary": "Tie (v): Buộc/Thắt\n\nPurse (n): Túi xách nữ\n\nBoard (v): Lên (tàu, xe, máy bay)\n\nBench (n): Ghế dài"
+  },
+  {
+    "id": "De_006_Q4",
+    "part": 1,
+    "question_number": 4,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) She's organizing a workstation.\n\n(B) She's holding a water bottle.\n\n(C) She's removing a book from a shelf.\n\n(D) She's reaching for a pen.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t6/4.mp3",
+    "audio_file": "part1/audio/q4.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t6/4.webp",
+    "image_file": "part1/images/asset_4.webp",
+    "options": {
+      "A": "She's organizing a workstation.",
+      "B": "She's holding a water bottle.",
+      "C": "She's removing a book from a shelf.",
+      "D": "She's reaching for a pen."
+    },
+    "answer": "B",
+    "transcript": "(A) She's organizing a workstation.\n\n(B) She's holding a water bottle.\n\n(C) She's removing a book from a shelf.\n\n(D) She's reaching for a pen.",
+    "explanation_vi": "(A) Cô ấy đang sắp xếp trạm làm việc.\n\n(B) Cô ấy đang cầm một chai nước.\n\n(C) Cô ấy đang lấy một cuốn sách ra khỏi kệ.\n\n(D) Cô ấy đang với lấy một chiếc bút.",
+    "explanation_en": null,
+    "vocabulary": "Organize (v): Sắp xếp/Tổ chức\n\nWorkstation (n): Trạm làm việc/Vị trí làm việc\n\nRemove (v): Lấy ra/Gỡ bỏ\n\nReach for (v): Với lấy"
+  },
+  {
+    "id": "De_006_Q5",
+    "part": 1,
+    "question_number": 5,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A woman is lifting a suitcase onto a counter.\n\n(B) A woman is writing on a piece of paper.\n\n(C) A woman is leaning against a glass door.\n\n(D) A woman is talking to a worker at a desk.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t6/5.mp3",
+    "audio_file": "part1/audio/q5.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t6/5.webp",
+    "image_file": "part1/images/asset_5.webp",
+    "options": {
+      "A": "A woman is lifting a suitcase onto a counter.",
+      "B": "A woman is writing on a piece of paper.",
+      "C": "A woman is leaning against a glass door.",
+      "D": "A woman is talking to a worker at a desk."
+    },
+    "answer": "D",
+    "transcript": "(A) A woman is lifting a suitcase onto a counter.\n\n(B) A woman is writing on a piece of paper.\n\n(C) A woman is leaning against a glass door.\n\n(D) A woman is talking to a worker at a desk.",
+    "explanation_vi": "(A) Người phụ nữ đang nhấc một chiếc vali lên quầy.\n\n(B) Người phụ nữ đang viết trên một tờ giấy.\n\n(C) Người phụ nữ đang dựa vào cửa kính.\n\n(D) Người phụ nữ đang nói chuyện với một nhân viên tại bàn làm việc.",
+    "explanation_en": null,
+    "vocabulary": "Suitcase (n): Vali\n\nCounter (n): Quầy\n\nLeaning against (phr): Dựa vào\n\nWorker (n): Nhân viên/Người lao động"
+  },
+  {
+    "id": "De_006_Q6",
+    "part": 1,
+    "question_number": 6,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Some paintings have been hung above a sofa.\n\n(B) Some wooden chairs are stacked in a corner.\n\n(C) There are lamps lighting some seating areas.\n\n(D) There are curtains framing a doorway.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t6/6.mp3",
+    "audio_file": "part1/audio/q6.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t6/6.webp",
+    "image_file": "part1/images/asset_6.webp",
+    "options": {
+      "A": "Some paintings have been hung above a sofa.",
+      "B": "Some wooden chairs are stacked in a corner.",
+      "C": "There are lamps lighting some seating areas.",
+      "D": "There are curtains framing a doorway."
+    },
+    "answer": "C",
+    "transcript": "(A) Some paintings have been hung above a sofa.\n\n(B) Some wooden chairs are stacked in a corner.\n\n(C) There are lamps lighting some seating areas.\n\n(D) There are curtains framing a doorway.",
+    "explanation_vi": "(A) Một số bức tranh đã được treo phía trên ghế sofa.\n\n(B) Một số chiếc ghế gỗ được xếp chồng trong góc.\n\n(C) Có những chiếc đèn chiếu sáng một số khu vực ngồi.\n\n(D) Có những tấm rèm đóng khung một lối đi.",
+    "explanation_en": null,
+    "vocabulary": "Painting (n): Bức tranh\n\nStacked (v/adj): Được xếp chồng\n\nSeating area (n): Khu vực ngồi\n\nCurtain (n): Rèm cửa"
+  }
+]
