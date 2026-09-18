@@ -1,6 +1,6 @@
 {
   "format": "atlas-package-v1",
-  "builtAt": "2026-09-18T03:25:00.490Z",
+  "builtAt": "2026-09-18T03:25:59.040Z",
   "node": "v24.11.1",
   "platform": "win32-x64",
   "media": {
@@ -5521,11 +5521,11 @@
     },
     "atlas-distribution.json": {
       "bytes": 122,
-      "sha256": "5353c0ccfd463cf22e1b9e4de835ed58c6dca2eb42c2e04b322faa0a94be6912"
+      "sha256": "d550bca976d7e68b999c757ad89102786e11c707344ad5ec3e40f9f05130e494"
     },
     "AtlasEnglish.exe": {
-      "bytes": 17920,
-      "sha256": "fad21c62c05eaff62589b5386115f2456ce3b3ad70601b6b764e2e026d2bcbf0"
+      "bytes": 18432,
+      "sha256": "8559df047401043cb1daa0efd1bb0abfdd7d587c1adfefe56c7e06504f2cb639"
     },
     "Cap-nhat-GitHub.cmd": {
       "bytes": 90,
