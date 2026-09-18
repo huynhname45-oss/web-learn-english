@@ -1,0 +1,453 @@
+{
+  "type": "Synthesized phoneme demonstrations; b, d, g, dʒ followed by a schwa; not human recordings",
+  "generator": "espeak-ng npm 1.0.2 (eSpeak NG compiled to WASM)",
+  "voice": "en-gb",
+  "rate": 115,
+  "source": "https://github.com/ianmarmour/espeak-ng.js",
+  "phonemeDocumentation": "https://github.com/espeak-ng/espeak-ng/blob/master/docs/phonemes.md",
+  "engineLicense": "GPL-3.0-or-later; engine is an authoring tool, not shipped in the app",
+  "audioLicense": "CC0-1.0; Atlas-generated phoneme demonstrations, no third-party recordings or text",
+  "notes": "Traditional British teaching notation: /e/ maps to [ɛ]; /r/ maps to [ɹ]. Synthetic examples are approximations, not a replacement for accent-specific dictionary audio. Silence trimmed without resampling.",
+  "recordings": [
+    {
+      "id": "ipa-0",
+      "symbol": "iː",
+      "code": "i:",
+      "context": "isolated",
+      "file": "ipa-0.wav",
+      "bytes": 19042,
+      "seconds": 0.4307936507936508,
+      "sha256": "8311831a4545c5b248adb4f6d2b9dbb92290ecf3952a5c7903ba4b7c7b31306b"
+    },
+    {
+      "id": "ipa-1",
+      "symbol": "ɪ",
+      "code": "I",
+      "context": "isolated",
+      "file": "ipa-1.wav",
+      "bytes": 15400,
+      "seconds": 0.34820861678004533,
+      "sha256": "4f0c55f6357e38da532789355ff342431719014702a933c19ff8e9bfa20e6afd"
+    },
+    {
+      "id": "ipa-2",
+      "symbol": "e",
+      "code": "E",
+      "context": "isolated",
+      "file": "ipa-2.wav",
+      "bytes": 16306,
+      "seconds": 0.3687528344671202,
+      "sha256": "ddc2efd3c9620cf05a8a7e6806daeb8545a7a4d1ed7cb656675570becbb9353a"
+    },
+    {
+      "id": "ipa-3",
+      "symbol": "æ",
+      "code": "a",
+      "context": "isolated",
+      "file": "ipa-3.wav",
+      "bytes": 18140,
+      "seconds": 0.41034013605442177,
+      "sha256": "d09a025f5f3da67cbbf57f668bd55052c024168831a976d80158ae56a9a8becf"
+    },
+    {
+      "id": "ipa-4",
+      "symbol": "ɑː",
+      "code": "A:",
+      "context": "isolated",
+      "file": "ipa-4.wav",
+      "bytes": 22696,
+      "seconds": 0.5136507936507937,
+      "sha256": "32f416ee4f447c7e3f4d75ee789046b27d63323defa7853398be4aa76893dc72"
+    },
+    {
+      "id": "ipa-5",
+      "symbol": "ɒ",
+      "code": "0",
+      "context": "isolated",
+      "file": "ipa-5.wav",
+      "bytes": 16326,
+      "seconds": 0.3692063492063492,
+      "sha256": "88d61573b4017577d3a72d636bae20d12aa3a66e48ba9a829265d98f72cc1c8b"
+    },
+    {
+      "id": "ipa-6",
+      "symbol": "ɔː",
+      "code": "O:",
+      "context": "isolated",
+      "file": "ipa-6.wav",
+      "bytes": 22704,
+      "seconds": 0.5138321995464853,
+      "sha256": "a5172e4cc7e371f231db39896b42f9442ceacdae25b149bfc0cba03b958f3708"
+    },
+    {
+      "id": "ipa-7",
+      "symbol": "ʊ",
+      "code": "U",
+      "context": "isolated",
+      "file": "ipa-7.wav",
+      "bytes": 17236,
+      "seconds": 0.3898412698412698,
+      "sha256": "cc77263bc33e0173245c399b115ece20efededcb292da8e4d3d447f75bd49174"
+    },
+    {
+      "id": "ipa-8",
+      "symbol": "uː",
+      "code": "u:",
+      "context": "isolated",
+      "file": "ipa-8.wav",
+      "bytes": 21780,
+      "seconds": 0.4928798185941043,
+      "sha256": "058343acd891bb1eb2924e1f7af7353e7449533c0232c0519103abb8eb14804d"
+    },
+    {
+      "id": "ipa-9",
+      "symbol": "ʌ",
+      "code": "V",
+      "context": "isolated",
+      "file": "ipa-9.wav",
+      "bytes": 16320,
+      "seconds": 0.3690702947845805,
+      "sha256": "b64487aff3dec721898d3805ea53ee329f877bfea6eb46739dc20fec2aa65696"
+    },
+    {
+      "id": "ipa-10",
+      "symbol": "ɜː",
+      "code": "3:",
+      "context": "isolated",
+      "file": "ipa-10.wav",
+      "bytes": 21308,
+      "seconds": 0.48217687074829935,
+      "sha256": "838f3e04b3b745a8fb32ae9c2b2d30875ef7fc39da6f77683dd025b68dde733f"
+    },
+    {
+      "id": "ipa-11",
+      "symbol": "ə",
+      "code": "@",
+      "context": "isolated",
+      "file": "ipa-11.wav",
+      "bytes": 16328,
+      "seconds": 0.36925170068027213,
+      "sha256": "62742bb87f97507c63b1ecc2e6166b85b0439b38fa4060d89d5cbe4398c52d9c"
+    },
+    {
+      "id": "ipa-12",
+      "symbol": "eɪ",
+      "code": "eI",
+      "context": "isolated",
+      "file": "ipa-12.wav",
+      "bytes": 20844,
+      "seconds": 0.47165532879818595,
+      "sha256": "69b9efed9349fe36d87248f831e408fa948f0e887f8db253ebabb1c7f781d5d3"
+    },
+    {
+      "id": "ipa-13",
+      "symbol": "aɪ",
+      "code": "aI",
+      "context": "isolated",
+      "file": "ipa-13.wav",
+      "bytes": 23158,
+      "seconds": 0.5241269841269841,
+      "sha256": "5efe1413c9f9b03f86c9dc1706424319757a388b67f0ecd212499b3a14dad028"
+    },
+    {
+      "id": "ipa-14",
+      "symbol": "ɔɪ",
+      "code": "OI",
+      "context": "isolated",
+      "file": "ipa-14.wav",
+      "bytes": 22234,
+      "seconds": 0.5031746031746032,
+      "sha256": "b045a7a51dd743e35b8d8e585cefda484e19513d07b3203221c5251d9819b9da"
+    },
+    {
+      "id": "ipa-15",
+      "symbol": "əʊ",
+      "code": "@U",
+      "context": "isolated",
+      "file": "ipa-15.wav",
+      "bytes": 21758,
+      "seconds": 0.49238095238095236,
+      "sha256": "00f9bb5a792d3c2cd5dd5414199fd772d5552d2bffa4df5bd9bce40b510187a9"
+    },
+    {
+      "id": "ipa-16",
+      "symbol": "aʊ",
+      "code": "aU",
+      "context": "isolated",
+      "file": "ipa-16.wav",
+      "bytes": 22700,
+      "seconds": 0.5137414965986394,
+      "sha256": "6f9492bb0e440d13f8368fe37b7788142d8b057c4996db9665108d8a9244ce4f"
+    },
+    {
+      "id": "ipa-17",
+      "symbol": "ɪə",
+      "code": "I@",
+      "context": "isolated",
+      "file": "ipa-17.wav",
+      "bytes": 19926,
+      "seconds": 0.4508390022675737,
+      "sha256": "9a1677eb3d5608ecf250428aca3a37910c4b9569035fbd3844489f8e618ff280"
+    },
+    {
+      "id": "ipa-18",
+      "symbol": "eə",
+      "code": "E@",
+      "context": "isolated",
+      "file": "ipa-18.wav",
+      "bytes": 19878,
+      "seconds": 0.449750566893424,
+      "sha256": "b8879c63e3b7b584801462337292a09bb8c5b90de4e303054a18873a0ba67e24"
+    },
+    {
+      "id": "ipa-19",
+      "symbol": "ʊə",
+      "code": "U@",
+      "context": "isolated",
+      "file": "ipa-19.wav",
+      "bytes": 20868,
+      "seconds": 0.47219954648526075,
+      "sha256": "5778c0d34c3c8c8d62e2bf40eee4d983f0cadb2c975e77a3e46b27837ebd694d"
+    },
+    {
+      "id": "ipa-20",
+      "symbol": "p",
+      "code": "p",
+      "context": "isolated",
+      "file": "ipa-20.wav",
+      "bytes": 8354,
+      "seconds": 0.18843537414965986,
+      "sha256": "fe091a029ae230218d58ce592917eb932e2a583d6ee32cf6ebe2ceafb4fa0d50"
+    },
+    {
+      "id": "ipa-21",
+      "symbol": "b",
+      "code": "b@",
+      "context": "followed by schwa",
+      "file": "ipa-21.wav",
+      "bytes": 20384,
+      "seconds": 0.46122448979591835,
+      "sha256": "13a8547a5641f8cd3edc9712085fa054458ff0732dc5f9ea1d2cf2d10bf52f97"
+    },
+    {
+      "id": "ipa-22",
+      "symbol": "t",
+      "code": "t",
+      "context": "isolated",
+      "file": "ipa-22.wav",
+      "bytes": 6658,
+      "seconds": 0.14997732426303856,
+      "sha256": "eb9461cc5618d36fdda7f6193bc65f72d1cc06f2f6c29cd722d1d11c9d9d6ac5"
+    },
+    {
+      "id": "ipa-23",
+      "symbol": "d",
+      "code": "d@",
+      "context": "followed by schwa",
+      "file": "ipa-23.wav",
+      "bytes": 18020,
+      "seconds": 0.4076190476190476,
+      "sha256": "f2fef906c955932c595225eb848425c56eeb28154da7f2b0b1f91774fa731111"
+    },
+    {
+      "id": "ipa-24",
+      "symbol": "k",
+      "code": "k",
+      "context": "isolated",
+      "file": "ipa-24.wav",
+      "bytes": 6648,
+      "seconds": 0.14975056689342403,
+      "sha256": "530cae5e545d1d57a37d0267fafba640d1766de28d94ecb4684a7ff8334fe114"
+    },
+    {
+      "id": "ipa-25",
+      "symbol": "g",
+      "code": "g@",
+      "context": "followed by schwa",
+      "file": "ipa-25.wav",
+      "bytes": 18502,
+      "seconds": 0.41854875283446713,
+      "sha256": "8b0ecdbef03b1f1dcb82f999169a318c049f36330a291c516e2457cb6abb5293"
+    },
+    {
+      "id": "ipa-26",
+      "symbol": "f",
+      "code": "f",
+      "context": "isolated",
+      "file": "ipa-26.wav",
+      "bytes": 10538,
+      "seconds": 0.23795918367346938,
+      "sha256": "38bae6525e20549f29bffd3dfabeeba618cf7adf8d1e6a4ca2cf9534667d4df7"
+    },
+    {
+      "id": "ipa-27",
+      "symbol": "v",
+      "code": "v",
+      "context": "isolated",
+      "file": "ipa-27.wav",
+      "bytes": 7590,
+      "seconds": 0.1711111111111111,
+      "sha256": "4771b91076426630f6ce411071311d4f8ea7c5e011a1f6d50ed207b152c36eb0"
+    },
+    {
+      "id": "ipa-28",
+      "symbol": "θ",
+      "code": "T",
+      "context": "isolated",
+      "file": "ipa-28.wav",
+      "bytes": 9198,
+      "seconds": 0.20757369614512472,
+      "sha256": "6256daddc613171362d4891c7856806d5ba15ac8ae1b6eb587c98a08d85d84a3"
+    },
+    {
+      "id": "ipa-29",
+      "symbol": "ð",
+      "code": "D",
+      "context": "isolated",
+      "file": "ipa-29.wav",
+      "bytes": 7608,
+      "seconds": 0.17151927437641723,
+      "sha256": "8174992e4b6566a7281596eea392e6b37fad212c535c4dc5c0b18b09790606a6"
+    },
+    {
+      "id": "ipa-30",
+      "symbol": "s",
+      "code": "s",
+      "context": "isolated",
+      "file": "ipa-30.wav",
+      "bytes": 10488,
+      "seconds": 0.23682539682539683,
+      "sha256": "6973a1d69a18d2e983b78e8ec967a654601d4af00e54afa493bf763a767a463f"
+    },
+    {
+      "id": "ipa-31",
+      "symbol": "z",
+      "code": "z",
+      "context": "isolated",
+      "file": "ipa-31.wav",
+      "bytes": 8462,
+      "seconds": 0.1908843537414966,
+      "sha256": "bfeb7d2ddf7ae3faa3fdeffa47872fcd3c3ac24697b16082dfbf3e99f3b7973d"
+    },
+    {
+      "id": "ipa-32",
+      "symbol": "ʃ",
+      "code": "S",
+      "context": "isolated",
+      "file": "ipa-32.wav",
+      "bytes": 10484,
+      "seconds": 0.23673469387755103,
+      "sha256": "b2f10bbd1e14423149c619f5d9c1e30498e0f5685d0b7ead193c73bdf7a0e83c"
+    },
+    {
+      "id": "ipa-33",
+      "symbol": "ʒ",
+      "code": "Z",
+      "context": "isolated",
+      "file": "ipa-33.wav",
+      "bytes": 8484,
+      "seconds": 0.19138321995464852,
+      "sha256": "8f950997db4bb637a15266414898f4ab320dd35b4710b9e8ce61991215326a9e"
+    },
+    {
+      "id": "ipa-34",
+      "symbol": "h",
+      "code": "h",
+      "context": "isolated",
+      "file": "ipa-34.wav",
+      "bytes": 8060,
+      "seconds": 0.1817687074829932,
+      "sha256": "93b3bf6653aa761fb33b82f8b213b41ed7d2238c9b78eb8cd82c0981a1b14f8f"
+    },
+    {
+      "id": "ipa-35",
+      "symbol": "tʃ",
+      "code": "tS",
+      "context": "isolated",
+      "file": "ipa-35.wav",
+      "bytes": 8956,
+      "seconds": 0.20208616780045352,
+      "sha256": "338bab11f195d4e154dee80cc7df6bc599c6243a9c2f014f5266e7e6865cf498"
+    },
+    {
+      "id": "ipa-36",
+      "symbol": "dʒ",
+      "code": "dZ@",
+      "context": "followed by schwa",
+      "file": "ipa-36.wav",
+      "bytes": 19436,
+      "seconds": 0.4397278911564626,
+      "sha256": "630b7782199c43a032ff5d8c3addf5887814af9253abbb122147cdced352a976"
+    },
+    {
+      "id": "ipa-37",
+      "symbol": "m",
+      "code": "m",
+      "context": "isolated",
+      "file": "ipa-37.wav",
+      "bytes": 4790,
+      "seconds": 0.10761904761904761,
+      "sha256": "c939741d9e1ddb8547463f8b5b9a1ee14631cb2d57575a181f0cbe98e469fbd6"
+    },
+    {
+      "id": "ipa-38",
+      "symbol": "n",
+      "code": "n",
+      "context": "isolated",
+      "file": "ipa-38.wav",
+      "bytes": 4794,
+      "seconds": 0.10770975056689343,
+      "sha256": "3f61e52889dd725e0e606267a2fb07944148f2b2fb56fc603c5b30d925b7c174"
+    },
+    {
+      "id": "ipa-39",
+      "symbol": "ŋ",
+      "code": "N",
+      "context": "isolated",
+      "file": "ipa-39.wav",
+      "bytes": 5332,
+      "seconds": 0.1199092970521542,
+      "sha256": "80c9c679c9e13a2db142569ba973e0d56ac9ced72d87e8e47a2dedb7608449ba"
+    },
+    {
+      "id": "ipa-40",
+      "symbol": "l",
+      "code": "l",
+      "context": "isolated",
+      "file": "ipa-40.wav",
+      "bytes": 5982,
+      "seconds": 0.1346485260770975,
+      "sha256": "64706caccbfcf058939e569358ba87853a4a60ef23c58522be0e1a49e7583b9b"
+    },
+    {
+      "id": "ipa-41",
+      "symbol": "r",
+      "code": "r",
+      "context": "isolated",
+      "file": "ipa-41.wav",
+      "bytes": 6640,
+      "seconds": 0.14956916099773243,
+      "sha256": "165ad6da4fa37cd3466ff13b7be2f4069f6892f2513b993fce518de7a418cff6"
+    },
+    {
+      "id": "ipa-42",
+      "symbol": "j",
+      "code": "j",
+      "context": "isolated",
+      "file": "ipa-42.wav",
+      "bytes": 6540,
+      "seconds": 0.1473015873015873,
+      "sha256": "9067f4f4ddbdea34ea9569c61da9cf5293fe802ed25221b30d834668f9982702"
+    },
+    {
+      "id": "ipa-43",
+      "symbol": "w",
+      "code": "w",
+      "context": "isolated",
+      "file": "ipa-43.wav",
+      "bytes": 7894,
+      "seconds": 0.17800453514739228,
+      "sha256": "44d0ed6eb303dbf72bc53e04a1d9b60773b56be7d767ab129667fd32af3f49be"
+    }
+  ]
+}
