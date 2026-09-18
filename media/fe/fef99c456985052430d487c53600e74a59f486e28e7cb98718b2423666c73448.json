@@ -1,0 +1,128 @@
+[
+  {
+    "id": "De_031_Q1",
+    "part": 1,
+    "question_number": 1,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A woman is standing near a desk.\n\n(B) A woman is climbing some stairs.\n\n(C) A woman is entering a building.\n\n(D) A woman is looking at a map.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-01-part-1-1.mp3",
+    "audio_file": "part1/audio/q1.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/1/image3.png",
+    "image_file": "part1/images/asset_1.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "D",
+    "transcript": "(A) A woman is standing near a desk.\n\n(B) A woman is climbing some stairs.\n\n(C) A woman is entering a building.\n\n(D) A woman is looking at a map.",
+    "explanation_vi": "(A) Một người phụ nữ đang đứng cạnh chiếc bạn.\n\n(B) Một người phụ nữ đang đi lên những bậc thang\n\n(C) Một người phụ nữ đang bước vào toà nhà.\n\n(D) Một người phụ nữ đang nhìn vào tấm bản đồ.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_031_Q2",
+    "part": 1,
+    "question_number": 2,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) She’s swimming in the water.\n\n(B) She’s jogging near the ocean.\n\n(C) Chairs are set up on the beach.\n\n(D) A hat is lying on the sand.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-01-part-1-2.mp3",
+    "audio_file": "part1/audio/q2.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/1/image34.png",
+    "image_file": "part1/images/asset_2.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "C",
+    "transcript": "(A) She’s swimming in the water.\n\n(B) She’s jogging near the ocean.\n\n(C) Chairs are set up on the beach.\n\n(D) A hat is lying on the sand.",
+    "explanation_vi": "(A) Cô ấy đang bơi trên sông.\n\n(B) Cô ấy đang đi bộ cạnh đại dương\n\n(C) Những chiếc ghế được xếp bên bờ biển\n\n(D) Chiếc mũ đang nằm trên cát",
+    "vocabulary": []
+  },
+  {
+    "id": "De_031_Q3",
+    "part": 1,
+    "question_number": 3,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) She’s reaching for an item from a display case.\n\n(B) She’s holding on to a shopping cart.\n\n(C) Some goods are being arranged on shelves.\n\n(D) Some merchandise has fallen on the floor.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-01-part-1-3.mp3",
+    "audio_file": "part1/audio/q3.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/1/image33.png",
+    "image_file": "part1/images/asset_3.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "B",
+    "transcript": "(A) She’s reaching for an item from a display case.\n\n(B) She’s holding on to a shopping cart.\n\n(C) Some goods are being arranged on shelves.\n\n(D) Some merchandise has fallen on the floor.",
+    "explanation_vi": "(A) Cô ấy đang với lấy một món đồ từ tủ trưng bày\n\n(B) Cô ấy đang giữ tay vào xe đẩy mua hàng\n\n(C) Một vài sản phẩm đang được sắp xếp trên các kệ\n\n(D) Một vài hàng hoá bị rơi trên sàn.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_031_Q4",
+    "part": 1,
+    "question_number": 4,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A fence is being painted in a park.\n\n(B) One of the women is putting on a jacket.\n\n(C) Some people are working in a garden.\n\n(D) Some people are looking up at the trees.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-01-part-1-4.mp3",
+    "audio_file": "part1/audio/q4.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/1/image1.png",
+    "image_file": "part1/images/asset_4.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "C",
+    "transcript": "(A) A fence is being painted in a park.\n\n(B) One of the women is putting on a jacket.\n\n(C) Some people are working in a garden.\n\n(D) Some people are looking up at the trees.",
+    "explanation_vi": "4.\n\n(A) Chiếc hàng rào đang được sơn trong công viên.\n\n(B) Một trong những người phụ nữ đang mặc lên người chiếc áo khoác\n\n(C) Một vài người đang làm việc tại khu vườn\n\n(D) Một vài người đang nhìn lên cái cây.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_031_Q5",
+    "part": 1,
+    "question_number": 5,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A carpet is being rolled up.\n\n(B) Some curtains have been closed.\n\n(C) Some cushions are piled on the floor.\n\n(D) Some reading materials have been placed in front of a sofa.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-01-part-1-5.mp3",
+    "audio_file": "part1/audio/q5.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/1/image32.png",
+    "image_file": "part1/images/asset_5.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "D",
+    "transcript": "(A) A carpet is being rolled up.\n\n(B) Some curtains have been closed.\n\n(C) Some cushions are piled on the floor.\n\n(D) Some reading materials have been placed in front of a sofa.",
+    "explanation_vi": "(A) Một chiếc thảm đang được cuộn lại\n\n(B) Một vài tấm rèm được đóng.\n\n(C) Một vài chiếc gối được xếp chồng lên sàn nhà.\n\n(D) Một vài tài liệu được đặt trước ghế sofa.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_031_Q6",
+    "part": 1,
+    "question_number": 6,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Some musicians are performing on a porch.\n\n(B) Some steps are being repaired.\n\n(C) Some music stands are being folded up.\n\n(D) Some instruments have been placed in their cases.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-01-part-1-6.mp3",
+    "audio_file": "part1/audio/q6.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/1/image2.png",
+    "image_file": "part1/images/asset_6.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "A",
+    "transcript": "(A) Some musicians are performing on a porch.\n\n(B) Some steps are being repaired.\n\n(C) Some music stands are being folded up.\n\n(D) Some instruments have been placed in their cases.",
+    "explanation_vi": "6.\n\n(A) Một vài nhạc sĩ đang biểu diễn trên hiên nhà.\n\n(B) Một vài bậc thang được được sửa chữa.\n\n(C) Một vài giá treo nhạc đang được gập lại.\n\n(D) Một vài nhạc cụ đã được đựng trong hộp của chúng.",
+    "vocabulary": []
+  }
+]

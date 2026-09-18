@@ -1,0 +1,128 @@
+[
+  {
+    "id": "De_027_Q1",
+    "part": 1,
+    "question_number": 1,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) She’s wearing a hat.(B) She’s holding a coffee mug.(C) She’s washing her hands.(D) She’s putting up a sign.",
+    "audio_url": "https://s4-media1.study4.com/media/t24_media/sound/1619407464_1619417704.mp3",
+    "audio_file": "part1/audio/q1.mp3",
+    "image_url": "https://s4-media1.study4.com/media/t24_media/img/resized_1619417704.jpg",
+    "image_file": "part1/images/asset_1.jpg",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "C",
+    "transcript": "(A) She’s wearing a hat.(B) She’s holding a coffee mug.(C) She’s washing her hands.(D) She’s putting up a sign.",
+    "explanation_vi": "Dịch đáp án:\n\nA. Cô ấy đang đội một chiếc mũ. \n\nB. Cô ấy đang cầm một cốc cà phê. \n\nC. Cô ấy đang rửa tay. \n\nD. Cô ấy đang treo một tấm biển.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_027_Q2",
+    "part": 1,
+    "question_number": 2,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) The men are fixing a bicycle.(B) The men are painting a fence.(C) One of the men is carrying a toolbox.(D) One of the men is cutting some wood.",
+    "audio_url": "https://s4-media1.study4.com/media/t24_media/sound/1619407464_1619418257.mp3",
+    "audio_file": "part1/audio/q2.mp3",
+    "image_url": "https://s4-media1.study4.com/media/t24_media/img/resized_1619418257.PNG",
+    "image_file": "part1/images/asset_2.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "A",
+    "transcript": "(A) The men are fixing a bicycle.(B) The men are painting a fence.(C) One of the men is carrying a toolbox.(D) One of the men is cutting some wood.",
+    "explanation_vi": "Dịch đáp án:\n\nA. Những người đàn ông đang sửa một chiếc xe đạp. \n\nB. Những người đàn ông đang sơn hàng rào. \n\nC. Một trong những người đàn ông đang mang hộp dụng cụ. \n\nD. Một trong những người đàn ông đang cắt gỗ.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_027_Q3",
+    "part": 1,
+    "question_number": 3,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) One of the women is typing on a computer.(B) One of the women is lifting a cup.(C) They’re arranging some chairs.(D) They're looking at a document.",
+    "audio_url": "https://s4-media1.study4.com/media/t24_media/sound/1619407464_1619418420.mp3",
+    "audio_file": "part1/audio/q3.mp3",
+    "image_url": "https://s4-media1.study4.com/media/t24_media/img/resized_1619418420.PNG",
+    "image_file": "part1/images/asset_3.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "D",
+    "transcript": "(A) One of the women is typing on a computer.(B) One of the women is lifting a cup.(C) They’re arranging some chairs.(D) They're looking at a document.",
+    "explanation_vi": "Dịch đáp án:\n\nA. Một trong những người phụ nữ đang gõ trên máy tính. \n\nB. Một trong những người phụ nữ đang nâng một cái cốc. \n\nC. Họ đang sắp xếp một số chiếc ghế.\n\nD. Họ đang xem một tài liệu.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_027_Q4",
+    "part": 1,
+    "question_number": 4,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Light bulbs are being replaced in streetlamps.(B) Trees are lining a walkway.(C) Some bricks are stacked in a pile.(D) People are watching an outdoor performance.",
+    "audio_url": "https://s4-media1.study4.com/media/t24_media/sound/1619407464_1619418568.mp3",
+    "audio_file": "part1/audio/q4.mp3",
+    "image_url": "https://s4-media1.study4.com/media/t24_media/img/resized_1619418568.PNG",
+    "image_file": "part1/images/asset_4.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "B",
+    "transcript": "(A) Light bulbs are being replaced in streetlamps.(B) Trees are lining a walkway.(C) Some bricks are stacked in a pile.(D) People are watching an outdoor performance.",
+    "explanation_vi": "Dịch đáp án:\n\nA. Bóng đèn đang được thay thế trong đèn đường. \n\nB. Cây cối dọc lối đi. \n\nC. Một số viên gạch được xếp thành một đống. \n\nD. Mọi người đang xem một buổi biểu diễn ngoài trời.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_027_Q5",
+    "part": 1,
+    "question_number": 5,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) The man is taking a lab coat from a hook.(B) A customer is paying for some items.(C) Merchandise is being displayed in a case.(D) A glass counter is being wiped off.",
+    "audio_url": "https://s4-media1.study4.com/media/t24_media/sound/1619407464_1619418645.mp3",
+    "audio_file": "part1/audio/q5.mp3",
+    "image_url": "https://s4-media1.study4.com/media/t24_media/img/resized_1619418645.PNG",
+    "image_file": "part1/images/asset_5.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "C",
+    "transcript": "(A) The man is taking a lab coat from a hook.(B) A customer is paying for some items.(C) Merchandise is being displayed in a case.(D) A glass counter is being wiped off.",
+    "explanation_vi": "Dịch đáp án:\n\nA. Người đàn ông đang lấy một chiếc áo khoác phòng thí nghiệm từ một cái móc. \n\nB. Một khách hàng đang trả tiền cho một số mặt hàng. \n\nC. Hàng hóa đang được trưng bày trong một chiếc hộp. \n\nD. Một quầy kính đang được lau chùi.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_027_Q6",
+    "part": 1,
+    "question_number": 6,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A rug is being unrolled.(B) A potted plant has been placed on top of a shelf.(C) Bulletin boards have been mounted to the wall.(D) Some tiles have been removed from the floor.",
+    "audio_url": "https://s4-media1.study4.com/media/t24_media/sound/1619407464_1619418734.mp3",
+    "audio_file": "part1/audio/q6.mp3",
+    "image_url": "https://s4-media1.study4.com/media/t24_media/img/resized_1619418734.PNG",
+    "image_file": "part1/images/asset_6.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "C",
+    "transcript": "(A) A rug is being unrolled.(B) A potted plant has been placed on top of a shelf.(C) Bulletin boards have been mounted to the wall.(D) Some tiles have been removed from the floor.",
+    "explanation_vi": "Dịch đáp án:\n\nA. Một tấm thảm đang được trải ra. \n\nB. Một chậu cây đã được đặt trên nóc kệ. \n\nC. Các bảng thông báo đã được gắn vào tường. \n\nD. Một số viên gạch đã được gỡ bỏ khỏi sàn nhà.",
+    "vocabulary": []
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "id": "De_005_Q1",
+    "part": 1,
+    "question_number": 1,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) She's pushing a large container down a hallway.\n\n(B) She's looking at information on a laptop screen.\n\n(C) She's sorting through paper files.\n\n(D) She's placing a hat on top of a file cabinet.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t5/1.mp3",
+    "audio_file": "part1/audio/q1.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t5/1.webp",
+    "image_file": "part1/images/asset_1.webp",
+    "options": {
+      "A": "She's pushing a large container down a hallway.",
+      "B": "She's looking at information on a laptop screen.",
+      "C": "She's sorting through paper files.",
+      "D": "She's placing a hat on top of a file cabinet."
+    },
+    "answer": "C",
+    "transcript": "(A) She's pushing a large container down a hallway.\n\n(B) She's looking at information on a laptop screen.\n\n(C) She's sorting through paper files.\n\n(D) She's placing a hat on top of a file cabinet.",
+    "explanation_vi": "(A) Cô ấy đang đẩy một thùng chứa lớn xuống hành lang.\n\n(B) Cô ấy đang nhìn thông tin trên màn hình máy tính xách tay.\n\n(C) Cô ấy đang phân loại các hồ sơ giấy.\n\n(D) Cô ấy đang đặt một chiếc mũ lên trên tủ hồ sơ.",
+    "explanation_en": null,
+    "vocabulary": "Container (n): Thùng chứa/Công-ten-nơ\n\nSorting through (phr): Phân loại/Sàng lọc\n\nFile cabinet (n): Tủ hồ sơ\n\nHallway (n): Hành lang"
+  },
+  {
+    "id": "De_005_Q2",
+    "part": 1,
+    "question_number": 2,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A worker is painting lines on the floor.\n\n(B) A worker is using a machine to move some boxes.\n\n(C) A worker is sealing some packages.\n\n(D) A worker is repairing a motor.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t5/2.mp3",
+    "audio_file": "part1/audio/q2.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t5/2.webp",
+    "image_file": "part1/images/asset_2.webp",
+    "options": {
+      "A": "A worker is painting lines on the floor.",
+      "B": "A worker is using a machine to move some boxes.",
+      "C": "A worker is sealing some packages.",
+      "D": "A worker is repairing a motor."
+    },
+    "answer": "B",
+    "transcript": "(A) A worker is painting lines on the floor.\n\n(B) A worker is using a machine to move some boxes.\n\n(C) A worker is sealing some packages.\n\n(D) A worker is repairing a motor.",
+    "explanation_vi": "(A) Một công nhân đang sơn các vạch kẻ trên sàn.\n\n(B) Một công nhân đang sử dụng máy để di chuyển một số hộp.\n\n(C) Một công nhân đang dán niêm phong một số kiện hàng.\n\n(D) Một công nhân đang sửa chữa động cơ.",
+    "explanation_en": null,
+    "vocabulary": "Sealing (v): Niêm phong/Dán kín\n\nPackage (n): Kiện hàng/Gói hàng\n\nRepair (v): Sửa chữa\n\nMotor (n): Động cơ"
+  },
+  {
+    "id": "De_005_Q3",
+    "part": 1,
+    "question_number": 3,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) There are beverages available inside a tent.\n\n(B) There are some people riding in an automobile.\n\n(C) The man is reaching for a water bottle.\n\n(D) The woman is moving some furniture.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t5/3.mp3",
+    "audio_file": "part1/audio/q3.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t5/3.webp",
+    "image_file": "part1/images/asset_3.webp",
+    "options": {
+      "A": "There are beverages available inside a tent.",
+      "B": "There are some people riding in an automobile.",
+      "C": "The man is reaching for a water bottle.",
+      "D": "The woman is moving some furniture."
+    },
+    "answer": "A",
+    "transcript": "(A) There are beverages available inside a tent.\n\n(B) There are some people riding in an automobile.\n\n(C) The man is reaching for a water bottle.\n\n(D) The woman is moving some furniture.",
+    "explanation_vi": "(A) Có đồ uống sẵn bên trong một chiếc lều.\n\n(B) Có một số người đang ngồi trên xe ô tô.\n\n(C) Người đàn ông đang với lấy một chai nước.\n\n(D) Người phụ nữ đang di chuyển một số đồ nội thất.",
+    "explanation_en": null,
+    "vocabulary": "Beverage (n): Đồ uống\n\nAvailable (adj): Có sẵn\n\nTent (n): Chiếc lều\n\nAutomobile (n): Xe ô tô"
+  },
+  {
+    "id": "De_005_Q4",
+    "part": 1,
+    "question_number": 4,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) The door of a clothing store has been propped open.\n\n(B) Customers are waiting to enter a clothing store.\n\n(C) One of the customers is trying on a jacket.\n\n(D) Clothing is displayed outside on racks.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t5/4.mp3",
+    "audio_file": "part1/audio/q4.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t5/4.webp",
+    "image_file": "part1/images/asset_4.webp",
+    "options": {
+      "A": "The door of a clothing store has been propped open.",
+      "B": "Customers are waiting to enter a clothing store.",
+      "C": "One of the customers is trying on a jacket.",
+      "D": "Clothing is displayed outside on racks."
+    },
+    "answer": "D",
+    "transcript": "(A) The door of a clothing store has been propped open.\n\n(B) Customers are waiting to enter a clothing store.\n\n(C) One of the customers is trying on a jacket.\n\n(D) Clothing is displayed outside on racks.",
+    "explanation_vi": "(A) Cửa của một cửa hàng quần áo đang được mở sẵn.\n\n(B) Khách hàng đang chờ để vào cửa hàng quần áo.\n\n(C) Một trong những khách hàng đang mặc thử áo khoác.\n\n(D) Quần áo được trưng bày bên ngoài trên các giá treo.",
+    "explanation_en": null,
+    "vocabulary": "Propped open (phr): Được mở sẵn (bằng vật chặn)\n\nTry on (v): Mặc thử\n\nRack (n): Giá treo/Kệ\n\nDisplay (v): Trưng bày"
+  },
+  {
+    "id": "De_005_Q5",
+    "part": 1,
+    "question_number": 5,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) One of the men is lowering some window shades.\n\n(B) One of the men is writing on a poster board.\n\n(C) One of the women is putting on a sweater.\n\n(D) One of the women is reading from a notebook.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t5/5.mp3",
+    "audio_file": "part1/audio/q5.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t5/5.webp",
+    "image_file": "part1/images/asset_5.webp",
+    "options": {
+      "A": "One of the men is lowering some window shades.",
+      "B": "One of the men is writing on a poster board.",
+      "C": "One of the women is putting on a sweater.",
+      "D": "One of the women is reading from a notebook."
+    },
+    "answer": "B",
+    "transcript": "(A) One of the men is lowering some window shades.\n\n(B) One of the men is writing on a poster board.\n\n(C) One of the women is putting on a sweater.\n\n(D) One of the women is reading from a notebook.",
+    "explanation_vi": "(A) Một trong những người đàn ông đang hạ rèm cửa sổ xuống.\n\n(B) Một trong những người đàn ông đang viết trên một tấm áp phích.\n\n(C) Một trong những người phụ nữ đang mặc một chiếc áo len.\n\n(D) Một trong những người phụ nữ đang đọc từ một cuốn sổ tay.",
+    "explanation_en": null,
+    "vocabulary": "Lower (v): Hạ xuống/Làm thấp xuống\n\nWindow shade (n): Rèm/Màn cửa sổ\n\nPoster board (n): Tấm áp phích/Bảng quảng cáo\n\nSweater (n): Áo len"
+  },
+  {
+    "id": "De_005_Q6",
+    "part": 1,
+    "question_number": 6,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) One of the cars is stopped at a stop sign.\n\n(B) Some tires are stacked against a building.\n\n(C) Some vehicles are being washed.\n\n(D) A motorcycle is going through a gate.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t5/6.mp3",
+    "audio_file": "part1/audio/q6.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t5/6.webp",
+    "image_file": "part1/images/asset_6.webp",
+    "options": {
+      "A": "One of the cars is stopped at a stop sign.",
+      "B": "Some tires are stacked against a building.",
+      "C": "Some vehicles are being washed.",
+      "D": "A motorcycle is going through a gate."
+    },
+    "answer": "B",
+    "transcript": "(A) One of the cars is stopped at a stop sign.\n\n(B) Some tires are stacked against a building.\n\n(C) Some vehicles are being washed.\n\n(D) A motorcycle is going through a gate.",
+    "explanation_vi": "(A) Một trong những chiếc xe ô tô đang dừng lại ở biển báo dừng.\n\n(B) Một số lốp xe được xếp chồng lên tường tòa nhà.\n\n(C) Một số phương tiện đang được rửa.\n\n(D) Một chiếc xe máy đang đi qua cổng.",
+    "explanation_en": null,
+    "vocabulary": "Stop sign (n): Biển báo dừng\n\nTire (n): Lốp xe\n\nStacked (v/adj): Được xếp chồng\n\nMotorcycle (n): Xe máy"
+  }
+]

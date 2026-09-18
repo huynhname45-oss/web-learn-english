@@ -1,0 +1,128 @@
+[
+  {
+    "id": "De_032_Q1",
+    "part": 1,
+    "question_number": 1,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A woman is holding a power tool.\n\n(B) A woman is opening a drawer.\n\n(C) A printer is being unplugged.\n\n(D) Office supplies are being put into a box.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-1-1.mp3",
+    "audio_file": "part1/audio/q1.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/2/image31.png",
+    "image_file": "part1/images/asset_1.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "B",
+    "transcript": "(A) A woman is holding a power tool.\n\n(B) A woman is opening a drawer.\n\n(C) A printer is being unplugged.\n\n(D) Office supplies are being put into a box.",
+    "explanation_vi": "1.\n\n(A) Một người phụ nữ đang cầm một dụng cụ điện cầm tay\n\n(B) Một người phụ nữ đang mở một ngăn kéo\n\n(C) Một chiếc máy in đang được rút phích cắm\n\n(D) Văn phòng phẩm đang được đặt vào trong một chiếc thùng.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_032_Q2",
+    "part": 1,
+    "question_number": 2,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Plants are on top of a cart.\n\n(B) A watering can is next to some trees.\n\n(C) A man is digging in a garden.\n\n(D) A man is near a display of potted plants.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-1-2.mp3",
+    "audio_file": "part1/audio/q2.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/2/image2.png",
+    "image_file": "part1/images/asset_2.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "D",
+    "transcript": "(A) Plants are on top of a cart.\n\n(B) A watering can is next to some trees.\n\n(C) A man is digging in a garden.\n\n(D) A man is near a display of potted plants.",
+    "explanation_vi": "2.\n\n(A) Những cái cây đang ở trên cùng của xe đẩy hàng\n\n(B) Một bình tưới nước đang ở cạnh vài cái cây\n\n(C) Một người đàn ông đang đào hố trong vườn\n\n(D) Một người đàn ông đang ở cạnh khung trưng bày những chậu cây.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_032_Q3",
+    "part": 1,
+    "question_number": 3,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) The man is fixing a machine.\n\n(B) The man is buying some equipment.\n\n(C) The man is lifting a weight.\n\n(D) The man is looking at the ceiling.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-1-3.mp3",
+    "audio_file": "part1/audio/q3.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/2/image5.png",
+    "image_file": "part1/images/asset_3.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "C",
+    "transcript": "(A) The man is fixing a machine.\n\n(B) The man is buying some equipment.\n\n(C) The man is lifting a weight.\n\n(D) The man is looking at the ceiling.",
+    "explanation_vi": "3.\n\n(A) Người đàn ông đang sửa cái máy\n\n(B) Người đàn ông đang mua một số thiết bị\n\n(C) Người đàn ông đang nâng tạ.\n\n(D) Người đàn ông đang nhìn lên trần nhà",
+    "vocabulary": []
+  },
+  {
+    "id": "De_032_Q4",
+    "part": 1,
+    "question_number": 4,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A wall is decorated with various items.\n\n(B) Two chairs are blocking a doorway.\n\n(C) A door has been propped open with a statue.\n\n(D) A painting is hanging next to a window.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-1-4.mp3",
+    "audio_file": "part1/audio/q4.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/2/image12.png",
+    "image_file": "part1/images/asset_4.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "A",
+    "transcript": "(A) A wall is decorated with various items.\n\n(B) Two chairs are blocking a doorway.\n\n(C) A door has been propped open with a statue.\n\n(D) A painting is hanging next to a window.",
+    "explanation_vi": "4.\n\n(A) Bức tường được trang trí với nhiều món đồ.\n\n(B) Hai chiếc ghế đang chặn lối ra vào\n\n(C) Một cánh cửa được để mở ra với một bức tượng\n\n(D) Một bức tranh được treo cạnh cửa sổ",
+    "vocabulary": []
+  },
+  {
+    "id": "De_032_Q5",
+    "part": 1,
+    "question_number": 5,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Some people are browsing in a shop.\n\n(B) Some people are exchanging gifts.\n\n(C) A customer is paying for some goods.\n\n(D) Some salespeople are preparing a display.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-1-5.mp3",
+    "audio_file": "part1/audio/q5.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/2/image35.png",
+    "image_file": "part1/images/asset_5.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "A",
+    "transcript": "(A) Some people are browsing in a shop.\n\n(B) Some people are exchanging gifts.\n\n(C) A customer is paying for some goods.\n\n(D) Some salespeople are preparing a display.",
+    "explanation_vi": "5.\n\n(A) Một vài người đang dạo quanh trong một cửa hàng\n\n(B) Một vài người đang trao đổi những món quà\n\n(C) Một khách hàng đang trả tiền cho những món hàng\n\n(D) Một vài nhân viên kinh doanh đang chuẩn bị một kệ trưng bày.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_032_Q6",
+    "part": 1,
+    "question_number": 6,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Cones are blocking access to a road.\n\n(B) Some soil is in a pile on the ground.\n\n(C) Some bushes have been planted in front of a building.\n\n(D) A tree is lying in the roadway.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-1-6.mp3",
+    "audio_file": "part1/audio/q6.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/2/image4.png",
+    "image_file": "part1/images/asset_6.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "B",
+    "transcript": "(A) Cones are blocking access to a road.\n\n(B) Some soil is in a pile on the ground.\n\n(C) Some bushes have been planted in front of a building.\n\n(D) A tree is lying in the roadway.",
+    "explanation_vi": "6.\n\n(A) Những biển báo hình nón đang chặn lối vào một con đường.\n\n(B) Đất được chất thành đống trên mặt đất\n\n(C) Một vài bụi cây được trồng trước toà nhà\n\n(D) Một cái cây đang nằm trên lòng đường.",
+    "vocabulary": []
+  }
+]

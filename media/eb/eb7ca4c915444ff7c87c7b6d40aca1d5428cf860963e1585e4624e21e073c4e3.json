@@ -1,0 +1,128 @@
+[
+  {
+    "id": "De_040_Q1",
+    "part": 1,
+    "question_number": 1,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) He’s cleaning the floor.\n\n(B) He’s setting a plant on a shelf.\n\n(C) He’s pouring some liquid into a cup. \n\n(D) He’s ironing a shirt.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_4/Test_4-1.mp3",
+    "audio_file": "part1/audio/q1.mp3",
+    "image_url": "https://s4-media1.study4.com/media/e24/images_fixed2/image375.png",
+    "image_file": "part1/images/asset_1.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "C",
+    "transcript": "(A) He’s cleaning the floor.\n\n(B) He’s setting a plant on a shelf.\n\n(C) He’s pouring some liquid into a cup. \n\n(D) He’s ironing a shirt.",
+    "explanation_vi": "Dịch đáp án:\n\n(A) Anh ấy đang lau sàn nhà.\n\n(B) Anh ấy đang đặt một cái cây lên kệ.\n\n(C) Anh ấy đang đổ một ít chất lỏng vào cốc. \n\n(D) Anh ấy đang ủi một chiếc áo sơ mi.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_040_Q2",
+    "part": 1,
+    "question_number": 2,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) They’re glancing at a monitor. \n\n(B) They’re putting pens in a jar. \n\n(C) They’re wiping off a desk.\n\n(D) They’re examining a document.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_4/Test_4-2.mp3",
+    "audio_file": "part1/audio/q2.mp3",
+    "image_url": "https://s4-media1.study4.com/media/e24/images_fixed2/image51.png",
+    "image_file": "part1/images/asset_2.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "D",
+    "transcript": "(A) They’re glancing at a monitor. \n\n(B) They’re putting pens in a jar. \n\n(C) They’re wiping off a desk.\n\n(D) They’re examining a document.",
+    "explanation_vi": "Dịch đáp án:\n\n(A) Họ đang nhìn vào màn hình. \n\n(B) Họ đang đặt bút vào lọ. \n\n(C) Họ đang lau bàn.\n\n(D) Họ đang kiểm tra một tài liệu.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_040_Q3",
+    "part": 1,
+    "question_number": 3,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Some people are taking a ride on a boat.\n\n(B) A boat is floating under a bridge.\n\n(C) A boat is being loaded with cargo.\n\n(D) Some people are rowing a boat past a lighthouse.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_4/Test_4-3.mp3",
+    "audio_file": "part1/audio/q3.mp3",
+    "image_url": "https://s4-media1.study4.com/media/e24/images_fixed2/image267.png",
+    "image_file": "part1/images/asset_3.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "A",
+    "transcript": "(A) Some people are taking a ride on a boat.\n\n(B) A boat is floating under a bridge.\n\n(C) A boat is being loaded with cargo.\n\n(D) Some people are rowing a boat past a lighthouse.",
+    "explanation_vi": "Dịch đáp án:\n\n(A) Một số người đang đi trên thuyền.\n\n(B) Một chiếc thuyền đang trôi dưới cầu.\n\n(C) Một chiếc thuyền đang chở hàng hóa.\n\n(D) Một số người đang chèo thuyền qua ngọn hải đăng.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_040_Q4",
+    "part": 1,
+    "question_number": 4,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) There’s a fire burning in a fireplace.\n\n(B) There’s a guitar beside a fireplace.\n\n(C) Some cables have been left on the ground in a pile.\n\n(D) A television is being packed into a box.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_4/Test_4-4.mp3",
+    "audio_file": "part1/audio/q4.mp3",
+    "image_url": "https://s4-media1.study4.com/media/e24/images_fixed2/image183.png",
+    "image_file": "part1/images/asset_4.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "B",
+    "transcript": "(A) There’s a fire burning in a fireplace.\n\n(B) There’s a guitar beside a fireplace.\n\n(C) Some cables have been left on the ground in a pile.\n\n(D) A television is being packed into a box.",
+    "explanation_vi": "Dịch đáp án:\n\n(A) Có một ngọn lửa đang cháy trong lò sưởi.\n\n(B) Có một cây đàn guitar bên cạnh lò sưởi.\n\n(C) Một số dây cáp đã bị vứt thành đống trên mặt đất.\n\n(D) Một chiếc tivi đang được đóng gói vào một chiếc hộp.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_040_Q5",
+    "part": 1,
+    "question_number": 5,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Some people are riding bicycles through a field. \n\n(B) Some people are moving a picnic table.\n\n(C) There are some mountains in the distance.\n\n(D) A bicycle has fallen over on the ground.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_4/Test_4-5.mp3",
+    "audio_file": "part1/audio/q5.mp3",
+    "image_url": "https://s4-media1.study4.com/media/e24/images_fixed2/image23.png",
+    "image_file": "part1/images/asset_5.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "C",
+    "transcript": "(A) Some people are riding bicycles through a field. \n\n(B) Some people are moving a picnic table.\n\n(C) There are some mountains in the distance.\n\n(D) A bicycle has fallen over on the ground.",
+    "explanation_vi": "Dịch đáp án:\n\n(A) Một số người đang đạp xe qua cánh đồng. \n\n(B) Một số người đang di chuyển bàn ăn ngoài trời.\n\n(C) Có một số ngọn núi ở phía xa.\n\n(D) Một chiếc xe đạp bị ngã trên mặt đất.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_040_Q6",
+    "part": 1,
+    "question_number": 6,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Some couches have been pushed against a wall. \n\n(B) Some lights have been hung from the ceiling.\n\n(C) Some cushions have been stacked on the floor. \n\n(D) Some flowers have been arranged in a vase.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_4/Test_4-6.mp3",
+    "audio_file": "part1/audio/q6.mp3",
+    "image_url": "https://s4-media1.study4.com/media/e24/images_fixed2/image76.png",
+    "image_file": "part1/images/asset_6.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "D",
+    "transcript": "(A) Some couches have been pushed against a wall. \n\n(B) Some lights have been hung from the ceiling.\n\n(C) Some cushions have been stacked on the floor. \n\n(D) Some flowers have been arranged in a vase.",
+    "explanation_vi": "Dịch đáp án:\n\n(A) Một số ghế dài đã được đẩy vào tường. \n\n(B) Một số đèn được treo trên trần nhà.\n\n(C) Một số đệm đã được xếp chồng lên nhau trên sàn. \n\n(D) Một số bông hoa đã được cắm trong bình.",
+    "vocabulary": []
+  }
+]

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "De_033_Q1",
+    "part": 1,
+    "question_number": 1,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A man is standing in a road.\n\n(B) A man is wearing a coat.\n\n(C) A man with tools is bending over.\n\n(D) A man is putting on a hat.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-03-part-1-1.mp3",
+    "audio_file": "part1/audio/q1.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/3/image12.png",
+    "image_file": "part1/images/asset_1.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "C",
+    "transcript": "(A) A man is standing in a road.\n\n(B) A man is wearing a coat.\n\n(C) A man with tools is bending over.\n\n(D) A man is putting on a hat.",
+    "explanation_vi": "1.\n\n(A) Một người đàn ông đang đứng trên đường\n\n(B) Một người đàn ông đang mặc áo choàng\n\n(C) Một người đàn ông cầm dụng cụ đang cúi người xuống\n\n(D) Một người đàn ông đang đội mũ",
+    "vocabulary": []
+  },
+  {
+    "id": "De_033_Q2",
+    "part": 1,
+    "question_number": 2,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) There's long grass behind a fence.\n\n(B) There’s a door open beneath a light.\n\n(C) There’s a pot with flowers by the door.\n\n(D) There’s a window overlooking a garden.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-03-part-1-2.mp3",
+    "audio_file": "part1/audio/q2.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/3/image13.png",
+    "image_file": "part1/images/asset_2.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "D",
+    "transcript": "(A) There's long grass behind a fence.\n\n(B) There’s a door open beneath a light.\n\n(C) There’s a pot with flowers by the door.\n\n(D) There’s a window overlooking a garden.",
+    "explanation_vi": "2.\n\n(A) Cỏ mọc cao ở phía sau hàng rào\n\n(B) Có một cánh cửa mở bên dưới cái đèn\n\n(C) Có một chậu hoa cạnh cửa\n\n(D) Có một chiếc cửa sổ nhìn ra khu vườn",
+    "vocabulary": []
+  },
+  {
+    "id": "De_033_Q3",
+    "part": 1,
+    "question_number": 3,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A man is looking in a mirror.\n\n(B) A man is using an exercise machine.\n\n(C) A stairway is being cleaned.\n\n(D) A basket is hanging from the ceiling.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-03-part-1-3.mp3",
+    "audio_file": "part1/audio/q3.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/3/image11.png",
+    "image_file": "part1/images/asset_3.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "B",
+    "transcript": "(A) A man is looking in a mirror.\n\n(B) A man is using an exercise machine.\n\n(C) A stairway is being cleaned.\n\n(D) A basket is hanging from the ceiling.",
+    "explanation_vi": "3.\n\n(A) Một người đàn ông đang soi gương\n\n(B) Một người đàn ông đang sử dụng máy tập thể dục\n\n(C) Một chiếc cầu thang đang được lau dọn\n\n(D) Một cái giỏ được treo trên trần nhà",
+    "vocabulary": []
+  },
+  {
+    "id": "De_033_Q4",
+    "part": 1,
+    "question_number": 4,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A woman is cleaning the floor.\n\n(B) Bottles are being placed on shelves.\n\n(C) A woman is holding a bowl.\n\n(D) A customer is reading a menu.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-03-part-1-4.mp3",
+    "audio_file": "part1/audio/q4.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/3/image10.png",
+    "image_file": "part1/images/asset_4.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "C",
+    "transcript": "(A) A woman is cleaning the floor.\n\n(B) Bottles are being placed on shelves.\n\n(C) A woman is holding a bowl.\n\n(D) A customer is reading a menu.",
+    "explanation_vi": "4.\n\n(A) Một người phụ nữ đang lau nhà\n\n(B) Những chiếc bình/chai/lọ đang được đặt lên kệ tủ\n\n(C) Một người phụ nữ đang cầm một chiếc bát\n\n(D) Một vị khách đang đọc thực đơn",
+    "vocabulary": []
+  },
+  {
+    "id": "De_033_Q5",
+    "part": 1,
+    "question_number": 5,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A tablecloth is folded on a chair.\n\n(B) A dining area is prepared for a meal.\n\n(C) Some chairs are being moved to a different room.\n\n(D) Cups and plates are being filled.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-03-part-1-5.mp3",
+    "audio_file": "part1/audio/q5.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/3/image34.png",
+    "image_file": "part1/images/asset_5.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "B",
+    "transcript": "(A) A tablecloth is folded on a chair.\n\n(B) A dining area is prepared for a meal.\n\n(C) Some chairs are being moved to a different room.\n\n(D) Cups and plates are being filled.",
+    "explanation_vi": "5.\n\n(A) Một chiếc khăn trải bàn được gấp gọn trên ghế\n\n(B) Khu vực ăn uống được chuẩn bị cho bữa ăn\n\n(C) Một vài chiếc ghế đang được di chuyển sang một căn phòng khác\n\n(D) Cốc và đĩa đang được lấp đầy",
+    "vocabulary": []
+  },
+  {
+    "id": "De_033_Q6",
+    "part": 1,
+    "question_number": 6,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Some people have gathered in an outdoor seating area.\n\n(B) Umbrellas are covering a buffet counter.\n\n(C) Some chairs are stacked on the lawn.\n\n(D) Some people are laughing at a performance.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-03-part-1-6.mp3",
+    "audio_file": "part1/audio/q6.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/3/image9.png",
+    "image_file": "part1/images/asset_6.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "A",
+    "transcript": "(A) Some people have gathered in an outdoor seating area.\n\n(B) Umbrellas are covering a buffet counter.\n\n(C) Some chairs are stacked on the lawn.\n\n(D) Some people are laughing at a performance.",
+    "explanation_vi": "6.\n\n(A) Một vài người tập trung ở khu vực ngồi chờ bên ngoài\n\n(B) Những chiếc ô đang che phủ quầy búp phê\n\n(C) Một vài chiếc ghế được xếp chồng trên bãi cỏ\n\n(D) Một vài người đang cười màn trình diễn",
+    "vocabulary": []
+  }
+]

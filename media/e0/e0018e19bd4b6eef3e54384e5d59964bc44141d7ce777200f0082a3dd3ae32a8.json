@@ -1,0 +1,338 @@
+[
+  {
+    "id": "De_029_Q131",
+    "part": 6,
+    "question_number": 131,
+    "prompt": "Chọn phương án thích hợp nhất để điền vào chỗ trống.",
+    "passage": "To: All staff\nFrom: Leonard Villalobos, Vice President of Product Development\nDate: August 27\nSubject: Atzeret game (Product #DS8192)\nDue to the results from our trial customer testing, we have decided to postpone the launch of the Atzeret video game. Customer surveys indicated that the game was less ----- (131) than we anticipated. Over the next few months, the game development team will introduce several -----(132) to make the product more attractive. ----- (133). If the changes are successful, we hope to launch the game by next January ----- (134) February.",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "expensive",
+      "B": "repetitive",
+      "C": "appealing",
+      "D": "surprising"
+    },
+    "answer": "C",
+    "transcript": "Tới: Toàn thể nhân viên\n\nTừ: Leonard Villalobos, Phó chủ tịch phát triển sản phẩm\n\nNgày: 27 tháng 8\n\nChủ đề: Trò chơi Atzeret (Sản phẩm # DS8192)\n\nDo kết quả từ quá trình thử nghiệm khách hàng dùng thử của chúng ta, chúng ta đã quyết định hoãn ra mắt trò chơi điện tử Atzeret. Các cuộc khảo sát khách hàng chỉ ra rằng trò chơi kém hấp dẫn (131) hơn chúng ta dự đoán. Trong vài tháng tới, nhóm phát triển trò chơi sẽ giới thiệu một số sửa đổi (132) để khiến sản phẩm trở nên hấp dẫn hơn. Tại thời điểm đó, nhiều thử nghiệm hơn sẽ được tiến hành (133). Nếu các thay đổi thành công, chúng tôi hy vọng sẽ ra mắt trò chơi vào tháng 1 hoặc (134) tháng 2 tới.",
+    "explanation_vi": "Dịch đáp án:\n\nA. expensive (adj): đắt tiền\n\nB. repetitive (adj): lặp đi lặp lại\n\nC. appealing (adj): hấp dẫn\n\nD. surprising (adj): ngạc nhiên\n\n-------",
+    "vocabulary": []
+  },
+  {
+    "id": "De_029_Q132",
+    "part": 6,
+    "question_number": 132,
+    "prompt": "Chọn phương án thích hợp nhất để điền vào chỗ trống.",
+    "passage": "To: All staff\nFrom: Leonard Villalobos, Vice President of Product Development\nDate: August 27\nSubject: Atzeret game (Product #DS8192)\nDue to the results from our trial customer testing, we have decided to postpone the launch of the Atzeret video game. Customer surveys indicated that the game was less ----- (131) than we anticipated. Over the next few months, the game development team will introduce several -----(132) to make the product more attractive. ----- (133). If the changes are successful, we hope to launch the game by next January ----- (134) February.",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "modification",
+      "B": "modifies",
+      "C": "modifying",
+      "D": "modifications"
+    },
+    "answer": "D",
+    "transcript": "Tới: Toàn thể nhân viên\n\nTừ: Leonard Villalobos, Phó chủ tịch phát triển sản phẩm\n\nNgày: 27 tháng 8\n\nChủ đề: Trò chơi Atzeret (Sản phẩm # DS8192)\n\nDo kết quả từ quá trình thử nghiệm khách hàng dùng thử của chúng ta, chúng ta đã quyết định hoãn ra mắt trò chơi điện tử Atzeret. Các cuộc khảo sát khách hàng chỉ ra rằng trò chơi kém hấp dẫn (131) hơn chúng ta dự đoán. Trong vài tháng tới, nhóm phát triển trò chơi sẽ giới thiệu một số sửa đổi (132) để khiến sản phẩm trở nên hấp dẫn hơn. Tại thời điểm đó, nhiều thử nghiệm hơn sẽ được tiến hành (133). Nếu các thay đổi thành công, chúng tôi hy vọng sẽ ra mắt trò chơi vào tháng 1 hoặc (134) tháng 2 tới.",
+    "explanation_vi": "Dịch đáp án:\n\nA. Vào thời điểm đó, nhiều bài kiểm tra sẽ được tiến hành.\n\nB. Buổi ra mắt sẽ là buổi ra mắt lớn nhất trong năm của chúng tôi.\n\nC. Tuy nhiên, các cuộc khảo sát không đáng tin cậy.\n\nD. Mỗi thành viên trong nhóm đều phải ký vào mẫu đơn.\n\n-------",
+    "vocabulary": []
+  },
+  {
+    "id": "De_029_Q133",
+    "part": 6,
+    "question_number": 133,
+    "prompt": "Chọn phương án thích hợp nhất để điền vào chỗ trống.",
+    "passage": "To: All staff\nFrom: Leonard Villalobos, Vice President of Product Development\nDate: August 27\nSubject: Atzeret game (Product #DS8192)\nDue to the results from our trial customer testing, we have decided to postpone the launch of the Atzeret video game. Customer surveys indicated that the game was less ----- (131) than we anticipated. Over the next few months, the game development team will introduce several -----(132) to make the product more attractive. ----- (133). If the changes are successful, we hope to launch the game by next January ----- (134) February.",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "At that point, more tests will be conducted.",
+      "B": "The launch will be our biggest of the year.",
+      "C": "However, the surveys are not reliable.",
+      "D": "Team members must each sign the form."
+    },
+    "answer": "A",
+    "transcript": "Tới: Toàn thể nhân viên\n\nTừ: Leonard Villalobos, Phó chủ tịch phát triển sản phẩm\n\nNgày: 27 tháng 8\n\nChủ đề: Trò chơi Atzeret (Sản phẩm # DS8192)\n\nDo kết quả từ quá trình thử nghiệm khách hàng dùng thử của chúng ta, chúng ta đã quyết định hoãn ra mắt trò chơi điện tử Atzeret. Các cuộc khảo sát khách hàng chỉ ra rằng trò chơi kém hấp dẫn (131) hơn chúng ta dự đoán. Trong vài tháng tới, nhóm phát triển trò chơi sẽ giới thiệu một số sửa đổi (132) để khiến sản phẩm trở nên hấp dẫn hơn. Tại thời điểm đó, nhiều thử nghiệm hơn sẽ được tiến hành (133). Nếu các thay đổi thành công, chúng tôi hy vọng sẽ ra mắt trò chơi vào tháng 1 hoặc (134) tháng 2 tới.",
+    "explanation_vi": "Dịch đáp án:\n\nA. Vào thời điểm đó, nhiều bài kiểm tra sẽ được tiến hành.\n\nB. Buổi ra mắt sẽ là buổi ra mắt lớn nhất trong năm của chúng tôi.\n\nC. Tuy nhiên, các cuộc khảo sát không đáng tin cậy.\n\nD. Mỗi thành viên trong nhóm đều phải ký vào mẫu đơn.\n\n-------",
+    "vocabulary": []
+  },
+  {
+    "id": "De_029_Q134",
+    "part": 6,
+    "question_number": 134,
+    "prompt": "Chọn phương án thích hợp nhất để điền vào chỗ trống.",
+    "passage": "To: All staff\nFrom: Leonard Villalobos, Vice President of Product Development\nDate: August 27\nSubject: Atzeret game (Product #DS8192)\nDue to the results from our trial customer testing, we have decided to postpone the launch of the Atzeret video game. Customer surveys indicated that the game was less ----- (131) than we anticipated. Over the next few months, the game development team will introduce several -----(132) to make the product more attractive. ----- (133). If the changes are successful, we hope to launch the game by next January ----- (134) February.",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "since",
+      "B": "or",
+      "C": "if",
+      "D": "later"
+    },
+    "answer": "B",
+    "transcript": "Tới: Toàn thể nhân viên\n\nTừ: Leonard Villalobos, Phó chủ tịch phát triển sản phẩm\n\nNgày: 27 tháng 8\n\nChủ đề: Trò chơi Atzeret (Sản phẩm # DS8192)\n\nDo kết quả từ quá trình thử nghiệm khách hàng dùng thử của chúng ta, chúng ta đã quyết định hoãn ra mắt trò chơi điện tử Atzeret. Các cuộc khảo sát khách hàng chỉ ra rằng trò chơi kém hấp dẫn (131) hơn chúng ta dự đoán. Trong vài tháng tới, nhóm phát triển trò chơi sẽ giới thiệu một số sửa đổi (132) để khiến sản phẩm trở nên hấp dẫn hơn. Tại thời điểm đó, nhiều thử nghiệm hơn sẽ được tiến hành (133). Nếu các thay đổi thành công, chúng tôi hy vọng sẽ ra mắt trò chơi vào tháng 1 hoặc (134) tháng 2 tới.",
+    "explanation_vi": "Dịch đáp án:\n\nA. In other words: nói cách khác\n\nB. For this reason: vì lý do này\n\nC. For example: ví dụ\n\nD. As you know: như bạn đã biết\n\n-------",
+    "vocabulary": []
+  },
+  {
+    "id": "De_029_Q135",
+    "part": 6,
+    "question_number": 135,
+    "prompt": "Chọn phương án thích hợp nhất để điền vào chỗ trống.",
+    "passage": "To: Eva Linn, Lundtalk Industries\nFrom: Technical Services\nDate: January 15\nSubject: Technical query\n\nDear Ms. Linn,\n\nThank you for contacting our technical department ----- (135) your query. ----- (136) our call got disconnected when we were trying to reboot your system from our remote location. -----(137). Therefore, please call us at your earliest convenience and refer to conversation ID #TECH12-2020A to complete the system repair. We have prioritized your inquiry and look forward to helping you ----- (138) your computer to its full capabilities.\n\nSincerely,\nArthur Feldt\nTechnical Service Facilitator",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "until",
+      "B": "besides",
+      "C": "into",
+      "D": "with"
+    },
+    "answer": "D",
+    "transcript": "Tới: Eva Linn, Lundtalk Industries\n\nTừ: Dịch vụ kỹ thuật\n\nNgày: 15 tháng 1\n\nChủ đề: Truy vấn kỹ thuật\n\nCô Linn thân mến,\n\nCảm ơn bạn đã liên hệ với bộ phận kỹ thuật của chúng tôi với (135) câu hỏi của bạn. Như bạn đã biết (136) cuộc gọi của chúng tôi đã bị ngắt kết nối khi chúng tôi cố gắng khởi động lại hệ thống của bạn từ vị trí từ xa của chúng tôi. Rất tiếc, chúng tôi không có số điện thoại để có thể liên hệ với bạn (137). Vì vậy, vui lòng gọi cho chúng tôi trong thời gian sớm nhất có thể và tham khảo ID đoạn hội thoại # TECH12-2020A để hoàn tất quá trình sửa chữa hệ thống. Chúng tôi đã ưu tiên yêu cầu của bạn và mong được giúp bạn khôi phục (138) máy tính của bạn về đầy đủ tính năng của nó.\n\nTrân trọng,\n\nArthur Feldt\n\nHỗ trợ viên Dịch vụ Kỹ thuật",
+    "explanation_vi": "Dịch đáp án:\n\nA. In other words: nói cách khác\n\nB. For this reason: vì lý do này\n\nC. For example: ví dụ\n\nD. As you know: như bạn đã biết\n\n-------",
+    "vocabulary": []
+  },
+  {
+    "id": "De_029_Q136",
+    "part": 6,
+    "question_number": 136,
+    "prompt": "Chọn phương án thích hợp nhất để điền vào chỗ trống.",
+    "passage": "To: Eva Linn, Lundtalk Industries\nFrom: Technical Services\nDate: January 15\nSubject: Technical query\n\nDear Ms. Linn,\n\nThank you for contacting our technical department ----- (135) your query. ----- (136) our call got disconnected when we were trying to reboot your system from our remote location. -----(137). Therefore, please call us at your earliest convenience and refer to conversation ID #TECH12-2020A to complete the system repair. We have prioritized your inquiry and look forward to helping you ----- (138) your computer to its full capabilities.\n\nSincerely,\nArthur Feldt\nTechnical Service Facilitator",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "In other words",
+      "B": "For this reason",
+      "C": "For example",
+      "D": "As you know"
+    },
+    "answer": "D",
+    "transcript": "Tới: Eva Linn, Lundtalk Industries\n\nTừ: Dịch vụ kỹ thuật\n\nNgày: 15 tháng 1\n\nChủ đề: Truy vấn kỹ thuật\n\nCô Linn thân mến,\n\nCảm ơn bạn đã liên hệ với bộ phận kỹ thuật của chúng tôi với (135) câu hỏi của bạn. Như bạn đã biết (136) cuộc gọi của chúng tôi đã bị ngắt kết nối khi chúng tôi cố gắng khởi động lại hệ thống của bạn từ vị trí từ xa của chúng tôi. Rất tiếc, chúng tôi không có số điện thoại để có thể liên hệ với bạn (137). Vì vậy, vui lòng gọi cho chúng tôi trong thời gian sớm nhất có thể và tham khảo ID đoạn hội thoại # TECH12-2020A để hoàn tất quá trình sửa chữa hệ thống. Chúng tôi đã ưu tiên yêu cầu của bạn và mong được giúp bạn khôi phục (138) máy tính của bạn về đầy đủ tính năng của nó.\n\nTrân trọng,\n\nArthur Feldt\n\nHỗ trợ viên Dịch vụ Kỹ thuật",
+    "explanation_vi": "Dịch đáp án:\n\nA. In other words: nói cách khác\n\nB. For this reason: vì lý do này\n\nC. For example: ví dụ\n\nD. As you know: như bạn đã biết\n\n-------",
+    "vocabulary": []
+  },
+  {
+    "id": "De_029_Q137",
+    "part": 6,
+    "question_number": 137,
+    "prompt": "Chọn phương án thích hợp nhất để điền vào chỗ trống.",
+    "passage": "To: Eva Linn, Lundtalk Industries\nFrom: Technical Services\nDate: January 15\nSubject: Technical query\n\nDear Ms. Linn,\n\nThank you for contacting our technical department ----- (135) your query. ----- (136) our call got disconnected when we were trying to reboot your system from our remote location. -----(137). Therefore, please call us at your earliest convenience and refer to conversation ID #TECH12-2020A to complete the system repair. We have prioritized your inquiry and look forward to helping you ----- (138) your computer to its full capabilities.\n\nSincerely,\nArthur Feldt\nTechnical Service Facilitator",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "We invite you to visit one of our computer repair centers in your area.",
+      "B": "Unfortunately, we do not have a phone number at which we can reach you.",
+      "C": "Thank you again for being one of our priority customers.",
+      "D": "Please submit your check for the service fee promptly."
+    },
+    "answer": "B",
+    "transcript": "Tới: Eva Linn, Lundtalk Industries\n\nTừ: Dịch vụ kỹ thuật\n\nNgày: 15 tháng 1\n\nChủ đề: Truy vấn kỹ thuật\n\nCô Linn thân mến,\n\nCảm ơn bạn đã liên hệ với bộ phận kỹ thuật của chúng tôi với (135) câu hỏi của bạn. Như bạn đã biết (136) cuộc gọi của chúng tôi đã bị ngắt kết nối khi chúng tôi cố gắng khởi động lại hệ thống của bạn từ vị trí từ xa của chúng tôi. Rất tiếc, chúng tôi không có số điện thoại để có thể liên hệ với bạn (137). Vì vậy, vui lòng gọi cho chúng tôi trong thời gian sớm nhất có thể và tham khảo ID đoạn hội thoại # TECH12-2020A để hoàn tất quá trình sửa chữa hệ thống. Chúng tôi đã ưu tiên yêu cầu của bạn và mong được giúp bạn khôi phục (138) máy tính của bạn về đầy đủ tính năng của nó.\n\nTrân trọng,\n\nArthur Feldt\n\nHỗ trợ viên Dịch vụ Kỹ thuật",
+    "explanation_vi": "Dịch đáp án:\n\nA. Chúng tôi mời bạn đến thăm một trong những trung tâm sửa chữa máy tính của chúng tôi trong khu vực của bạn.\n\nB. Rất tiếc, chúng tôi không có số điện thoại để có thể liên hệ với bạn.\n\nC. Một lần nữa xin cảm ơn bạn vì đã là một trong những khách hàng ưu tiên của chúng tôi.\n\nD. Vui lòng gửi séc thanh toán phí dịch vụ ngay lập tức.\n\n-------",
+    "vocabulary": []
+  },
+  {
+    "id": "De_029_Q138",
+    "part": 6,
+    "question_number": 138,
+    "prompt": "Chọn phương án thích hợp nhất để điền vào chỗ trống.",
+    "passage": "To: Eva Linn, Lundtalk Industries\nFrom: Technical Services\nDate: January 15\nSubject: Technical query\n\nDear Ms. Linn,\n\nThank you for contacting our technical department ----- (135) your query. ----- (136) our call got disconnected when we were trying to reboot your system from our remote location. -----(137). Therefore, please call us at your earliest convenience and refer to conversation ID #TECH12-2020A to complete the system repair. We have prioritized your inquiry and look forward to helping you ----- (138) your computer to its full capabilities.\n\nSincerely,\nArthur Feldt\nTechnical Service Facilitator",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "restore",
+      "B": "restoring",
+      "C": "restored",
+      "D": "restoration"
+    },
+    "answer": "A",
+    "transcript": "Tới: Eva Linn, Lundtalk Industries\n\nTừ: Dịch vụ kỹ thuật\n\nNgày: 15 tháng 1\n\nChủ đề: Truy vấn kỹ thuật\n\nCô Linn thân mến,\n\nCảm ơn bạn đã liên hệ với bộ phận kỹ thuật của chúng tôi với (135) câu hỏi của bạn. Như bạn đã biết (136) cuộc gọi của chúng tôi đã bị ngắt kết nối khi chúng tôi cố gắng khởi động lại hệ thống của bạn từ vị trí từ xa của chúng tôi. Rất tiếc, chúng tôi không có số điện thoại để có thể liên hệ với bạn (137). Vì vậy, vui lòng gọi cho chúng tôi trong thời gian sớm nhất có thể và tham khảo ID đoạn hội thoại # TECH12-2020A để hoàn tất quá trình sửa chữa hệ thống. Chúng tôi đã ưu tiên yêu cầu của bạn và mong được giúp bạn khôi phục (138) máy tính của bạn về đầy đủ tính năng của nó.\n\nTrân trọng,\n\nArthur Feldt\n\nHỗ trợ viên Dịch vụ Kỹ thuật",
+    "explanation_vi": "Dịch đáp án:\n\nA. clothing (n): quần áo\n\nB. offer (n): đề nghị, ưu đãi\n\nC. decoration (n): sự trang trí\n\nD. performance (n): sự trình diễn\n\n-------",
+    "vocabulary": []
+  },
+  {
+    "id": "De_029_Q139",
+    "part": 6,
+    "question_number": 139,
+    "prompt": "Chọn phương án thích hợp nhất để điền vào chỗ trống.",
+    "passage": "For a limited time, the Uppercut Clothing Hanger Company is selling its highest quality hangers at huge discounts on wholesale orders. This special ----- (139) is perfect for hotels, retailers, or anywhere hangers are used extensively. ----- (140) of lacquered walnut wood, these hangers are not only durable, but also safe for the environment. -----(141) are strong enough to hold up to ten pounds. To order, visit www.uppercuthangerco.ca. Note that all orders require a 20 percent deposit. ----- (142). Uppercut will cover all shipping and insurance costs.",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "clothing",
+      "B": "offer",
+      "C": "decoration",
+      "D": "performance"
+    },
+    "answer": "B",
+    "transcript": "Trong một thời gian giới hạn, Công ty móc treo quần áo Uppercut đang bán các móc treo chất lượng cao nhất của mình với mức chiết khấu rất lớn cho các đơn đặt hàng bán buôn. Ưu đãi đặc biệt này (139) hoàn hảo cho các khách sạn, nhà bán lẻ hoặc bất kỳ nơi nào có sử dụng nhiều móc treo. Được làm bằng gỗ óc chó sơn mài (140), những chiếc móc treo này không chỉ bền mà còn an toàn với môi trường. Chúng (141) đủ khỏe để treo được tới 10 pound. Để đặt hàng, hãy truy cập www.uppercuthangerco.ca. Lưu ý rằng tất cả các đơn đặt hàng yêu cầu đặt cọc 20 phần trăm. Phần còn lại sẽ đến hạn khi nhận hàng (142). Uppercut sẽ bao gồm tất cả các chi phí vận chuyển và bảo hiểm.",
+    "explanation_vi": "Dịch đáp án:\n\nA. clothing (n): quần áo\n\nB. offer (n): đề nghị, ưu đãi\n\nC. decoration (n): sự trang trí\n\nD. performance (n): sự trình diễn\n\n-------",
+    "vocabulary": []
+  },
+  {
+    "id": "De_029_Q140",
+    "part": 6,
+    "question_number": 140,
+    "prompt": "Chọn phương án thích hợp nhất để điền vào chỗ trống.",
+    "passage": "For a limited time, the Uppercut Clothing Hanger Company is selling its highest quality hangers at huge discounts on wholesale orders. This special ----- (139) is perfect for hotels, retailers, or anywhere hangers are used extensively. ----- (140) of lacquered walnut wood, these hangers are not only durable, but also safe for the environment. -----(141) are strong enough to hold up to ten pounds. To order, visit www.uppercuthangerco.ca. Note that all orders require a 20 percent deposit. ----- (142). Uppercut will cover all shipping and insurance costs.",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Made",
+      "B": "Making",
+      "C": "To make",
+      "D": "They made"
+    },
+    "answer": "A",
+    "transcript": "Trong một thời gian giới hạn, Công ty móc treo quần áo Uppercut đang bán các móc treo chất lượng cao nhất của mình với mức chiết khấu rất lớn cho các đơn đặt hàng bán buôn. Ưu đãi đặc biệt này (139) hoàn hảo cho các khách sạn, nhà bán lẻ hoặc bất kỳ nơi nào có sử dụng nhiều móc treo. Được làm bằng gỗ óc chó sơn mài (140), những chiếc móc treo này không chỉ bền mà còn an toàn với môi trường. Chúng (141) đủ khỏe để treo được tới 10 pound. Để đặt hàng, hãy truy cập www.uppercuthangerco.ca. Lưu ý rằng tất cả các đơn đặt hàng yêu cầu đặt cọc 20 phần trăm. Phần còn lại sẽ đến hạn khi nhận hàng (142). Uppercut sẽ bao gồm tất cả các chi phí vận chuyển và bảo hiểm.",
+    "explanation_vi": "Dịch đáp án:\n\nA. Sản phẩm của chúng tôi tạo nên những món quà tuyệt vời.\n\nB. Mặc dù chắc chắn nhưng móc treo bằng gỗ cũng nặng.\n\nC. Móc treo chất lượng là một khoản đầu tư tuyệt vời.\n\nD. Số tiền còn lại sẽ được thanh toán khi nhận được lô hàng.\n\n-------",
+    "vocabulary": []
+  },
+  {
+    "id": "De_029_Q141",
+    "part": 6,
+    "question_number": 141,
+    "prompt": "Chọn phương án thích hợp nhất để điền vào chỗ trống.",
+    "passage": "For a limited time, the Uppercut Clothing Hanger Company is selling its highest quality hangers at huge discounts on wholesale orders. This special ----- (139) is perfect for hotels, retailers, or anywhere hangers are used extensively. ----- (140) of lacquered walnut wood, these hangers are not only durable, but also safe for the environment. -----(141) are strong enough to hold up to ten pounds. To order, visit www.uppercuthangerco.ca. Note that all orders require a 20 percent deposit. ----- (142). Uppercut will cover all shipping and insurance costs.",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Both",
+      "B": "They",
+      "C": "Fewer",
+      "D": "Theirs"
+    },
+    "answer": "B",
+    "transcript": "Trong một thời gian giới hạn, Công ty móc treo quần áo Uppercut đang bán các móc treo chất lượng cao nhất của mình với mức chiết khấu rất lớn cho các đơn đặt hàng bán buôn. Ưu đãi đặc biệt này (139) hoàn hảo cho các khách sạn, nhà bán lẻ hoặc bất kỳ nơi nào có sử dụng nhiều móc treo. Được làm bằng gỗ óc chó sơn mài (140), những chiếc móc treo này không chỉ bền mà còn an toàn với môi trường. Chúng (141) đủ khỏe để treo được tới 10 pound. Để đặt hàng, hãy truy cập www.uppercuthangerco.ca. Lưu ý rằng tất cả các đơn đặt hàng yêu cầu đặt cọc 20 phần trăm. Phần còn lại sẽ đến hạn khi nhận hàng (142). Uppercut sẽ bao gồm tất cả các chi phí vận chuyển và bảo hiểm.",
+    "explanation_vi": "Dịch đáp án:\n\nA. Sản phẩm của chúng tôi tạo nên những món quà tuyệt vời.\n\nB. Mặc dù chắc chắn nhưng móc treo bằng gỗ cũng nặng.\n\nC. Móc treo chất lượng là một khoản đầu tư tuyệt vời.\n\nD. Số tiền còn lại sẽ được thanh toán khi nhận được lô hàng.\n\n-------",
+    "vocabulary": []
+  },
+  {
+    "id": "De_029_Q142",
+    "part": 6,
+    "question_number": 142,
+    "prompt": "Chọn phương án thích hợp nhất để điền vào chỗ trống.",
+    "passage": "For a limited time, the Uppercut Clothing Hanger Company is selling its highest quality hangers at huge discounts on wholesale orders. This special ----- (139) is perfect for hotels, retailers, or anywhere hangers are used extensively. ----- (140) of lacquered walnut wood, these hangers are not only durable, but also safe for the environment. -----(141) are strong enough to hold up to ten pounds. To order, visit www.uppercuthangerco.ca. Note that all orders require a 20 percent deposit. ----- (142). Uppercut will cover all shipping and insurance costs.",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Our products make great gifts.",
+      "B": "While sturdy, wooden hangers are also heavy.",
+      "C": "Quality hangers are a great investment.",
+      "D": "The balance is due when the shipment is received."
+    },
+    "answer": "D",
+    "transcript": "Trong một thời gian giới hạn, Công ty móc treo quần áo Uppercut đang bán các móc treo chất lượng cao nhất của mình với mức chiết khấu rất lớn cho các đơn đặt hàng bán buôn. Ưu đãi đặc biệt này (139) hoàn hảo cho các khách sạn, nhà bán lẻ hoặc bất kỳ nơi nào có sử dụng nhiều móc treo. Được làm bằng gỗ óc chó sơn mài (140), những chiếc móc treo này không chỉ bền mà còn an toàn với môi trường. Chúng (141) đủ khỏe để treo được tới 10 pound. Để đặt hàng, hãy truy cập www.uppercuthangerco.ca. Lưu ý rằng tất cả các đơn đặt hàng yêu cầu đặt cọc 20 phần trăm. Phần còn lại sẽ đến hạn khi nhận hàng (142). Uppercut sẽ bao gồm tất cả các chi phí vận chuyển và bảo hiểm.",
+    "explanation_vi": "Dịch đáp án:\n\nA. Sản phẩm của chúng tôi tạo nên những món quà tuyệt vời.\n\nB. Mặc dù chắc chắn nhưng móc treo bằng gỗ cũng nặng.\n\nC. Móc treo chất lượng là một khoản đầu tư tuyệt vời.\n\nD. Số tiền còn lại sẽ được thanh toán khi nhận được lô hàng.\n\n-------",
+    "vocabulary": []
+  },
+  {
+    "id": "De_029_Q143",
+    "part": 6,
+    "question_number": 143,
+    "prompt": "Chọn phương án thích hợp nhất để điền vào chỗ trống.",
+    "passage": "From: <a class=\"__cf_email__\" data-cfemail=\"375a544556595277535858535b525a565e5b1954585a\" href=\"/cdn-cgi/l/email-protection\">[email protected]</a>\nTo: <a class=\"__cf_email__\" data-cfemail=\"4822233d25293a082a29303c2d3a293a3c3b3d383824212d3b662b2725\" href=\"/cdn-cgi/l/email-protection\">[email protected]</a>\nDate: October 14\nSubject: Application\nAttachment: Résumé\nDear Ms. Kumar,\n\nI am writing in response to the advertisement posted in the window of Baxter Art Supplies. As a frequent visitor to your -----(143), I have found it an invaluable source of inspiration over the years. I would be -----(144) to display my artwork. I would also enjoy running workshops to help inspire your\ncustomers.\nI believe I would be well suited for this role because I am both enthusiastic and friendly. -----(145), I have led successful workshops at various locations in the area. I have attached a copy of my résumé, which includes more details about these workshops.-----(146). I look forward to hearing from you after you have reviewed my application and work.\n\nKind regards,\nMelania Crane",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "school",
+      "B": "house",
+      "C": "store",
+      "D": "museum"
+    },
+    "answer": "C",
+    "transcript": "Từ: <a class=\"__cf_email__\" data-cfemail=\"8ee3edfcefe0ebceeae1e1eae2ebe3efe7e2a0ede1e3\" href=\"/cdn-cgi/l/email-protection\">[email protected]</a>\n\nTới: <a class=\"__cf_email__\" data-cfemail=\"721819071f13003210130a061700130006010702021e1b17015c111d1f\" href=\"/cdn-cgi/l/email-protection\">[email protected]</a>\n\nNgày: 14 tháng 10\n\nChủ đề: Ứng dụng\n\nTệp đính kèm: Résumé\n\nCô Kumar thân mến,\n\nTôi viết thư này để đáp lại lời quảng cáo được đăng trên cửa sổ của Baxter Art Materials. Là một khách thường xuyên đến cửa hàng (143) của bạn, tôi đã tìm thấy nó là nguồn cảm hứng vô giá trong những năm qua. Tôi sẽ rất háo hức (144) để trưng bày tác phẩm nghệ thuật của mình. Tôi cũng muốn tổ chức các hội thảo để giúp truyền cảm hứng cho khách hàng của bạn.\n\nTôi tin rằng tôi sẽ rất phù hợp với vai trò này vì tôi có cả nhiệt tình và thân thiện. Ngoài ra (145), tôi đã dẫn dắt các hội thảo thành công tại nhiều địa điểm khác nhau trong khu vực. Tôi đã đính kèm một bản lý lịch của mình, trong đó có thêm thông tin chi tiết về các hội thảo này. Các mẫu nghệ thuật của tôi có thể được tìm thấy tại www.mcrane.com (146). Tôi rất mong nhận được phản hồi từ bạn sau khi bạn đã xem xét đơn đăng ký và công việc của tôi.\n\nTrân trọng,\n\nMelania Crane",
+    "explanation_vi": "Dịch đáp án:\n\nA. school (n): trường học\n\nB. house (n): nhà\n\nC. store (n): cửa hàng\n\nD. museum (n): bảo tàng\n\n-------",
+    "vocabulary": []
+  },
+  {
+    "id": "De_029_Q144",
+    "part": 6,
+    "question_number": 144,
+    "prompt": "Chọn phương án thích hợp nhất để điền vào chỗ trống.",
+    "passage": "From: <a class=\"__cf_email__\" data-cfemail=\"375a544556595277535858535b525a565e5b1954585a\" href=\"/cdn-cgi/l/email-protection\">[email protected]</a>\nTo: <a class=\"__cf_email__\" data-cfemail=\"4822233d25293a082a29303c2d3a293a3c3b3d383824212d3b662b2725\" href=\"/cdn-cgi/l/email-protection\">[email protected]</a>\nDate: October 14\nSubject: Application\nAttachment: Résumé\nDear Ms. Kumar,\n\nI am writing in response to the advertisement posted in the window of Baxter Art Supplies. As a frequent visitor to your -----(143), I have found it an invaluable source of inspiration over the years. I would be -----(144) to display my artwork. I would also enjoy running workshops to help inspire your\ncustomers.\nI believe I would be well suited for this role because I am both enthusiastic and friendly. -----(145), I have led successful workshops at various locations in the area. I have attached a copy of my résumé, which includes more details about these workshops.-----(146). I look forward to hearing from you after you have reviewed my application and work.\n\nKind regards,\nMelania Crane",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "thrilling",
+      "B": "thrill",
+      "C": "thrilled",
+      "D": "thrills"
+    },
+    "answer": "C",
+    "transcript": "Từ: <a class=\"__cf_email__\" data-cfemail=\"8ee3edfcefe0ebceeae1e1eae2ebe3efe7e2a0ede1e3\" href=\"/cdn-cgi/l/email-protection\">[email protected]</a>\n\nTới: <a class=\"__cf_email__\" data-cfemail=\"721819071f13003210130a061700130006010702021e1b17015c111d1f\" href=\"/cdn-cgi/l/email-protection\">[email protected]</a>\n\nNgày: 14 tháng 10\n\nChủ đề: Ứng dụng\n\nTệp đính kèm: Résumé\n\nCô Kumar thân mến,\n\nTôi viết thư này để đáp lại lời quảng cáo được đăng trên cửa sổ của Baxter Art Materials. Là một khách thường xuyên đến cửa hàng (143) của bạn, tôi đã tìm thấy nó là nguồn cảm hứng vô giá trong những năm qua. Tôi sẽ rất háo hức (144) để trưng bày tác phẩm nghệ thuật của mình. Tôi cũng muốn tổ chức các hội thảo để giúp truyền cảm hứng cho khách hàng của bạn.\n\nTôi tin rằng tôi sẽ rất phù hợp với vai trò này vì tôi có cả nhiệt tình và thân thiện. Ngoài ra (145), tôi đã dẫn dắt các hội thảo thành công tại nhiều địa điểm khác nhau trong khu vực. Tôi đã đính kèm một bản lý lịch của mình, trong đó có thêm thông tin chi tiết về các hội thảo này. Các mẫu nghệ thuật của tôi có thể được tìm thấy tại www.mcrane.com (146). Tôi rất mong nhận được phản hồi từ bạn sau khi bạn đã xem xét đơn đăng ký và công việc của tôi.\n\nTrân trọng,\n\nMelania Crane",
+    "explanation_vi": "Dịch đáp án:\n\nA. Tôi rất thích buổi hội thảo vẽ tranh tuần trước.\n\nB. Các mẫu tác phẩm nghệ thuật của tôi có thể được tìm thấy tại www.mcrane.com.\n\nC. Tôi mới bắt đầu làm việc với màu nước.\n\nD. Để biết bảng giá, vui lòng liên hệ với tôi theo số 347-555-0101.\n\n-------",
+    "vocabulary": []
+  },
+  {
+    "id": "De_029_Q145",
+    "part": 6,
+    "question_number": 145,
+    "prompt": "Chọn phương án thích hợp nhất để điền vào chỗ trống.",
+    "passage": "From: <a class=\"__cf_email__\" data-cfemail=\"375a544556595277535858535b525a565e5b1954585a\" href=\"/cdn-cgi/l/email-protection\">[email protected]</a>\nTo: <a class=\"__cf_email__\" data-cfemail=\"4822233d25293a082a29303c2d3a293a3c3b3d383824212d3b662b2725\" href=\"/cdn-cgi/l/email-protection\">[email protected]</a>\nDate: October 14\nSubject: Application\nAttachment: Résumé\nDear Ms. Kumar,\n\nI am writing in response to the advertisement posted in the window of Baxter Art Supplies. As a frequent visitor to your -----(143), I have found it an invaluable source of inspiration over the years. I would be -----(144) to display my artwork. I would also enjoy running workshops to help inspire your\ncustomers.\nI believe I would be well suited for this role because I am both enthusiastic and friendly. -----(145), I have led successful workshops at various locations in the area. I have attached a copy of my résumé, which includes more details about these workshops.-----(146). I look forward to hearing from you after you have reviewed my application and work.\n\nKind regards,\nMelania Crane",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "In addition",
+      "B": "However",
+      "C": "In general",
+      "D": "Similarly"
+    },
+    "answer": "A",
+    "transcript": "Từ: <a class=\"__cf_email__\" data-cfemail=\"8ee3edfcefe0ebceeae1e1eae2ebe3efe7e2a0ede1e3\" href=\"/cdn-cgi/l/email-protection\">[email protected]</a>\n\nTới: <a class=\"__cf_email__\" data-cfemail=\"721819071f13003210130a061700130006010702021e1b17015c111d1f\" href=\"/cdn-cgi/l/email-protection\">[email protected]</a>\n\nNgày: 14 tháng 10\n\nChủ đề: Ứng dụng\n\nTệp đính kèm: Résumé\n\nCô Kumar thân mến,\n\nTôi viết thư này để đáp lại lời quảng cáo được đăng trên cửa sổ của Baxter Art Materials. Là một khách thường xuyên đến cửa hàng (143) của bạn, tôi đã tìm thấy nó là nguồn cảm hứng vô giá trong những năm qua. Tôi sẽ rất háo hức (144) để trưng bày tác phẩm nghệ thuật của mình. Tôi cũng muốn tổ chức các hội thảo để giúp truyền cảm hứng cho khách hàng của bạn.\n\nTôi tin rằng tôi sẽ rất phù hợp với vai trò này vì tôi có cả nhiệt tình và thân thiện. Ngoài ra (145), tôi đã dẫn dắt các hội thảo thành công tại nhiều địa điểm khác nhau trong khu vực. Tôi đã đính kèm một bản lý lịch của mình, trong đó có thêm thông tin chi tiết về các hội thảo này. Các mẫu nghệ thuật của tôi có thể được tìm thấy tại www.mcrane.com (146). Tôi rất mong nhận được phản hồi từ bạn sau khi bạn đã xem xét đơn đăng ký và công việc của tôi.\n\nTrân trọng,\n\nMelania Crane",
+    "explanation_vi": "Dịch đáp án:\n\nA. Tôi rất thích buổi hội thảo vẽ tranh tuần trước.\n\nB. Các mẫu tác phẩm nghệ thuật của tôi có thể được tìm thấy tại www.mcrane.com.\n\nC. Tôi mới bắt đầu làm việc với màu nước.\n\nD. Để biết bảng giá, vui lòng liên hệ với tôi theo số 347-555-0101.\n\n-------",
+    "vocabulary": []
+  },
+  {
+    "id": "De_029_Q146",
+    "part": 6,
+    "question_number": 146,
+    "prompt": "Chọn phương án thích hợp nhất để điền vào chỗ trống.",
+    "passage": "From: <a class=\"__cf_email__\" data-cfemail=\"375a544556595277535858535b525a565e5b1954585a\" href=\"/cdn-cgi/l/email-protection\">[email protected]</a>\nTo: <a class=\"__cf_email__\" data-cfemail=\"4822233d25293a082a29303c2d3a293a3c3b3d383824212d3b662b2725\" href=\"/cdn-cgi/l/email-protection\">[email protected]</a>\nDate: October 14\nSubject: Application\nAttachment: Résumé\nDear Ms. Kumar,\n\nI am writing in response to the advertisement posted in the window of Baxter Art Supplies. As a frequent visitor to your -----(143), I have found it an invaluable source of inspiration over the years. I would be -----(144) to display my artwork. I would also enjoy running workshops to help inspire your\ncustomers.\nI believe I would be well suited for this role because I am both enthusiastic and friendly. -----(145), I have led successful workshops at various locations in the area. I have attached a copy of my résumé, which includes more details about these workshops.-----(146). I look forward to hearing from you after you have reviewed my application and work.\n\nKind regards,\nMelania Crane",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "I enjoyed the painting workshop last week.",
+      "B": "Samples of my art can be found at www.mcrane.com.",
+      "C": "I just started working with watercolors.",
+      "D": "For a price list, please contact me at 347-555-0101."
+    },
+    "answer": "B",
+    "transcript": "Từ: <a class=\"__cf_email__\" data-cfemail=\"8ee3edfcefe0ebceeae1e1eae2ebe3efe7e2a0ede1e3\" href=\"/cdn-cgi/l/email-protection\">[email protected]</a>\n\nTới: <a class=\"__cf_email__\" data-cfemail=\"721819071f13003210130a061700130006010702021e1b17015c111d1f\" href=\"/cdn-cgi/l/email-protection\">[email protected]</a>\n\nNgày: 14 tháng 10\n\nChủ đề: Ứng dụng\n\nTệp đính kèm: Résumé\n\nCô Kumar thân mến,\n\nTôi viết thư này để đáp lại lời quảng cáo được đăng trên cửa sổ của Baxter Art Materials. Là một khách thường xuyên đến cửa hàng (143) của bạn, tôi đã tìm thấy nó là nguồn cảm hứng vô giá trong những năm qua. Tôi sẽ rất háo hức (144) để trưng bày tác phẩm nghệ thuật của mình. Tôi cũng muốn tổ chức các hội thảo để giúp truyền cảm hứng cho khách hàng của bạn.\n\nTôi tin rằng tôi sẽ rất phù hợp với vai trò này vì tôi có cả nhiệt tình và thân thiện. Ngoài ra (145), tôi đã dẫn dắt các hội thảo thành công tại nhiều địa điểm khác nhau trong khu vực. Tôi đã đính kèm một bản lý lịch của mình, trong đó có thêm thông tin chi tiết về các hội thảo này. Các mẫu nghệ thuật của tôi có thể được tìm thấy tại www.mcrane.com (146). Tôi rất mong nhận được phản hồi từ bạn sau khi bạn đã xem xét đơn đăng ký và công việc của tôi.\n\nTrân trọng,\n\nMelania Crane",
+    "explanation_vi": "Dịch đáp án:\n\nA. Tôi rất thích buổi hội thảo vẽ tranh tuần trước.\n\nB. Các mẫu tác phẩm nghệ thuật của tôi có thể được tìm thấy tại www.mcrane.com.\n\nC. Tôi mới bắt đầu làm việc với màu nước.\n\nD. Để biết bảng giá, vui lòng liên hệ với tôi theo số 347-555-0101.\n\n-------",
+    "vocabulary": []
+  }
+]

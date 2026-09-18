@@ -1,0 +1,128 @@
+[
+  {
+    "id": "De_037_Q1",
+    "part": 1,
+    "question_number": 1,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) She’s eating in a picnic area.\n\n(B) She’s waiting in line at a food truck.\n\n(C) She’s wiping off a bench.\n\n(D) She’s throwing away a plate.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_1/Test_1-1.mp3",
+    "audio_file": "part1/audio/q1.mp3",
+    "image_url": "https://s4-media1.study4.com/media/e24/images_fixed2/image279.png",
+    "image_file": "part1/images/asset_1.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "A",
+    "transcript": "(A) She’s eating in a picnic area.\n\n(B) She’s waiting in line at a food truck.\n\n(C) She’s wiping off a bench.\n\n(D) She’s throwing away a plate.",
+    "explanation_vi": "Dịch đáp án:\n\n(A) Cô ấy đang ăn ở khu dã ngoại.\n\n(B) Cô ấy đang xếp hàng chờ ở xe bán đồ ăn.\n\n(C) Cô ấy đang lau một chiếc ghế dài.\n\n(D) Cô ấy đang ném một cái đĩa đi.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_037_Q2",
+    "part": 1,
+    "question_number": 2,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) The man is brushing snow off the roof of a car. \n\n(B) The man is standing in the snow beside a car. \n\n(C) The man is shoveling snow from a walkway. \n\n(D) The man is running through the snow.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_1/Test_1-2.mp3",
+    "audio_file": "part1/audio/q2.mp3",
+    "image_url": "https://s4-media1.study4.com/media/e24/images_fixed2/image174.png",
+    "image_file": "part1/images/asset_2.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "B",
+    "transcript": "(A) The man is brushing snow off the roof of a car. \n\n(B) The man is standing in the snow beside a car. \n\n(C) The man is shoveling snow from a walkway. \n\n(D) The man is running through the snow.",
+    "explanation_vi": "Dịch đáp án:\n\n(A) Người đàn ông đang cào tuyết ra khỏi nóc xe hơi.\n\n(B) Người đàn ông đang đứng trong tuyết bên cạnh một chiếc xe hơi.\n\n(C) Người đàn ông đang xúc tuyết từ một lối đi.\n\n(D) Người đàn ông đang chạy qua tuyết.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_037_Q3",
+    "part": 1,
+    "question_number": 3,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Some workers are hanging art in a gallery.\n(B) Two of the people are having a conversation.\n(C) One of the men is rearranging cushions on a sofa. \n\n(D) One of the men is painting a picture.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_1/Test_1-3.mp3",
+    "audio_file": "part1/audio/q3.mp3",
+    "image_url": "https://s4-media1.study4.com/media/e24/images_fixed2/image316.png",
+    "image_file": "part1/images/asset_3.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "B",
+    "transcript": "(A) Some workers are hanging art in a gallery.\n(B) Two of the people are having a conversation.\n(C) One of the men is rearranging cushions on a sofa. \n\n(D) One of the men is painting a picture.",
+    "explanation_vi": "Dịch đáp án:\n\n(A) Một số công nhân đang treo tác phẩm nghệ thuật trong phòng trưng bày.\n\n(B) Hai trong số mọi người đang trò chuyện.\n\n(C) Một trong những người đàn ông đang sắp xếp lại những chiếc đệm trên ghế sofa.\n\n(D) Một trong những người đàn ông đang vẽ một bức tranh.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_037_Q4",
+    "part": 1,
+    "question_number": 4,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Vehicles are entering a parking garage.\n(B) Clothes hangers are scattered on the ground. \n\n(C) Empty racks are lined up next to a building. \n\n(D) Clothing is being displayed under a tent.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_1/Test_1-4.mp3",
+    "audio_file": "part1/audio/q4.mp3",
+    "image_url": "https://s4-media1.study4.com/media/e24/images_fixed2/image150.png",
+    "image_file": "part1/images/asset_4.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "D",
+    "transcript": "(A) Vehicles are entering a parking garage.\n(B) Clothes hangers are scattered on the ground. \n\n(C) Empty racks are lined up next to a building. \n\n(D) Clothing is being displayed under a tent.",
+    "explanation_vi": "Dịch đáp án:\n\n(A) Các phương tiện đang đi vào bãi đỗ xe.\n\n(B) Những chiếc móc treo quần áo nằm rải rác trên mặt đất.\n\n(C) Các giá để đồ trống được xếp cạnh một tòa nhà.\n\n(D) Quần áo đang được trưng bày dưới một cái lều.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_037_Q5",
+    "part": 1,
+    "question_number": 5,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Potted plants have been suspended from a ceiling.\n\n(B) Chairs have been stacked in front of an entryway. \n\n(C) A computer station has been set up on a desk. \n\n(D) A rug has been rolled up against a wall.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_1/Test_1-5.mp3",
+    "audio_file": "part1/audio/q5.mp3",
+    "image_url": "https://s4-media1.study4.com/media/e24/images_fixed2/image322.png",
+    "image_file": "part1/images/asset_5.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "C",
+    "transcript": "(A) Potted plants have been suspended from a ceiling.\n\n(B) Chairs have been stacked in front of an entryway. \n\n(C) A computer station has been set up on a desk. \n\n(D) A rug has been rolled up against a wall.",
+    "explanation_vi": "Dịch đáp án:\n\n(A) Những chậu cây được treo trên trần nhà.\n\n(B) Ghế đã được xếp trước lối vào.\n\n(C) Một trạm máy tính đã được lắp đặt trên bàn làm việc.\n\n(D) Một tấm thảm đã được cuộn dựa vào tường.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_037_Q6",
+    "part": 1,
+    "question_number": 6,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) One of the men is sweeping a patio.\n(B) One of the men is replacing some flooring. \n\n(C) A door has been taken off its frame.\n(D) A light fixture has been left on the ground.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_1/Test_1-6.mp3",
+    "audio_file": "part1/audio/q6.mp3",
+    "image_url": "https://s4-media1.study4.com/media/e24/images_fixed2/image251.png",
+    "image_file": "part1/images/asset_6.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "C",
+    "transcript": "(A) One of the men is sweeping a patio.\n(B) One of the men is replacing some flooring. \n\n(C) A door has been taken off its frame.\n(D) A light fixture has been left on the ground.",
+    "explanation_vi": "Dịch đáp án:\n\n(A) Một trong những người đàn ông đang quét sân.\n\n(B) Một trong những người đàn ông đang thay thế một số ván sàn.\n\n(C) Một cánh cửa đã được tháo ra khỏi khung.\n\n(D) Một chiếc đèn chiếu sáng đã bị bỏ lại trên mặt đất.",
+    "vocabulary": []
+  }
+]
