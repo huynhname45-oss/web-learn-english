@@ -7,6 +7,7 @@ const root=resolve(home,'versions',versionName(current.version));
 try {
   const response=await fetch('http://localhost:3000/__atlas/update',{signal:AbortSignal.timeout(2000)});
   const state=await response.json();
+  if(typeof state.home!=='string'||resolve(state.home).toLowerCase()!==home.toLowerCase())throw new Error('Cổng 3000 đang thuộc bản cài khác.');
   const stopped=await fetch('http://localhost:3000/__atlas/client-stop',{method:'POST',headers:{'X-Atlas-Update':state.token}});
   if(!stopped.ok)throw new Error('Đang cập nhật, chưa thể đóng ứng dụng.');
   for(let i=0;i<150;i++){

@@ -12,7 +12,7 @@ const base = 'http://localhost:3000';
 const data = resolve(home, 'data'), versions = resolve(home, 'versions');
 let current, app, innerPort, proxy, stopping = false, active = 0, draining = false, updateBusy = false, recovering = false;
 const token = randomBytes(24).toString('hex');
-const state = { enabled: true, ready: false, phase: 'idle', current: '', latest: '', message: '', percent: 0, token };
+const state = { enabled: true, home, ready: false, phase: 'idle', current: '', latest: '', message: '', percent: 0, token };
 function setState(phase, message, percent = 0) { Object.assign(state, { phase, message, percent }); }
 function appRoot(version) { return resolve(versions, versionName(version)); }
 function openBrowser() {
@@ -228,7 +228,8 @@ async function main() {
     if (error.code !== 'EADDRINUSE') throw error;
     const response = await fetch(`${base}/__atlas/update`, { signal: AbortSignal.timeout(3000) });
     const running = await response.json();
-    if (!running.enabled) throw new Error('Cổng 3000 đang được ứng dụng khác sử dụng.');
+    if (!running.enabled || typeof running.home !== 'string' || resolve(running.home).toLowerCase() !== home.toLowerCase())
+      throw new Error('Cổng 3000 đang được ứng dụng hoặc bản cài Atlas khác sử dụng. Hãy đóng bản đó trước.');
     await fetch(`${base}/__atlas/update`, { method: 'POST',
       headers: { 'Content-Type': 'application/json', 'X-Atlas-Update': running.token },
       body: JSON.stringify({ action: 'check' }), signal: AbortSignal.timeout(3000) });
