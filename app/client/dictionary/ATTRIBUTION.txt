@@ -1,0 +1,131 @@
+Dữ liệu từ điển: Từ điển Anh–Việt thichhoc.com (thichhoc-dict), giấy phép CC BY-SA 4.0.
+https://github.com/thichhoc-org/thichhoc-dict
+Nguồn gốc: WordNet 3.1 (Princeton), CMUdict (CMU), Wiktionary.
+Đã chỉnh sửa dữ liệu: Atlas giữ các trường của mục từ, loại ID trùng, sắp xếp và chia tệp theo tiền tố, tạo chỉ mục biến thể để tra cứu. Bản dữ liệu phái sinh phát hành theo CC BY-SA 4.0.
+Nguồn được cố định tại 4d6e92e8bcf8e3e762410c2b0a9f98fea8e62e5b.
+Nghĩa tiếng Việt trong nguồn là bản dịch LLM chưa được con người duyệt; chỉ dùng tham khảo.
+
+LICENSE — dữ liệu từ điển Anh–Việt (dict-en-vi)
+================================================
+
+Mã nguồn trong repo này theo giấy phép MIT (xem ../LICENSE).
+Tài liệu này chỉ nói về DỮ LIỆU.
+
+Toàn bộ dữ liệu phát hành theo **CC BY-SA 4.0**, đây là điều kiện bắt buộc do
+kế thừa từ các nguồn share-alike bên dưới.
+
+    https://creativecommons.org/licenses/by-sa/4.0/legalcode.vi
+
+
+GHI NGUỒN THẾ NÀO
+------------------
+
+CC BY-SA 4.0 §3.a cho phép bên cấp phép **cung cấp sẵn** phần ghi nguồn, và
+buộc người dùng lại phải giữ nguyên phần đó. Đây là phần ghi nguồn được cung
+cấp sẵn. Nó là điều kiện của giấy phép, không phải điều kiện bổ sung — CC
+BY-SA cấm áp thêm điều kiện, và tài liệu này không áp thêm điều kiện nào.
+
+Phát hành lại bộ dữ liệu này, hoặc nhúng nó vào phần mềm của bạn, thì bạn phải
+đặt khối dưới đây ở nơi **người dùng cuối đọc được** — màn hình "Giới
+thiệu"/"Credits" của phần mềm, hoặc trang thông tin của từ điển. Chôn nó vào
+một file kèm theo mà giao diện không bao giờ mở đến thì không đạt: nghĩa vụ là
+ghi nguồn "theo cách hợp lý với phương tiện", và với phần mềm có giao diện thì
+cách hợp lý là người dùng thấy được.
+
+    Dữ liệu từ điển: Từ điển Anh–Việt thichhoc.com (thichhoc-dict),
+    giấy phép CC BY-SA 4.0.
+    https://github.com/thichhoc-org/thichhoc-dict
+    Nguồn gốc: WordNet 3.1 (Princeton), CMUdict (CMU), Wiktionary.
+    [Đã chỉnh sửa dữ liệu. / Giữ nguyên, không chỉnh sửa.]
+
+Kèm theo đó, giấy phép buộc bạn:
+
+  - **nêu rõ nếu đã chỉnh sửa** — dòng cuối của khối trên, giữ đúng một vế;
+  - **phát hành bản phái sinh theo chính CC BY-SA 4.0** (share-alike). Lưu ý
+    phạm vi: nghĩa vụ này áp lên bản phái sinh của *dữ liệu*, không lan sang
+    mã nguồn phần mềm chỉ đọc/đóng gói dữ liệu mà không sửa nó — phần mềm đó
+    giữ giấy phép riêng của bạn, kể cả giấy phép độc quyền;
+  - **không áp thêm** điều kiện pháp lý hay biện pháp kỹ thuật nào ngăn người
+    khác làm những gì giấy phép này cho phép;
+  - **giữ nguyên phần ghi nguồn của các nguồn gốc** liệt kê bên dưới. WordNet
+    và CMUdict có yêu cầu ghi nguồn riêng, độc lập với CC BY-SA — cách gọn
+    nhất để thỏa cả ba là kèm nguyên file ATTRIBUTION.txt của bản phát hành.
+
+Ghi nguồn đi kèm sản phẩm ở ba chỗ, không cần bạn tự dựng lại:
+
+  1. `ATTRIBUTION.txt` trong mỗi bản phát hành — bản đầy đủ, chính là file này
+     kèm phần đầu ghi rõ nghĩa vụ;
+  2. metadata của chính file từ điển — `description` + `website` trong .ifo
+     của StarDict, `dc:rights` + `dc:publisher` trong OPF của MOBI;
+  3. **một mục từ ghi nguồn nằm trong chính từ điển** — tra `thichhoc` là ra.
+     Định dạng Kobo không có chỗ chứa metadata nên đây là đường duy nhất tới
+     người dùng Kobo. Gỡ mục đó khỏi bản phát hành lại là gỡ đúng phần ghi
+     nguồn mà giấy phép buộc phải giữ.
+
+
+NGUỒN ĐANG DÙNG
+----------------
+
+1. Princeton WordNet 3.1
+   - Dùng cho: danh mục mục từ (lemma + từ loại), định nghĩa tiếng Anh ngắn,
+     danh sách dạng bất quy tắc (noun.exc / verb.exc / adj.exc / adv.exc)
+   - License: WordNet License (kiểu BSD, chỉ yêu cầu ghi nguồn)
+   - https://wordnet.princeton.edu/
+   - Ghi nguồn bắt buộc:
+       WordNet 3.1 Copyright 2011 The Trustees of Princeton University.
+       All rights reserved.
+
+2. CMUdict (cmusphinx/cmudict)
+   - Dùng cho: phiên âm. Ta chuyển ARPAbet sang IPA bằng bảng ánh xạ
+     deterministic trong pipeline/s1_ipa.py — IPA sinh ra là tác phẩm phái sinh.
+   - License: BSD 2-clause, Carnegie Mellon University
+   - https://github.com/cmusphinx/cmudict
+
+3. wordfreq (rspeer/wordfreq)
+   - Dùng cho: xếp tầng tần suất (freq_tier) phục vụ ưu tiên QA
+   - License: MIT (mã) — dữ liệu tần suất tổng hợp từ nhiều nguồn mở
+   - https://github.com/rspeer/wordfreq
+
+4. LemmInflect (bjascob/LemmInflect)
+   - Dùng cho: sinh biến thể từ
+   - License: MIT
+   - https://github.com/bjascob/LemmInflect
+
+5. Hunspell en_US (đóng gói qua wooorm/dictionaries)
+   - Dùng cho: đối chiếu, loại bỏ dạng sinh sai. **Chỉ dùng làm bộ kiểm tra,
+     không đưa từ điển này vào sản phẩm phát hành.**
+   - License: LGPL / MPL / BSD (tri-license) cho wordlist en_US;
+     lớp đóng gói MIT
+   - https://github.com/wooorm/dictionaries
+
+6. Wiktionary EN (qua bản dump đã parse của kaikki.org)
+   - Dùng cho: nghĩa, thành ngữ, phrasal verb, phiên âm bổ sung
+   - License: CC BY-SA — đây là nguồn khiến toàn bộ dữ liệu buộc phải
+     share-alike, và là lý do CC BY-SA 4.0 không phải một lựa chọn tự do
+
+
+TUYỆT ĐỐI KHÔNG DÙNG
+---------------------
+
+Không sử dụng dữ liệu của bất kỳ từ điển thương mại hay bộ MDX trôi nổi nào —
+**dưới mọi hình thức**, kể cả:
+
+  - sao chép trực tiếp
+  - viết lại / diễn giải (paraphrase vẫn là tác phẩm phái sinh)
+  - đưa vào prompt cho LLM để dịch hay tham khảo
+
+Được phép dùng chúng làm **benchmark đối chiếu chất lượng** khi chấm mẫu ngẫu
+nhiên (kế hoạch §7.4) — đọc để so sánh, không đưa nội dung vào dữ liệu hay
+pipeline.
+
+Lý do không phải chỉ là pháp lý: điều này cho phép thichhoc.com đứng tên công
+khai với tư cách pháp nhân, và cho phép người khác fork, sửa, phát hành lại —
+đúng hai điểm mà các bản từ điển gộp nguồn không làm được.
+
+
+GHI NGUỒN TRONG SẢN PHẨM
+-------------------------
+
+Mỗi bản phát hành kèm file ATTRIBUTION.txt liệt kê đầy đủ các nguồn trên.
+Dữ liệu tải về nằm trong data/source/raw/ và KHÔNG được commit vào git —
+xem data/source/MANIFEST.md để biết chính xác đã tải gì, từ đâu.

@@ -1,0 +1,1 @@
+import{env as e}from"cloudflare:workers";function t(){if(!e.DB)throw Error(`Database unavailable`);return e.DB}export{t as database};

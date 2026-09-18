@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="vi"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Chuyển tùy chọn trình duyệt · Atlas</title>
+<style>body{font:16px/1.6 system-ui;max-width:700px;margin:48px auto;padding:24px;color:#17223b}button,input{font:inherit;margin:10px 12px 10px 0;padding:10px}p{margin:20px 0}a{color:#155ac5}</style>
+<h1>Chuyển tùy chọn trình duyệt</h1>
+<p>Cơ sở dữ liệu học được sao lưu bằng <b>Sao-luu-du-lieu.cmd</b>. Trang này bổ sung các tùy chọn Atlas lưu trong trình duyệt hiện tại. Dùng cùng trình duyệt và địa chỉ localhost:3000 như khi học.</p>
+<p>Bản nháp trong tab và phiên chat tạm không được biến thành lịch sử lưu vĩnh viễn. Hoàn tất hoặc lưu bài đang làm trước khi đóng tab.</p>
+<button id="export">Xuất tùy chọn</button><label>Nhập bản đã xuất <input id="import" type="file" accept=".json"></label>
+<p id="status" role="status"></p><a href="/">Quay lại Atlas</a>
+<script>
+const accepted = (key) => /^atlas[-_:]/i.test(key) && !/conversation-recovery/i.test(key);
+document.querySelector('#export').onclick = () => {
+  const entries = Object.fromEntries(Object.keys(localStorage).filter(accepted).map(k => [k, localStorage.getItem(k)]));
+  const blob = new Blob([JSON.stringify({format:'atlas-browser-v1',entries},null,2)],{type:'application/json'});
+  const url=URL.createObjectURL(blob), link=document.createElement('a');link.href=url;link.download='Atlas-tuy-chon-trinh-duyet.json';link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
+};
+document.querySelector('#import').onchange = async (event) => {
+  const status=document.querySelector('#status');
+  try {
+    const file=event.target.files[0];if(!file||file.size>10*1024*1024)throw Error('Tệp quá lớn hoặc chưa được chọn.');
+    const data=JSON.parse(await file.text());
+    if(data.format!=='atlas-browser-v1'||!data.entries||typeof data.entries!=='object'||Array.isArray(data.entries))throw Error('Sai định dạng.');
+    const entries=Object.entries(data.entries);
+    if(entries.some(([k,v])=>!accepted(k)||typeof v!=='string'))throw Error('Có mục không hợp lệ.');
+    const old=entries.map(([k])=>[k,localStorage.getItem(k)]);
+    try {for(const [k,v] of entries)localStorage.setItem(k,v);}
+    catch(error){for(const [k,v] of old){if(v===null)localStorage.removeItem(k);else localStorage.setItem(k,v);}throw error;}
+    status.textContent='Đã nhập tùy chọn. Quay lại Atlas để sử dụng.';
+  }catch(error){status.textContent='Chưa nhập được: '+error.message;}
+};
+</script></html>

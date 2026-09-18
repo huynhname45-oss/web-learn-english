@@ -1,0 +1,15 @@
+import { resolve,dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import fs from 'node:fs/promises';
+import { verifyCore,atomicJson } from './update-core.mjs';
+import { syncMedia,git } from './git-update.mjs';
+const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
+const home=resolve(process.env.ATLAS_HOME);
+const sha=(await git(home,['rev-parse','HEAD'])).trim();
+if(!/^[a-f0-9]{40}$/.test(sha))throw new Error('Invalid commit');
+const info=JSON.parse(await fs.readFile(resolve(root,'atlas-distribution.json'),'utf8'));
+if(info.format!=='atlas-git-v1')throw new Error('Incomplete distribution');
+await verifyCore(root);
+await syncMedia(home,root,sha,(count,total)=>{if(count%50===0||count===total)console.log(`MEDIA ${count}/${total}`);});
+await atomicJson(resolve(home,'current.json'),{version:`git-${sha.slice(0,12)}`});
+console.log('ATLAS_INSTALLED');

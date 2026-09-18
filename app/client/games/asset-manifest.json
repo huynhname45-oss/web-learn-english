@@ -1,0 +1,54 @@
+{
+  "method": "CC0 raster asset reuse. Two native image_gen calls were attempted first; no usable raster file was returned. Base image URL served HTML. No paid CLI/API fallback used.",
+  "source_page": "https://kenney.nl/assets/space-shooter-extension",
+  "source_archive": "https://kenney.nl/media/pages/assets/space-shooter-extension/d0bd70032c-1677693518/kenney_space-shooter-extension.zip",
+  "creator": "Kenney Vleugels (Kenney.nl)",
+  "license": "Creative Commons Zero (CC0); included archive License.txt verified",
+  "enemy": {
+    "file": "enemy-spacecraft.png",
+    "source": "PNG/Sprites X2/Ships/spaceShips_007.png",
+    "changes": "12px transparent padding; original native alpha preserved; nose points down",
+    "size": [
+      252,
+      187
+    ]
+  },
+  "base": {
+    "file": "player-space-base.png",
+    "sources": [
+      "spaceStation_018.png",
+      "spaceStation_003.png",
+      "spaceStation_031.png",
+      "spaceStation_022.png",
+      "spaceStation_029.png",
+      "spaceStation_030.png"
+    ],
+    "changes": "Existing raster station modules scaled and composited into a wide symmetric base; no vector or drawn replacement shapes",
+    "size": [
+      848,
+      220
+    ]
+  },
+  "validation": {
+    "images_inspected": "contact-sheet.jpg and final-preview.jpg using view_image",
+    "enemy_alpha_corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "base_alpha_corners": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "enemy_coverage": 0.536,
+    "base_coverage": 0.408,
+    "alpha_extrema": [
+      0,
+      255
+    ]
+  },
+  "limitations": "Flat shaded CC0 fallback instead of originally requested new detailed stylized 3D generation. Enemy is red/white/gunmetal, not purple. Base is wide blue solar station with hangars and control dome; no claim of generated originality."
+}

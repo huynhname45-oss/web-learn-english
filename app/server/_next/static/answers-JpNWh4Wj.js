@@ -1,0 +1,1 @@
+function e(e){return e.toLowerCase().normalize(`NFKC`).replace(/[‘’]/g,`'`).replace(/[^\p{L}\p{N}'\s]/gu,` `).replace(/\s+/g,` `).trim()}function t(t,n){return[t.answer,...t.acceptedAnswers??[]].some(t=>e(n)===e(t))}export{e as n,t};

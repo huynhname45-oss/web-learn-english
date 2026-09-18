@@ -1,0 +1,1 @@
+var e={A1:`Bắt đầu`,A2:`Cơ bản`,B1:`Vận dụng`,B2:`Chuyên sâu`,C1:`Tinh chỉnh diễn đạt`,C2:`Sắc thái nâng cao`},t=t=>e[t]??t;export{t};

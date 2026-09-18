@@ -1,0 +1,1 @@
+var e=new Map;function t(t,n){let r=(e.get(t)??Promise.resolve(!0)).catch(()=>!1).then(n);return e.set(t,r),r.finally(()=>{e.get(t)===r&&e.delete(t)}).catch(()=>{}),r}async function n(t){await e.get(t)?.catch(()=>!1)}export{n,t};

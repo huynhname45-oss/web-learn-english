@@ -1,0 +1,13 @@
+/data/
+/backups/
+/logs/
+/work/
+/.wrangler/
+.env*
+/settings.json
+/current.json
+/manager.json
+/downloads/
+/repository.git/
+*.partial
+*.new
