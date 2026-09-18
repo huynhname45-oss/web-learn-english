@@ -29,4 +29,8 @@ Khóa có thể được gửi tới nhà cung cấp AI tương ứng khi bạn 
 
 Bản sao cập nhật nằm tại `%LOCALAPPDATA%\AtlasEnglish\backups`, ngoài Git. Không chia sẻ thư mục này vì có thể chứa khóa riêng. **Dong-Atlas.cmd**, **Sao-luu-du-lieu.cmd**, **Khoi-phuc-du-lieu.cmd** thao tác trên dữ liệu client đã cài.
 
+Luôn phát hành bằng **Cap-nhat-GitHub.cmd**: ngoài `.gitignore`, script còn chặn các đường dẫn riêng tư đã bị Git theo dõi hoặc thêm bằng `git add -f`, tệp database/backup và liên kết tới tệp ngoài gói. Trước commit, toàn bộ danh sách tệp Git phải khớp bản kê đã kiểm tra. Khi phát hiện bất thường, script dừng trước khi push.
+
+Không chép thông tin cá nhân vào nội dung tệp ứng dụng hoặc hardcode khóa vào mã. Bộ quét nhận diện một số mẫu khóa phổ biến, không thể nhận diện mọi thông tin cá nhân tùy ý. Push thủ công bỏ qua bước kiểm tra này; `.gitignore` tự nó không bảo vệ tệp đã được Git theo dõi.
+
 Đây là repo phân phối Windows, không cần GitHub Actions để build lại mã nguồn và không triển khai web public.

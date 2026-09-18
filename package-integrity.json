@@ -1,6 +1,6 @@
 {
   "format": "atlas-package-v1",
-  "builtAt": "2026-09-18T03:44:45.137Z",
+  "builtAt": "2026-09-18T04:06:12.037Z",
   "node": "v24.11.1",
   "platform": "win32-x64",
   "media": {
@@ -16,8 +16,8 @@
       "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
     },
     ".gitignore": {
-      "bytes": 138,
-      "sha256": "0d4bea0d7e667a4455f1792adde0cc8c39a1ad67bfc54f67270dd421513b60d4"
+      "bytes": 393,
+      "sha256": "7fa1b75c08996e854508b4feeae3a86eb25266795b224f000c48b78848e126a5"
     },
     "app/exams.json": {
       "bytes": 9837,
@@ -5521,7 +5521,7 @@
     },
     "atlas-distribution.json": {
       "bytes": 122,
-      "sha256": "51c7626f48cf636fe92e5315b5acf6a3fb243cb21899af665892f867c2d5b54f"
+      "sha256": "b217dc299363aef2c2dd7710bdcd351eff8ddf13304accbcf20212ac9edf90a7"
     },
     "AtlasEnglish.exe": {
       "bytes": 18432,
@@ -21720,8 +21720,8 @@
       "sha256": "942394a971583c76a425f3e549bc2344dd49d2bbb8169c81e026a87a9d010e75"
     },
     "README.md": {
-      "bytes": 3370,
-      "sha256": "75485c2cbea20a16ea1b12a806ec2cdcc26ed3ad5a810818e555048065e91dcb"
+      "bytes": 4123,
+      "sha256": "1e3b316643fa252a9b1a024d963e8cdb47b553f1d6d87ab74f7aab0475bac51e"
     },
     "runtime/NODE-LICENSE.txt": {
       "bytes": 143310,
@@ -22960,8 +22960,8 @@
       "sha256": "4727e7b54d5a4d7b916201615499bcffabcda67fb1502404bf94d26ab99be5d4"
     },
     "scripts/publish-git.mjs": {
-      "bytes": 4649,
-      "sha256": "6836febc97f23d704ff552385034ba5d7d1b04ec4fb55ae5969b3832e6c7105b"
+      "bytes": 6388,
+      "sha256": "76ff4682e32fbb02713fe29dfc07f412ebd2c0769263be60ad7ef2a1c20696d4"
     },
     "scripts/server.mjs": {
       "bytes": 10114,

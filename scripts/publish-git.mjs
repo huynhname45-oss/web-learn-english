@@ -8,6 +8,21 @@ const allowed=new Set(['app','runtime','scripts','node_modules','media','AtlasEn
   'Sao-luu-du-lieu.cmd','Khoi-phuc-du-lieu.cmd','Tuy-chon-trinh-duyet.cmd','Kiem-tra-goi.cmd','Cap-nhat-GitHub.cmd',
   'README.md','HUONG-DAN.txt','package.json','.gitignore','.gitattributes','atlas-distribution.json']);
 const privateNames=new Set(['.git','data','backups','logs','work','.wrangler','settings.json','current.json','manager.json','downloads','repository.git','package-integrity.json']);
+const git=(args)=>{const r=spawnSync('git',['-C',root,'-c','core.autocrlf=false',...args],{encoding:'utf8',windowsHide:true,maxBuffer:16*1024*1024});if(r.status!==0)throw new Error(r.stderr||r.stdout);return r.stdout;};
+function checkPublicPath(name){
+  const parts=name.split('/'),top=parts[0];
+  if((!allowed.has(top)&&name!=='package-integrity.json')||
+    parts.some(p=>/^(?:\.env.*|\.git|\.wrangler|backups|logs|work|downloads|repository\.git|settings\.json|current\.json|manager\.json|running\.lock|runtime\.json|credentials(?:\.json)?|secrets(?:\.json)?)$/i.test(p))||
+    (parts.some(p=>p.toLowerCase()==='data')&&name!=='app/client/data/toeic-manifest.json')||
+    /\.(?:sqlite3?|db)(?:-(?:wal|shm|journal))?$/i.test(name)||
+    /\.(?:key|pfx|p12|bak|partial|new)$/i.test(name))
+    throw new Error(`Tệp riêng hoặc ngoài gói không được phát hành: ${name}`);
+}
+// Ignore rules do not protect files already tracked or staged with git add -f.
+try{
+  await fs.lstat(resolve(root,'.git'));
+  for(const name of git(['ls-files','-z']).split('\0').filter(Boolean))checkPublicPath(name);
+}catch(error){if(error.code!=='ENOENT')throw error;}
 const names=await fs.readdir(root);
 for(const name of names)if(!allowed.has(name)&&!privateNames.has(name)&&!name.startsWith('.env'))
   throw new Error(`Tệp ngoài gói ứng dụng: ${name}. Hãy chuyển tệp riêng ra ngoài thư mục phát hành.`);
@@ -15,15 +30,18 @@ const map=JSON.parse(await fs.readFile(resolve(root,'app/media-map.json'),'utf8'
 const original=JSON.parse(await fs.readFile(resolve(root,'package-integrity.json'),'utf8'));
 const files={};
 for(const top of names.filter(n=>allowed.has(n))){
-  const path=resolve(root,top),stat=await fs.stat(path);
-  const paths=stat.isDirectory()?(await fs.readdir(path,{recursive:true,withFileTypes:true})).filter(e=>e.isFile()).map(e=>resolve(e.parentPath,e.name)):[path];
+  const path=resolve(root,top),stat=await fs.lstat(path);
+  if(stat.isSymbolicLink())throw new Error(`Không phát hành liên kết tới tệp ngoài gói: ${top}`);
+  const entries=stat.isDirectory()?await fs.readdir(path,{recursive:true,withFileTypes:true}):[];
+  for(const entry of entries)if(entry.isSymbolicLink())throw new Error(`Không phát hành liên kết: ${relative(root,resolve(entry.parentPath,entry.name))}`);
+  const paths=stat.isDirectory()?entries.filter(e=>e.isFile()).map(e=>resolve(e.parentPath,e.name)):[path];
   for(const file of paths){
     const name=relative(root,file).replaceAll('\\','/');
-    if(/(?:^|\/)(?:\.env[^/]*|settings\.json|running\.lock|runtime\.json)$/.test(name))throw new Error(`Tệp riêng không được phát hành: ${name}`);
+    checkPublicPath(name);
     const info=await fs.stat(file);
     if(info.size>=100*1024*1024)throw new Error(`Tệp vượt giới hạn GitHub: ${name}`);
     const digest=await hashFile(file);
-    if(['.js','.mjs','.json','.txt','.html'].includes(extname(name))){
+    if(['.js','.mjs','.cjs','.json','.txt','.html','.md','.yaml','.yml','.toml','.ini','.cfg','.conf','.ps1','.cmd','.bat','.py','.sql','.csv','.xml','.pem'].includes(extname(name).toLowerCase())){
       const text=await fs.readFile(file,'utf8');
       const bundledTlsFixture=name==='node_modules/miniflare/dist/src/index.js'&&digest==='9584409d464f6c21d720b20da3c5dc6e5bdab0393f9cb19b36cb960beaf0958b';
       // Exact pinned Miniflare distribution contains its publicly shipped localhost TLS fixture.
@@ -46,10 +64,16 @@ files['atlas-distribution.json']={bytes:(await fs.stat(resolve(root,'atlas-distr
 await atomicJson(resolve(root,'package-integrity.json'),{...original,builtAt:new Date().toISOString(),files});
 console.log(`Đã kiểm tra ${Object.keys(files).length} tệp. Không đưa data, backups hoặc khóa local vào Git.`);
 if(!process.argv.includes('--prepare')){
-  const git=(args)=>{const r=spawnSync('git',['-C',root,'-c','core.autocrlf=false',...args],{encoding:'utf8',windowsHide:true});if(r.status!==0)throw new Error(r.stderr||r.stdout);return r.stdout.trim();};
-  if(git(['remote','get-url','origin'])!=='https://github.com/huynhname45-oss/web-learn-english.git')throw new Error('Sai repo phát hành.');
-  if(git(['branch','--show-current'])!=='main')throw new Error('Chỉ phát hành từ nhánh main.');
+  if(git(['remote','get-url','origin']).trim()!=='https://github.com/huynhname45-oss/web-learn-english.git')throw new Error('Sai repo phát hành.');
+  if(git(['branch','--show-current']).trim()!=='main')throw new Error('Chỉ phát hành từ nhánh main.');
   git(['add','--',...names.filter(n=>allowed.has(n)),'package-integrity.json']);
+  const indexed=git(['ls-files','-z']).split('\0').filter(Boolean);
+  const expected=new Set([...Object.keys(files),'package-integrity.json']);
+  for(const name of indexed){
+    checkPublicPath(name);
+    if(!expected.delete(name))throw new Error(`Git đang theo dõi tệp ngoài bản kê đã kiểm tra: ${name}`);
+  }
+  if(expected.size)throw new Error('Git thiếu tệp trong bản kê. Dừng phát hành để tránh gửi gói không đầy đủ.');
   git(['commit','-m',`Update optimized Atlas application ${new Date().toISOString()}`]);
   console.log('Đang đẩy bản tối ưu lên GitHub...');
   git(['push','origin','main']);
