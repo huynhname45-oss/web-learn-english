@@ -1,0 +1,128 @@
+[
+  {
+    "id": "De_021_Q1",
+    "part": 1,
+    "question_number": 1,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/03/21946642.mp3",
+    "audio_file": "part1/audio/q1.mp3",
+    "image_url": "https://estudyme.hoc102.com/legacy-data/kslearning/images/815010433-1620974401622-pic1.png",
+    "image_file": "part1/images/asset_1.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "A",
+    "transcript": null,
+    "explanation_vi": "Nghe kỹ hành động và đối tượng trọng tâm trong bức ảnh.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_021_Q2",
+    "part": 1,
+    "question_number": 2,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/03/89771466.mp3",
+    "audio_file": "part1/audio/q2.mp3",
+    "image_url": "https://estudyme.hoc102.com/legacy-data/kslearning/images/277224613-1620974417637-pic2.png",
+    "image_file": "part1/images/asset_2.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "A",
+    "transcript": null,
+    "explanation_vi": "Nghe kỹ hành động và đối tượng trọng tâm trong bức ảnh.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_021_Q3",
+    "part": 1,
+    "question_number": 3,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/03/49963193.mp3",
+    "audio_file": "part1/audio/q3.mp3",
+    "image_url": "https://estudyme.hoc102.com/legacy-data/kslearning/images/630618878-1620974431701-pic3.png",
+    "image_file": "part1/images/asset_3.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "C",
+    "transcript": null,
+    "explanation_vi": "Nghe kỹ hành động và đối tượng trọng tâm trong bức ảnh.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_021_Q4",
+    "part": 1,
+    "question_number": 4,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/03/44923228.mp3",
+    "audio_file": "part1/audio/q4.mp3",
+    "image_url": "https://estudyme.hoc102.com/legacy-data/kslearning/images/339143267-1620974452434-pic4.png",
+    "image_file": "part1/images/asset_4.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "A",
+    "transcript": null,
+    "explanation_vi": "Nghe kỹ hành động và đối tượng trọng tâm trong bức ảnh.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_021_Q5",
+    "part": 1,
+    "question_number": 5,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/03/58276447.mp3",
+    "audio_file": "part1/audio/q5.mp3",
+    "image_url": "https://estudyme.hoc102.com/legacy-data/kslearning/images/864177629-1620974820678-pic5.png",
+    "image_file": "part1/images/asset_5.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "D",
+    "transcript": null,
+    "explanation_vi": "Nghe kỹ hành động và đối tượng trọng tâm trong bức ảnh.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_021_Q6",
+    "part": 1,
+    "question_number": 6,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": null,
+    "audio_url": "https://storage.googleapis.com/estudyme/prod/2023/01/03/88196674.mp3",
+    "audio_file": "part1/audio/q6.mp3",
+    "image_url": "https://estudyme.hoc102.com/legacy-data/kslearning/images/306167405-1620975078958-pic6.png",
+    "image_file": "part1/images/asset_6.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "A",
+    "transcript": null,
+    "explanation_vi": "Nghe kỹ hành động và đối tượng trọng tâm trong bức ảnh.",
+    "vocabulary": []
+  }
+]

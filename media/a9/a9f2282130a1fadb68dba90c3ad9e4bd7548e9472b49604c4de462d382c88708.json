@@ -1,0 +1,134 @@
+[
+  {
+    "id": "De_003_Q1",
+    "part": 1,
+    "question_number": 1,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) He's fixing a file drawer.\n\n(B) He's rolling up his sleeves.\n\n(C) He's closing a laptop computer.\n\n(D) He's drinking from a mug.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t3/1.mp3",
+    "audio_file": "part1/audio/q1.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t3/1.webp",
+    "image_file": "part1/images/asset_1.webp",
+    "options": {
+      "A": "He's fixing a file drawer.",
+      "B": "He's rolling up his sleeves.",
+      "C": "He's closing a laptop computer.",
+      "D": "He's drinking from a mug."
+    },
+    "answer": "D",
+    "transcript": "(A) He's fixing a file drawer.\n\n(B) He's rolling up his sleeves.\n\n(C) He's closing a laptop computer.\n\n(D) He's drinking from a mug.",
+    "explanation_vi": "(A) Anh ấy đang sửa ngăn kéo đựng hồ sơ.\n\n(B) Anh ấy đang xắn tay áo lên.\n\n(C) Anh ấy đang gập máy tính xách tay lại.\n\n(D) Anh ấy đang uống nước từ một chiếc cốc sứ.",
+    "explanation_en": null,
+    "vocabulary": "File drawer (n): Ngăn kéo đựng hồ sơ\n\nRoll up (v): Xắn lên/Cuộn lên\n\nSleeve (n): Tay áo\n\nMug (n): Cốc sứ/Ly có tay cầm"
+  },
+  {
+    "id": "De_003_Q2",
+    "part": 1,
+    "question_number": 2,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Some bushes are covered with snow.\n\n(B) Some flowers are being planted.\n\n(C) A person is walking in the road.\n\n(D) A person is cleaning some windows.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t3/2.mp3",
+    "audio_file": "part1/audio/q2.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t3/2.webp",
+    "image_file": "part1/images/asset_2.webp",
+    "options": {
+      "A": "Some bushes are covered with snow.",
+      "B": "Some flowers are being planted.",
+      "C": "A person is walking in the road.",
+      "D": "A person is cleaning some windows."
+    },
+    "answer": "A",
+    "transcript": "(A) Some bushes are covered with snow.\n\n(B) Some flowers are being planted.\n\n(C) A person is walking in the road.\n\n(D) A person is cleaning some windows.",
+    "explanation_vi": "(A) Một số bụi cây đang bị tuyết bao phủ.\n\n(B) Một số bông hoa đang được trồng.\n\n(C) Một người đang đi bộ trên đường.\n\n(D) Một người đang lau cửa sổ.",
+    "explanation_en": null,
+    "vocabulary": "Bush (n): Bụi cây\n\nCovered with (phr): Được bao phủ bởi\n\nSnow (n): Tuyết\n\nPlant (v): Trồng cây"
+  },
+  {
+    "id": "De_003_Q3",
+    "part": 1,
+    "question_number": 3,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A man is changing a tire on his car.\n\n(B) A man is opening a car door.\n\n(C) A man is putting fuel into his car.\n\n(D) A man is spreading out a map on top of his car.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t3/3.mp3",
+    "audio_file": "part1/audio/q3.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t3/3.webp",
+    "image_file": "part1/images/asset_3.webp",
+    "options": {
+      "A": "A man is changing a tire on his car.",
+      "B": "A man is opening a car door.",
+      "C": "A man is putting fuel into his car.",
+      "D": "A man is spreading out a map on top of his car."
+    },
+    "answer": "D",
+    "transcript": "(A) A man is changing a tire on his car.\n\n(B) A man is opening a car door.\n\n(C) A man is putting fuel into his car.\n\n(D) A man is spreading out a map on top of his car.",
+    "explanation_vi": "(A) Người đàn ông đang thay lốp xe ô tô.\n\n(B) Người đàn ông đang mở cửa xe.\n\n(C) Người đàn ông đang đổ xăng vào xe.\n\n(D) Người đàn ông đang trải một bản đồ trên nóc xe.",
+    "explanation_en": null,
+    "vocabulary": "Change a tire (phr): Thay lốp xe\n\nFuel (n): Nhiên liệu/Xăng\n\nSpread out (v): Trải ra/Căng ra\n\nMap (n): Bản đồ"
+  },
+  {
+    "id": "De_003_Q4",
+    "part": 1,
+    "question_number": 4,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) They're leaving a restaurant.\n\n(B) They're seated next to each other.\n\n(C) One of the women is looking in her handbag.\n\n(D) One of the women is folding a scarf.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t3/4.mp3",
+    "audio_file": "part1/audio/q4.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t3/4.webp",
+    "image_file": "part1/images/asset_4.webp",
+    "options": {
+      "A": "They're leaving a restaurant.",
+      "B": "They're seated next to each other.",
+      "C": "One of the women is looking in her handbag.",
+      "D": "One of the women is folding a scarf."
+    },
+    "answer": "B",
+    "transcript": "(A) They're leaving a restaurant.\n\n(B) They're seated next to each other.\n\n(C) One of the women is looking in her handbag.\n\n(D) One of the women is folding a scarf.",
+    "explanation_vi": "(A) Họ đang rời khỏi một nhà hàng.\n\n(B) Họ đang ngồi cạnh nhau.\n\n(C) Một trong những người phụ nữ đang tìm đồ trong túi xách.\n\n(D) Một trong những người phụ nữ đang gấp một chiếc khăn quàng cổ.",
+    "explanation_en": null,
+    "vocabulary": "Seated (adj): Đang ngồi\n\nHandbag (n): Túi xách\n\nFold (v): Gấp/Xếp\n\nScarf (n): Khăn quàng cổ"
+  },
+  {
+    "id": "De_003_Q5",
+    "part": 1,
+    "question_number": 5,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A selection of luggage is on display.\n\n(B) A lamp and some papers are on a desk.\n\n(C) Some boxes are arranged under some lamps.\n\n(D) Some wire has been rolled up on the floor.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t3/5.mp3",
+    "audio_file": "part1/audio/q5.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t3/5.webp",
+    "image_file": "part1/images/asset_5.webp",
+    "options": {
+      "A": "A selection of luggage is on display.",
+      "B": "A lamp and some papers are on a desk.",
+      "C": "Some boxes are arranged under some lamps.",
+      "D": "Some wire has been rolled up on the floor."
+    },
+    "answer": "C",
+    "transcript": "(A) A selection of luggage is on display.\n\n(B) A lamp and some papers are on a desk.\n\n(C) Some boxes are arranged under some lamps.\n\n(D) Some wire has been rolled up on the floor.",
+    "explanation_vi": "(A) Một loạt các loại hành lý đang được trưng bày.\n\n(B) Một chiếc đèn và một ít giấy tờ đang ở trên bàn làm việc.\n\n(C) Một số chiếc hộp được sắp xếp bên dưới những chiếc đèn.\n\n(D) Một số đoạn dây điện đã được cuộn lại trên sàn nhà.",
+    "explanation_en": null,
+    "vocabulary": "On display (phr): Được trưng bày\n\nArranged (v/adj): Được sắp xếp\n\nLamp (n): Đèn\n\nWire (n): Dây điện"
+  },
+  {
+    "id": "De_003_Q6",
+    "part": 1,
+    "question_number": 6,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A cyclist is riding past a pedestrian.\n\n(B) A tent is set up next to a lake.\n\n(C) Some people are resting on a stone wall.\n\n(D) Some people are swimming in a lake.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t3/6.mp3",
+    "audio_file": "part1/audio/q6.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t3/6.webp",
+    "image_file": "part1/images/asset_6.webp",
+    "options": {
+      "A": "A cyclist is riding past a pedestrian.",
+      "B": "A tent is set up next to a lake.",
+      "C": "Some people are resting on a stone wall.",
+      "D": "Some people are swimming in a lake."
+    },
+    "answer": "A",
+    "transcript": "(A) A cyclist is riding past a pedestrian.\n\n(B) A tent is set up next to a lake.\n\n(C) Some people are resting on a stone wall.\n\n(D) Some people are swimming in a lake.",
+    "explanation_vi": "(A) Một người đi xe đạp đang đạp xe qua một người đi bộ.\n\n(B) Một chiếc lều được dựng cạnh hồ nước.\n\n(C) Một số người đang nghỉ ngơi trên một bức tường đá.\n\n(D) Một số người đang bơi dưới hồ.",
+    "explanation_en": null,
+    "vocabulary": "Cyclist (n): Người đi xe đạp\n\nPedestrian (n): Người đi bộ\n\nTent (n): Chiếc lều\n\nStone wall (n): Bức tường đá"
+  }
+]

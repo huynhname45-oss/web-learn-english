@@ -1,0 +1,134 @@
+[
+  {
+    "id": "De_007_Q1",
+    "part": 1,
+    "question_number": 1,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) She's holding a water bottle.\n\n(B) She's looking at a newspaper.\n\n(C) She's reaching for a book.\n\n(D) She's standing next to a copier.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t7/1.mp3",
+    "audio_file": "part1/audio/q1.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t7/1.webp",
+    "image_file": "part1/images/asset_1.webp",
+    "options": {
+      "A": "She's holding a water bottle.",
+      "B": "She's looking at a newspaper.",
+      "C": "She's reaching for a book.",
+      "D": "She's standing next to a copier."
+    },
+    "answer": "B",
+    "transcript": "(A) She's holding a water bottle.\n\n(B) She's looking at a newspaper.\n\n(C) She's reaching for a book.\n\n(D) She's standing next to a copier.",
+    "explanation_vi": "(A) Cô ấy đang cầm một chai nước.\n\n(B) Cô ấy đang nhìn vào một tờ báo.\n\n(C) Cô ấy đang với lấy một cuốn sách.\n\n(D) Cô ấy đang đứng cạnh một máy photocopy.",
+    "explanation_en": null,
+    "vocabulary": "Newspaper (n): Tờ báo\n\nReach for (v): Với lấy\n\nCopier (n): Máy photocopy\n\nHold (v): Cầm/Nắm/Giữ"
+  },
+  {
+    "id": "De_007_Q2",
+    "part": 1,
+    "question_number": 2,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A tire is leaning against a car.\n\n(B) A chain has been left on the ground.\n\n(C) A car is backing out of a garage.\n\n(D) A box of tools has been set on top of a car.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t7/2.mp3",
+    "audio_file": "part1/audio/q2.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t7/2.webp",
+    "image_file": "part1/images/asset_2.webp",
+    "options": {
+      "A": "A tire is leaning against a car.",
+      "B": "A chain has been left on the ground.",
+      "C": "A car is backing out of a garage.",
+      "D": "A box of tools has been set on top of a car."
+    },
+    "answer": "A",
+    "transcript": "(A) A tire is leaning against a car.\n\n(B) A chain has been left on the ground.\n\n(C) A car is backing out of a garage.\n\n(D) A box of tools has been set on top of a car.",
+    "explanation_vi": "(A) Một chiếc lốp xe đang tựa vào ô tô.\n\n(B) Một sợi dây xích bị bỏ lại trên mặt đất.\n\n(C) Một chiếc ô tô đang lùi ra khỏi gara.\n\n(D) Một hộp dụng cụ được đặt trên nóc ô tô.",
+    "explanation_en": null,
+    "vocabulary": "Tire (n): Lốp xe\n\nLeaning against (phr): Tựa vào/Dựa vào\n\nBack out (v): Lùi (xe) ra\n\nGround (n): Mặt đất"
+  },
+  {
+    "id": "De_007_Q3",
+    "part": 1,
+    "question_number": 3,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) He's pushing a cart toward a doorway.\n\n(B) He's spraying cleaning liquid onto a glass door.\n\n(C) He's mopping up a tiled floor.\n\n(D) He's setting up a bulletin board.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t7/3.mp3",
+    "audio_file": "part1/audio/q3.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t7/3.webp",
+    "image_file": "part1/images/asset_3.webp",
+    "options": {
+      "A": "He's pushing a cart toward a doorway.",
+      "B": "He's spraying cleaning liquid onto a glass door.",
+      "C": "He's mopping up a tiled floor.",
+      "D": "He's setting up a bulletin board."
+    },
+    "answer": "A",
+    "transcript": "(A) He's pushing a cart toward a doorway.\n\n(B) He's spraying cleaning liquid onto a glass door.\n\n(C) He's mopping up a tiled floor.\n\n(D) He's setting up a bulletin board.",
+    "explanation_vi": "(A) Anh ấy đang đẩy xe đẩy về phía cửa.\n\n(B) Anh ấy đang xịt dung dịch tẩy rửa lên cửa kính.\n\n(C) Anh ấy đang lau sàn gạch.\n\n(D) Anh ấy đang thiết lập một bảng tin.",
+    "explanation_en": null,
+    "vocabulary": "Push (v): Đẩy\n\nCart (n): Xe đẩy\n\nMop up (v): Lau chùi sạch\n\nBulletin board (n): Bảng tin"
+  },
+  {
+    "id": "De_007_Q4",
+    "part": 1,
+    "question_number": 4,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) The woman is walking across the street.\n\n(B) The woman is repairing a bicycle.\n\n(C) The woman is wearing a helmet.\n\n(D) The woman is getting into a vehicle.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t7/4.mp3",
+    "audio_file": "part1/audio/q4.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t7/4.webp",
+    "image_file": "part1/images/asset_4.webp",
+    "options": {
+      "A": "The woman is walking across the street.",
+      "B": "The woman is repairing a bicycle.",
+      "C": "The woman is wearing a helmet.",
+      "D": "The woman is getting into a vehicle."
+    },
+    "answer": "C",
+    "transcript": "(A) The woman is walking across the street.\n\n(B) The woman is repairing a bicycle.\n\n(C) The woman is wearing a helmet.\n\n(D) The woman is getting into a vehicle.",
+    "explanation_vi": "(A) Người phụ nữ đang đi bộ băng qua đường.\n\n(B) Người phụ nữ đang sửa xe đạp.\n\n(C) Người phụ nữ đang đội mũ bảo hiểm.\n\n(D) Người phụ nữ đang bước vào một phương tiện.",
+    "explanation_en": null,
+    "vocabulary": "Across (prep): Băng qua\n\nRepair (v): Sửa chữa\n\nHelmet (n): Mũ bảo hiểm\n\nVehicle (n): Phương tiện/Xe cộ"
+  },
+  {
+    "id": "De_007_Q5",
+    "part": 1,
+    "question_number": 5,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Some umbrellas have been opened in an outdoor dining area.\n\n(B) All the tables are occupied by diners.\n\n(C) A worker is sweeping a dining area.\n\n(D) Flowers have been placed on the tables.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t7/5.mp3",
+    "audio_file": "part1/audio/q5.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t7/5.webp",
+    "image_file": "part1/images/asset_5.webp",
+    "options": {
+      "A": "Some umbrellas have been opened in an outdoor dining area.",
+      "B": "All the tables are occupied by diners.",
+      "C": "A worker is sweeping a dining area.",
+      "D": "Flowers have been placed on the tables."
+    },
+    "answer": "A",
+    "transcript": "(A) Some umbrellas have been opened in an outdoor dining area.\n\n(B) All the tables are occupied by diners.\n\n(C) A worker is sweeping a dining area.\n\n(D) Flowers have been placed on the tables.",
+    "explanation_vi": "(A) Một số chiếc ô đã được mở trong khu vực ăn uống ngoài trời.\n\n(B) Tất cả các bàn đều có người ngồi ăn.\n\n(C) Một công nhân đang quét dọn khu vực ăn uống.\n\n(D) Hoa đã được đặt trên bàn.",
+    "explanation_en": null,
+    "vocabulary": "Outdoor dining area (n): Khu vực ăn uống ngoài trời\n\nOccupied (adj): Có người ngồi/Đang sử dụng\n\nSweep (v): Quét dọn\n\nUmbrella (n): Chiếc ô"
+  },
+  {
+    "id": "De_007_Q6",
+    "part": 1,
+    "question_number": 6,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) File folders have been arranged on a shelf.\n\n(B) Some window blinds have been raised.\n\n(C) Some waste baskets have been turned upside down.\n\n(D) An office chair has been pushed under a desk.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t7/6.mp3",
+    "audio_file": "part1/audio/q6.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t7/6.webp",
+    "image_file": "part1/images/asset_6.webp",
+    "options": {
+      "A": "File folders have been arranged on a shelf.",
+      "B": "Some window blinds have been raised.",
+      "C": "Some waste baskets have been turned upside down.",
+      "D": "An office chair has been pushed under a desk."
+    },
+    "answer": "D",
+    "transcript": "(A) File folders have been arranged on a shelf.\n\n(B) Some window blinds have been raised.\n\n(C) Some waste baskets have been turned upside down.\n\n(D) An office chair has been pushed under a desk.",
+    "explanation_vi": "(A) Các bìa hồ sơ đã được sắp xếp trên kệ.\n\n(B) Một số rèm cửa sổ đã được kéo lên.\n\n(C) Một số giỏ rác bị lật ngược.\n\n(D) Một chiếc ghế văn phòng đã được đẩy vào dưới bàn làm việc.",
+    "explanation_en": null,
+    "vocabulary": "File folder (n): Bìa hồ sơ\n\nWindow blinds (n): Rèm cửa sổ\n\nWaste basket (n): Giỏ rác\n\nTurn upside down (phr): Lật ngược"
+  }
+]

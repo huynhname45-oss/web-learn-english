@@ -1,0 +1,128 @@
+[
+  {
+    "id": "De_034_Q1",
+    "part": 1,
+    "question_number": 1,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A man is looking out a window.\n\n(B) A man is fixing a ceiling tile.\n\n(C) A man is reaching for a coat.\n\n(D) A man is installing a wooden floor.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-04-part-1-1.mp3",
+    "audio_file": "part1/audio/q1.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/4/image10.png",
+    "image_file": "part1/images/asset_1.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "C",
+    "transcript": "(A) A man is looking out a window.\n\n(B) A man is fixing a ceiling tile.\n\n(C) A man is reaching for a coat.\n\n(D) A man is installing a wooden floor.",
+    "explanation_vi": "1.\n\n(A) Một người đàn ông đang nhìn ra cửa sổ\n\n(B) Một người đàn ông đang sửa ngói lợp trần nhà\n\n(C) Một người đàn ông đang với lấy cái áo choàng\n\n(D) Một người đàn ông đang lắp đặt sàn gỗ",
+    "vocabulary": []
+  },
+  {
+    "id": "De_034_Q2",
+    "part": 1,
+    "question_number": 2,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A wall is covered with vines.\n\n(B) A tree is near a sign.\n\n(C) There are puddles on the road.\n\n(D) A tree has fallen onto the pavement.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-04-part-1-2.mp3",
+    "audio_file": "part1/audio/q2.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/4/image9.png",
+    "image_file": "part1/images/asset_2.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "B",
+    "transcript": "(A) A wall is covered with vines.\n\n(B) A tree is near a sign.\n\n(C) There are puddles on the road.\n\n(D) A tree has fallen onto the pavement.",
+    "explanation_vi": "2.\n\n(A) Một bức tường được bao phủ với những dàn dây leo\n\n(B) Một cái cây gần một cái biển báo\n\n(C) Có vài vũng nước trên đường\n\n(D) Một cái cây ngã đổ trên vỉa hè",
+    "vocabulary": []
+  },
+  {
+    "id": "De_034_Q3",
+    "part": 1,
+    "question_number": 3,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A construction worker is repairing a fence.\n\n(B) A set of cones is blocking an entrance.\n\n(C) Some lines are being painted on a roadway.\n\n(D) A man is working outdoors.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-04-part-1-3.mp3",
+    "audio_file": "part1/audio/q3.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/4/image12.png",
+    "image_file": "part1/images/asset_3.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "D",
+    "transcript": "(A) A construction worker is repairing a fence.\n\n(B) A set of cones is blocking an entrance.\n\n(C) Some lines are being painted on a roadway.\n\n(D) A man is working outdoors.",
+    "explanation_vi": "3.\n\n(A) Một công nhân xây dựng đang sửa cái hàng rào\n\n(B) Một bộ nón cảnh báo an toàn đang chặn lối vào\n\n(C) Một vài đường kẻ đang được sơn trên đường\n\n(D) Một người đàn ông đang làm việc ngoài trời",
+    "vocabulary": []
+  },
+  {
+    "id": "De_034_Q4",
+    "part": 1,
+    "question_number": 4,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A cupboard is filled with kitchen utensils.\n\n(B) A woman is looking at an electrical outlet.\n\n(C) Some papers have been placed on a counter.\n\n(D) Some shelves are being adjusted.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-04-part-1-4.mp3",
+    "audio_file": "part1/audio/q4.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/4/image11.png",
+    "image_file": "part1/images/asset_4.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "C",
+    "transcript": "(A) A cupboard is filled with kitchen utensils.\n\n(B) A woman is looking at an electrical outlet.\n\n(C) Some papers have been placed on a counter.\n\n(D) Some shelves are being adjusted.",
+    "explanation_vi": "4.\n\n(A) Một cái tủ chứa đầy dụng cụ nhà bếp\n\n(B) Một người phụ nữ đang nhìn cái ổ cắm điện\n\n(C) Vài tờ giấy được đặt ở quầy\n\n(D) Một vài kệ tủ đang được sửa",
+    "vocabulary": []
+  },
+  {
+    "id": "De_034_Q5",
+    "part": 1,
+    "question_number": 5,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Magazines are on a rack on the wall.\n\n(B) A bookcase is next to a sofa.\n\n(C) A plant has been placed next to a chair.\n\n(D) A ceiling lamp hangs over a carpet.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-04-part-1-5.mp3",
+    "audio_file": "part1/audio/q5.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/4/image15.png",
+    "image_file": "part1/images/asset_5.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "C",
+    "transcript": "(A) Magazines are on a rack on the wall.\n\n(B) A bookcase is next to a sofa.\n\n(C) A plant has been placed next to a chair.\n\n(D) A ceiling lamp hangs over a carpet.",
+    "explanation_vi": "5.\n\n(A) Vài quyển tạp chí đang ở trên một cái giá treo tường\n\n(B) Một cái tủ sách ở cạnh một cái sofa\n\n(C) Một cái cây đang được đặt gần cái ghế\n\n(D) Một cái đèn trần được treo phía trên tấm thảm",
+    "vocabulary": []
+  },
+  {
+    "id": "De_034_Q6",
+    "part": 1,
+    "question_number": 6,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A man is crouching down next to a wall.\n\n(B) A man is taking measurements of a room.\n\n(C) A man is attaching a door to a frame.\n\n(D) A man is standing on a ladder.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-04-part-1-6.mp3",
+    "audio_file": "part1/audio/q6.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/4/image13.png",
+    "image_file": "part1/images/asset_6.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "A",
+    "transcript": "(A) A man is crouching down next to a wall.\n\n(B) A man is taking measurements of a room.\n\n(C) A man is attaching a door to a frame.\n\n(D) A man is standing on a ladder.",
+    "explanation_vi": "6.\n\n(A) Một người đàn ông đang cúi người xuống bên cạnh một cái tường\n\n(B) Một người đàn ông đang đo đạc căn phòng\n\n(C) Một người đàn ông gắn cái cửa vào một cái khung\n\n(D) Một người đàn ông đang đứng trên thang",
+    "vocabulary": []
+  }
+]
