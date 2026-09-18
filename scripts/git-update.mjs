@@ -9,7 +9,7 @@ export const gitExe = (home) => process.env.ATLAS_GIT_EXE || resolve(home, 'tool
 export const gitDir = (home) => resolve(home, 'repository.git');
 export async function git(home, args, report = () => {}, timeout = 30 * 60 * 1000) {
   return new Promise((done, reject) => {
-    const child = spawn(gitExe(home), ['-c','credential.helper=','-c','core.autocrlf=false',`--git-dir=${gitDir(home)}`,...args], {
+    const child = spawn(gitExe(home), ['-c','credential.helper=','-c','core.autocrlf=false','-c','gc.auto=0','-c','maintenance.auto=false',`--git-dir=${gitDir(home)}`,...args], {
       windowsHide:true,timeout,stdio:['ignore','pipe','pipe'],
       env:{...process.env,GIT_TERMINAL_PROMPT:'0',GCM_INTERACTIVE:'never',GIT_CONFIG_NOSYSTEM:'1'} });
     let text='', errors='';
