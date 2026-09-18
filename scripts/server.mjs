@@ -86,6 +86,9 @@ async function main() {
       if (typeof settings[name] === 'string') bindings[name] = settings[name];
   } catch (e) { if (e.code !== 'ENOENT') throw e; }
   mf = new Miniflare({
+    // This local app does not use Cloudflare geolocation. Do not fetch/cache
+    // the developer's network metadata inside a redistributable package.
+    cf: false,
     host: '127.0.0.1', port: 0, log: new Log(LogLevel.ERROR),
     modules: modules.map((path) => ({ type: 'ESModule', path })), modulesRoot: workerRoot,
     compatibilityDate: '2026-05-15', compatibilityFlags: ['nodejs_compat'],

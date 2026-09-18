@@ -1,32 +1,32 @@
-﻿# Atlas English — thư mục tối ưu chạy local
+# Atlas English — bản Windows tối ưu
 
-Đây là **thư mục ứng dụng đã giải nén và tối ưu**, gồm bản web đã build, bộ chạy Windows và dữ liệu 43 đề. Repo không chứa cây mã nguồn phát triển. Media trùng lặp dùng chung một tệp, giữ nguyên byte/chất lượng; bộ dữ liệu khoảng 2,08 GiB.
+Đây là bản phát hành được tạo tự động từ code tại `D:\web-hoc-av` trên máy phát triển. Không sửa code trong thư mục bản phát hành hoặc trong ZIP.
+
+## Máy phát triển
+
+Sửa code tại `D:\web-hoc-av`, dùng `start-local.cmd` để chạy thử.
+
+- `Tao-ban-client.cmd` ở thư mục code: kiểm tra, build, tạo bản tối ưu, EXE và ZIP. Không push.
+- `Cap-nhat-GitHub.cmd` ở thư mục code: thực hiện cùng quy trình, sau đó kiểm tra dữ liệu riêng và push bản tối ưu lên GitHub.
+
+Repo GitHub chỉ chứa bản đã build và bộ dữ liệu tối ưu. Không chứa cây code phát triển hoặc dữ liệu người dùng.
 
 ## Máy client
 
-Chỉ cần nhận **AtlasEnglish.exe** và mở file. Lần đầu file tự chuẩn bị bộ chạy Git, clone gói tối ưu, kiểm tra tính toàn vẹn và tạo lối tắt Desktop. Không cần tự cài Git, Node, Python hoặc npm. Cần Windows 10/11 x64 và Internet cho lần tải đầu.
+Chỉ cần nhận `AtlasEnglish.exe` và mở file. Lần đầu cần Internet để tải bộ chạy và ứng dụng. Bộ cài tự kiểm tra toàn vẹn, tạo lối tắt Desktop và chạy web local nền tại `http://localhost:3000`. Máy nhận không phải cài Git, Node.js, Python hoặc npm.
 
-Nếu đã clone repo, mở **Mo-Atlas.cmd**; bộ cài dùng clone đó làm nguồn ban đầu. Những lần sau mở lối tắt **Atlas English**. Web chạy nền tại `http://localhost:3000`; máy code chính không cần bật.
+Nếu đã clone repo, mở `Mo-Atlas.cmd`. Các lần sau mở lối tắt Atlas English.
 
-Khi có commit mới, web hiện **Update ngay**. Bấm nút → pop-up báo tiến độ kéo Git/kiểm tra/sao lưu/khởi động → thành công. Nếu có lỗi, bản trước và dữ liệu được khôi phục. Lưu bài đang làm trước khi cập nhật.
+Có phiên bản mới: web hiện **Update ngay**. Bấm nút để tải, kiểm tra, sao lưu và chuyển phiên bản. Chỉ báo thành công sau khi bản mới khởi động; lỗi sẽ khôi phục bản trước. Lưu bài đang làm trước khi cập nhật.
 
-Git chỉ tải thay đổi, không tải lại toàn bộ media không đổi. Clone có thêm dung lượng lịch sử/đối tượng Git ngoài các tệp ứng dụng; nên có khoảng 8 GiB trống cho lần cài và khôi phục.
+43 đề, ảnh và audio được giữ nguyên chất lượng. Các tệp trùng dùng chung một bản; không cần tải lại media không đổi.
 
-## Máy chỉnh sửa chính
+## Dữ liệu riêng
 
-1. Sửa các tệp ứng dụng trong thư mục giải nén này.
-2. Chạy **Cap-nhat-GitHub.cmd** trên máy đã đăng nhập GitHub bằng Git.
-3. Script kiểm tra đường dẫn, checksum, media, tệp quá lớn và chuỗi giống khóa riêng; cập nhật bản kê, commit rồi push lên `main`.
-4. Client thấy thông báo khi mở lại ứng dụng (hoặc trong lần kiểm tra nền tiếp theo).
+Client lưu dữ liệu ở `%LOCALAPPDATA%\AtlasEnglish\data`, bản sao lưu ở thư mục `backups` bên cạnh. Chúng nằm ngoài Git và không bị thay thế khi cập nhật.
 
-Không chỉ đẩy một ZIP mới vào repo: bộ cập nhật theo các tệp trong thư mục này. Nếu chỉnh một ZIP ở nơi khác, giải nén lại các tệp đã sửa vào thư mục này trước khi chạy script phát hành. Web đã build nằm trong `app`; bộ chạy/cập nhật nằm trong `scripts`. Sau khi sửa vẫn cần tự kiểm tra chức năng đã sửa trước khi phát hành; checksum không thay cho kiểm thử chức năng.
+Dữ liệu chạy thử trên máy phát triển nằm riêng tại `%LOCALAPPDATA%\AtlasEnglish-Dev`, không đi kèm bản phát hành. Tùy chọn/bản nháp trong trình duyệt vẫn chỉ nằm trên máy đang sử dụng.
 
-## Khóa API và dữ liệu riêng
+Khóa AI do mỗi người tự nhập. AI và giọng neural cần Internet; bộ đề sau khi cài có thể dùng local. Các nút dừng, sao lưu và khôi phục thao tác trên bản client đã cài.
 
-**Khóa API, tiến độ và cài đặt của mỗi client chỉ lưu trên chính máy đó**, dưới `%LOCALAPPDATA%\AtlasEnglish\data` hoặc trong bộ nhớ trình duyệt của client. Chúng không được commit, push hay ghi đè bởi cập nhật. Không có đồng bộ dữ liệu người dùng về repo hoặc máy code chính.
-
-Khóa có thể được gửi tới nhà cung cấp AI tương ứng khi bạn sử dụng AI; không gửi lên GitHub. AI và 8 giọng neural cần Internet. Bộ đề và tiến độ đã cài chạy local.
-
-Bản sao cập nhật nằm tại `%LOCALAPPDATA%\AtlasEnglish\backups`, ngoài Git. Không chia sẻ thư mục này vì có thể chứa khóa riêng. **Dong-Atlas.cmd**, **Sao-luu-du-lieu.cmd**, **Khoi-phuc-du-lieu.cmd** thao tác trên dữ liệu client đã cài.
-
-Đây là repo phân phối Windows, không cần GitHub Actions để build lại mã nguồn và không triển khai web public.
+Việc phát hành có kiểm tra đường dẫn riêng tư, database, key phổ biến, checksum và danh sách tệp Git. Không hardcode key hoặc nội dung cá nhân vào code; bộ quét không thể nhận diện mọi thông tin cá nhân tùy ý.

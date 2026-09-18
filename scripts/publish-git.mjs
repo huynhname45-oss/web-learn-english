@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises';
+import { existsSync } from 'node:fs';
 import { resolve,dirname,relative,extname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
@@ -12,7 +13,7 @@ const git=(args)=>{const r=spawnSync('git',['-C',root,'-c','core.autocrlf=false'
 function checkPublicPath(name){
   const parts=name.split('/'),top=parts[0];
   if((!allowed.has(top)&&name!=='package-integrity.json')||
-    parts.some(p=>/^(?:\.env.*|\.git|\.wrangler|backups|logs|work|downloads|repository\.git|settings\.json|current\.json|manager\.json|running\.lock|runtime\.json|credentials(?:\.json)?|secrets(?:\.json)?)$/i.test(p))||
+    parts.some(p=>/^(?:\.env.*|\.git|\.wrangler|\.mf|backups|logs|work|downloads|repository\.git|settings\.json|current\.json|manager\.json|running\.lock|runtime\.json|credentials(?:\.json)?|secrets(?:\.json)?)$/i.test(p))||
     (parts.some(p=>p.toLowerCase()==='data')&&name!=='app/client/data/toeic-manifest.json')||
     /\.(?:sqlite3?|db)(?:-(?:wal|shm|journal))?$/i.test(name)||
     /\.(?:key|pfx|p12|bak|partial|new)$/i.test(name))
@@ -21,7 +22,12 @@ function checkPublicPath(name){
 // Ignore rules do not protect files already tracked or staged with git add -f.
 try{
   await fs.lstat(resolve(root,'.git'));
-  for(const name of git(['ls-files','-z']).split('\0').filter(Boolean))checkPublicPath(name);
+  for(const name of git(['ls-files','-z']).split('\0').filter(Boolean)){
+    // Permit removal of the old runtime's metadata cache, never its publication.
+    // git add below stages the removal; the final index is checked without exceptions.
+    if(name==='node_modules/.mf/cf.json'&&!existsSync(resolve(root,name)))continue;
+    checkPublicPath(name);
+  }
 }catch(error){if(error.code!=='ENOENT')throw error;}
 const names=await fs.readdir(root);
 for(const name of names)if(!allowed.has(name)&&!privateNames.has(name)&&!name.startsWith('.env'))
@@ -58,12 +64,18 @@ for(const [url,item] of Object.entries(map)){
 }
 for(const required of ['scripts/client-manager.mjs','scripts/git-update.mjs','scripts/client-install.mjs','runtime/node.exe','app/server/index.js','AtlasEnglish.exe'])
   if(!files[required])throw new Error(`Gói thiếu ${required}`);
-const distribution={format:'atlas-git-v1',product:'Atlas English',updatedAt:new Date().toISOString(),examCount:43};
-await atomicJson(resolve(root,'atlas-distribution.json'),distribution);
-files['atlas-distribution.json']={bytes:(await fs.stat(resolve(root,'atlas-distribution.json'))).size,sha256:await hashFile(resolve(root,'atlas-distribution.json'))};
-await atomicJson(resolve(root,'package-integrity.json'),{...original,builtAt:new Date().toISOString(),files});
+if(process.argv.includes('--publish-prepared')||process.argv.includes('--verify-prepared')){
+  if(Object.keys(files).length!==Object.keys(original.files).length ||
+    Object.entries(files).some(([name,item])=>original.files[name]?.bytes!==item.bytes||original.files[name]?.sha256!==item.sha256))
+    throw new Error('Bản đã kiểm tra bị thay đổi. Hãy build lại từ thư mục code trước khi phát hành.');
+}else{
+  const distribution={format:'atlas-git-v1',product:'Atlas English',updatedAt:new Date().toISOString(),examCount:43};
+  await atomicJson(resolve(root,'atlas-distribution.json'),distribution);
+  files['atlas-distribution.json']={bytes:(await fs.stat(resolve(root,'atlas-distribution.json'))).size,sha256:await hashFile(resolve(root,'atlas-distribution.json'))};
+  await atomicJson(resolve(root,'package-integrity.json'),{...original,builtAt:new Date().toISOString(),files});
+}
 console.log(`Đã kiểm tra ${Object.keys(files).length} tệp. Không đưa data, backups hoặc khóa local vào Git.`);
-if(!process.argv.includes('--prepare')){
+if(!process.argv.includes('--prepare')&&!process.argv.includes('--verify-prepared')){
   if(git(['remote','get-url','origin']).trim()!=='https://github.com/huynhname45-oss/web-learn-english.git')throw new Error('Sai repo phát hành.');
   if(git(['branch','--show-current']).trim()!=='main')throw new Error('Chỉ phát hành từ nhánh main.');
   git(['add','--',...names.filter(n=>allowed.has(n)),'package-integrity.json']);

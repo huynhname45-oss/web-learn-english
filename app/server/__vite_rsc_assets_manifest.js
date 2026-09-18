@@ -1,11 +1,11 @@
 export default {
-  "bootstrapScriptContent": "import(\"/_next/static/chunks/index-YWLVSJTS.js\")",
+  "bootstrapScriptContent": "import(\"/_next/static/chunks/index-DioqA5sf.js\")",
   "clientReferenceDeps": {
     "97760a3bd76a": {
       "js": [
-        "/_next/static/chunks/academy-D-hV7x1S.js",
+        "/_next/static/chunks/academy-CxQWB_TK.js",
         "/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
-        "/_next/static/chunks/index-YWLVSJTS.js",
+        "/_next/static/chunks/index-DioqA5sf.js",
         "/_next/static/chunks/framework-D_rUT4EX.js",
         "/_next/static/chunks/learning-context-Bv3l8Ppz.js",
         "/_next/static/chunks/assessment-B_7ocgV4.js",
@@ -28,13 +28,13 @@ export default {
         "/_next/static/chunks/update-notice-D1rDRWeS.js",
         "/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
         "/_next/static/chunks/framework-D_rUT4EX.js",
-        "/_next/static/chunks/index-YWLVSJTS.js"
+        "/_next/static/chunks/index-DioqA5sf.js"
       ],
       "css": []
     },
     "9276801271d6": {
       "js": [
-        "/_next/static/chunks/index-YWLVSJTS.js",
+        "/_next/static/chunks/index-DioqA5sf.js",
         "/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
         "/_next/static/chunks/framework-D_rUT4EX.js"
       ],
@@ -42,7 +42,7 @@ export default {
     },
     "0b874ad30386": {
       "js": [
-        "/_next/static/chunks/index-YWLVSJTS.js",
+        "/_next/static/chunks/index-DioqA5sf.js",
         "/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
         "/_next/static/chunks/framework-D_rUT4EX.js"
       ],
@@ -50,7 +50,7 @@ export default {
     },
     "593f344dc510": {
       "js": [
-        "/_next/static/chunks/index-YWLVSJTS.js",
+        "/_next/static/chunks/index-DioqA5sf.js",
         "/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
         "/_next/static/chunks/framework-D_rUT4EX.js"
       ],
@@ -58,7 +58,7 @@ export default {
     },
     "bad85346fc72": {
       "js": [
-        "/_next/static/chunks/index-YWLVSJTS.js",
+        "/_next/static/chunks/index-DioqA5sf.js",
         "/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
         "/_next/static/chunks/framework-D_rUT4EX.js"
       ],
@@ -66,16 +66,16 @@ export default {
     },
     "15c18cfaeeff": {
       "js": [
-        "/_next/static/chunks/layout-segment-context-CwiuWSfN.js",
+        "/_next/static/chunks/layout-segment-context-C68MVU1R.js",
         "/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
-        "/_next/static/chunks/index-YWLVSJTS.js",
+        "/_next/static/chunks/index-DioqA5sf.js",
         "/_next/static/chunks/framework-D_rUT4EX.js"
       ],
       "css": []
     },
     "8c0f216c4604": {
       "js": [
-        "/_next/static/chunks/index-YWLVSJTS.js",
+        "/_next/static/chunks/index-DioqA5sf.js",
         "/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
         "/_next/static/chunks/framework-D_rUT4EX.js"
       ],
@@ -86,7 +86,7 @@ export default {
         "/_next/static/chunks/streamed-icons-Dzomu6mq.js",
         "/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
         "/_next/static/chunks/framework-D_rUT4EX.js",
-        "/_next/static/chunks/index-YWLVSJTS.js"
+        "/_next/static/chunks/index-DioqA5sf.js"
       ],
       "css": []
     }
