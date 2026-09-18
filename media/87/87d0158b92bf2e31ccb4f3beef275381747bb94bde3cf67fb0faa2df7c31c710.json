@@ -1,0 +1,338 @@
+[
+  {
+    "id": "De_023_Q131",
+    "part": 6,
+    "question_number": 131,
+    "prompt": "I assure you that we will do our utmost to (131) _____ your home.",
+    "passage": "refer to the following letter.\n\nDear Mr. Cowell,\n\nI would like to take this opportunity to thank you for choosing William & Kelly to ensure the security of your residence. I assure you that we will do our utmost to (131) _____ your home. (132) _____. In all efforts to maintain this position, we are continually upgrading our monitoring and communications system, (133) ___ you the best in security technology and service. We value your business and we want you to be (134) ___with what we have to offer.\nIf you have any questions or concerns about our security package, please contact us.\n\nSincerely,\nJonathan Ross\nSales & Installation Manager",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "sell",
+      "B": "renovate",
+      "C": "repair",
+      "D": "protect"
+    },
+    "answer": "D",
+    "transcript": null,
+    "explanation_vi": "Đọc câu liền trước và liền sau để nắm ngữ cảnh liên kết đoạn.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_023_Q132",
+    "part": 6,
+    "question_number": 132,
+    "prompt": "(132) _____.",
+    "passage": "refer to the following letter.\n\nDear Mr. Cowell,\n\nI would like to take this opportunity to thank you for choosing William & Kelly to ensure the security of your residence. I assure you that we will do our utmost to (131) _____ your home. (132) _____. In all efforts to maintain this position, we are continually upgrading our monitoring and communications system, (133) ___ you the best in security technology and service. We value your business and we want you to be (134) ___with what we have to offer.\nIf you have any questions or concerns about our security package, please contact us.\n\nSincerely,\nJonathan Ross\nSales & Installation Manager",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Ranging from private households to major corporations in the country, we have been the market leader in property security provision.",
+      "B": "I spoke with the former security representative but he wasn’t concerned with security at that time.",
+      "C": "However, it seems that the mayor has placed a priority on security above privacy.",
+      "D": "We would like to emphasize the importance of security."
+    },
+    "answer": "A",
+    "transcript": null,
+    "explanation_vi": "Đọc câu liền trước và liền sau để nắm ngữ cảnh liên kết đoạn.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_023_Q133",
+    "part": 6,
+    "question_number": 133,
+    "prompt": "In all efforts to maintain this position, we are continually upgrading our monitoring and communications system, (133) ___ you the best in security technology and service.",
+    "passage": "refer to the following letter.\n\nDear Mr. Cowell,\n\nI would like to take this opportunity to thank you for choosing William & Kelly to ensure the security of your residence. I assure you that we will do our utmost to (131) _____ your home. (132) _____. In all efforts to maintain this position, we are continually upgrading our monitoring and communications system, (133) ___ you the best in security technology and service. We value your business and we want you to be (134) ___with what we have to offer.\nIf you have any questions or concerns about our security package, please contact us.\n\nSincerely,\nJonathan Ross\nSales & Installation Manager",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "ensured",
+      "B": "ensuring",
+      "D": "will ensure",
+      "C": "be ensured"
+    },
+    "answer": "B",
+    "transcript": null,
+    "explanation_vi": "Đọc câu liền trước và liền sau để nắm ngữ cảnh liên kết đoạn.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_023_Q134",
+    "part": 6,
+    "question_number": 134,
+    "prompt": "We value your business and we want you to be (134) ___with what we have to offer.",
+    "passage": "refer to the following letter.\n\nDear Mr. Cowell,\n\nI would like to take this opportunity to thank you for choosing William & Kelly to ensure the security of your residence. I assure you that we will do our utmost to (131) _____ your home. (132) _____. In all efforts to maintain this position, we are continually upgrading our monitoring and communications system, (133) ___ you the best in security technology and service. We value your business and we want you to be (134) ___with what we have to offer.\nIf you have any questions or concerns about our security package, please contact us.\n\nSincerely,\nJonathan Ross\nSales & Installation Manager",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "satisfied",
+      "B": "satisfying",
+      "C": "satisfaction",
+      "D": "satisfactory"
+    },
+    "answer": "A",
+    "transcript": null,
+    "explanation_vi": "Đọc câu liền trước và liền sau để nắm ngữ cảnh liên kết đoạn.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_023_Q135",
+    "part": 6,
+    "question_number": 135,
+    "prompt": "(135) ____.",
+    "passage": "refer to the following letter.\n\nNovember 15 Dear Mr. Brand, (135)  ____. Your friend Ray Ferrier (136) ____  you a six-month subscription to New Scientist journal. Ray thought that the features and articles in New Scientist would appeal to you. So, when he recently renewed his subscription, he requested an additional subscription as a gift for you! From next month, you will receive a monthly issue of New Scientist journal, the industry’s most respected science publication, at (137) ___ no cost to you! New Scientist contains informative articles about recent scientific breakthroughs, a comprehensive listing of job advertisements, and (138) ___ of new technological products on the market. If you would like to cancel this free subscription, please contact our customer services department at 555-9982.\n\nSincerely,\nAllen Graves Chief Editor",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Have a wonderful day!",
+      "B": "Buy one and get one free.",
+      "C": "Articles bought here will be delivered free of charge.",
+      "D": "This is your lucky day!"
+    },
+    "answer": "D",
+    "transcript": null,
+    "explanation_vi": "Đọc câu liền trước và liền sau để nắm ngữ cảnh liên kết đoạn.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_023_Q136",
+    "part": 6,
+    "question_number": 136,
+    "prompt": "Your friend Ray Ferrier (136) ____ you a six-month subscription to New Scientist journal.",
+    "passage": "refer to the following letter.\n\nNovember 15 Dear Mr. Brand, (135)  ____. Your friend Ray Ferrier (136) ____  you a six-month subscription to New Scientist journal. Ray thought that the features and articles in New Scientist would appeal to you. So, when he recently renewed his subscription, he requested an additional subscription as a gift for you! From next month, you will receive a monthly issue of New Scientist journal, the industry’s most respected science publication, at (137) ___ no cost to you! New Scientist contains informative articles about recent scientific breakthroughs, a comprehensive listing of job advertisements, and (138) ___ of new technological products on the market. If you would like to cancel this free subscription, please contact our customer services department at 555-9982.\n\nSincerely,\nAllen Graves Chief Editor",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "to give",
+      "B": "should give",
+      "C": "would have given",
+      "D": "has given"
+    },
+    "answer": "D",
+    "transcript": null,
+    "explanation_vi": "Đọc câu liền trước và liền sau để nắm ngữ cảnh liên kết đoạn.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_023_Q137",
+    "part": 6,
+    "question_number": 137,
+    "prompt": "From next month, you will receive a monthly issue of New Scientist journal, the industry’s most respected science publication, at (137) ___ no cost to you!",
+    "passage": "refer to the following letter.\n\nNovember 15 Dear Mr. Brand, (135)  ____. Your friend Ray Ferrier (136) ____  you a six-month subscription to New Scientist journal. Ray thought that the features and articles in New Scientist would appeal to you. So, when he recently renewed his subscription, he requested an additional subscription as a gift for you! From next month, you will receive a monthly issue of New Scientist journal, the industry’s most respected science publication, at (137) ___ no cost to you! New Scientist contains informative articles about recent scientific breakthroughs, a comprehensive listing of job advertisements, and (138) ___ of new technological products on the market. If you would like to cancel this free subscription, please contact our customer services department at 555-9982.\n\nSincerely,\nAllen Graves Chief Editor",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "remotely",
+      "B": "absolutely",
+      "C": "flawlessly",
+      "D": "substantially"
+    },
+    "answer": "B",
+    "transcript": null,
+    "explanation_vi": "Đọc câu liền trước và liền sau để nắm ngữ cảnh liên kết đoạn.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_023_Q138",
+    "part": 6,
+    "question_number": 138,
+    "prompt": "New Scientist contains informative articles about recent scientific breakthroughs, a comprehensive listing of job advertisements, and (138) ___ of new technological products on the market.",
+    "passage": "refer to the following letter.\n\nNovember 15 Dear Mr. Brand, (135)  ____. Your friend Ray Ferrier (136) ____  you a six-month subscription to New Scientist journal. Ray thought that the features and articles in New Scientist would appeal to you. So, when he recently renewed his subscription, he requested an additional subscription as a gift for you! From next month, you will receive a monthly issue of New Scientist journal, the industry’s most respected science publication, at (137) ___ no cost to you! New Scientist contains informative articles about recent scientific breakthroughs, a comprehensive listing of job advertisements, and (138) ___ of new technological products on the market. If you would like to cancel this free subscription, please contact our customer services department at 555-9982.\n\nSincerely,\nAllen Graves Chief Editor",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "reviews",
+      "B": "upgrades",
+      "C": "purchases",
+      "D": "orders"
+    },
+    "answer": "A",
+    "transcript": null,
+    "explanation_vi": "Đọc câu liền trước và liền sau để nắm ngữ cảnh liên kết đoạn.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_023_Q139",
+    "part": 6,
+    "question_number": 139,
+    "prompt": "This is a (139) ___ that you can expect the elevators to occasionally be out of service while the work is underway.",
+    "passage": "refer to the following memo.\n\nDate: May 5Attention: All Wyatt Building staffThe 6 elevators in the main foyer are scheduled to undergo maintenance between May 28 and June 3. This is a (139) ___ that you can expect the elevators to occasionally be out of service while the work is underway. Elevator service to the building’s many floors (140) ___ from day to day. Signs will be posted daily at the main entrance, showing which floors can be reached by which elevators. (141) ____you work on a lower floor, please take the stairs to reach your floor instead of using the elevators.(142) ___. We appreciate your cooperation in advance.",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "request",
+      "B": "possibility",
+      "C": "reminder",
+      "D": "proposal"
+    },
+    "answer": "C",
+    "transcript": null,
+    "explanation_vi": "Đọc câu liền trước và liền sau để nắm ngữ cảnh liên kết đoạn.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_023_Q140",
+    "part": 6,
+    "question_number": 140,
+    "prompt": "Elevator service to the building’s many floors (140) ___ from day to day.",
+    "passage": "refer to the following memo.\n\nDate: May 5Attention: All Wyatt Building staffThe 6 elevators in the main foyer are scheduled to undergo maintenance between May 28 and June 3. This is a (139) ___ that you can expect the elevators to occasionally be out of service while the work is underway. Elevator service to the building’s many floors (140) ___ from day to day. Signs will be posted daily at the main entrance, showing which floors can be reached by which elevators. (141) ____you work on a lower floor, please take the stairs to reach your floor instead of using the elevators.(142) ___. We appreciate your cooperation in advance.",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "changed",
+      "B": "was changed",
+      "C": "is changing",
+      "D": "will change"
+    },
+    "answer": "D",
+    "transcript": null,
+    "explanation_vi": "Đọc câu liền trước và liền sau để nắm ngữ cảnh liên kết đoạn.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_023_Q141",
+    "part": 6,
+    "question_number": 141,
+    "prompt": "(141) ____you work on a lower floor, please take the stairs to reach your floor instead of using the elevators.",
+    "passage": "refer to the following memo.\n\nDate: May 5Attention: All Wyatt Building staffThe 6 elevators in the main foyer are scheduled to undergo maintenance between May 28 and June 3. This is a (139) ___ that you can expect the elevators to occasionally be out of service while the work is underway. Elevator service to the building’s many floors (140) ___ from day to day. Signs will be posted daily at the main entrance, showing which floors can be reached by which elevators. (141) ____you work on a lower floor, please take the stairs to reach your floor instead of using the elevators.(142) ___. We appreciate your cooperation in advance.",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "If",
+      "B": "Even",
+      "C": "In spite of",
+      "D": "Rather than"
+    },
+    "answer": "A",
+    "transcript": null,
+    "explanation_vi": "Đọc câu liền trước và liền sau để nắm ngữ cảnh liên kết đoạn.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_023_Q142",
+    "part": 6,
+    "question_number": 142,
+    "prompt": "(142) ___.",
+    "passage": "refer to the following memo.\n\nDate: May 5Attention: All Wyatt Building staffThe 6 elevators in the main foyer are scheduled to undergo maintenance between May 28 and June 3. This is a (139) ___ that you can expect the elevators to occasionally be out of service while the work is underway. Elevator service to the building’s many floors (140) ___ from day to day. Signs will be posted daily at the main entrance, showing which floors can be reached by which elevators. (141) ____you work on a lower floor, please take the stairs to reach your floor instead of using the elevators.(142) ___. We appreciate your cooperation in advance.",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "It’s on the second floor, so we’d better not take the elevator.",
+      "B": "This will reduce crowding and delays during the maintenance period.",
+      "C": "This elevator only stops at the sixth floor and above.",
+      "D": "They will bring the new elevator into service next month."
+    },
+    "answer": "B",
+    "transcript": null,
+    "explanation_vi": "Đọc câu liền trước và liền sau để nắm ngữ cảnh liên kết đoạn.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_023_Q143",
+    "part": 6,
+    "question_number": 143,
+    "prompt": "But, your sales officer, Sam Kizana, immediately helped us lessen our anxiety and (143) ___us that we could trust your company.",
+    "passage": "refer to the following letter.\n\nApril 29\nNathan Mafi, Vice president\n329 Ozlem Avenue\nNew York, NY 10010\nDear Mr. Mafi,\n\nWe want to give special thanks for the great job the workers from Jeffrey Papering did for us.\nAs you know, our previous papering experience turned out to be a disaster and we were very anxious about this papering. But, your sales officer, Sam Kizana, immediately helped us lessen our anxiety and (143) ___us that we could trust your company.\nOn the day of the papering, your workers arrived early and worked so hard throughout the day. I was so impressed by the care and professionalism the workers have shown us (144) ____ they treated all of our personal properties. We were very pleased to see that everything arrived in a perfectly fine (145) ____.\n(146) ____. Please feel free to use our name as a reference for the company’s future record.\nLoulach Ltd.\nSan Francesco",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "be assured",
+      "B": "assured",
+      "C": "assure",
+      "D": "assuring"
+    },
+    "answer": "B",
+    "transcript": null,
+    "explanation_vi": "Đọc câu liền trước và liền sau để nắm ngữ cảnh liên kết đoạn.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_023_Q144",
+    "part": 6,
+    "question_number": 144,
+    "prompt": "I was so impressed by the care and professionalism the workers have shown us (144) ____ they treated all of our personal properties.",
+    "passage": "refer to the following letter.\n\nApril 29\nNathan Mafi, Vice president\n329 Ozlem Avenue\nNew York, NY 10010\nDear Mr. Mafi,\n\nWe want to give special thanks for the great job the workers from Jeffrey Papering did for us.\nAs you know, our previous papering experience turned out to be a disaster and we were very anxious about this papering. But, your sales officer, Sam Kizana, immediately helped us lessen our anxiety and (143) ___us that we could trust your company.\nOn the day of the papering, your workers arrived early and worked so hard throughout the day. I was so impressed by the care and professionalism the workers have shown us (144) ____ they treated all of our personal properties. We were very pleased to see that everything arrived in a perfectly fine (145) ____.\n(146) ____. Please feel free to use our name as a reference for the company’s future record.\nLoulach Ltd.\nSan Francesco",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "about",
+      "B": "in the event",
+      "C": "therefore",
+      "D": "by the way"
+    },
+    "answer": "D",
+    "transcript": null,
+    "explanation_vi": "Đọc câu liền trước và liền sau để nắm ngữ cảnh liên kết đoạn.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_023_Q145",
+    "part": 6,
+    "question_number": 145,
+    "prompt": "We were very pleased to see that everything arrived in a perfectly fine (145) ____.",
+    "passage": "refer to the following letter.\n\nApril 29\nNathan Mafi, Vice president\n329 Ozlem Avenue\nNew York, NY 10010\nDear Mr. Mafi,\n\nWe want to give special thanks for the great job the workers from Jeffrey Papering did for us.\nAs you know, our previous papering experience turned out to be a disaster and we were very anxious about this papering. But, your sales officer, Sam Kizana, immediately helped us lessen our anxiety and (143) ___us that we could trust your company.\nOn the day of the papering, your workers arrived early and worked so hard throughout the day. I was so impressed by the care and professionalism the workers have shown us (144) ____ they treated all of our personal properties. We were very pleased to see that everything arrived in a perfectly fine (145) ____.\n(146) ____. Please feel free to use our name as a reference for the company’s future record.\nLoulach Ltd.\nSan Francesco",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "combination",
+      "B": "condition",
+      "C": "progress",
+      "D": "effect"
+    },
+    "answer": "B",
+    "transcript": null,
+    "explanation_vi": "Đọc câu liền trước và liền sau để nắm ngữ cảnh liên kết đoạn.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_023_Q146",
+    "part": 6,
+    "question_number": 146,
+    "prompt": "(146) ____.",
+    "passage": "refer to the following letter.\n\nApril 29\nNathan Mafi, Vice president\n329 Ozlem Avenue\nNew York, NY 10010\nDear Mr. Mafi,\n\nWe want to give special thanks for the great job the workers from Jeffrey Papering did for us.\nAs you know, our previous papering experience turned out to be a disaster and we were very anxious about this papering. But, your sales officer, Sam Kizana, immediately helped us lessen our anxiety and (143) ___us that we could trust your company.\nOn the day of the papering, your workers arrived early and worked so hard throughout the day. I was so impressed by the care and professionalism the workers have shown us (144) ____ they treated all of our personal properties. We were very pleased to see that everything arrived in a perfectly fine (145) ____.\n(146) ____. Please feel free to use our name as a reference for the company’s future record.\nLoulach Ltd.\nSan Francesco",
+    "audio_url": null,
+    "audio_file": null,
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "We would recommend that the papering work be done at once.",
+      "B": "We saw all of the workers papering the wall all day long.",
+      "C": "We would refer your company name to anyone who has plans to paper.",
+      "D": "We believe that a good working environment is important for all employees."
+    },
+    "answer": "C",
+    "transcript": null,
+    "explanation_vi": "Đọc câu liền trước và liền sau để nắm ngữ cảnh liên kết đoạn.",
+    "vocabulary": []
+  }
+]

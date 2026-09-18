@@ -1,0 +1,502 @@
+[
+  {
+    "id": "De_032_Q7",
+    "part": 2,
+    "question_number": 7,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "Who’s responsible for hiring at our fitness center?\n\n(A) Mr. Gonzalez is going to get a membership.\n\n(B) I forgot to sign in at reception.\n\n(C) Mr. Lin and Ms. Weiss are.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-2-7.mp3",
+    "audio_file": "part2/audio/q7.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "C",
+    "transcript": "Who’s responsible for hiring at our fitness center?\n\n(A) Mr. Gonzalez is going to get a membership.\n\n(B) I forgot to sign in at reception.\n\n(C) Mr. Lin and Ms. Weiss are.",
+    "explanation_vi": "7. Ai chịu trách nhiệm tuyển dụng tại trung tâm thể hình của chúng ta?\n\n(A) Ông Gonzalgez sẽ có thẻ thành viên\n\n(B) Tôi quên là cần phải đăng kí tại bàn lễ tân\n\n(C) Ông Lin và bà Weiss làm.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_032_Q8",
+    "part": 2,
+    "question_number": 8,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "Where do you usually purchase office supplies?\n\n(A) We put them in the hallway cabinets.\n\n(B) At the store on Maple Avenue.\n\n(C) A manager’s approval.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-2-8.mp3",
+    "audio_file": "part2/audio/q8.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "B",
+    "transcript": "Where do you usually purchase office supplies?\n\n(A) We put them in the hallway cabinets.\n\n(B) At the store on Maple Avenue.\n\n(C) A manager’s approval.",
+    "explanation_vi": "8. Bạn thường mua đồ dùng văn phòng phẩm tại đâu?\n\n(A) Chúng tôi đặt chúng ở những chiếc tủ ở hành lang.\n\n(B) Một cửa hàng trên đại lộ Maple\n\n(C) Sự phê duyệt của quản lý.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_032_Q9",
+    "part": 2,
+    "question_number": 9,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "What time does Mr. Park usually leave?\n\n(A) Around six o’clock in the evening.\n\n(B) He left everything we need.\n\n(C) We’ve had many interns over the years.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-2-9.mp3",
+    "audio_file": "part2/audio/q9.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "A",
+    "transcript": "What time does Mr. Park usually leave?\n\n(A) Around six o’clock in the evening.\n\n(B) He left everything we need.\n\n(C) We’ve had many interns over the years.",
+    "explanation_vi": "9. Ông Park thường rời đi lúc mấy giờ?\n\n(A) Khoảng 6 giờ tối\n\n(B) Anh ấy để lại tất cả những gì chúng ta cần\n\n(C) Chúng ta đã có rất nhiều thực tập sinh qua nhiều năm.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_032_Q10",
+    "part": 2,
+    "question_number": 10,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "Do you want to present your research to the marketing team?\n\n(A) That’s what I’ve heard as well.\n\n(B) If we can find the time for it.\n\n(C) Yes, I received the gift.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-2-10.mp3",
+    "audio_file": "part2/audio/q10.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "B",
+    "transcript": "Do you want to present your research to the marketing team?\n\n(A) That’s what I’ve heard as well.\n\n(B) If we can find the time for it.\n\n(C) Yes, I received the gift.",
+    "explanation_vi": "10. Bạn có muốn trình bày về bản nghiên cứu của bạn cho phòng tiếp thị không?\n\n(A) Đó cũng là những gì tôi đã nghe\n\n(B) Nếu chúng ta có thời gian cho phần đó\n\n(C) Có, tôi đã nhận được món quà",
+    "vocabulary": []
+  },
+  {
+    "id": "De_032_Q11",
+    "part": 2,
+    "question_number": 11,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "Our company picnic is on Friday, isn’t it?\n\n(A) Those times are both booked.\n\n(B) Only if you can find them easily.\n\n(C) Right—in two days.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-2-11.mp3",
+    "audio_file": "part2/audio/q11.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "C",
+    "transcript": "Our company picnic is on Friday, isn’t it?\n\n(A) Those times are both booked.\n\n(B) Only if you can find them easily.\n\n(C) Right—in two days.",
+    "explanation_vi": "11. Buổi dã ngoại của công ty chúng ta là vào thứ Sáu, đúng không?\n\n(A) Những thời điểm đó đều đã được đặt trước.\n\n(B) Chỉ khi bạn thấy điều đó dễ dàng\n\n(C) Phải – trong 2 ngày",
+    "vocabulary": []
+  },
+  {
+    "id": "De_032_Q12",
+    "part": 2,
+    "question_number": 12,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "Isn’t the bus supposed to stop here?\n\n(A) Yes, according to the schedule.\n\n(B) I’m on my way now.\n\n(C) It listed several potential clients.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-2-12.mp3",
+    "audio_file": "part2/audio/q12.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "A",
+    "transcript": "Isn’t the bus supposed to stop here?\n\n(A) Yes, according to the schedule.\n\n(B) I’m on my way now.\n\n(C) It listed several potential clients.",
+    "explanation_vi": "12. Không phải xe buýt phải dừng ở đây à?\n\n(A) Phải, theo như lịch trình\n\n(B) Tôi đang trên đường đến đây\n\n(C) Nó đã liệt kê một vài khách hàng tiềm năng.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_032_Q13",
+    "part": 2,
+    "question_number": 13,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "We should fill this order quickly, shouldn’t we?\n\n(A) No, I haven’t yet.\n\n(B) Yes, it’s for an important client.\n\n(C) Try using this key.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-2-13.mp3",
+    "audio_file": "part2/audio/q13.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "B",
+    "transcript": "We should fill this order quickly, shouldn’t we?\n\n(A) No, I haven’t yet.\n\n(B) Yes, it’s for an important client.\n\n(C) Try using this key.",
+    "explanation_vi": "13. Chúng ta nên điền những đơn này một cách nhanh chóng, phải không?\n\n(A) Không, tôi vẫn chưa làm\n\n(B) Phải, nó dành cho một khách hàng quan trọng\n\n(C) Hãy thử sử dụng chiếc chìa khóa này",
+    "vocabulary": []
+  },
+  {
+    "id": "De_032_Q14",
+    "part": 2,
+    "question_number": 14,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "How do you like your new job?\n\n(A) I can work from home quite often.\n\n(B) A career in electrical engineering.\n\n(C) My sister helped me apply.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-2-14.mp3",
+    "audio_file": "part2/audio/q14.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "A",
+    "transcript": "How do you like your new job?\n\n(A) I can work from home quite often.\n\n(B) A career in electrical engineering.\n\n(C) My sister helped me apply.",
+    "explanation_vi": "14. Bạn yêu thích công việc mới của bạn như thế nào?\n\n(A) Tôi có thể làm việc tại nhà khá thường xuyên\n\n(B) Sự nghiệp trong ngành kĩ sư điện\n\n(C) Chị tôi đã giúp tôi nộp đơn.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_032_Q15",
+    "part": 2,
+    "question_number": 15,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "Let’s go to the cafeteria for lunch today.\n\n(A) There should be one in the filing cabinet.\n\n(B) Which local restaurant do you prefer?\n\n(C) I don’t think I can take a break.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-2-15.mp3",
+    "audio_file": "part2/audio/q15.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "C",
+    "transcript": "Let’s go to the cafeteria for lunch today.\n\n(A) There should be one in the filing cabinet.\n\n(B) Which local restaurant do you prefer?\n\n(C) I don’t think I can take a break.",
+    "explanation_vi": "15. Hãy ăn trưa ở căng-tin hôm nay\n\n(A) Hẳn phải có một cái trong tủ hồ sơ\n\n(B) Nhà hàng địa phương nào mà bạn thích?\n\n(C) Tôi không nghĩ tôi có thể nghỉ ngơi.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_032_Q16",
+    "part": 2,
+    "question_number": 16,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "When will we hire the new interns?\n\n(A) Mr. Wyeth is handling that.\n\n(B) With more time to spare than usual.\n\n(C) The highest available salary.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-2-16.mp3",
+    "audio_file": "part2/audio/q16.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "A",
+    "transcript": "When will we hire the new interns?\n\n(A) Mr. Wyeth is handling that.\n\n(B) With more time to spare than usual.\n\n(C) The highest available salary.",
+    "explanation_vi": "16. Khi nào thì chúng ta sẽ tuyển thực tập sinh mới?\n\n(A) Ông Wyeth sẽ làm việc đó\n\n(B) Với nhiều thời gian rảnh hơn bình thường\n\n(C) Mức lương cao nhất hiện có.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_032_Q17",
+    "part": 2,
+    "question_number": 17,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "How often should I mail these statements?\n\n(A) Yes, you can buy one online.\n\n(B) The post office on Grant Street.\n\n(C) We send them out once a month.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-2-17.mp3",
+    "audio_file": "part2/audio/q17.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "C",
+    "transcript": "How often should I mail these statements?\n\n(A) Yes, you can buy one online.\n\n(B) The post office on Grant Street.\n\n(C) We send them out once a month.",
+    "explanation_vi": "17. Tần suất mà tôi nên gửi những báo cáo này là bao lâu?\n\n(A) Có, bạn có thể mua một cái trực tuyến\n\n(B) Bưu điện trên đường Grant\n\n(C) Chúng tôi gửi nó đi một lần một tháng",
+    "vocabulary": []
+  },
+  {
+    "id": "De_032_Q18",
+    "part": 2,
+    "question_number": 18,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "Why did you put that food in the freezer?\n\n(A) It’s not working well currently.\n\n(B) I meant to put it in the refrigerator.\n\n(C) Let’s start making dinner soon.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-2-18.mp3",
+    "audio_file": "part2/audio/q18.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "B",
+    "transcript": "Why did you put that food in the freezer?\n\n(A) It’s not working well currently.\n\n(B) I meant to put it in the refrigerator.\n\n(C) Let’s start making dinner soon.",
+    "explanation_vi": "18. Tại sao bạn lại đặt đồ ăn vào ngăn đông?\n\n(A) Nó không hoạt động tốt gần đây\n\n(B) Tôi định đặt nó vào ngăn lạnh\n\n(C) Hãy bắt đầu nấu bữa tối sớm",
+    "vocabulary": []
+  },
+  {
+    "id": "De_032_Q19",
+    "part": 2,
+    "question_number": 19,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "Could you print the agenda for the meeting?\n\n(A) It’s already on your desk.\n\n(B) No, the other printer.\n\n(C) Was that a client?",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-2-19.mp3",
+    "audio_file": "part2/audio/q19.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "A",
+    "transcript": "Could you print the agenda for the meeting?\n\n(A) It’s already on your desk.\n\n(B) No, the other printer.\n\n(C) Was that a client?",
+    "explanation_vi": "19. Bạn có thể in danh sách hoạt động cho cuộc họp không?\n\n(A) Nó đã ở sẵn trên bàn của bạn\n\n(B) Không, máy in khác\n\n(C) Đó không phải là khách hàng à?",
+    "vocabulary": []
+  },
+  {
+    "id": "De_032_Q20",
+    "part": 2,
+    "question_number": 20,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "How far are you from the clinic?\n\n(A) I’m close enough to walk.\n\n(B) I need to see the doctor.\n\n(C) It’s a well-known clinic.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-2-20.mp3",
+    "audio_file": "part2/audio/q20.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "A",
+    "transcript": "How far are you from the clinic?\n\n(A) I’m close enough to walk.\n\n(B) I need to see the doctor.\n\n(C) It’s a well-known clinic.",
+    "explanation_vi": "20. Bạn ở cách phòng khám bao xa?\n\n(A) Tôi ở gần đủ để có thể đi bộ\n\n(B) Tôi cần gặp bác sĩ\n\n(C) Đó là một phòng khám có tiếng",
+    "vocabulary": []
+  },
+  {
+    "id": "De_032_Q21",
+    "part": 2,
+    "question_number": 21,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "Didn’t you get a printout of the company newsletter from Emiko?\n\n(A) She started working here three years ago.\n\n(B) I was out of town last week.\n\n(C) Yes, I do like to write.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-2-21.mp3",
+    "audio_file": "part2/audio/q21.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "B",
+    "transcript": "Didn’t you get a printout of the company newsletter from Emiko?\n\n(A) She started working here three years ago.\n\n(B) I was out of town last week.\n\n(C) Yes, I do like to write.",
+    "explanation_vi": "21. Không phải bạn đã có bản in của bản tin công ty rồi à?\n\n(A) Cô ấy bắt đầu làm việc ở đây 3 năm trước\n\n(B) Tôi đi vắng tuần trước\n\n(C) Phải, tôi thích viết lách",
+    "vocabulary": []
+  },
+  {
+    "id": "De_032_Q22",
+    "part": 2,
+    "question_number": 22,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "When do you need to renew your passport?\n\n(A) Be careful not to lose your tickets.\n\n(B) A brand-new type of microchip.\n\n(C) Soon, because it's about to expire.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-2-22.mp3",
+    "audio_file": "part2/audio/q22.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "C",
+    "transcript": "When do you need to renew your passport?\n\n(A) Be careful not to lose your tickets.\n\n(B) A brand-new type of microchip.\n\n(C) Soon, because it's about to expire.",
+    "explanation_vi": "22. Khi nào thì bạn gia hạn lại hộ chiếu của bạn?\n\n(A) Hãy cẩn thận để không làm mất vé của bạn\n\n(B) Một loại vi mạch hoàn toàn mới\n\n(C) Sớm thôi, bởi vì nó sắp hết hạn rồi",
+    "vocabulary": []
+  },
+  {
+    "id": "De_032_Q23",
+    "part": 2,
+    "question_number": 23,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "Who can help me find replacement parts for my computer?\n\n(A) Here are all the latest statements.\n\n(B) I can help you look through the inventory.\n\n(C) Put these on that shelf.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-2-23.mp3",
+    "audio_file": "part2/audio/q23.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "B",
+    "transcript": "Who can help me find replacement parts for my computer?\n\n(A) Here are all the latest statements.\n\n(B) I can help you look through the inventory.\n\n(C) Put these on that shelf.",
+    "explanation_vi": "23. Ai có thể giúp tôi tìm linh kiện thay thế cho máy tính của tôi?\n\n(A) Đây là tất cả nhữg báo cáo gần đây\n\n(B) Tôi có thể giúp bạn tìm trong hàng tồn kho.\n\n(C) Hãy để những cái đó lên kệ kia",
+    "vocabulary": []
+  },
+  {
+    "id": "De_032_Q24",
+    "part": 2,
+    "question_number": 24,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "I can’t make it to the company dinner tonight.\n\n(A) Managers expect everyone to be there.\n\n(B) A buffet-style restaurant.\n\n(C) A meeting once a week.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-2-24.mp3",
+    "audio_file": "part2/audio/q24.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "A",
+    "transcript": "I can’t make it to the company dinner tonight.\n\n(A) Managers expect everyone to be there.\n\n(B) A buffet-style restaurant.\n\n(C) A meeting once a week.",
+    "explanation_vi": "24. Tôi không thể đến buổi ăn tối của công ty tối nay.\n\n(A) Những quản lý mong mọi người đều ở đó\n\n(B) Một nhà hàng phong cách buffet\n\n(C) Cuộc họp một tuần một lần",
+    "vocabulary": []
+  },
+  {
+    "id": "De_032_Q25",
+    "part": 2,
+    "question_number": 25,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "Do you work in this neighborhood?\n\n(A) Yes, I’d like to.\n\n(B) No, my office isn’t nearby.\n\n(C) There aren’t any of those here.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-2-25.mp3",
+    "audio_file": "part2/audio/q25.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "B",
+    "transcript": "Do you work in this neighborhood?\n\n(A) Yes, I’d like to.\n\n(B) No, my office isn’t nearby.\n\n(C) There aren’t any of those here.",
+    "explanation_vi": "25. Bạn làm việc ở khu vực lân cận phải không?\n\n(A) Phải, tôi thích như vậy\n\n(B) Không, văn phòng của tôi không ở gần\n\n(C) Không có bất cứ cái nào trong những cái đó ở đây",
+    "vocabulary": []
+  },
+  {
+    "id": "De_032_Q26",
+    "part": 2,
+    "question_number": 26,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "It’s time for our quarterly earnings report, isn’t it?\n\n(A) Was there an e-mail reminder about it?\n\n(B) To pay for a new advertising campaign.\n\n(C) No, a different pair of earrings.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-2-26.mp3",
+    "audio_file": "part2/audio/q26.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "A",
+    "transcript": "It’s time for our quarterly earnings report, isn’t it?\n\n(A) Was there an e-mail reminder about it?\n\n(B) To pay for a new advertising campaign.\n\n(C) No, a different pair of earrings.",
+    "explanation_vi": "26. Đã đến giờ cho báo cáo doanh thu hàng quý, đúng không?\n\n(A) Có phải có một e-mail nhắc nhở về nó không?\n\n(B) Để chi trả cho một chiến dịch quảng cáo mới\n\n(C) Không, một đôi bông tai khác",
+    "vocabulary": []
+  },
+  {
+    "id": "De_032_Q27",
+    "part": 2,
+    "question_number": 27,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "What did you do with the guest list that I sent you?\n\n(A) After everyone received it.\n\n(B) I passed it along to everyone who needed it.\n\n(C) We’re supposed to leave soon.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-2-27.mp3",
+    "audio_file": "part2/audio/q27.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "B",
+    "transcript": "What did you do with the guest list that I sent you?\n\n(A) After everyone received it.\n\n(B) I passed it along to everyone who needed it.\n\n(C) We’re supposed to leave soon.",
+    "explanation_vi": "27. Bạn đã làm gì với danh sách khách mời mà tôi gửi bạn rồi?\n\n(A) Sau khi mọi người nhận được nó\n\n(B) Tôi đã chuyển nó cho những ai cần nó\n\n(C) Chúng ta đáng lẽ phải rời đi sớm hơn.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_032_Q28",
+    "part": 2,
+    "question_number": 28,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "Did you see the announcement about Emily’s promotion?\n\n(A) All the technology’s been upgraded.\n\n(B) Perhaps a good career counselor.\n\n(C) I’ve been busy all morning.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-2-28.mp3",
+    "audio_file": "part2/audio/q28.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "C",
+    "transcript": "Did you see the announcement about Emily’s promotion?\n\n(A) All the technology’s been upgraded.\n\n(B) Perhaps a good career counselor.\n\n(C) I’ve been busy all morning.",
+    "explanation_vi": "28. Bạn có thấy thông báo về việc thăng chức của Emily không?\n\n(A) Tất cả công nghệ đã được cập nhật\n\n(B) Có thể là một cố vấn nghề nghiệp tốt\n\n(C) Tôi bận cả sáng nay",
+    "vocabulary": []
+  },
+  {
+    "id": "De_032_Q29",
+    "part": 2,
+    "question_number": 29,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "Let’s try our best to finish the project on time.\n\n(A) All except the first one.\n\n(B) We may need a few more days.\n\n(C) I think over time it will.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-2-29.mp3",
+    "audio_file": "part2/audio/q29.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "B",
+    "transcript": "Let’s try our best to finish the project on time.\n\n(A) All except the first one.\n\n(B) We may need a few more days.\n\n(C) I think over time it will.",
+    "explanation_vi": "29. Hãy cố gắng hết sức để hoàn thành kế hoạch đúng giờ.\n\n(A) Tất cả đều được trừ cái đầu tiên\n\n(B) Chúng ta có lẽ cần thêm vài ngày nữa\n\n(C) Tôi nghĩ qua thời gian nó có thể",
+    "vocabulary": []
+  },
+  {
+    "id": "De_032_Q30",
+    "part": 2,
+    "question_number": 30,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "Where’s the store manager?\n\n(A) A recent hiring decision.\n\n(B) I enjoy shopping at that store.\n\n(C) She went out for lunch.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-2-30.mp3",
+    "audio_file": "part2/audio/q30.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "C",
+    "transcript": "Where’s the store manager?\n\n(A) A recent hiring decision.\n\n(B) I enjoy shopping at that store.\n\n(C) She went out for lunch.",
+    "explanation_vi": "30. Quản lý cửa hàng đang ở đâu?\n\n(A) Một quyết định tuyển dụng gần đây\n\n(B) Tôi thích mua sắm tại cửa hàng\n\n(C) Cô ấy ăn trưa ở ngoài",
+    "vocabulary": []
+  },
+  {
+    "id": "De_032_Q31",
+    "part": 2,
+    "question_number": 31,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "The software you’re using isn't very reliable.\n\n(A) These chairs aren’t very comfortable.\n\n(B) I've been using it for years with no problems.\n\n(C) I saw that computer at the store.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-02-part-2-31.mp3",
+    "audio_file": "part2/audio/q31.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "B",
+    "transcript": "The software you’re using isn't very reliable.\n\n(A) These chairs aren’t very comfortable.\n\n(B) I've been using it for years with no problems.\n\n(C) I saw that computer at the store.",
+    "explanation_vi": "31. Phầm mềm mà bạn đang sử dụng không quá đáng tin cậy\n\n(A) Những chiếc ghế này không quá thoải mái\n\n(B) Tôi đã sử dụng nó 2 năm mà không có vấn đề gì\n\n(C) Tôi đã thấy chiếc máy tính đó tại cửa hàng",
+    "vocabulary": []
+  }
+]

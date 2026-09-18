@@ -1,0 +1,128 @@
+[
+  {
+    "id": "De_039_Q1",
+    "part": 1,
+    "question_number": 1,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) She’s cleaning an oven. \n\n(B) She’s moving a pot.\n(C) She’s opening a cabinet. \n\n(D) She’s holding a towel.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-1.mp3",
+    "audio_file": "part1/audio/q1.mp3",
+    "image_url": "https://s4-media1.study4.com/media/e24/images_fixed2/image310.png",
+    "image_file": "part1/images/asset_1.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "D",
+    "transcript": "(A) She’s cleaning an oven. \n\n(B) She’s moving a pot.\n(C) She’s opening a cabinet. \n\n(D) She’s holding a towel.",
+    "explanation_vi": "Dịch đáp án:\n\n(A) Cô ấy đang lau chùi lò nướng. \n\n(B) Cô ấy đang di chuyển một cái chậu.\n\n(C) Cô ấy đang mở tủ. \n\n(D) Cô ấy đang cầm một chiếc khăn.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_039_Q2",
+    "part": 1,
+    "question_number": 2,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) They’re putting trash in a bag. \n\n(B) They’re taking off their jackets. \n\n(C) They’re facing a shelving unit. \n\n(D) They’re painting a room.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-2.mp3",
+    "audio_file": "part1/audio/q2.mp3",
+    "image_url": "https://s4-media1.study4.com/media/e24/images_fixed2/image145.png",
+    "image_file": "part1/images/asset_2.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "C",
+    "transcript": "(A) They’re putting trash in a bag. \n\n(B) They’re taking off their jackets. \n\n(C) They’re facing a shelving unit. \n\n(D) They’re painting a room.",
+    "explanation_vi": "Dịch đáp án:\n\n(A) Họ đang bỏ rác vào túi. \n\n(B) Họ đang cởi áo khoác. \n\n(C) Họ đang đối mặt với một chiếc kệ. \n\n(D) Họ đang sơn một căn phòng.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_039_Q3",
+    "part": 1,
+    "question_number": 3,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) One of the men is removing his hat.\n(B) A line of customers extends out a door. \n\n(C) Some workers are installing a sign.\n(D) Musicians have gathered in a circle.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-3.mp3",
+    "audio_file": "part1/audio/q3.mp3",
+    "image_url": "https://s4-media1.study4.com/media/e24/images_fixed2/image323.png",
+    "image_file": "part1/images/asset_3.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "D",
+    "transcript": "(A) One of the men is removing his hat.\n(B) A line of customers extends out a door. \n\n(C) Some workers are installing a sign.\n(D) Musicians have gathered in a circle.",
+    "explanation_vi": "Dịch đáp án:\n\n(A) Một trong những người đàn ông đang cởi mũ của mình.\n\n(B) Một hàng khách hàng kéo dài ra cửa.\n\n(C) Một số công nhân đang lắp đặt một bảng hiệu.\n\n(D) Các nhạc sĩ đã tập hợp thành một vòng tròn.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_039_Q4",
+    "part": 1,
+    "question_number": 4,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Some tools have been left on a chair. \n\n(B) Some tool sets have been laid out. \n\n(C) A cup of coffee has spilled.\n\n(D) A table leg is being repaired.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-4.mp3",
+    "audio_file": "part1/audio/q4.mp3",
+    "image_url": "https://s4-media1.study4.com/media/e24/images_fixed2/image68.png",
+    "image_file": "part1/images/asset_4.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "B",
+    "transcript": "(A) Some tools have been left on a chair. \n\n(B) Some tool sets have been laid out. \n\n(C) A cup of coffee has spilled.\n\n(D) A table leg is being repaired.",
+    "explanation_vi": "Dịch đáp án:\n\n(A) Một số dụng cụ đã được để trên ghế.\n\n(B) Một số bộ công cụ đã được chuẩn bị sẵn. \n\n(C) Một tách cà phê đã đổ.\n\n(D) Một chân bàn đang được sửa chữa.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_039_Q5",
+    "part": 1,
+    "question_number": 5,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A railing is being removed.\n(B) A roof is under construction.\n(C) Some workers are carrying a ladder.\n(D) Some workers are holding sheets of metal.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-5.mp3",
+    "audio_file": "part1/audio/q5.mp3",
+    "image_url": "https://s4-media1.study4.com/media/e24/images_fixed2/image164.png",
+    "image_file": "part1/images/asset_5.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "B",
+    "transcript": "(A) A railing is being removed.\n(B) A roof is under construction.\n(C) Some workers are carrying a ladder.\n(D) Some workers are holding sheets of metal.",
+    "explanation_vi": "Dịch đáp án:\n\n(A) Một lan can đang được dỡ bỏ.\n\n(B) Một mái nhà đang được xây dựng.\n\n(C) Một số công nhân đang mang thang.\n\n(D) Một số công nhân đang cầm những tấm kim loại.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_039_Q6",
+    "part": 1,
+    "question_number": 6,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A ladder has been leaned against a tree.\n(B) There are piles of tree branches discarded in a field.\n(C) Wooden benches have been arranged in a circle. \n\n(D) A wooden structure has been built near some trees.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-6.mp3",
+    "audio_file": "part1/audio/q6.mp3",
+    "image_url": "https://s4-media1.study4.com/media/e24/images_fixed2/image106.png",
+    "image_file": "part1/images/asset_6.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "D",
+    "transcript": "(A) A ladder has been leaned against a tree.\n(B) There are piles of tree branches discarded in a field.\n(C) Wooden benches have been arranged in a circle. \n\n(D) A wooden structure has been built near some trees.",
+    "explanation_vi": "Dịch đáp án:\n\n(A) Một cái thang được tựa vào một cái cây.\n\n(B) Có những đống cành cây bị vứt bỏ trên cánh đồng.\n\n(C) Những chiếc ghế dài bằng gỗ đã được sắp xếp thành hình tròn. \n\n(D) Một cấu trúc bằng gỗ đã được xây dựng gần một số cây cối.",
+    "vocabulary": []
+  }
+]

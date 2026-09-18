@@ -1,0 +1,128 @@
+[
+  {
+    "id": "De_035_Q1",
+    "part": 1,
+    "question_number": 1,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) He's working on a puzzle.\n\n(B) He’s lying on a sofa.\n\n(C) He’s reaching for a book.\n\n(D) He’s putting on a sweater.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-05-part-1-1.mp3",
+    "audio_file": "part1/audio/q1.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/5/image11.png",
+    "image_file": "part1/images/asset_1.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "A",
+    "transcript": "(A) He's working on a puzzle.\n\n(B) He’s lying on a sofa.\n\n(C) He’s reaching for a book.\n\n(D) He’s putting on a sweater.",
+    "explanation_vi": "1\n\n(A) Anh ấy đang giải câu xếp hình.\n\n(B) Anh ấy đang nằm trên ghế sofa.\n\n(C) Anh ấy đang với lấy 1 quyển sách.\n\n(D) Anh ấy đang mặc 1 chiếc áo len.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_035_Q2",
+    "part": 1,
+    "question_number": 2,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) She’s organizing some books.\n\n(B) She’s buying a toothbrush.\n\n(C) She’s holding some products.\n\n(D) She’s talking to a store employee.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-05-part-1-2.mp3",
+    "audio_file": "part1/audio/q2.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/5/image10.png",
+    "image_file": "part1/images/asset_2.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "C",
+    "transcript": "(A) She’s organizing some books.\n\n(B) She’s buying a toothbrush.\n\n(C) She’s holding some products.\n\n(D) She’s talking to a store employee.",
+    "explanation_vi": "2.\n\n(A) Cô ấy đang sắp xếp các quyển sách.\n\n(B) Cô ấy đang mua 1 chiếc bàn chải.\n\n(C) Cô ấy đang cầm một vài sản phẩm.\n\n(D) Cô ấy đang nói chuyện với một nhân viên cửa hàng.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_035_Q3",
+    "part": 1,
+    "question_number": 3,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) He’s wearing safety glasses.\n\n(B) He’s cleaning some equipment.\n\n(C) He’s picking up a hammer.\n\n(D) He’s laying stones on a driveway.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-05-part-1-3.mp3",
+    "audio_file": "part1/audio/q3.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/5/image1.png",
+    "image_file": "part1/images/asset_3.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "A",
+    "transcript": "(A) He’s wearing safety glasses.\n\n(B) He’s cleaning some equipment.\n\n(C) He’s picking up a hammer.\n\n(D) He’s laying stones on a driveway.",
+    "explanation_vi": "3.\n\n(A) Anh ấy đang đeo kính bảo hộ.\n\n(B) Anh ấy đang làm sạch một vài thiết bị.\n\n(C) Anh ấy đang nhặt 1 chiếc búa lên.\n\n(D) Anh ấy đang xếp đá trên đường lái xe.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_035_Q4",
+    "part": 1,
+    "question_number": 4,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Some flowerpots have been placed along a walkway.\n\n(B) The gate of a fence was left open.\n\n(C) Some stairway railings are being installed.\n\n(D) The building entrance has columns.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-05-part-1-4.mp3",
+    "audio_file": "part1/audio/q4.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/5/image12.png",
+    "image_file": "part1/images/asset_4.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "D",
+    "transcript": "(A) Some flowerpots have been placed along a walkway.\n\n(B) The gate of a fence was left open.\n\n(C) Some stairway railings are being installed.\n\n(D) The building entrance has columns.",
+    "explanation_vi": "4.\n\n(A) Một vài chậu hoa được đặt dọc theo lối đi.\n\n(B) Cánh cổng hàng rào vẫn được mở.\n\n(C) Một vài lan can cầu thang đang được lắp đặt.\n\n(D) Lối vào tòa nhà có các cột.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_035_Q5",
+    "part": 1,
+    "question_number": 5,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Two people are standing around a buffet counter.\n\n(B) Two people are having a meal together.\n\n(C) A server is bringing dishes to a customer.\n\n(D) A server is pouring water into glasses.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-05-part-1-5.mp3",
+    "audio_file": "part1/audio/q5.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/5/image13.png",
+    "image_file": "part1/images/asset_5.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "B",
+    "transcript": "(A) Two people are standing around a buffet counter.\n\n(B) Two people are having a meal together.\n\n(C) A server is bringing dishes to a customer.\n\n(D) A server is pouring water into glasses.",
+    "explanation_vi": "5.\n\n(A) Hai người đang đứng quanh quầy buffet.\n\n(B) Hai người đang ăn cùng nhau.\n\n(C) Người phục vụ đang bưng đồ ăn cho thực khách.\n\n(D) Người phục vụ đang đổ nước vào ly.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_035_Q6",
+    "part": 1,
+    "question_number": 6,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Electrical cables have been stacked on the floor.\n\n(B) Stools have been placed around the room.\n\n(C) Cabinets are being emptied.\n\n(D) The floor of the workshop is being swept.",
+    "audio_url": "https://s4-media1.study4.com/media/ets2023/audio/ets-test-05-part-1-6.mp3",
+    "audio_file": "part1/audio/q6.mp3",
+    "image_url": "https://s4-media1.study4.com/media/ets2023/img/5/image34.png",
+    "image_file": "part1/images/asset_6.png",
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C",
+      "D": "Option D"
+    },
+    "answer": "B",
+    "transcript": "(A) Electrical cables have been stacked on the floor.\n\n(B) Stools have been placed around the room.\n\n(C) Cabinets are being emptied.\n\n(D) The floor of the workshop is being swept.",
+    "explanation_vi": "6.\n\n(A) Dây điện đã được xếp chồng lên nhau trên sàn nhà.\n\n(B) Ghế đẩu được đặt xung quang phòng.\n\n(C) Tủ đựng đồ đang được để trống.\n\n(D) Sàn nhà của phân xưởng đang được quét.",
+    "vocabulary": []
+  }
+]

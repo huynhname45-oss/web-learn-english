@@ -1,0 +1,134 @@
+[
+  {
+    "id": "De_002_Q1",
+    "part": 1,
+    "question_number": 1,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A man is closing a metal gate.\n\n(B) A man is walking down a stone path.\n\n(C) Some potted plants line a walkway.\n\n(D) Some flags are hanging from balconies.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t2/1.mp3",
+    "audio_file": "part1/audio/q1.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t2/1.webp",
+    "image_file": "part1/images/asset_1.webp",
+    "options": {
+      "A": "A man is closing a metal gate.",
+      "B": "A man is walking down a stone path.",
+      "C": "Some potted plants line a walkway.",
+      "D": "Some flags are hanging from balconies."
+    },
+    "answer": "B",
+    "transcript": "(A) A man is closing a metal gate.\n\n(B) A man is walking down a stone path.\n\n(C) Some potted plants line a walkway.\n\n(D) Some flags are hanging from balconies.",
+    "explanation_vi": "(A) Người đàn ông đang đóng một cánh cổng kim loại.\n\n(B) Người đàn ông đang đi bộ xuống một con đường lát đá.\n\n(C) Một số chậu cây được xếp dọc theo lối đi.\n\n(D) Một số lá cờ đang treo trên ban công.",
+    "explanation_en": null,
+    "vocabulary": "Metal gate (n): Cổng kim loại\n\nStone path (n): Đường lát đá\n\nPotted plant (n): Chậu cây\n\nLine (v): Xếp dọc theo/Chạy dọc theo"
+  },
+  {
+    "id": "De_002_Q2",
+    "part": 1,
+    "question_number": 2,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Some shopping bags have been placed on a train platform.\n\n(B) Some people are lined up to buy train tickets.\n\n(C) A woman is pulling her luggage behind her.\n\n(D) A man is leaning against a railing.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t2/2.mp3",
+    "audio_file": "part1/audio/q2.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t2/2.webp",
+    "image_file": "part1/images/asset_2.webp",
+    "options": {
+      "A": "Some shopping bags have been placed on a train platform.",
+      "B": "Some people are lined up to buy train tickets.",
+      "C": "A woman is pulling her luggage behind her.",
+      "D": "A man is leaning against a railing."
+    },
+    "answer": "D",
+    "transcript": "(A) Some shopping bags have been placed on a train platform.\n\n(B) Some people are lined up to buy train tickets.\n\n(C) A woman is pulling her luggage behind her.\n\n(D) A man is leaning against a railing.",
+    "explanation_vi": "(A) Một số túi mua sắm đã được đặt trên sân ga.\n\n(B) Một số người đang xếp hàng để mua vé tàu.\n\n(C) Người phụ nữ đang kéo hành lý phía sau.\n\n(D) Người đàn ông đang dựa vào lan can.",
+    "explanation_en": null,
+    "vocabulary": "Train platform (n): Sân ga tàu\n\nWait in line (phr): Xếp hàng chờ\n\nPull (v): Kéo\n\nLeaning against (phr): Dựa vào"
+  },
+  {
+    "id": "De_002_Q3",
+    "part": 1,
+    "question_number": 3,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Some wooden planks are leaning against a wall.\n\n(B) A vehicle is parked next to a building.\n\n(C) Some stones have been stacked on a pallet.\n\n(D) A package has been left near a door.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t2/3.mp3",
+    "audio_file": "part1/audio/q3.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t2/3.webp",
+    "image_file": "part1/images/asset_3.webp",
+    "options": {
+      "A": "Some wooden planks are leaning against a wall.",
+      "B": "A vehicle is parked next to a building.",
+      "C": "Some stones have been stacked on a pallet.",
+      "D": "A package has been left near a door."
+    },
+    "answer": "B",
+    "transcript": "(A) Some wooden planks are leaning against a wall.\n\n(B) A vehicle is parked next to a building.\n\n(C) Some stones have been stacked on a pallet.\n\n(D) A package has been left near a door.",
+    "explanation_vi": "(A) Một số tấm ván gỗ đang dựa vào tường.\n\n(B) Một phương tiện đang đỗ cạnh một tòa nhà.\n\n(C) Một số viên đá được xếp chồng trên một tấm pallet.\n\n(D) Một kiện hàng đã được để lại gần cửa.",
+    "explanation_en": null,
+    "vocabulary": "Wooden plank (n): Tấm ván gỗ\n\nVehicle (n): Xe cộ/Phương tiện\n\nPallet (n): Tấm pallet (để kê hàng)\n\nStacked (v/adj): Được xếp chồng"
+  },
+  {
+    "id": "De_002_Q4",
+    "part": 1,
+    "question_number": 4,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A man is holding up his phone.\n\n(B) A man is pinning a note to a bulletin board.\n\n(C) A man is dropping an item into a bin.\n\n(D) A man is washing some windows.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t2/4.mp3",
+    "audio_file": "part1/audio/q4.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t2/4.webp",
+    "image_file": "part1/images/asset_4.webp",
+    "options": {
+      "A": "A man is holding up his phone.",
+      "B": "A man is pinning a note to a bulletin board.",
+      "C": "A man is dropping an item into a bin.",
+      "D": "A man is washing some windows."
+    },
+    "answer": "A",
+    "transcript": "(A) A man is holding up his phone.\n\n(B) A man is pinning a note to a bulletin board.\n\n(C) A man is dropping an item into a bin.\n\n(D) A man is washing some windows.",
+    "explanation_vi": "(A) Người đàn ông đang giơ điện thoại lên.\n\n(B) Người đàn ông đang ghim một mẩu ghi chú lên bảng tin.\n\n(C) Người đàn ông đang bỏ một món đồ vào thùng rác.\n\n(D) Người đàn ông đang lau một số cửa sổ.",
+    "explanation_en": null,
+    "vocabulary": "Hold up (v): Giơ lên/Cầm lên\n\nPin (v): Ghim lại\n\nBulletin board (n): Bảng tin\n\nBin (n): Thùng rác"
+  },
+  {
+    "id": "De_002_Q5",
+    "part": 1,
+    "question_number": 5,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) She's tying the back of her apron.\n\n(B) She's reaching for food on a shelf.\n\n(C) She's working at a counter.\n\n(D) She's putting food into a refrigerator.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t2/5.mp3",
+    "audio_file": "part1/audio/q5.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t2/5.webp",
+    "image_file": "part1/images/asset_5.webp",
+    "options": {
+      "A": "She's tying the back of her apron.",
+      "B": "She's reaching for food on a shelf.",
+      "C": "She's working at a counter.",
+      "D": "She's putting food into a refrigerator."
+    },
+    "answer": "C",
+    "transcript": "(A) She's tying the back of her apron.\n\n(B) She's reaching for food on a shelf.\n\n(C) She's working at a counter.\n\n(D) She's putting food into a refrigerator.",
+    "explanation_vi": "(A) Cô ấy đang buộc dây tạp dề phía sau.\n\n(B) Cô ấy đang với lấy thức ăn trên kệ.\n\n(C) Cô ấy đang làm việc tại quầy.\n\n(D) Cô ấy đang bỏ thức ăn vào tủ lạnh.",
+    "explanation_en": null,
+    "vocabulary": "Apron (n): Tạp dề\n\nReach for (v): Với lấy\n\nCounter (n): Quầy (bếp, thu ngân)\n\nRefrigerator (n): Tủ lạnh"
+  },
+  {
+    "id": "De_002_Q6",
+    "part": 1,
+    "question_number": 6,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) He's setting up a buffet.\n\n(B) He's putting plates on dining tables.\n\n(C) He's watering some plants in a garden.\n\n(D) He's carrying food up a stairway.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t2/6.mp3",
+    "audio_file": "part1/audio/q6.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t2/6.webp",
+    "image_file": "part1/images/asset_6.webp",
+    "options": {
+      "A": "He's setting up a buffet.",
+      "B": "He's putting plates on dining tables.",
+      "C": "He's watering some plants in a garden.",
+      "D": "He's carrying food up a stairway."
+    },
+    "answer": "A",
+    "transcript": "(A) He's setting up a buffet.\n\n(B) He's putting plates on dining tables.\n\n(C) He's watering some plants in a garden.\n\n(D) He's carrying food up a stairway.",
+    "explanation_vi": "(A) Anh ấy đang chuẩn bị cho một bữa tiệc buffet.\n\n(B) Anh ấy đang đặt đĩa lên bàn ăn.\n\n(C) Anh ấy đang tưới một số cây trong vườn.\n\n(D) Anh ấy đang bê thức ăn lên cầu thang.",
+    "explanation_en": null,
+    "vocabulary": "Set up (v): Chuẩn bị/Thiết lập\n\nBuffet (n): Tiệc đứng/Tiệc buffet\n\nWater (v): Tưới nước\n\nStairway (n): Cầu thang"
+  }
+]

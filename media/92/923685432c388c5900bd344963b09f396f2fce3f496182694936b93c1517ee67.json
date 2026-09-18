@@ -1,0 +1,134 @@
+[
+  {
+    "id": "De_010_Q1",
+    "part": 1,
+    "question_number": 1,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) He is reaching for the ceiling.\n\n(B) He's carrying a bucket of paint.\n\n(C) He's fixing a doorway.\n\n(D) He's climbing down a ladder.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t10/1.mp3",
+    "audio_file": "part1/audio/q1.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t10/1.webp",
+    "image_file": "part1/images/asset_1.webp",
+    "options": {
+      "A": "He is reaching for the ceiling.",
+      "B": "He's carrying a bucket of paint.",
+      "C": "He's fixing a doorway.",
+      "D": "He's climbing down a ladder."
+    },
+    "answer": "D",
+    "transcript": "(A) He is reaching for the ceiling.\n\n(B) He's carrying a bucket of paint.\n\n(C) He's fixing a doorway.\n\n(D) He's climbing down a ladder.",
+    "explanation_vi": "(A) Anh ấy đang với tay lên trần nhà.\n\n(B) Anh ấy đang bê một xô sơn.\n\n(C) Anh ấy đang sửa một lối đi.\n\n(D) Anh ấy đang leo xuống thang.",
+    "explanation_en": null,
+    "vocabulary": "Reach for (v): Với lấy/Vươn tới\n\nCeiling (n): Trần nhà\n\nBucket of paint (n): Xô sơn\n\nClimb down (v): Leo xuống"
+  },
+  {
+    "id": "De_010_Q2",
+    "part": 1,
+    "question_number": 2,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) She's reading a poster on the wall.\n\n(B) A chair is propped against the door.\n\n(C) A laptop has been left open.\n\n(D) She's speaking into a microphone.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t10/2.mp3",
+    "audio_file": "part1/audio/q2.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t10/2.webp",
+    "image_file": "part1/images/asset_2.webp",
+    "options": {
+      "A": "She's reading a poster on the wall.",
+      "B": "A chair is propped against the door.",
+      "C": "A laptop has been left open.",
+      "D": "She's speaking into a microphone."
+    },
+    "answer": "C",
+    "transcript": "(A) She's reading a poster on the wall.\n\n(B) A chair is propped against the door.\n\n(C) A laptop has been left open.\n\n(D) She's speaking into a microphone.",
+    "explanation_vi": "(A) Cô ấy đang đọc một tấm áp phích trên tường.\n\n(B) Một chiếc ghế đang được dựng dựa vào cửa.\n\n(C) Một chiếc máy tính xách tay đang được để mở.\n\n(D) Cô ấy đang nói vào một chiếc micro.",
+    "explanation_en": null,
+    "vocabulary": "Poster (n): Tấm áp phích/Quảng cáo\n\nPropped against (phr): Được dựng dựa vào\n\nLeft open (phr): Được để mở\n\nMicrophone (n): Micro"
+  },
+  {
+    "id": "De_010_Q3",
+    "part": 1,
+    "question_number": 3,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) They're strolling in a park.\n\n(B) They're shaking hands.\n\n(C) He's holding up an umbrella.\n\n(D) She's handing him a phone.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t10/3.mp3",
+    "audio_file": "part1/audio/q3.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t10/3.webp",
+    "image_file": "part1/images/asset_3.webp",
+    "options": {
+      "A": "They're strolling in a park.",
+      "B": "They're shaking hands.",
+      "C": "He's holding up an umbrella.",
+      "D": "She's handing him a phone."
+    },
+    "answer": "C",
+    "transcript": "(A) They're strolling in a park.\n\n(B) They're shaking hands.\n\n(C) He's holding up an umbrella.\n\n(D) She's handing him a phone.",
+    "explanation_vi": "(A) Họ đang đi dạo trong công viên.\n\n(B) Họ đang bắt tay nhau.\n\n(C) Anh ấy đang giơ một chiếc ô lên.\n\n(D) Cô ấy đang đưa cho anh ấy một chiếc điện thoại.",
+    "explanation_en": null,
+    "vocabulary": "Stroll (v): Đi dạo\n\nShake hands (phr): Bắt tay\n\nHold up (v): Giơ lên/Cầm lên\n\nHand (v): Đưa cho"
+  },
+  {
+    "id": "De_010_Q4",
+    "part": 1,
+    "question_number": 4,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A car is being towed down a street.\n\n(B) Some men are removing a tire from a truck.\n\n(C) One of the men is unloading equipment from a truck.\n\n(D) A building has a clock tower on top of it.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t10/4.mp3",
+    "audio_file": "part1/audio/q4.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t10/4.webp",
+    "image_file": "part1/images/asset_4.webp",
+    "options": {
+      "A": "A car is being towed down a street.",
+      "B": "Some men are removing a tire from a truck.",
+      "C": "One of the men is unloading equipment from a truck.",
+      "D": "A building has a clock tower on top of it."
+    },
+    "answer": "D",
+    "transcript": "(A) A car is being towed down a street.\n\n(B) Some men are removing a tire from a truck.\n\n(C) One of the men is unloading equipment from a truck.\n\n(D) A building has a clock tower on top of it.",
+    "explanation_vi": "(A) Một chiếc xe hơi đang được kéo đi trên phố.\n\n(B) Một vài người đàn ông đang tháo lốp xe khỏi xe tải.\n\n(C) Một trong những người đàn ông đang dỡ thiết bị từ xe tải.\n\n(D) Một tòa nhà có tháp đồng hồ ở trên đỉnh.",
+    "explanation_en": null,
+    "vocabulary": "Tow (v): Kéo đi (bằng xe cứu hộ)\n\nUnload (v): Dỡ hàng/Dỡ thiết bị\n\nClock tower (n): Tháp đồng hồ\n\nTop (n): Đỉnh/Phía trên"
+  },
+  {
+    "id": "De_010_Q5",
+    "part": 1,
+    "question_number": 5,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Some of the bicycles are being repaired.\n\n(B) The bicycles are lined up in a row.\n\n(C) One of the bicycles is leaning against a traffic sign.\n\n(D) A bicycle path is being painted.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t10/5.mp3",
+    "audio_file": "part1/audio/q5.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t10/5.webp",
+    "image_file": "part1/images/asset_5.webp",
+    "options": {
+      "A": "Some of the bicycles are being repaired.",
+      "B": "The bicycles are lined up in a row.",
+      "C": "One of the bicycles is leaning against a traffic sign.",
+      "D": "A bicycle path is being painted."
+    },
+    "answer": "B",
+    "transcript": "(A) Some of the bicycles are being repaired.\n\n(B) The bicycles are lined up in a row.\n\n(C) One of the bicycles is leaning against a traffic sign.\n\n(D) A bicycle path is being painted.",
+    "explanation_vi": "(A) Một số chiếc xe đạp đang được sửa chữa.\n\n(B) Những chiếc xe đạp được xếp thành một hàng.\n\n(C) Một trong những chiếc xe đạp đang dựa vào biển báo giao thông.\n\n(D) Một làn đường dành cho xe đạp đang được sơn.",
+    "explanation_en": null,
+    "vocabulary": "Line up (v): Xếp hàng/Xếp thành dòng\n\nIn a row (phr): Thành một hàng\n\nLeaning against (phr): Dựa vào\n\nTraffic sign (n): Biển báo giao thông"
+  },
+  {
+    "id": "De_010_Q6",
+    "part": 1,
+    "question_number": 6,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Some ships are moving under a bridge.\n\n(B) Some boats are docked near a shore.\n\n(C) A ferryboat is traveling through a marina.\n\n(D) There are buildings along the side of a street.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t10/6.mp3",
+    "audio_file": "part1/audio/q6.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t10/6.webp",
+    "image_file": "part1/images/asset_6.webp",
+    "options": {
+      "A": "Some ships are moving under a bridge.",
+      "B": "Some boats are docked near a shore.",
+      "C": "A ferryboat is traveling through a marina.",
+      "D": "There are buildings along the side of a street."
+    },
+    "answer": "B",
+    "transcript": "(A) Some ships are moving under a bridge.\n\n(B) Some boats are docked near a shore.\n\n(C) A ferryboat is traveling through a marina.\n\n(D) There are buildings along the side of a street.",
+    "explanation_vi": "(A) Một số con tàu đang đi qua dưới một cây cầu.\n\n(B) Một số con thuyền đang đậu gần bờ.\n\n(C) Một chiếc phà đang di chuyển qua bến tàu.\n\n(D) Có những tòa nhà dọc theo một con phố.",
+    "explanation_en": null,
+    "vocabulary": "Docked (v/adj): Đậu bến/Cập bến\n\nShore (n): Bờ biển/Bờ hồ\n\nFerryboat (n): Chiếc phà\n\nMarina (n): Bến tàu/Khu vực dành cho tàu thuyền"
+  }
+]

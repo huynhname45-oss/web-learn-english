@@ -1,0 +1,134 @@
+[
+  {
+    "id": "De_009_Q1",
+    "part": 1,
+    "question_number": 1,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A man is placing books into a shelving unit.\n\n(B) A man is hanging up some flyers.\n\n(C) A man is picking up tools from the floor.\n\n(D) A man is bending over some wires.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t9/1.mp3",
+    "audio_file": "part1/audio/q1.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t9/1.webp",
+    "image_file": "part1/images/asset_1.webp",
+    "options": {
+      "A": "A man is placing books into a shelving unit.",
+      "B": "A man is hanging up some flyers.",
+      "C": "A man is picking up tools from the floor.",
+      "D": "A man is bending over some wires."
+    },
+    "answer": "D",
+    "transcript": "(A) A man is placing books into a shelving unit.\n\n(B) A man is hanging up some flyers.\n\n(C) A man is picking up tools from the floor.\n\n(D) A man is bending over some wires.",
+    "explanation_vi": "(A) Một người đàn ông đang xếp sách vào kệ.\n\n(B) Một người đàn ông đang treo một vài tờ rơi.\n\n(C) Một người đàn ông đang nhặt dụng cụ từ sàn nhà.\n\n(D) Một người đàn ông đang cúi người bên mấy sợi dây điện.",
+    "explanation_en": null,
+    "vocabulary": "Shelving unit (n): Kệ để đồ/Giá sách\n\nFlyer (n): Tờ rơi\n\nBend over (v): Cúi người xuống\n\nWire (n): Dây điện"
+  },
+  {
+    "id": "De_009_Q2",
+    "part": 1,
+    "question_number": 2,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A picnic area is covered by a roof.\n\n(B) A bin is filled with flowers.\n\n(C) A picnic area is shaded by trees.\n\n(D) A road leads to a picnic area.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t9/2.mp3",
+    "audio_file": "part1/audio/q2.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t9/2.webp",
+    "image_file": "part1/images/asset_2.webp",
+    "options": {
+      "A": "A picnic area is covered by a roof.",
+      "B": "A bin is filled with flowers.",
+      "C": "A picnic area is shaded by trees.",
+      "D": "A road leads to a picnic area."
+    },
+    "answer": "A",
+    "transcript": "(A) A picnic area is covered by a roof.\n\n(B) A bin is filled with flowers.\n\n(C) A picnic area is shaded by trees.\n\n(D) A road leads to a picnic area.",
+    "explanation_vi": "(A) Một khu vực dã ngoại được che phủ bởi một mái che.\n\n(B) Một chiếc thùng chứa đầy hoa.\n\n(C) Một khu vực dã ngoại được che bóng bởi những cái cây.\n\n(D) Một con đường dẫn đến khu vực dã ngoại.",
+    "explanation_en": null,
+    "vocabulary": "Picnic area (n): Khu vực dã ngoại\n\nCovered (adj): Được che phủ\n\nRoof (n): Mái nhà/Mái che\n\nShaded (adj): Được che bóng mát"
+  },
+  {
+    "id": "De_009_Q3",
+    "part": 1,
+    "question_number": 3,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) She's dusting a counter.\n\n(B) She's loading paper into a copy machine.\n\n(C) She's distributing some envelopes.\n\n(D) She's opening some cabinet doors.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t9/3.mp3",
+    "audio_file": "part1/audio/q3.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t9/3.webp",
+    "image_file": "part1/images/asset_3.webp",
+    "options": {
+      "A": "She's dusting a counter.",
+      "B": "She's loading paper into a copy machine.",
+      "C": "She's distributing some envelopes.",
+      "D": "She's opening some cabinet doors."
+    },
+    "answer": "C",
+    "transcript": "(A) She's dusting a counter.\n\n(B) She's loading paper into a copy machine.\n\n(C) She's distributing some envelopes.\n\n(D) She's opening some cabinet doors.",
+    "explanation_vi": "(A) Cô ấy đang phủi bụi trên quầy.\n\n(B) Cô ấy đang nạp giấy vào máy photocopy.\n\n(C) Cô ấy đang phát một số phong bì.\n\n(D) Cô ấy đang mở một số cánh cửa tủ.",
+    "explanation_en": null,
+    "vocabulary": "Dust (v): Phủi bụi/Lau bụi\n\nDistribute (v): Phân phát\n\nEnvelope (n): Phong bì\n\nCabinet (n): Tủ có ngăn"
+  },
+  {
+    "id": "De_009_Q4",
+    "part": 1,
+    "question_number": 4,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Some people are waiting in line to order.\n\n(B) A menu board has been hung on a wall.\n\n(C) A server is placing some food on a tray.\n\n(D) A server is taking an order from a customer.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t9/4.mp3",
+    "audio_file": "part1/audio/q4.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t9/4.webp",
+    "image_file": "part1/images/asset_4.webp",
+    "options": {
+      "A": "Some people are waiting in line to order.",
+      "B": "A menu board has been hung on a wall.",
+      "C": "A server is placing some food on a tray.",
+      "D": "A server is taking an order from a customer."
+    },
+    "answer": "B",
+    "transcript": "(A) Some people are waiting in line to order.\n\n(B) A menu board has been hung on a wall.\n\n(C) A server is placing some food on a tray.\n\n(D) A server is taking an order from a customer.",
+    "explanation_vi": "(A) Một số người đang xếp hàng để đặt món.\n\n(B) Một bảng thực đơn đã được treo trên tường.\n\n(C) Một nhân viên phục vụ đang đặt thức ăn lên khay.\n\n(D) Một nhân viên phục vụ đang nhận đơn hàng từ khách hàng.",
+    "explanation_en": null,
+    "vocabulary": "Menu board (n): Bảng thực đơn\n\nWait in line (phr): Xếp hàng chờ\n\nServer (n): Nhân viên phục vụ\n\nTray (n): Cái khay"
+  },
+  {
+    "id": "De_009_Q5",
+    "part": 1,
+    "question_number": 5,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) One of the men is stacking vegetables in a basket.\n\n(B) One of the men is selling merchandise in front of a tent.\n\n(C) One of the men is riding a motorcycle down a street.\n\n(D) One of the men is walking into a store.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t9/5.mp3",
+    "audio_file": "part1/audio/q5.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t9/5.webp",
+    "image_file": "part1/images/asset_5.webp",
+    "options": {
+      "A": "One of the men is stacking vegetables in a basket.",
+      "B": "One of the men is selling merchandise in front of a tent.",
+      "C": "One of the men is riding a motorcycle down a street.",
+      "D": "One of the men is walking into a store."
+    },
+    "answer": "C",
+    "transcript": "(A) One of the men is stacking vegetables in a basket.\n\n(B) One of the men is selling merchandise in front of a tent.\n\n(C) One of the men is riding a motorcycle down a street.\n\n(D) One of the men is walking into a store.",
+    "explanation_vi": "(A) Một trong những người đàn ông đang xếp rau củ vào giỏ.\n\n(B) Một trong những người đàn ông đang bán hàng phía trước một chiếc lều.\n\n(C) Một trong những người đàn ông đang lái xe máy chạy xuống đường.\n\n(D) Một trong những người đàn ông đang đi bộ vào một cửa hàng.",
+    "explanation_en": null,
+    "vocabulary": "Stack (v): Xếp chồng/Chất đống\n\nMerchandise (n): Hàng hóa\n\nMotorcycle (n): Xe máy\n\nTent (n): Chiếc lều"
+  },
+  {
+    "id": "De_009_Q6",
+    "part": 1,
+    "question_number": 6,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) The woman is standing in front of a painting.\n\n(B) The woman is carrying a painting through a doorway.\n\n(C) One of the paintings is displayed in a round frame.\n\n(D) Some paintings are leaning against a wooden bench.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t9/6.mp3",
+    "audio_file": "part1/audio/q6.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t9/6.webp",
+    "image_file": "part1/images/asset_6.webp",
+    "options": {
+      "A": "The woman is standing in front of a painting.",
+      "B": "The woman is carrying a painting through a doorway.",
+      "C": "One of the paintings is displayed in a round frame.",
+      "D": "Some paintings are leaning against a wooden bench."
+    },
+    "answer": "C",
+    "transcript": "(A) The woman is standing in front of a painting.\n\n(B) The woman is carrying a painting through a doorway.\n\n(C) One of the paintings is displayed in a round frame.\n\n(D) Some paintings are leaning against a wooden bench.",
+    "explanation_vi": "(A) Người phụ nữ đang đứng trước một bức tranh.\n\n(B) Người phụ nữ đang bê một bức tranh đi qua cửa.\n\n(C) Một trong những bức tranh được trưng bày trong một chiếc khung tròn.\n\n(D) Một số bức tranh đang dựa vào một chiếc ghế gỗ dài.",
+    "explanation_en": null,
+    "vocabulary": "Painting (n): Bức tranh\n\nRound frame (n): Khung tròn\n\nLeaning against (phr): Dựa vào\n\nWooden bench (n): Ghế gỗ dài"
+  }
+]

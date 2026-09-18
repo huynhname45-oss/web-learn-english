@@ -1,0 +1,134 @@
+[
+  {
+    "id": "De_004_Q1",
+    "part": 1,
+    "question_number": 1,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) She's crossing a busy street.\n\n(B) She's removing her eyeglasses.\n\n(C) She's standing next to a bin.\n\n(D) She's getting into a taxicab.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t4/1.mp3",
+    "audio_file": "part1/audio/q1.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t4/1.webp",
+    "image_file": "part1/images/asset_1.webp",
+    "options": {
+      "A": "She's crossing a busy street.",
+      "B": "She's removing her eyeglasses.",
+      "C": "She's standing next to a bin.",
+      "D": "She's getting into a taxicab."
+    },
+    "answer": "C",
+    "transcript": "(A) She's crossing a busy street.\n\n(B) She's removing her eyeglasses.\n\n(C) She's standing next to a bin.\n\n(D) She's getting into a taxicab.",
+    "explanation_vi": "(A) Cô ấy đang băng qua một con phố đông đúc.\n\n(B) Cô ấy đang tháo kính mắt ra.\n\n(C) Cô ấy đang đứng cạnh một chiếc thùng rác.\n\n(D) Cô ấy đang bước vào một chiếc taxi.",
+    "explanation_en": null,
+    "vocabulary": "Cross (v): Băng qua\n\nEyeglasses (n): Kính mắt\n\nBin (n): Thùng (đựng rác, đồ vật)\n\nTaxicab (n): Xe taxi"
+  },
+  {
+    "id": "De_004_Q2",
+    "part": 1,
+    "question_number": 2,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Some trucks have stopped at a traffic signal.\n\n(B) Some lights are being installed above a garage door.\n\n(C) A garden is being planted along a fence.\n\n(D) Several vehicles are parked outside a building.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t4/2.mp3",
+    "audio_file": "part1/audio/q2.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t4/2.webp",
+    "image_file": "part1/images/asset_2.webp",
+    "options": {
+      "A": "Some trucks have stopped at a traffic signal.",
+      "B": "Some lights are being installed above a garage door.",
+      "C": "A garden is being planted along a fence.",
+      "D": "Several vehicles are parked outside a building."
+    },
+    "answer": "D",
+    "transcript": "(A) Some trucks have stopped at a traffic signal.\n\n(B) Some lights are being installed above a garage door.\n\n(C) A garden is being planted along a fence.\n\n(D) Several vehicles are parked outside a building.",
+    "explanation_vi": "(A) Một số xe tải đã dừng lại tại đèn giao thông.\n\n(B) Một số đèn đang được lắp đặt phía trên cửa nhà xe.\n\n(C) Một khu vườn đang được trồng dọc theo hàng rào.\n\n(D) Một vài phương tiện đang đỗ bên ngoài một tòa nhà.",
+    "explanation_en": null,
+    "vocabulary": "Traffic signal (n): Đèn giao thông\n\nGarage (n): Nhà để xe\n\nFence (n): Hàng rào\n\nPark (v): Đỗ xe"
+  },
+  {
+    "id": "De_004_Q3",
+    "part": 1,
+    "question_number": 3,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) A woman is following a man down a corridor.\n\n(B) A woman is putting together some cardboard boxes.\n\n(C) A man is emptying a large container.\n\n(D) A man is climbing up a ladder.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t4/3.mp3",
+    "audio_file": "part1/audio/q3.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t4/3.webp",
+    "image_file": "part1/images/asset_3.webp",
+    "options": {
+      "A": "A woman is following a man down a corridor.",
+      "B": "A woman is putting together some cardboard boxes.",
+      "C": "A man is emptying a large container.",
+      "D": "A man is climbing up a ladder."
+    },
+    "answer": "A",
+    "transcript": "(A) A woman is following a man down a corridor.\n\n(B) A woman is putting together some cardboard boxes.\n\n(C) A man is emptying a large container.\n\n(D) A man is climbing up a ladder.",
+    "explanation_vi": "(A) Người phụ nữ đang đi theo người đàn ông xuống hành lang.\n\n(B) Người phụ nữ đang lắp ráp một số thùng carton.\n\n(C) Người đàn ông đang đổ sạch một thùng chứa lớn.\n\n(D) Người đàn ông đang leo lên một chiếc thang.",
+    "explanation_en": null,
+    "vocabulary": "Corridor (n): Hành lang\n\nPut together (phr): Lắp ráp/Gộp lại\n\nCardboard box (n): Thùng carton\n\nEmpty (v): Đổ sạch/Làm trống"
+  },
+  {
+    "id": "De_004_Q4",
+    "part": 1,
+    "question_number": 4,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) He's clearing some snow off a path.\n\n(B) He's pulling a cart on a walkway.\n\n(C) He's leaning over to tie his shoe.\n\n(D) He's taking some items out of a basket.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t4/4.mp3",
+    "audio_file": "part1/audio/q4.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t4/4.webp",
+    "image_file": "part1/images/asset_4.webp",
+    "options": {
+      "A": "He's clearing some snow off a path.",
+      "B": "He's pulling a cart on a walkway.",
+      "C": "He's leaning over to tie his shoe.",
+      "D": "He's taking some items out of a basket."
+    },
+    "answer": "B",
+    "transcript": "(A) He's clearing some snow off a path.\n\n(B) He's pulling a cart on a walkway.\n\n(C) He's leaning over to tie his shoe.\n\n(D) He's taking some items out of a basket.",
+    "explanation_vi": "(A) Anh ấy đang dọn tuyết trên một con đường.\n\n(B) Anh ấy đang kéo một chiếc xe đẩy trên lối đi bộ.\n\n(C) Anh ấy đang cúi xuống để buộc dây giày.\n\n(D) Anh ấy đang lấy một số món đồ ra khỏi giỏ.",
+    "explanation_en": null,
+    "vocabulary": "Clear (v): Dọn dẹp/Làm sạch\n\nPull (v): Kéo\n\nCart (n): Xe đẩy\n\nWalkway (n): Lối đi bộ"
+  },
+  {
+    "id": "De_004_Q5",
+    "part": 1,
+    "question_number": 5,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) One of the women is carrying a bag on her shoulder.\n\n(B) One of the women is placing her luggage on a scale.\n\n(C) Some suitcases have been lined up against the wall.\n\n(D) Some clothes are being packed in a bag.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t4/5.mp3",
+    "audio_file": "part1/audio/q5.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t4/5.webp",
+    "image_file": "part1/images/asset_5.webp",
+    "options": {
+      "A": "One of the women is carrying a bag on her shoulder.",
+      "B": "One of the women is placing her luggage on a scale.",
+      "C": "Some suitcases have been lined up against the wall.",
+      "D": "Some clothes are being packed in a bag."
+    },
+    "answer": "A",
+    "transcript": "(A) One of the women is carrying a bag on her shoulder.\n\n(B) One of the women is placing her luggage on a scale.\n\n(C) Some suitcases have been lined up against the wall.\n\n(D) Some clothes are being packed in a bag.",
+    "explanation_vi": "(A) Một trong những người phụ nữ đang đeo một chiếc túi trên vai.\n\n(B) Một trong những người phụ nữ đang đặt hành lý lên cân.\n\n(C) Một số vali được xếp dọc theo tường.\n\n(D) Một số quần áo đang được xếp vào túi.",
+    "explanation_en": null,
+    "vocabulary": "Shoulder (n): Vai\n\nLuggage (n): Hành lý\n\nScale (n): Cái cân\n\nSuitcase (n): Vali"
+  },
+  {
+    "id": "De_004_Q6",
+    "part": 1,
+    "question_number": 6,
+    "prompt": "Chọn câu mô tả đúng bức ảnh.",
+    "passage": "(A) Some customers are drinking from coffee cups.\n\n(B) Some coffee cups have been placed on a counter.\n\n(C) Some aprons are hanging from hooks.\n\n(D) One of the workers is wiping down a counter.",
+    "audio_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t4/6.mp3",
+    "audio_file": "part1/audio/q6.mp3",
+    "image_url": "https://qfhmnlvgweznzcsoijyr.supabase.co/storage/v1/object/public/mock-test-media/2026/t4/6.webp",
+    "image_file": "part1/images/asset_6.webp",
+    "options": {
+      "A": "Some customers are drinking from coffee cups.",
+      "B": "Some coffee cups have been placed on a counter.",
+      "C": "Some aprons are hanging from hooks.",
+      "D": "One of the workers is wiping down a counter."
+    },
+    "answer": "B",
+    "transcript": "(A) Some customers are drinking from coffee cups.\n\n(B) Some coffee cups have been placed on a counter.\n\n(C) Some aprons are hanging from hooks.\n\n(D) One of the workers is wiping down a counter.",
+    "explanation_vi": "(A) Một số khách hàng đang uống nước từ tách cà phê.\n\n(B) Một số tách cà phê đã được đặt trên quầy.\n\n(C) Một số tạp dề đang treo trên móc.\n\n(D) Một trong những công nhân đang lau chùi quầy.",
+    "explanation_en": null,
+    "vocabulary": "Counter (n): Quầy (thu ngân, bếp)\n\nApron (n): Tạp dề\n\nHook (n): Cái móc\n\nWipe down (phr): Lau chùi sạch"
+  }
+]

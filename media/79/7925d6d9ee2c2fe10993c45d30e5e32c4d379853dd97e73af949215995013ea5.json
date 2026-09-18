@@ -1,0 +1,502 @@
+[
+  {
+    "id": "De_039_Q7",
+    "part": 2,
+    "question_number": 7,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "M-Au Why is there no flour on the shelf?\n\nW-Br (A) Because it’s out of stock. (B) Those roses smell nice. (C) No, the other cake.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-7.mp3",
+    "audio_file": "part2/audio/q7.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "A",
+    "transcript": "M-Au Why is there no flour on the shelf?\n\nW-Br (A) Because it’s out of stock. (B) Those roses smell nice. (C) No, the other cake.",
+    "explanation_vi": "Dịch đáp án:\n\nM-Au Tại sao trên kệ lại không có bột mì?\n\nW-Br (A) Vì nó hết hàng rồi. (B) Những bông hồng đó có mùi thơm dễ chịu. (C) Không, cái bánh kia.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_039_Q8",
+    "part": 2,
+    "question_number": 8,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "M-Au When will the catering company arrive?\n\nw-Am (A) At four o’clock. (B) That’s a delicious flavor. (C) Many vegetarian options.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-8.mp3",
+    "audio_file": "part2/audio/q8.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "A",
+    "transcript": "M-Au When will the catering company arrive?\n\nw-Am (A) At four o’clock. (B) That’s a delicious flavor. (C) Many vegetarian options.",
+    "explanation_vi": "Dịch đáp án:\n\nM-Au Khi nào công ty cung cấp suất ăn sẽ đến?\n\nw-Am (A) Vào lúc bốn giờ. (B) Đó là một hương vị thơm ngon. (C) Nhiều lựa chọn ăn chay.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_039_Q9",
+    "part": 2,
+    "question_number": 9,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "W-Am When's the meeting scheduled to start? \n\nM-Cn (A) At a networking event. (B) I started this job six years ago. (C) Right after lunch.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-9.mp3",
+    "audio_file": "part2/audio/q9.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "C",
+    "transcript": "W-Am When's the meeting scheduled to start? \n\nM-Cn (A) At a networking event. (B) I started this job six years ago. (C) Right after lunch.",
+    "explanation_vi": "Dịch đáp án:\n\nW-Am Khi nào cuộc họp dự kiến ​​bắt đầu? \n\nM-Cn (A) Tại một sự kiện kết nối. (B) Tôi bắt đầu công việc này sáu năm trước. (C) Ngay sau bữa trưa.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_039_Q10",
+    "part": 2,
+    "question_number": 10,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "W-Am How much will the repairs cost?\n\nM-Cn (A) I have two pairs of shoes. (B) Around 200 dollars. (C) The restaurant downtown.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-10.mp3",
+    "audio_file": "part2/audio/q10.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "B",
+    "transcript": "W-Am How much will the repairs cost?\n\nM-Cn (A) I have two pairs of shoes. (B) Around 200 dollars. (C) The restaurant downtown.",
+    "explanation_vi": "Dịch đáp án:\n\nW-Am Chi phí sửa chữa là bao nhiêu?\n\nM-Cn (A) Tôi có hai đôi giày. (B) Khoảng 200 đô la. (C) Nhà hàng ở trung tâm thành phố.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_039_Q11",
+    "part": 2,
+    "question_number": 11,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "M-Au You went to the dentist this morning, didn’t you?\n\nw-Br (A) Oh, I’ve already had breakfast. (B) Yes, for an annual checkup. (C) Let’s take the bus.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-11.mp3",
+    "audio_file": "part2/audio/q11.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "B",
+    "transcript": "M-Au You went to the dentist this morning, didn’t you?\n\nw-Br (A) Oh, I’ve already had breakfast. (B) Yes, for an annual checkup. (C) Let’s take the bus.",
+    "explanation_vi": "Dịch đáp án:\n\nM-Au Sáng nay cậu đã đến nha sĩ phải không?\n\nw-Br (A) Ồ, tôi đã ăn sáng rồi. (B) Có, để kiểm tra sức khỏe hàng năm. (C) Hãy đi xe buýt.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_039_Q12",
+    "part": 2,
+    "question_number": 12,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "W-Am Where should we put the new printer?\n\nM-Cn (A) In the corner by the stairs. (B) The third page of the document. (C) A reusable ink cartridge.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-12.mp3",
+    "audio_file": "part2/audio/q12.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "A",
+    "transcript": "W-Am Where should we put the new printer?\n\nM-Cn (A) In the corner by the stairs. (B) The third page of the document. (C) A reusable ink cartridge.",
+    "explanation_vi": "Dịch đáp án:\n\nW-Am Chúng ta nên đặt máy in mới ở đâu?\n\nM-Cn (A) Ở góc cầu thang. (B) Trang thứ ba của tài liệu. (C) Hộp mực có thể tái sử dụng.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_039_Q13",
+    "part": 2,
+    "question_number": 13,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "M-Cn What type of plant do you have in your office?\n\nW-Am (A) Whenever I sit at my desk. (B) Thanks—I just bought it. (C) One that doesn’t require much water.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-13.mp3",
+    "audio_file": "part2/audio/q13.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "C",
+    "transcript": "M-Cn What type of plant do you have in your office?\n\nW-Am (A) Whenever I sit at my desk. (B) Thanks—I just bought it. (C) One that doesn’t require much water.",
+    "explanation_vi": "Dịch đáp án:\n\nM-Cn Bạn trồng loại cây gì trong văn phòng của mình?\n\nW-Am (A) Bất cứ khi nào tôi ngồi ở bàn làm việc. (B) Cảm ơn—tôi vừa mua nó. (C) Loại cây mà không cần nhiều nước.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_039_Q14",
+    "part": 2,
+    "question_number": 14,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "M-Au There was a sale at the furniture store.\n\nw-Am (A) No, it wasn’t in storage. (B) Did you buy anything? (C) Some old receipts.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-14.mp3",
+    "audio_file": "part2/audio/q14.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "B",
+    "transcript": "M-Au There was a sale at the furniture store.\n\nw-Am (A) No, it wasn’t in storage. (B) Did you buy anything? (C) Some old receipts.",
+    "explanation_vi": "Dịch đáp án:\n\nM-Au Đã có đợt giảm giá ở cửa hàng nội thất.\n\nw-Am (A) Không, nó không có trong kho. (B) Bạn có mua gì không? (C) Một số biên lai cũ.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_039_Q15",
+    "part": 2,
+    "question_number": 15,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "M-Au Can you show me how to submit a tech help ticket?\n\nW-Br (A) Let me send you the link. (B) A broken power cable. (C) No, over ten minutes.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-15.mp3",
+    "audio_file": "part2/audio/q15.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "A",
+    "transcript": "M-Au Can you show me how to submit a tech help ticket?\n\nW-Br (A) Let me send you the link. (B) A broken power cable. (C) No, over ten minutes.",
+    "explanation_vi": "Dịch đáp án:\n\nM-Au Bạn có thể chỉ cho tôi cách gửi phiếu trợ giúp kỹ thuật không?\n\nW-Br (A) Để tôi gửi cho bạn liên kết. (B) Cáp nguồn bị hỏng. (C) Không, hơn mười phút.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_039_Q16",
+    "part": 2,
+    "question_number": 16,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "M-Cn Where is the power button on this device?\n\nM-Au (A) I’ve never used that model before. (B) Ten euros per hour. (C) We charge more for color photographs.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-16.mp3",
+    "audio_file": "part2/audio/q16.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "A",
+    "transcript": "M-Cn Where is the power button on this device?\n\nM-Au (A) I’ve never used that model before. (B) Ten euros per hour. (C) We charge more for color photographs.",
+    "explanation_vi": "Dịch đáp án:\n\nM-Cn Nút nguồn trên máy này nằm ở đâu?\n\nM-Au (A) Tôi chưa từng sử dụng mẫu đó bao giờ. (B) Mười euro một giờ. (C) Chúng tôi tính phí nhiều hơn cho ảnh màu.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_039_Q17",
+    "part": 2,
+    "question_number": 17,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "W-Am Do you want to take a walk now, or would later be better?\n\nW-Br (A) A nearby lake. (B) I’m free to walk now. (C) No, I don’t use a fitness tracker.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-17.mp3",
+    "audio_file": "part2/audio/q17.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "B",
+    "transcript": "W-Am Do you want to take a walk now, or would later be better?\n\nW-Br (A) A nearby lake. (B) I’m free to walk now. (C) No, I don’t use a fitness tracker.",
+    "explanation_vi": "Dịch đáp án:\n\nW-Am Bạn muốn đi dạo bây giờ hay để sau thì tốt hơn?\n\nW-Br (A) Một cái hồ gần đó. (B) Bây giờ tôi rảnh để đi bộ. (C) Không, tôi không sử dụng máy theo dõi sức khỏe.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_039_Q18",
+    "part": 2,
+    "question_number": 18,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "M-Cn I ordered some new equipment for the factory.\n\nw-Am (A) The news program on Channel Ten. (B) Great—I can’t wait to use it. (C) The car dealership.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-18.mp3",
+    "audio_file": "part2/audio/q18.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "B",
+    "transcript": "M-Cn I ordered some new equipment for the factory.\n\nw-Am (A) The news program on Channel Ten. (B) Great—I can’t wait to use it. (C) The car dealership.",
+    "explanation_vi": "Dịch đáp án:\n\nM-Cn Tôi đã đặt mua một số thiết bị mới cho nhà máy.\n\nw-Am (A) Chương trình tin tức trên Kênh Mười. (B) Tuyệt—Tôi rất nóng lòng được sử dụng nó. (C) Đại lý ô tô.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_039_Q19",
+    "part": 2,
+    "question_number": 19,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "M-Cn There’s a nice place to rent on Mercer Street.\n\nw-Am (A) I just renewed my current lease. (B) It was a great show. (C) A standard rental application.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-19.mp3",
+    "audio_file": "part2/audio/q19.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "A",
+    "transcript": "M-Cn There’s a nice place to rent on Mercer Street.\n\nw-Am (A) I just renewed my current lease. (B) It was a great show. (C) A standard rental application.",
+    "explanation_vi": "Dịch đáp án:\n\nM-Cn Có một căn nhà đẹp cho thuê trên phố Mercer.\n\nw-Am (A) Tôi vừa gia hạn hợp đồng thuê hiện tại. (B) Đó là một buổi biểu diễn tuyệt vời. (C) Một đơn xin thuê tiêu chuẩn.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_039_Q20",
+    "part": 2,
+    "question_number": 20,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "W-Br Is the heating system working?\n\nM-Cn (A) Yes, that’s my Web site. (B) A five-kilometer run. (C) I just called maintenance.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-20.mp3",
+    "audio_file": "part2/audio/q20.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "C",
+    "transcript": "W-Br Is the heating system working?\n\nM-Cn (A) Yes, that’s my Web site. (B) A five-kilometer run. (C) I just called maintenance.",
+    "explanation_vi": "Dịch đáp án:\n\nW-Br Hệ thống sưởi ấm có hoạt động không?\n\nM-Cn (A) Vâng, đó là trang web của tôi. (B) Chạy năm km. (C) Tôi vừa gọi bảo trì.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_039_Q21",
+    "part": 2,
+    "question_number": 21,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "M-Au Isn’t the roadwork in front of city hall finished yet?\n\nM-Cn (A) I just finished my conference presentation. (B) A lot of traffic in the evening. (C) No, they still have another month to go.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-21.mp3",
+    "audio_file": "part2/audio/q21.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "C",
+    "transcript": "M-Au Isn’t the roadwork in front of city hall finished yet?\n\nM-Cn (A) I just finished my conference presentation. (B) A lot of traffic in the evening. (C) No, they still have another month to go.",
+    "explanation_vi": "Dịch đáp án:\n\nM-Au Việc làm đường trước tòa thị chính vẫn chưa xong sao?\n\nM-Cn (A) Tôi vừa trình bày xong bài thuyết trình tại hội nghị. (B) Rất nhiều xe cộ vào buổi tối. (C) Không, họ vẫn còn một tháng nữa.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_039_Q22",
+    "part": 2,
+    "question_number": 22,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "W-Br: Who will lead the new-employee training today?\n\nM-Au: (A) We’re using a recorded video. (B) Yes, right after lunch. (C) Classroom 124.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-22.mp3",
+    "audio_file": "part2/audio/q22.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "A",
+    "transcript": "W-Br: Who will lead the new-employee training today?\n\nM-Au: (A) We’re using a recorded video. (B) Yes, right after lunch. (C) Classroom 124.",
+    "explanation_vi": "Dịch đáp án:\n\nW-Br: Ai sẽ lãnh đạo khóa đào tạo nhân viên mới ngày hôm nay?\n\nM-Au: (A) Chúng tôi sử dụng một video được ghi lại. (B) Có, ngay sau bữa trưa. (C) Lớp học 124.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_039_Q23",
+    "part": 2,
+    "question_number": 23,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "M-Au Is the safety inspection scheduled for this month or next month?\n\nW-Br (A) I thought I saved the file. (B) The factory supervisor. (C) It’s this Wednesday.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-23.mp3",
+    "audio_file": "part2/audio/q23.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "C",
+    "transcript": "M-Au Is the safety inspection scheduled for this month or next month?\n\nW-Br (A) I thought I saved the file. (B) The factory supervisor. (C) It’s this Wednesday.",
+    "explanation_vi": "Dịch đáp án:\n\nM-Au Việc kiểm tra an toàn có được lên kế hoạch cho tháng này hay tháng tới không?\n\nW-Br (A) Tôi nghĩ rằng tôi đã lưu tệp. (B) Người giám sát nhà máy. (C) Nó vào thứ Tư này.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_039_Q24",
+    "part": 2,
+    "question_number": 24,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "W-Br When is the harvest festival taking place?\n\nM-Au (A) It’s a week from tomorrow. (B) Sure, I can take it. (C) The park next to the art museum.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-24.mp3",
+    "audio_file": "part2/audio/q24.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "A",
+    "transcript": "W-Br When is the harvest festival taking place?\n\nM-Au (A) It’s a week from tomorrow. (B) Sure, I can take it. (C) The park next to the art museum.",
+    "explanation_vi": "Dịch đáp án:\n\nW-BR: Khi nào lễ hội thu hoạch diễn ra?\n\nM-AU: (A) Một tuần kể từ ngày mai. (B) Chắc chắn, tôi có thể lấy nó. (C) Công viên bên cạnh Bảo tàng Nghệ thuật",
+    "vocabulary": []
+  },
+  {
+    "id": "De_039_Q25",
+    "part": 2,
+    "question_number": 25,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "M-Cn Was your new laptop expensive? \n\nM-Au (A) Do you have a new password? (B) I had a discount coupon. (C) On top of the cabinet.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-25.mp3",
+    "audio_file": "part2/audio/q25.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "B",
+    "transcript": "M-Cn Was your new laptop expensive? \n\nM-Au (A) Do you have a new password? (B) I had a discount coupon. (C) On top of the cabinet.",
+    "explanation_vi": "Dịch đáp án:\n\nM-Cn máy tính xách tay mới của bạn có đắt không? \n\nM-Au (A) Bạn có mật khẩu mới không? (B) Tôi đã có một phiếu giảm giá. (C) Trên đầu tủ.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_039_Q26",
+    "part": 2,
+    "question_number": 26,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "W-Br Why don’t we go on our camping trip next weekend?\n\nW-Am (A) Yes, that table lamp is quite nice. (B) Should we go left or right? (C) I have a performance scheduled with my band.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-26.mp3",
+    "audio_file": "part2/audio/q26.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "C",
+    "transcript": "W-Br Why don’t we go on our camping trip next weekend?\n\nW-Am (A) Yes, that table lamp is quite nice. (B) Should we go left or right? (C) I have a performance scheduled with my band.",
+    "explanation_vi": "Dịch đáp án:\n\nW-Br Tại sao chúng ta không đi cắm trại vào cuối tuần tới nhỉ?\n\nW-Am (A) Vâng, chiếc đèn bàn đó khá đẹp. (B) Chúng ta nên rẽ trái hay rẽ phải? (C) Tôi có lịch biểu diễn với ban nhạc của mình.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_039_Q27",
+    "part": 2,
+    "question_number": 27,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "M-Cn The workshop for this afternoon was postponed, wasn’t it?\n\nM-Au (A) At the post office. (B) I haven’t checked my e-mail. (C) A ticket for two o’clock, please.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-27.mp3",
+    "audio_file": "part2/audio/q27.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "B",
+    "transcript": "M-Cn The workshop for this afternoon was postponed, wasn’t it?\n\nM-Au (A) At the post office. (B) I haven’t checked my e-mail. (C) A ticket for two o’clock, please.",
+    "explanation_vi": "Dịch đáp án:\n\nM-Cn Buổi workshop chiều nay bị hoãn lại phải không?\n\nM-Au (A) Tại bưu điện. (B) Tôi chưa kiểm tra e-mail của mình. (C) Làm ơn cho một vé lúc 2 giờ.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_039_Q28",
+    "part": 2,
+    "question_number": 28,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "w-Am How were our production figures last month?\n\nM-Au (A) They produce electric cars. (B) Nine o'clock in the morning. (C) We were closed down for a week.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-28.mp3",
+    "audio_file": "part2/audio/q28.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "C",
+    "transcript": "w-Am How were our production figures last month?\n\nM-Au (A) They produce electric cars. (B) Nine o'clock in the morning. (C) We were closed down for a week.",
+    "explanation_vi": "Dịch đáp án:\n\nw-Am Số liệu sản xuất tháng trước của chúng ta thế nào?\n\nM-Au (A) Họ sản xuất ô tô điện. (B) Chín giờ sáng. (C) Chúng tôi đã đóng cửa trong một tuần.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_039_Q29",
+    "part": 2,
+    "question_number": 29,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "W-Br When can I see the speech therapist?\n\nM-Cn (A) A one-hour session. (B) Just a microphone. (C) How about tomorrow afternoon?",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-29.mp3",
+    "audio_file": "part2/audio/q29.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "C",
+    "transcript": "W-Br When can I see the speech therapist?\n\nM-Cn (A) A one-hour session. (B) Just a microphone. (C) How about tomorrow afternoon?",
+    "explanation_vi": "Dịch đáp án:\n\nW-Br Khi nào tôi có thể gặp nhà trị liệu ngôn ngữ?\n\nM-Cn (A) Một buổi học kéo dài một giờ. (B) Chỉ là một chiếc micro. (C) Thế chiều mai thì sao?",
+    "vocabulary": []
+  },
+  {
+    "id": "De_039_Q30",
+    "part": 2,
+    "question_number": 30,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "w-Am Aren’t you picking up the clients from the airport?\n\nM-Cn (A) A product demonstration. (B) No, I believe Tomoko is doing that. (C) He prefers an aisle seat.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-30.mp3",
+    "audio_file": "part2/audio/q30.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "B",
+    "transcript": "w-Am Aren’t you picking up the clients from the airport?\n\nM-Cn (A) A product demonstration. (B) No, I believe Tomoko is doing that. (C) He prefers an aisle seat.",
+    "explanation_vi": "Dịch đáp án:\n\nw-Am: Không phải bạn đang đón khách hàng ở sân bay sao?\n\nM-Cn (A) Trình diễn sản phẩm. (B) Không, tôi tin Tomoko đang làm điều đó. (C) Anh ấy thích ngồi ở lối đi hơn.",
+    "vocabulary": []
+  },
+  {
+    "id": "De_039_Q31",
+    "part": 2,
+    "question_number": 31,
+    "prompt": "Nghe và chọn câu trả lời đúng.",
+    "passage": "W-Am How was your morning client meeting?\n\nM-Au_ (A) It’s great to meet you. (B) No, over in conference room two. (C) The contract is now officially signed.",
+    "audio_url": "https://s4-media1.study4.com/media/e24/audio/questions/Test_3/Test_3-31.mp3",
+    "audio_file": "part2/audio/q31.mp3",
+    "image_url": null,
+    "image_file": null,
+    "options": {
+      "A": "Option A",
+      "B": "Option B",
+      "C": "Option C"
+    },
+    "answer": "C",
+    "transcript": "W-Am How was your morning client meeting?\n\nM-Au_ (A) It’s great to meet you. (B) No, over in conference room two. (C) The contract is now officially signed.",
+    "explanation_vi": "Dịch đáp án:\n\nW-Am Cuộc họp với khách hàng buổi sáng của bạn thế nào?\n\nM-Au (A) Rất vui được gặp bạn. (B) Không, ở phòng họp số hai. (C) Hợp đồng bây giờ đã chính thức được ký kết.",
+    "vocabulary": []
+  }
+]
