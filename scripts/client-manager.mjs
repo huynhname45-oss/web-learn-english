@@ -226,8 +226,14 @@ async function main() {
     await new Promise((done, reject) => { proxy.once('error', reject); proxy.listen(3000, '127.0.0.1', done); });
   } catch (error) {
     if (error.code !== 'EADDRINUSE') throw error;
-    const response = await fetch(`${base}/__atlas/update`, { signal: AbortSignal.timeout(3000) });
-    const running = await response.json();
+    let running;
+    try {
+      const response = await fetch(`${base}/__atlas/update`, { signal: AbortSignal.timeout(3000) });
+      if (!response.ok) throw new Error('Unrecognized service');
+      running = await response.json();
+    } catch {
+      throw new Error('Cổng 3000 đang được ứng dụng khác sử dụng. Hãy đóng ứng dụng đó trước khi mở Atlas.');
+    }
     if (!running.enabled || typeof running.home !== 'string' || resolve(running.home).toLowerCase() !== home.toLowerCase())
       throw new Error('Cổng 3000 đang được ứng dụng hoặc bản cài Atlas khác sử dụng. Hãy đóng bản đó trước.');
     await fetch(`${base}/__atlas/update`, { method: 'POST',

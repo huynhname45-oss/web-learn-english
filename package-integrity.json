@@ -1,6 +1,6 @@
 {
   "format": "atlas-package-v1",
-  "builtAt": "2026-09-18T03:38:24.246Z",
+  "builtAt": "2026-09-18T03:44:45.137Z",
   "node": "v24.11.1",
   "platform": "win32-x64",
   "media": {
@@ -5521,7 +5521,7 @@
     },
     "atlas-distribution.json": {
       "bytes": 122,
-      "sha256": "c6715fc0264c5ce7f8ecd21712636fca4b77e425441e6d87a964d1b193f93f34"
+      "sha256": "51c7626f48cf636fe92e5315b5acf6a3fb243cb21899af665892f867c2d5b54f"
     },
     "AtlasEnglish.exe": {
       "bytes": 18432,
@@ -22944,8 +22944,8 @@
       "sha256": "fdc57661c25f54e7918369708e9f4d4810e8a406892e177bc7a3cbc103012705"
     },
     "scripts/client-manager.mjs": {
-      "bytes": 15977,
-      "sha256": "8bd99b43602b4f8db02aca5db0c2e13dfdc7b548445f57662f671e0b903eff8e"
+      "bytes": 16227,
+      "sha256": "81db6b719fb386b39d175ca41e2c8ccd97f9820b89072e1dc6772eed3886f6e8"
     },
     "scripts/data.mjs": {
       "bytes": 5341,
