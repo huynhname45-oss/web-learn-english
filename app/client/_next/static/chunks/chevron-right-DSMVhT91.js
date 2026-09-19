@@ -1,1 +1,0 @@
-import{S as e}from"./learning-context-Bv3l8Ppz.js";var t=e(`chevron-right`,[[`path`,{d:`m9 18 6-6-6-6`,key:`mthhwq`}]]);export{t};

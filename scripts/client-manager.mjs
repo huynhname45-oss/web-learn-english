@@ -114,16 +114,23 @@ async function feed() {
   return latestGit(home);
 }
 let latest;
+let checkBusy = false;
 async function check() {
-  if (updateBusy || recovering || ['success', 'error'].includes(state.phase)) return;
+  if (checkBusy || updateBusy || recovering || ['success', 'error'].includes(state.phase)) return;
+  checkBusy = true;
   try {
     latest = await feed();
     state.latest = latest.version;
     if (latest.version !== current.version) {
       setState('available', 'Lưu bài đang làm trước khi cập nhật. Tiến độ, cài đặt và khóa AI của bạn được giữ lại.');
     }
+    state.checkedAt = Date.now();
+    state.checkMessage = latest.version === current.version ? 'Bạn đang dùng phiên bản mới nhất.' : 'Có phiên bản mới. Chọn Update ngay để cập nhật.';
   } catch {
     // Opening and learning offline remain available when GitHub cannot be reached.
+    state.checkMessage = 'Chưa kiểm tra được GitHub. Bạn vẫn có thể học và thử lại khi có mạng.';
+  } finally {
+    checkBusy = false;
   }
 }
 async function cachedDownload(asset, report) {
@@ -266,7 +273,7 @@ async function handle(req, res) {
       for await (const chunk of req) { input += chunk; if (input.length > 1024) { res.writeHead(413).end(); return; } }
       const action = JSON.parse(input).action;
       if (action === 'start') void install();
-      else if (action === 'check') void check();
+      else if (action === 'check') await check();
       else if ((action === 'ack' || action === 'dismiss') && !updateBusy) setState('idle', '');
       else { res.writeHead(400).end(); return; }
     } else if (req.method !== 'GET') { res.writeHead(405).end(); return; }

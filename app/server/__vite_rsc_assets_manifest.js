@@ -1,40 +1,41 @@
 export default {
-  "bootstrapScriptContent": "import(\"/_next/static/chunks/index-DBvFzuM4.js\")",
+  "bootstrapScriptContent": "import(\"/_next/static/chunks/index-JKJoQzni.js\")",
   "clientReferenceDeps": {
     "97760a3bd76a": {
       "js": [
-        "/_next/static/chunks/academy-HZhBddTG.js",
+        "/_next/static/chunks/academy-p7XOdQhA.js",
         "/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
-        "/_next/static/chunks/index-DBvFzuM4.js",
+        "/_next/static/chunks/index-JKJoQzni.js",
         "/_next/static/chunks/framework-D_rUT4EX.js",
-        "/_next/static/chunks/learning-context-Bv3l8Ppz.js",
-        "/_next/static/chunks/assessment-QG473099.js",
-        "/_next/static/chunks/answers-UFbq4bcB.js",
-        "/_next/static/chunks/arrow-right-CXIYx7dF.js",
-        "/_next/static/chunks/arrow-up-right-CjaRzw2_.js",
-        "/_next/static/chunks/book-open-D-rBKcpr.js",
-        "/_next/static/chunks/chevron-right-DSMVhT91.js",
-        "/_next/static/chunks/clock-imAbsGI-.js",
-        "/_next/static/chunks/headphones-BAAch9Bc.js",
-        "/_next/static/chunks/search-CnFW8QwT.js",
-        "/_next/static/chunks/sparkles-DaXm8ovv.js",
-        "/_next/static/chunks/target-Bbf8531w.js",
-        "/_next/static/chunks/triangle-alert-7XC3d6CD.js"
+        "/_next/static/chunks/learning-context-DLbuj3D5.js",
+        "/_next/static/chunks/assessment-B_7ocgV4.js",
+        "/_next/static/chunks/answers-DXx4nt1T.js",
+        "/_next/static/chunks/createLucideIcon-DRbKzcQ3.js",
+        "/_next/static/chunks/arrow-right-BofzpbRF.js",
+        "/_next/static/chunks/arrow-up-right-C58m6F5t.js",
+        "/_next/static/chunks/book-open-DyVzBDXf.js",
+        "/_next/static/chunks/chevron-right-CCep04uv.js",
+        "/_next/static/chunks/clock-D-6L7s0R.js",
+        "/_next/static/chunks/headphones-DAqyKt0V.js",
+        "/_next/static/chunks/search-CaWdzS7c.js",
+        "/_next/static/chunks/sparkles-Bv6W45_U.js",
+        "/_next/static/chunks/target-DT7xFE8V.js",
+        "/_next/static/chunks/triangle-alert-BIuTiQug.js"
       ],
       "css": []
     },
     "25b4469b243f": {
       "js": [
-        "/_next/static/chunks/update-notice-DceJaGtc.js",
+        "/_next/static/chunks/update-notice-BNK7r6Gi.js",
         "/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
         "/_next/static/chunks/framework-D_rUT4EX.js",
-        "/_next/static/chunks/index-DBvFzuM4.js"
+        "/_next/static/chunks/index-JKJoQzni.js"
       ],
       "css": []
     },
     "9276801271d6": {
       "js": [
-        "/_next/static/chunks/index-DBvFzuM4.js",
+        "/_next/static/chunks/index-JKJoQzni.js",
         "/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
         "/_next/static/chunks/framework-D_rUT4EX.js"
       ],
@@ -42,7 +43,7 @@ export default {
     },
     "0b874ad30386": {
       "js": [
-        "/_next/static/chunks/index-DBvFzuM4.js",
+        "/_next/static/chunks/index-JKJoQzni.js",
         "/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
         "/_next/static/chunks/framework-D_rUT4EX.js"
       ],
@@ -50,7 +51,7 @@ export default {
     },
     "593f344dc510": {
       "js": [
-        "/_next/static/chunks/index-DBvFzuM4.js",
+        "/_next/static/chunks/index-JKJoQzni.js",
         "/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
         "/_next/static/chunks/framework-D_rUT4EX.js"
       ],
@@ -58,7 +59,7 @@ export default {
     },
     "bad85346fc72": {
       "js": [
-        "/_next/static/chunks/index-DBvFzuM4.js",
+        "/_next/static/chunks/index-JKJoQzni.js",
         "/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
         "/_next/static/chunks/framework-D_rUT4EX.js"
       ],
@@ -66,16 +67,16 @@ export default {
     },
     "15c18cfaeeff": {
       "js": [
-        "/_next/static/chunks/layout-segment-context-rI6kpYSw.js",
+        "/_next/static/chunks/layout-segment-context-Bo0wrGaA.js",
         "/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
-        "/_next/static/chunks/index-DBvFzuM4.js",
+        "/_next/static/chunks/index-JKJoQzni.js",
         "/_next/static/chunks/framework-D_rUT4EX.js"
       ],
       "css": []
     },
     "8c0f216c4604": {
       "js": [
-        "/_next/static/chunks/index-DBvFzuM4.js",
+        "/_next/static/chunks/index-JKJoQzni.js",
         "/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
         "/_next/static/chunks/framework-D_rUT4EX.js"
       ],
@@ -83,10 +84,10 @@ export default {
     },
     "89c3cac48cb5": {
       "js": [
-        "/_next/static/chunks/streamed-icons-NeRiDggP.js",
+        "/_next/static/chunks/streamed-icons-XR4QWZOM.js",
         "/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
         "/_next/static/chunks/framework-D_rUT4EX.js",
-        "/_next/static/chunks/index-DBvFzuM4.js"
+        "/_next/static/chunks/index-JKJoQzni.js"
       ],
       "css": []
     }
@@ -95,7 +96,7 @@ export default {
     "app/layout.tsx": {
       "js": [],
       "css": [
-        "/_next/static/css/index.Bx0ldtiB.css"
+        "/_next/static/css/index.BKYFhhwP.css"
       ]
     }
   }

@@ -83,8 +83,15 @@ export async function syncMedia(home, root, sha, report = () => {}) {
 }
 export async function prepareGit(home,target,stage,report) {
   revision(target.revision);
+  let progress = 2;
   await git(home,['fetch','--depth=1','--no-tags','--progress','origin',target.revision],
-    (text)=>{const p=[...text.matchAll(/Receiving objects:\s+(\d+)%/g)].at(-1);report('downloading','Đang kéo bản tối ưu mới từ GitHub…',p?Math.round(Number(p[1])*0.6):5);});
+    (text)=>{
+      const receiving=[...text.matchAll(/Receiving objects:\s+(\d+)%[^\r\n]*/g)].at(-1);
+      const resolving=[...text.matchAll(/Resolving deltas:\s+(\d+)%/g)].at(-1);
+      progress = Math.max(progress, resolving ? 60 + Math.round(Number(resolving[1]) * .08) : receiving ? Math.round(Number(receiving[1]) * .6) : 2);
+      const detail = receiving?.[0].match(/,\s*([\d.]+\s*[KMGT]?i?B(?:\s*\|\s*[\d.]+\s*[KMGT]?i?B\/s)?)/)?.[1];
+      report('downloading', resolving ? `Đang xử lý thay đổi · ${resolving[1]}%` : `Đang tải bản cập nhật${detail ? ' · ' + detail : ' từ GitHub…'}`, progress);
+    });
   const info=JSON.parse(await git(home,['show',`${target.revision}:atlas-distribution.json`]));
   if(info.format!=='atlas-git-v1')throw new Error('Repo chưa có bản đóng gói hoàn chỉnh.');
   const names=(await git(home,['ls-tree','--name-only','-z',target.revision])).split('\0').filter(Boolean);
