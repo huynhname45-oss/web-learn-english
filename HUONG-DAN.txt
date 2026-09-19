@@ -15,6 +15,8 @@ Repo GitHub chỉ chứa bản đã build và bộ dữ liệu tối ưu. Không
 
 Chỉ cần nhận `AtlasEnglish.exe` và mở file. Lần đầu cần Internet để tải bộ chạy và ứng dụng. Bộ cài tự kiểm tra toàn vẹn, tạo lối tắt Desktop và chạy web local nền tại `http://localhost:3000`. Máy nhận không phải cài Git, Node.js, Python hoặc npm.
 
+Ứng dụng và 43 đề được tải thành từng phần. Nếu bị ngắt, mở lại EXE để tiếp tục phần còn thiếu; không xóa thư mục cài đặt. Thanh tiến trình hiển thị dung lượng đã lưu và tốc độ nhận dữ liệu. Khi lỗi, thông tin cụ thể nằm ở `%LOCALAPPDATA%\AtlasEnglish\setup-error.txt`, nhật ký chi tiết trong `logs` bên cạnh.
+
 Nếu đã clone repo, mở `Mo-Atlas.cmd`. Các lần sau mở lối tắt Atlas English.
 
 Có phiên bản mới: web hiện **Update ngay**. Bấm nút để tải, kiểm tra, sao lưu và chuyển phiên bản. Chỉ báo thành công sau khi bản mới khởi động; lỗi sẽ khôi phục bản trước. Lưu bài đang làm trước khi cập nhật.
