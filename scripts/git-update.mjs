@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import { resolve, sep } from 'node:path';
 import { spawn } from 'node:child_process';
 import { createHash } from 'node:crypto';
-import { expandArchive, verifyCore, atomicJson, hashFile } from './update-core.mjs';
+import { expandArchive, verifyCore, atomicJson, hashFile, assertClientPackagePath } from './update-core.mjs';
 
 export const remote = 'https://github.com/huynhname45-oss/web-learn-english.git';
 export const gitExe = (home) => process.env.ATLAS_GIT_EXE || resolve(home, 'tools/git/cmd/git.exe');
@@ -96,6 +96,8 @@ export async function prepareGit(home,target,stage,report) {
   if(info.format!=='atlas-git-v1')throw new Error('Repo chưa có bản đóng gói hoàn chỉnh.');
   const names=(await git(home,['ls-tree','--name-only','-z',target.revision])).split('\0').filter(Boolean);
   if(names.some(n=>['data','backups','.wrangler','.env','settings.json'].includes(n)))throw new Error('Repo chứa đường dẫn dữ liệu riêng; dừng cập nhật.');
+  const paths = (await git(home, ['ls-tree', '-r', '--name-only', '-z', target.revision])).split('\0').filter(Boolean);
+  for (const name of paths) assertClientPackagePath(name);
   const archive=resolve(home,`core-${target.revision}.zip`);
   // This archive never crosses the network. Store locally without recompressing
   // bundled executables, reducing CPU use while the old application is running.

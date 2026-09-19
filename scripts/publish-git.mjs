@@ -13,6 +13,8 @@ const git=(args)=>{const r=spawnSync('git',['-C',root,'-c','core.autocrlf=false'
 function checkPublicPath(name){
   const parts=name.split('/'),top=parts[0];
   if((!allowed.has(top)&&name!=='package-integrity.json')||
+    parts.some(p=>/^(?:presence-owner|presence-relay|local-presence(?:\.ts)?)$/i.test(p))||
+    /\.dpapi$/i.test(name)||
     parts.some(p=>/^(?:\.env.*|\.git|\.wrangler|\.mf|backups|logs|work|downloads|repository\.git|settings\.json|current\.json|manager\.json|running\.lock|runtime\.json|credentials(?:\.json)?|secrets(?:\.json)?)$/i.test(p))||
     (parts.some(p=>p.toLowerCase()==='data')&&name!=='app/client/data/toeic-manifest.json')||
     /\.(?:sqlite3?|db)(?:-(?:wal|shm|journal))?$/i.test(name)||
@@ -47,11 +49,11 @@ for(const top of names.filter(n=>allowed.has(n))){
     const info=await fs.stat(file);
     if(info.size>=100*1024*1024)throw new Error(`Tệp vượt giới hạn GitHub: ${name}`);
     const digest=await hashFile(file);
-    if(['.js','.mjs','.cjs','.json','.txt','.html','.md','.yaml','.yml','.toml','.ini','.cfg','.conf','.ps1','.cmd','.bat','.py','.sql','.csv','.xml','.pem'].includes(extname(name).toLowerCase())){
+    if(['.js','.mjs','.cjs','.ts','.tsx','.jsx','.css','.json','.txt','.html','.md','.yaml','.yml','.toml','.ini','.cfg','.conf','.ps1','.cmd','.bat','.py','.sql','.csv','.xml','.pem'].includes(extname(name).toLowerCase())){
       const text=await fs.readFile(file,'utf8');
       const bundledTlsFixture=name==='node_modules/miniflare/dist/src/index.js'&&digest==='9584409d464f6c21d720b20da3c5dc6e5bdab0393f9cb19b36cb960beaf0958b';
       // Exact pinned Miniflare distribution contains its publicly shipped localhost TLS fixture.
-      if(/gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{40,}|AIza[0-9A-Za-z_-]{35}|sk-(?:proj-)?[A-Za-z0-9_-]{35,}/.test(text) ||
+      if(/ATLAS_OWNER_DASHBOARD_ONL[Y]|atlas_admin_[a-f0-9]{64}|gh[pousr]_[A-Za-z0-9]{30,}|github_pat_[A-Za-z0-9_]{40,}|AIza[0-9A-Za-z_-]{35}|sk-(?:proj-)?[A-Za-z0-9_-]{35,}/.test(text) ||
         (!bundledTlsFixture && /-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----/.test(text)))
         throw new Error(`Phát hiện chuỗi giống khóa riêng trong ${name}. Dừng để kiểm tra.`);
     }

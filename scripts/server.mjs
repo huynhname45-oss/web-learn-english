@@ -8,6 +8,7 @@ import { randomBytes } from 'node:crypto';
 import { Miniflare, Log, LogLevel } from 'miniflare';
 import { contained, sendFile } from './files.mjs';
 import { createSpeechMiddleware } from './speech.mjs';
+import { startClientPresence } from './presence/client.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const data = resolve(process.env.ATLAS_DATA_DIR || resolve(root, 'data'));
@@ -15,7 +16,7 @@ const port = Number(process.env.ATLAS_PORT || 3000);
 const base = `http://localhost:${port}`;
 const lockFile = resolve(data, 'running.lock');
 const stateFile = resolve(data, 'runtime.json');
-let mf, server, lock, closing = false;
+let mf, server, lock, presence, closing = false;
 function openBrowser() {
   const child = spawn('rundll32.exe', ['url.dll,FileProtocolHandler', base], { windowsHide: true, stdio: 'ignore' });
   child.on('error', () => console.log(`Hay mo ${base}`));
@@ -24,6 +25,7 @@ function openBrowser() {
 async function shutdown() {
   if (closing) return;
   closing = true;
+  presence?.close();
   if (server) {
     server.close();
     server.closeAllConnections();
@@ -196,6 +198,8 @@ async function main() {
     stream.pipe(res);
   }
   console.log(`ATLAS_READY ${base}`);
+  presence = startClientPresence({ root, data, version: process.env.ATLAS_CLIENT_VERSION || 'portable',
+    disabled: process.env.ATLAS_PRESENCE_DISABLED === '1' });
   console.log('Du lieu cua ban: data. Giu cua so nay; Ctrl+C de dong Atlas.');
   if (process.argv.includes('--open')) openBrowser();
 }

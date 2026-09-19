@@ -34,7 +34,8 @@ async function boot(version) {
   innerPort = await freshPort();
   const child = spawn(resolve(root, 'runtime/node.exe'), ['scripts/server.mjs'], {
     cwd: root, windowsHide: true,
-    env: { ...process.env, ATLAS_DATA_DIR: data, ATLAS_MEDIA_DIR: resolve(home, 'media'), ATLAS_PORT: String(innerPort) },
+    env: { ...process.env, ATLAS_DATA_DIR: data, ATLAS_MEDIA_DIR: resolve(home, 'media'), ATLAS_PORT: String(innerPort),
+      ATLAS_CLIENT_VERSION: version },
     stdio: ['ignore', 'pipe', 'pipe'],
   });
   app = child;

@@ -80,16 +80,52 @@ export async function expandArchive(archive, target) {
   await run('powershell.exe', ['-NoProfile', '-NonInteractive', '-Command',
     `Expand-Archive -LiteralPath ${quote(archive)} -DestinationPath ${quote(target)} -Force`]);
 }
+export function assertClientPackagePath(name) {
+  const parts = name.split('/');
+  if (!name || /\\|:/.test(name) || parts.some(part => !part || part === '.' || part === '..')) {
+    throw new Error('Đường dẫn trong gói client không hợp lệ.');
+  }
+  if (parts.some(part => /^(?:presence-owner|presence-relay|local-presence(?:\.[cm]?[jt]s)?)$/i.test(part)) ||
+      /\.dpapi$/i.test(name)) {
+    throw new Error(`Gói client chứa thành phần quản trị hoặc khóa riêng: ${name}`);
+  }
+}
+async function hashClientFile(path, name) {
+  const hash = createHash('sha256');
+  const inspect = /^(?:app|scripts)\//i.test(name) && /\.(?:[cm]?js|[cm]?ts|tsx|jsx|html|css|json)$/i.test(name);
+  let tail = '';
+  for await (const chunk of createReadStream(path)) {
+    hash.update(chunk);
+    if (!inspect) continue;
+    const text = tail + chunk.toString('latin1');
+    // The character class keeps this checker from matching its own source.
+    if (/ATLAS_OWNER_DASHBOARD_ONL[Y]|atlas_admin_[a-f0-9]{64}/.test(text)) {
+      throw new Error(`Gói client chứa giao diện hoặc khóa quản trị: ${name}`);
+    }
+    tail = text.slice(-128);
+  }
+  return hash.digest('hex');
+}
 export async function verifyCore(root) {
   const manifest = JSON.parse(await fs.readFile(resolve(root, 'package-integrity.json'), 'utf8'));
   if (manifest.format !== 'atlas-package-v1') throw new Error('Sai định dạng ứng dụng.');
   for (const required of ['runtime/node.exe', 'scripts/server.mjs', 'scripts/client-manager.mjs', 'scripts/update-core.mjs', 'scripts/data.mjs'])
     if (!manifest.files?.[required]) throw new Error(`Gói thiếu tệp bắt buộc: ${required}`);
+  // Check the extracted tree too: an unlisted owner file must not bypass the receipt.
+  for (const entry of await fs.readdir(root, { recursive: true, withFileTypes: true })) {
+    const name = resolve(entry.parentPath, entry.name).slice(resolve(root).length + 1).split(sep).join('/');
+    assertClientPackagePath(name);
+    if (entry.isSymbolicLink()) throw new Error(`Gói client chứa liên kết ngoài bản cài: ${name}`);
+    if (entry.isFile() && /^(?:app|scripts)\//i.test(name) && !Object.hasOwn(manifest.files, name)) {
+      throw new Error(`Gói client có tệp ngoài bản kê: ${name}`);
+    }
+  }
   for (const [name, item] of Object.entries(manifest.files)) {
+    assertClientPackagePath(name);
     if (name.startsWith('media/')) continue;
     const path = resolve(root, name);
     if (!path.startsWith(resolve(root) + sep) || name.startsWith('data/')) throw new Error('Đường dẫn trong gói không hợp lệ.');
-    if ((await fs.stat(path)).size !== item.bytes || await hashFile(path) !== item.sha256)
+    if ((await fs.stat(path)).size !== item.bytes || await hashClientFile(path, name) !== item.sha256)
       throw new Error(`Tệp ứng dụng không toàn vẹn: ${name}`);
   }
 }

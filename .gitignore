@@ -34,3 +34,6 @@
 *.pfx
 *.p12
 *.bak
+*.dpapi
+**/presence-owner/
+**/presence-relay/
