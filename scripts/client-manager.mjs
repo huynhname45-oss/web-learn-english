@@ -116,6 +116,20 @@ async function feed() {
 }
 let latest;
 let checkBusy = false;
+function updateCheckMessage(error) {
+  const detail = error instanceof Error ? error.message.replace(/\s+/g, ' ').trim() : String(error);
+  if (/certificate|schannel|SSL|TLS/i.test(detail))
+    return 'Chưa kiểm tra được GitHub: lỗi chứng chỉ bảo mật. Kiểm tra ngày giờ Windows, proxy hoặc phần mềm bảo mật rồi thử lại.';
+  if (/resolve host|could not resolve|name resolution|DNS/i.test(detail))
+    return 'Chưa kiểm tra được GitHub: lỗi DNS. Kiểm tra kết nối Internet hoặc DNS trên máy client.';
+  if (/407|proxy authentication/i.test(detail))
+    return 'Chưa kiểm tra được GitHub: proxy yêu cầu đăng nhập.';
+  if (/403|429|rate limit/i.test(detail))
+    return 'Chưa kiểm tra được GitHub: máy chủ đang từ chối hoặc giới hạn lượt kiểm tra.';
+  if (/lock|index\.lock|shallow\.lock/i.test(detail))
+    return 'Chưa kiểm tra được GitHub: kho cập nhật đang bị khóa. Đóng Atlas rồi mở lại.';
+  return `Chưa kiểm tra được GitHub: ${detail.slice(-220) || 'kết nối bị từ chối hoặc đã hết thời gian chờ.'}`;
+}
 async function check() {
   if (checkBusy || updateBusy || recovering || ['success', 'error'].includes(state.phase)) return;
   checkBusy = true;
@@ -127,9 +141,9 @@ async function check() {
     }
     state.checkedAt = Date.now();
     state.checkMessage = latest.version === current.version ? 'Bạn đang dùng phiên bản mới nhất.' : 'Có phiên bản mới. Chọn Update ngay để cập nhật.';
-  } catch {
+  } catch (error) {
     // Opening and learning offline remain available when GitHub cannot be reached.
-    state.checkMessage = 'Chưa kiểm tra được GitHub. Bạn vẫn có thể học và thử lại khi có mạng.';
+    state.checkMessage = updateCheckMessage(error);
   } finally {
     checkBusy = false;
   }
