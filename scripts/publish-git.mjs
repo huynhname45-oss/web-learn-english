@@ -6,7 +6,7 @@ import { spawnSync } from 'node:child_process';
 import { hashFile,atomicJson } from './update-core.mjs';
 const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
 const allowed=new Set(['app','runtime','scripts','node_modules','media','AtlasEnglish.exe','Mo-Atlas.cmd','Dong-Atlas.cmd',
-  'Sao-luu-du-lieu.cmd','Khoi-phuc-du-lieu.cmd','Tuy-chon-trinh-duyet.cmd','Kiem-tra-goi.cmd','Cap-nhat-GitHub.cmd',
+  'Sao-luu-du-lieu.cmd','Khoi-phuc-du-lieu.cmd','Tuy-chon-trinh-duyet.cmd','Kiem-tra-goi.cmd',
   'README.md','HUONG-DAN.txt','package.json','.gitignore','.gitattributes','atlas-distribution.json',
   'docker-compose.yml','Dockerfile']);
 const privateNames=new Set(['.git','data','backups','logs','work','.wrangler','settings.json','current.json','manager.json','downloads','repository.git','package-integrity.json']);
@@ -28,7 +28,7 @@ try{
   for(const name of git(['ls-files','-z']).split('\0').filter(Boolean)){
     // Permit removal of the old runtime's metadata cache, never its publication.
     // git add below stages the removal; the final index is checked without exceptions.
-    if(name==='node_modules/.mf/cf.json'&&!existsSync(resolve(root,name)))continue;
+    if((name==='node_modules/.mf/cf.json'||name==='Cap-nhat-GitHub.cmd')&&!existsSync(resolve(root,name)))continue;
     checkPublicPath(name);
   }
 }catch(error){if(error.code!=='ENOENT')throw error;}
@@ -81,6 +81,7 @@ console.log(`Đã kiểm tra ${Object.keys(files).length} tệp. Không đưa da
 if(!process.argv.includes('--prepare')&&!process.argv.includes('--verify-prepared')){
   if(git(['remote','get-url','origin']).trim()!=='https://github.com/huynhname45-oss/web-learn-english.git')throw new Error('Sai repo phát hành.');
   if(git(['branch','--show-current']).trim()!=='main')throw new Error('Chỉ phát hành từ nhánh main.');
+  git(['add','-u']);
   git(['add','--',...names.filter(n=>allowed.has(n)),'package-integrity.json']);
   const indexed=git(['ls-files','-z']).split('\0').filter(Boolean);
   const expected=new Set([...Object.keys(files),'package-integrity.json']);

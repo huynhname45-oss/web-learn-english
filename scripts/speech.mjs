@@ -208,7 +208,8 @@ var NeuralSpeechWorker = class {
     if (this.child && !this.child.killed) return this.child;
     const child = spawn(this.python, [this.script], {
       windowsHide: true,
-      stdio: ["pipe", "pipe", "pipe"]
+      stdio: ["pipe", "pipe", "pipe"],
+      env: { ...process.env, PYTHONDONTWRITEBYTECODE: "1" }
     });
     this.child = child;
     this.lineBuffer = "";
