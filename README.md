@@ -1,15 +1,4 @@
-# Atlas English — bản Windows tối ưu
 
-Đây là bản phát hành được tạo tự động từ code tại `D:\web-hoc-av` trên máy phát triển. Không sửa code trong thư mục bản phát hành hoặc trong ZIP.
-
-## Máy phát triển
-
-Sửa code tại `D:\web-hoc-av`, dùng `start-local.cmd` để chạy thử.
-
-- `Tao-ban-client.cmd` ở thư mục code: kiểm tra, build, tạo bản tối ưu, EXE và ZIP. Không push.
-- `Cap-nhat-GitHub.cmd` ở thư mục code: thực hiện cùng quy trình, sau đó kiểm tra dữ liệu riêng và push bản tối ưu lên GitHub.
-
-Repo GitHub chỉ chứa bản đã build và bộ dữ liệu tối ưu. Không chứa cây code phát triển hoặc dữ liệu người dùng.
 
 ## Máy client
 
