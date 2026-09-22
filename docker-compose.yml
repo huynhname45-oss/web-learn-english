@@ -1,0 +1,15 @@
+services:
+  atlas-english:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: atlas-english
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - ATLAS_DATA_DIR=/app/data
+      - ATLAS_HOST=0.0.0.0
+      - ATLAS_PORT=3000
+    volumes:
+      - ./data:/app/data

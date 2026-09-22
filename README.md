@@ -23,6 +23,27 @@ Có phiên bản mới: web hiện **Update ngay**. Bấm nút để tải, ki�
 
 43 đề, ảnh và audio được giữ nguyên chất lượng. Các tệp trùng dùng chung một bản; không cần tải lại media không đổi.
 
+## Chạy trên macOS (Apple Silicon / Intel) hoặc Linux qua Docker
+
+Nếu máy client dùng macOS (MacBook chip M1/M2/M3/M4/Intel) hoặc Linux, có thể chạy trực tiếp bằng Docker Compose:
+
+1. Clone repo:
+   ```bash
+   git clone https://github.com/huynhname45-oss/web-learn-english.git
+   cd web-learn-english
+   ```
+2. Khởi động bằng Docker Compose:
+   ```bash
+   docker compose up -d --build
+   ```
+3. Mở trình duyệt truy cập: `http://localhost:3000`
+4. Dừng container khi không dùng:
+   ```bash
+   docker compose down
+   ```
+
+Dữ liệu học tập, lịch sử và điểm số được lưu bền vững trong thư mục `./data` trên máy.
+
 ## Dữ liệu riêng
 
 Client lưu dữ liệu ở `%LOCALAPPDATA%\AtlasEnglish\data`, bản sao lưu ở thư mục `backups` bên cạnh. Chúng nằm ngoài Git và không bị thay thế khi cập nhật.

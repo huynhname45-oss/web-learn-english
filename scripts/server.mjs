@@ -13,11 +13,13 @@ import { startClientPresence } from './presence/client.mjs';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const data = resolve(process.env.ATLAS_DATA_DIR || resolve(root, 'data'));
 const port = Number(process.env.ATLAS_PORT || 3000);
-const base = `http://localhost:${port}`;
+const host = process.env.ATLAS_HOST || '127.0.0.1';
+const base = `http://${host === '0.0.0.0' ? 'localhost' : host}:${port}`;
 const lockFile = resolve(data, 'running.lock');
 const stateFile = resolve(data, 'runtime.json');
-let mf, server, lock, presence, closing = false;
+let mf, server, lock, presence, speech, closing = false;
 function openBrowser() {
+  if (process.platform !== 'win32') return;
   const child = spawn('rundll32.exe', ['url.dll,FileProtocolHandler', base], { windowsHide: true, stdio: 'ignore' });
   child.on('error', () => console.log(`Hay mo ${base}`));
   child.unref();
@@ -26,6 +28,7 @@ async function shutdown() {
   if (closing) return;
   closing = true;
   presence?.close();
+  speech?.close();
   if (server) {
     server.close();
     server.closeAllConnections();
@@ -47,7 +50,7 @@ async function main() {
   try {
     await new Promise((done, reject) => {
       server.once('error', reject);
-      server.listen(port, '127.0.0.1', done);
+      server.listen(port, host, done);
     });
   } catch (error) {
     if (error.code !== 'EADDRINUSE') throw error;
@@ -117,7 +120,13 @@ async function main() {
     : profileIds.includes('local-user') ? 'local-user'
       : profileIds.length === 1 ? profileIds[0] : 'local-offline-user';
   const media = JSON.parse(await fs.readFile(resolve(root, 'app/media-map.json'), 'utf8'));
-  const speech = createSpeechMiddleware(root, resolve(root, 'runtime/python/python.exe'));
+  const pythonPath = process.env.ATLAS_PYTHON_EXE || (process.platform === 'win32' ? resolve(root, 'runtime/python/python.exe') : 'python3');
+  speech = createSpeechMiddleware(
+    root,
+    pythonPath,
+    resolve(root, 'scripts/synthesize-neural.py'),
+    resolve(data, 'speech-models'),
+  );
   const controlToken = randomBytes(24).toString('hex');
   await fs.writeFile(stateFile, JSON.stringify({ pid: process.pid, base, data, controlToken }));
   server.removeAllListeners('request');
@@ -127,10 +136,10 @@ async function main() {
     else res.destroy();
   }); });
   async function handle(req, res) {
-    if (![`localhost:${port}`, `127.0.0.1:${port}`].includes(req.headers.host)) {
+    if (![`localhost:${port}`, `127.0.0.1:${port}`, `0.0.0.0:${port}`].includes(req.headers.host) && host !== '0.0.0.0') {
       res.writeHead(403).end(); return;
     }
-    if (req.headers.origin && ![base, `http://127.0.0.1:${port}`].includes(req.headers.origin)) {
+    if (req.headers.origin && ![base, `http://127.0.0.1:${port}`, `http://localhost:${port}`].includes(req.headers.origin) && host !== '0.0.0.0') {
       res.writeHead(403).end(); return;
     }
     let path;
@@ -146,7 +155,7 @@ async function main() {
       setImmediate(() => { void shutdown(); });
       return;
     }
-    if (path === '/__atlas/speech') { await speech(req, res); return; }
+    if (path === '/__atlas/speech' || path === '/__atlas/speech/offline') { await speech(req, res); return; }
     if (path === '/__atlas/transfer') {
       await sendFile(req, res, resolve(root, 'app/transfer.html')); return;
     }

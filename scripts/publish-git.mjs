@@ -7,7 +7,8 @@ import { hashFile,atomicJson } from './update-core.mjs';
 const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
 const allowed=new Set(['app','runtime','scripts','node_modules','media','AtlasEnglish.exe','Mo-Atlas.cmd','Dong-Atlas.cmd',
   'Sao-luu-du-lieu.cmd','Khoi-phuc-du-lieu.cmd','Tuy-chon-trinh-duyet.cmd','Kiem-tra-goi.cmd','Cap-nhat-GitHub.cmd',
-  'README.md','HUONG-DAN.txt','package.json','.gitignore','.gitattributes','atlas-distribution.json']);
+  'README.md','HUONG-DAN.txt','package.json','.gitignore','.gitattributes','atlas-distribution.json',
+  'docker-compose.yml','Dockerfile']);
 const privateNames=new Set(['.git','data','backups','logs','work','.wrangler','settings.json','current.json','manager.json','downloads','repository.git','package-integrity.json']);
 const git=(args)=>{const r=spawnSync('git',['-C',root,'-c','core.autocrlf=false',...args],{encoding:'utf8',windowsHide:true,maxBuffer:16*1024*1024});if(r.status!==0)throw new Error(r.stderr||r.stdout);return r.stdout;};
 function checkPublicPath(name){
@@ -16,7 +17,7 @@ function checkPublicPath(name){
     parts.some(p=>/^(?:presence-owner|presence-relay|local-presence(?:\.ts)?)$/i.test(p))||
     /\.dpapi$/i.test(name)||
     parts.some(p=>/^(?:\.env.*|\.git|\.wrangler|\.mf|backups|logs|work|downloads|repository\.git|settings\.json|current\.json|manager\.json|running\.lock|runtime\.json|credentials(?:\.json)?|secrets(?:\.json)?)$/i.test(p))||
-    (parts.some(p=>p.toLowerCase()==='data')&&name!=='app/client/data/toeic-manifest.json')||
+    (parts.some(p=>p.toLowerCase()==='data')&&name!=='app/client/data/toeic-manifest.json'&&!name.startsWith('runtime/'))||
     /\.(?:sqlite3?|db)(?:-(?:wal|shm|journal))?$/i.test(name)||
     /\.(?:key|pfx|p12|bak|partial|new)$/i.test(name))
     throw new Error(`Tệp riêng hoặc ngoài gói không được phát hành: ${name}`);

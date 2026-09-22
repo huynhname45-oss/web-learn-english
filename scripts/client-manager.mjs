@@ -50,11 +50,11 @@ async function boot(version) {
     child.on('error', (e) => { clearTimeout(timer); reject(e); });
     child.on('exit', (code) => { clearTimeout(timer); reject(new Error(text || `Ứng dụng dừng (${code}).`)); });
   });
-  for (const path of ['/', '/api/progress']) {
+  await Promise.all(['/', '/api/progress'].map(async (path) => {
     const response = await fetch(`http://localhost:${innerPort}${path}`, { signal: AbortSignal.timeout(15000) });
     if (!response.ok) throw new Error(`Kiểm tra sau cập nhật thất bại (${response.status}).`);
     await response.arrayBuffer();
-  }
+  }));
   if (child.exitCode !== null) throw new Error('Ứng dụng đã dừng trong khi khởi động.');
   state.ready = true;
   child.once('exit', () => {
@@ -258,10 +258,15 @@ async function main() {
     }
     if (!running.enabled || typeof running.home !== 'string' || resolve(running.home).toLowerCase() !== home.toLowerCase())
       throw new Error('Cổng 3000 đang được ứng dụng hoặc bản cài Atlas khác sử dụng. Hãy đóng bản đó trước.');
-    await fetch(`${base}/__atlas/update`, { method: 'POST',
+    // Opening an already-running local app must not wait for GitHub. The
+    // existing manager owns the check and the UI will show its result.
+    openBrowser();
+    console.log('ATLAS_CLIENT_REUSED');
+    void fetch(`${base}/__atlas/update`, { method: 'POST',
       headers: { 'Content-Type': 'application/json', 'X-Atlas-Update': running.token },
-      body: JSON.stringify({ action: 'check' }), signal: AbortSignal.timeout(3000) });
-    openBrowser(); return;
+      body: JSON.stringify({ action: 'check' }), signal: AbortSignal.timeout(3000) })
+      .then((response) => response.body?.cancel()).catch(() => {});
+    return;
   }
   current = JSON.parse(await fs.readFile(resolve(home, 'current.json'), 'utf8'));
   versionName(current.version);
