@@ -1,9 +1,9 @@
-// server/local-speech.ts
+// BE/server/local-speech.ts
 import { spawn } from "node:child_process";
 import { existsSync as existsSync2 } from "node:fs";
 import { resolve as resolve2 } from "node:path";
 
-// lib/speech-voices.ts
+// BE/lib/speech-voices.ts
 var SPEECH_VOICES = [
   { id: "en-US-AriaNeural", name: "Aria", locale: "en-US", accent: "M\u1EF9", gender: "N\u1EEF" },
   { id: "en-US-JennyNeural", name: "Jenny", locale: "en-US", accent: "M\u1EF9", gender: "N\u1EEF" },
@@ -35,12 +35,12 @@ function validSpeechVoice(id) {
 function resolveSpeechVoice(id, lang) {
   const selected = ALL_SPEECH_VOICES.find((v) => v.id === id);
   if (id === "windows-auto") return { id, locale: lang ?? "en-US" };
-  if (selected && (!lang || selected.locale === lang)) return selected;
+  if (selected) return selected;
   const sameEngine = isOfflineSpeechVoice(id) ? OFFLINE_SPEECH_VOICES : SPEECH_VOICES;
   return sameEngine.find((v) => v.locale === lang) ?? sameEngine[0];
 }
 
-// lib/speech-rates.ts
+// BE/lib/speech-rates.ts
 var SPEECH_RATE_OPTIONS = [
   1.5,
   1.25,
@@ -56,7 +56,7 @@ function validSpeechRate(value) {
   return typeof value === "number" && SPEECH_RATE_OPTIONS.includes(value);
 }
 
-// server/offline-speech.ts
+// BE/server/offline-speech.ts
 import { createHash } from "node:crypto";
 import { createReadStream, existsSync, statSync } from "node:fs";
 import { mkdir, open, rename } from "node:fs/promises";
@@ -75,64 +75,97 @@ var OFFLINE_SPEECH_ASSETS = [
     url: "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.1/voices-v1.0.bin"
   }
 ];
-var TOTAL_BYTES = OFFLINE_SPEECH_ASSETS.reduce((sum, item) => sum + item.bytes, 0);
+var DOWNLOAD_IDLE_MS = 45e3;
 async function sha256(path) {
   const hash = createHash("sha256");
   for await (const chunk of createReadStream(path)) hash.update(chunk);
   return hash.digest("hex");
 }
 var OfflineSpeechInstaller = class {
-  constructor(directory) {
+  constructor(directory, assets = OFFLINE_SPEECH_ASSETS) {
     this.directory = directory;
+    this.assets = assets;
     this.task = null;
     this.controller = null;
     this.received = 0;
     this.error = "";
+    this.verified = false;
+    this.verification = null;
     this.ready = false;
-    this.refreshReady();
+  }
+  get totalBytes() {
+    return this.assets.reduce((sum, item) => sum + item.bytes, 0);
   }
   get modelPath() {
-    return resolve(this.directory, OFFLINE_SPEECH_ASSETS[0].name);
+    return resolve(this.directory, this.assets[0].name);
   }
   get voicesPath() {
-    return resolve(this.directory, OFFLINE_SPEECH_ASSETS[1].name);
+    return resolve(this.directory, this.assets[1].name);
   }
-  refreshReady() {
-    this.ready = OFFLINE_SPEECH_ASSETS.every((asset) => {
-      const path = resolve(this.directory, asset.name);
-      return existsSync(path) && statSync(path).size === asset.bytes;
+  sizesMatch() {
+    try {
+      return this.assets.every((asset) => {
+        const path = resolve(this.directory, asset.name);
+        return existsSync(path) && statSync(path).size === asset.bytes;
+      });
+    } catch {
+      return false;
+    }
+  }
+  async verify() {
+    if (!this.sizesMatch()) {
+      this.ready = false;
+      this.verified = false;
+      return false;
+    }
+    if (this.verified) return this.ready;
+    if (this.verification) return this.verification;
+    this.verification = (async () => {
+      try {
+        this.ready = (await Promise.all(this.assets.map(
+          async (asset) => await sha256(resolve(this.directory, asset.name)) === asset.sha256
+        ))).every(Boolean);
+      } catch {
+        this.ready = false;
+      }
+      this.verified = true;
+      return this.ready;
+    })().finally(() => {
+      this.verification = null;
     });
-    return this.ready;
+    return this.verification;
   }
-  status() {
-    this.refreshReady();
+  async status() {
+    if (!this.task) await this.verify();
     return {
       installed: this.ready,
       downloading: this.task !== null,
-      received: this.ready ? TOTAL_BYTES : this.received,
-      total: TOTAL_BYTES,
-      percent: this.ready ? 100 : Math.min(99, Math.floor(this.received * 100 / TOTAL_BYTES)),
+      received: this.ready ? this.totalBytes : this.received,
+      total: this.totalBytes,
+      percent: this.ready ? 100 : Math.min(99, Math.floor(this.received * 100 / this.totalBytes)),
       error: this.error
     };
   }
   start() {
-    if (this.ready || this.task) return;
+    if (this.task) return;
     this.error = "";
     this.controller = new AbortController();
     const signal = this.controller.signal;
-    this.task = this.install(signal).catch((error) => {
+    this.task = (async () => {
+      if (await this.verify()) return;
+      await this.install(signal);
+    })().catch((error) => {
       if (!signal.aborted)
         this.error = error instanceof Error ? error.message : "Kh\xF4ng t\u1EA3i \u0111\u01B0\u1EE3c b\u1ED9 gi\u1ECDng offline.";
     }).finally(() => {
       this.controller = null;
       this.task = null;
-      this.refreshReady();
     });
   }
   async install(signal) {
     await mkdir(this.directory, { recursive: true });
     this.received = 0;
-    for (const asset of OFFLINE_SPEECH_ASSETS) {
+    for (const asset of this.assets) {
       const target = resolve(this.directory, asset.name);
       if (existsSync(target) && statSync(target).size === asset.bytes && await sha256(target) === asset.sha256) {
         this.received += asset.bytes;
@@ -140,46 +173,96 @@ var OfflineSpeechInstaller = class {
       }
       const partial = `${target}.partial`;
       let offset = existsSync(partial) ? statSync(partial).size : 0;
+      if (offset === asset.bytes && await sha256(partial) === asset.sha256) {
+        await rename(partial, target);
+        this.received += asset.bytes;
+        continue;
+      }
       if (offset < 0 || offset >= asset.bytes) offset = 0;
-      const response = await fetch(asset.url, {
-        headers: offset ? { Range: `bytes=${offset}-`, "User-Agent": "Atlas-English" } : { "User-Agent": "Atlas-English" },
-        redirect: "follow",
-        signal
-      });
-      if (!response.ok || !response.body)
-        throw new Error(`M\xE1y ch\u1EE7 gi\u1ECDng offline tr\u1EA3 v\u1EC1 l\u1ED7i ${response.status}. C\xF3 th\u1EC3 m\u1EDF l\u1EA1i \u0111\u1EC3 ti\u1EBFp t\u1EE5c t\u1EA3i.`);
-      const resumed = offset > 0 && response.status === 206;
-      if (!resumed) offset = 0;
-      this.received += offset;
-      const file = await open(partial, resumed ? "a" : "w");
-      const reader = response.body.getReader();
+      const idle = new AbortController();
+      let idleTimer;
+      const resetIdle = () => {
+        clearTimeout(idleTimer);
+        idleTimer = setTimeout(() => idle.abort(), DOWNLOAD_IDLE_MS);
+        idleTimer.unref();
+      };
+      resetIdle();
       try {
-        while (true) {
-          const { done, value } = await reader.read();
-          if (done) break;
-          await file.write(value);
-          this.received += value.byteLength;
-          if (this.received > TOTAL_BYTES)
-            throw new Error("Dung l\u01B0\u1EE3ng b\u1ED9 gi\u1ECDng offline kh\xF4ng h\u1EE3p l\u1EC7.");
+        const response = await fetch(asset.url, {
+          headers: offset ? { Range: `bytes=${offset}-`, "User-Agent": "Atlas-English" } : { "User-Agent": "Atlas-English" },
+          redirect: "follow",
+          signal: AbortSignal.any([signal, idle.signal])
+        });
+        if (!response.ok || !response.body)
+          throw new Error(`M\xE1y ch\u1EE7 gi\u1ECDng offline tr\u1EA3 v\u1EC1 l\u1ED7i ${response.status}. C\xF3 th\u1EC3 m\u1EDF l\u1EA1i \u0111\u1EC3 ti\u1EBFp t\u1EE5c t\u1EA3i.`);
+        const resumed = offset > 0 && response.status === 206;
+        if (!resumed) offset = 0;
+        this.received += offset;
+        const file = await open(partial, resumed ? "a" : "w");
+        const reader = response.body.getReader();
+        try {
+          while (true) {
+            const { done, value } = await reader.read();
+            if (done) break;
+            resetIdle();
+            await file.write(value);
+            this.received += value.byteLength;
+            if (this.received > this.totalBytes)
+              throw new Error("Dung l\u01B0\u1EE3ng b\u1ED9 gi\u1ECDng offline kh\xF4ng h\u1EE3p l\u1EC7.");
+          }
+        } finally {
+          reader.releaseLock();
+          await file.close();
         }
+      } catch (error) {
+        if (idle.signal.aborted && !signal.aborted)
+          throw new Error("T\u1EA3i gi\u1ECDng offline b\u1ECB ng\u1EAFt qu\xE1 l\xE2u. B\u1EA5m t\u1EA3i l\u1EA1i \u0111\u1EC3 ti\u1EBFp t\u1EE5c ph\u1EA7n \u0111\xE3 nh\u1EADn.");
+        throw error;
       } finally {
-        reader.releaseLock();
-        await file.close();
+        clearTimeout(idleTimer);
       }
       if (statSync(partial).size !== asset.bytes || await sha256(partial) !== asset.sha256)
         throw new Error("B\u1ED9 gi\u1ECDng offline t\u1EA3i ch\u01B0a to\xE0n v\u1EB9n. Atlas gi\u1EEF ph\u1EA7n t\u1EA3i \u0111\u1EC3 th\u1EED l\u1EA1i an to\xE0n.");
       await rename(partial, target);
     }
-    if (!this.refreshReady()) throw new Error("B\u1ED9 gi\u1ECDng offline ch\u01B0a \u0111\u1EA7y \u0111\u1EE7.");
+    this.verified = false;
+    if (!await this.verify()) throw new Error("B\u1ED9 gi\u1ECDng offline ch\u01B0a \u0111\u1EA7y \u0111\u1EE7 ho\u1EB7c sai m\xE3 ki\u1EC3m tra.");
   }
   close() {
     this.controller?.abort();
   }
 };
 
-// server/local-speech.ts
-var MAX_REQUEST_BYTES = 32e3;
+// BE/lib/speech-wav.ts
+var HEADER_BYTES = 44;
 var MAX_AUDIO_BYTES = 24 * 1024 * 1024;
+function joinSpeechWavs(chunks) {
+  if (!chunks.length) throw new Error("Empty local speech");
+  let bytes = 0;
+  for (const chunk of chunks) {
+    const view = new DataView(chunk.buffer, chunk.byteOffset, chunk.byteLength);
+    if (chunk.length < HEADER_BYTES || String.fromCharCode(...chunk.subarray(0, 4)) !== "RIFF" || String.fromCharCode(...chunk.subarray(8, 16)) !== "WAVEfmt " || String.fromCharCode(...chunk.subarray(36, 40)) !== "data" || view.getUint32(16, true) !== 16 || view.getUint16(20, true) !== 1 || view.getUint16(22, true) !== 1 || view.getUint32(24, true) !== 24e3 || view.getUint32(28, true) !== 48e3 || view.getUint16(32, true) !== 2 || view.getUint16(34, true) !== 16 || view.getUint32(4, true) !== chunk.length - 8 || view.getUint32(40, true) !== chunk.length - HEADER_BYTES || (chunk.length - HEADER_BYTES) % 2 !== 0)
+      throw new Error("Invalid local speech WAV");
+    bytes += chunk.length - HEADER_BYTES;
+    if (bytes + HEADER_BYTES > MAX_AUDIO_BYTES)
+      throw new Error("Local speech is too large");
+  }
+  const output = new Uint8Array(HEADER_BYTES + bytes);
+  output.set(chunks[0].subarray(0, HEADER_BYTES));
+  const header = new DataView(output.buffer);
+  header.setUint32(4, output.length - 8, true);
+  header.setUint32(40, bytes, true);
+  let offset = HEADER_BYTES;
+  for (const chunk of chunks) {
+    output.set(chunk.subarray(HEADER_BYTES), offset);
+    offset += chunk.length - HEADER_BYTES;
+  }
+  return output;
+}
+
+// BE/server/local-speech.ts
+var MAX_REQUEST_BYTES = 32e3;
+var MAX_AUDIO_BYTES2 = 24 * 1024 * 1024;
 var MAX_CACHE_BYTES = 32 * 1024 * 1024;
 var SPEECH_TIMEOUT_MS = 24e3;
 var NEURAL_WORKER_COUNT = 2;
@@ -190,13 +273,15 @@ var SpeechWorkerBusyError = class extends Error {
   }
 };
 var NeuralSpeechWorker = class {
-  constructor(python, script) {
+  constructor(python, script, offlineOnly = false) {
     this.python = python;
     this.script = script;
+    this.offlineOnly = offlineOnly;
     this.child = null;
     this.pending = null;
     this.lineBuffer = "";
     this.sequence = 0;
+    this.ready = false;
   }
   get busy() {
     return this.pending !== null;
@@ -209,16 +294,27 @@ var NeuralSpeechWorker = class {
     const child = spawn(this.python, [this.script], {
       windowsHide: true,
       stdio: ["pipe", "pipe", "pipe"],
-      env: { ...process.env, PYTHONDONTWRITEBYTECODE: "1" }
+      env: {
+        ...process.env,
+        PYTHONDONTWRITEBYTECODE: "1",
+        ATLAS_OFFLINE_WORKER: this.offlineOnly ? "1" : "0"
+      }
     });
     this.child = child;
     this.lineBuffer = "";
     child.stdout.setEncoding("utf8");
     child.stdout.on("data", (text) => this.onStdout(text));
     child.stderr.resume();
-    child.once("error", (error) => this.fail(error));
+    child.stdin.on("error", (error) => {
+      if (this.child === child) this.reset(error);
+    });
+    child.once("error", (error) => {
+      if (this.child === child) this.reset(error);
+    });
     child.once("close", (code, signal) => {
+      if (this.child !== child) return;
       this.child = null;
+      this.ready = false;
       if (this.pending) {
         this.fail(new Error(`Speech worker stopped (${code ?? signal ?? "unknown"}).`));
       }
@@ -240,13 +336,19 @@ var NeuralSpeechWorker = class {
       }
       newline = this.lineBuffer.indexOf("\n");
     }
-    if (this.lineBuffer.length > MAX_AUDIO_BYTES * 2) {
+    if (this.lineBuffer.length > MAX_AUDIO_BYTES2 * 2) {
       this.reset(new Error("Speech worker response is too large."));
     }
   }
   onEvent(event) {
     const pending = this.pending;
     if (!pending || event.id !== pending.id) return;
+    if (event.type === "ready" && this.offlineOnly) {
+      this.ready = true;
+      this.pending = null;
+      pending.resolve(Buffer.alloc(0));
+      return;
+    }
     if (event.type === "chunk" && typeof event.data === "string") {
       let chunk;
       try {
@@ -256,7 +358,7 @@ var NeuralSpeechWorker = class {
         return;
       }
       pending.bytes += chunk.length;
-      if (pending.bytes > MAX_AUDIO_BYTES) {
+      if (pending.bytes > MAX_AUDIO_BYTES2) {
         this.fail(new Error("Speech audio is too large."));
         return;
       }
@@ -271,7 +373,13 @@ var NeuralSpeechWorker = class {
         completed?.reject(new Error("Speech worker returned no audio."));
         return;
       }
-      completed.resolve(Buffer.concat(completed.chunks));
+      try {
+        const data = this.offlineOnly ? Buffer.from(joinSpeechWavs(completed.chunks)) : Buffer.concat(completed.chunks);
+        if (this.offlineOnly) this.ready = true;
+        completed.resolve(data);
+      } catch (error) {
+        completed.reject(error instanceof Error ? error : new Error("Invalid local speech"));
+      }
       return;
     }
     if (event.type === "error") {
@@ -284,6 +392,7 @@ var NeuralSpeechWorker = class {
     pending?.reject(error);
   }
   request(payload, onChunk, signal) {
+    if (signal.aborted) return Promise.reject(new Error("Speech request canceled."));
     if (this.pending) throw new SpeechWorkerBusyError();
     const child = this.ensureChild();
     const id = String(++this.sequence);
@@ -322,6 +431,7 @@ var NeuralSpeechWorker = class {
   reset(error = new Error("Speech worker reset.")) {
     const child = this.child;
     this.child = null;
+    this.ready = false;
     this.lineBuffer = "";
     const pending = this.pending;
     this.pending = null;
@@ -331,6 +441,7 @@ var NeuralSpeechWorker = class {
   close() {
     const child = this.child;
     this.child = null;
+    this.ready = false;
     this.lineBuffer = "";
     const pending = this.pending;
     this.pending = null;
@@ -349,10 +460,10 @@ function localSpeech() {
     }
   };
 }
-function createSpeechMiddleware(root, pythonPath, neuralScriptPath = resolve2(root, "scripts/synthesize-neural.py"), offlineModelDirectory = process.env.ATLAS_SPEECH_HOME ?? resolve2(
+function createSpeechMiddleware(root, pythonPath, neuralScriptPath = resolve2(root, "BE/scripts/synthesize-neural.py"), offlineModelDirectory = process.env.ATLAS_SPEECH_HOME ?? resolve2(
   process.env.ATLAS_DEV_HOME ?? process.env.LOCALAPPDATA ?? root,
   process.env.ATLAS_DEV_HOME ? "speech-models" : "AtlasEnglish-Dev/speech-models"
-)) {
+), offlineAssets) {
   const cache = /* @__PURE__ */ new Map();
   const neuralJobs = /* @__PURE__ */ new Map();
   const localJobs = /* @__PURE__ */ new Map();
@@ -363,8 +474,31 @@ function createSpeechMiddleware(root, pythonPath, neuralScriptPath = resolve2(ro
     { length: NEURAL_WORKER_COUNT },
     () => new NeuralSpeechWorker(neuralPython, neuralScriptPath)
   );
-  const localWorker = new NeuralSpeechWorker(neuralPython, neuralScriptPath);
-  const offlineInstaller = new OfflineSpeechInstaller(offlineModelDirectory);
+  const localWorker = new NeuralSpeechWorker(neuralPython, neuralScriptPath, true);
+  const offlineInstaller = new OfflineSpeechInstaller(offlineModelDirectory, offlineAssets);
+  let localWarmup = null;
+  let closed = false;
+  const warmLocal = () => {
+    if (localWarmup) return localWarmup;
+    if (closed || localWorker.ready || localWorker.busy || !existsSync2(neuralPython))
+      return Promise.resolve();
+    localWarmup = (async () => {
+      if (!await offlineInstaller.verify() || closed || localWorker.busy) return;
+      await localWorker.request(
+        {
+          warmup: true,
+          model_path: offlineInstaller.modelPath,
+          voices_path: offlineInstaller.voicesPath
+        },
+        () => {
+        },
+        AbortSignal.timeout(3e4)
+      );
+    })().finally(() => {
+      localWarmup = null;
+    });
+    return localWarmup;
+  };
   const warmTimer = existsSync2(neuralPython) ? setTimeout(() => neuralWorkers.forEach((worker) => worker.warm()), 500) : void 0;
   warmTimer?.unref();
   const remember = (key, data) => {
@@ -381,10 +515,13 @@ function createSpeechMiddleware(root, pythonPath, neuralScriptPath = resolve2(ro
       cache.delete(oldest);
     }
   };
-  const neuralJob = (payload, local = false) => {
+  const neuralJob = (payload, local = false, speculative = false) => {
     const jobs = local ? localJobs : neuralJobs;
     const existing = jobs.get(payload);
-    if (existing) return existing;
+    if (existing) {
+      if (!speculative) existing.speculative = false;
+      return existing;
+    }
     const worker = local ? localWorker.busy ? void 0 : localWorker : neuralWorkers.find((candidate) => !candidate.busy);
     if (!worker) throw new SpeechWorkerBusyError();
     const controller = new AbortController();
@@ -394,7 +531,8 @@ function createSpeechMiddleware(root, pythonPath, neuralScriptPath = resolve2(ro
       listeners: /* @__PURE__ */ new Set(),
       controller,
       promise: Promise.resolve(Buffer.alloc(0)),
-      settled: false
+      settled: false,
+      speculative
     };
     jobs.set(payload, job);
     try {
@@ -437,12 +575,12 @@ function createSpeechMiddleware(root, pythonPath, neuralScriptPath = resolve2(ro
     const pathname = new URL(req.url ?? "/", `http://${req.headers.host ?? "localhost"}`).pathname;
     if (pathname.endsWith("/offline")) {
       if (req.method === "GET") {
-        res.writeHead(200, { "Content-Type": "application/json" }).end(JSON.stringify(offlineInstaller.status()));
+        res.writeHead(200, { "Content-Type": "application/json" }).end(JSON.stringify(await offlineInstaller.status()));
         return;
       }
       if (req.method === "POST") {
         offlineInstaller.start();
-        res.writeHead(202, { "Content-Type": "application/json" }).end(JSON.stringify(offlineInstaller.status()));
+        res.writeHead(202, { "Content-Type": "application/json" }).end(JSON.stringify(await offlineInstaller.status()));
         return;
       }
       res.writeHead(405).end();
@@ -463,6 +601,20 @@ function createSpeechMiddleware(root, pythonPath, neuralScriptPath = resolve2(ro
         }
       }
       const input = JSON.parse(raw);
+      if (pathname.endsWith("/warm")) {
+        if (!isOfflineSpeechVoice(input.voice)) {
+          res.writeHead(400).end();
+          return;
+        }
+        if (!await offlineInstaller.verify()) {
+          res.writeHead(424, { "Content-Type": "application/json" }).end(JSON.stringify({ error: "offline-voices-not-installed" }));
+          return;
+        }
+        void warmLocal().catch(() => {
+        });
+        res.writeHead(202, { "Content-Type": "application/json" }).end(JSON.stringify({ installed: true, ready: localWorker.ready }));
+        return;
+      }
       const rate = typeof input.rate === "number" ? input.rate : input.slow === true ? DEFAULT_SLOW_SPEECH_RATE : input.slow === false ? DEFAULT_NORMAL_SPEECH_RATE : Number.NaN;
       if (typeof input.text !== "string" || !input.text.trim() || input.text.length > 6e3 || !["en-US", "en-GB", "en-AU"].includes(input.lang) || !validSpeechRate(rate) || input.voice !== void 0 && !validSpeechVoice(input.voice)) {
         res.writeHead(400).end();
@@ -489,26 +641,48 @@ function createSpeechMiddleware(root, pythonPath, neuralScriptPath = resolve2(ro
         res.writeHead(503).end();
         return;
       }
-      if (localVoice && !offlineInstaller.ready) {
+      if (localVoice && !await offlineInstaller.verify()) {
         res.writeHead(424, { "Content-Type": "application/json" }).end(JSON.stringify({ error: "offline-voices-not-installed" }));
         return;
       }
       if (!windowsVoice) {
         let job;
+        const speculative = req.headers["x-atlas-speech-priority"] === "low";
         try {
-          job = neuralJob(payload, localVoice);
+          if (localVoice) {
+            if (localWarmup) await localWarmup;
+            if (!speculative && !localJobs.has(payload)) {
+              for (const waiting of localJobs.values()) {
+                if (!waiting.speculative) continue;
+                if (waiting.cancelTimer) clearTimeout(waiting.cancelTimer);
+                waiting.cancelTimer = void 0;
+                await waiting.promise.catch(() => {
+                });
+              }
+            }
+            if (closed || res.destroyed || res.writableEnded) return;
+          }
+          job = neuralJob(payload, localVoice, speculative);
         } catch (error) {
           if (error instanceof SpeechWorkerBusyError) res.writeHead(429).end();
           else res.writeHead(503).end();
           return;
         }
         let headersSent = false;
+        const streamingLocal = localVoice && input.stream === true;
+        const responseHeaders = streamingLocal ? { ...headers, "Content-Type": "audio/x-atlas-wav-stream" } : headers;
         const sendChunk = (chunk) => {
           if (res.writableEnded || res.destroyed) return;
+          if (localVoice && !streamingLocal) return;
           if (!headersSent) {
-            res.writeHead(200, headers);
+            res.writeHead(200, responseHeaders);
             res.flushHeaders();
             headersSent = true;
+          }
+          if (streamingLocal) {
+            const frame = Buffer.allocUnsafe(4);
+            frame.writeUInt32LE(chunk.length);
+            res.write(frame);
           }
           res.write(chunk);
         };
@@ -559,7 +733,7 @@ function createSpeechMiddleware(root, pythonPath, neuralScriptPath = resolve2(ro
       try {
         const child = spawn(
           "powershell.exe",
-          ["-NoLogo", "-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-File", resolve2(root, "scripts/synthesize-speech.ps1")],
+          ["-NoLogo", "-NoProfile", "-NonInteractive", "-ExecutionPolicy", "Bypass", "-File", resolve2(root, "BE/scripts/synthesize-speech.ps1")],
           { windowsHide: true, stdio: ["pipe", "pipe", "pipe"] }
         );
         const childChunks = [];
@@ -567,7 +741,7 @@ function createSpeechMiddleware(root, pythonPath, neuralScriptPath = resolve2(ro
         const childPromise = new Promise((resolveResult, reject) => {
           child.stdout.on("data", (chunk) => {
             bytes += chunk.length;
-            if (bytes > MAX_AUDIO_BYTES) child.kill();
+            if (bytes > MAX_AUDIO_BYTES2) child.kill();
             else childChunks.push(chunk);
           });
           child.stderr.resume();
@@ -604,6 +778,7 @@ function createSpeechMiddleware(root, pythonPath, neuralScriptPath = resolve2(ro
     }
   });
   middleware.close = () => {
+    closed = true;
     if (warmTimer) clearTimeout(warmTimer);
     neuralJobs.forEach((job) => {
       if (job.cancelTimer) clearTimeout(job.cancelTimer);

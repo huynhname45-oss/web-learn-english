@@ -17,6 +17,7 @@ const host = process.env.ATLAS_HOST || '127.0.0.1';
 const base = `http://${host === '0.0.0.0' ? 'localhost' : host}:${port}`;
 const lockFile = resolve(data, 'running.lock');
 const stateFile = resolve(data, 'runtime.json');
+const closeToken = randomBytes(24).toString('hex');
 let mf, server, lock, presence, speech, closing = false;
 function openBrowser() {
   if (process.platform !== 'win32') return;
@@ -147,6 +148,20 @@ async function main() {
     if (path === '/__atlas/status') {
       res.writeHead(200, { 'Content-Type': 'application/json', 'Cache-Control': 'no-store' })
         .end(JSON.stringify({ product: 'Atlas English Portable', data, port }));
+      return;
+    }
+    if (path === '/__atlas/close') {
+      res.setHeader('Cache-Control', 'no-store');
+      if (req.method === 'GET') {
+        res.writeHead(200, { 'Content-Type': 'application/json' })
+          .end(JSON.stringify({ available: true, token: closeToken }));
+        return;
+      }
+      if (req.method !== 'POST') { res.writeHead(405).end(); return; }
+      if (req.headers.origin !== `http://${req.headers.host}` ||
+          req.headers['x-atlas-close'] !== closeToken) { res.writeHead(403).end(); return; }
+      res.writeHead(200, { 'Content-Type': 'application/json' })
+        .end(JSON.stringify({ closing: true }), () => setImmediate(() => { void shutdown(); }));
       return;
     }
     if (path === '/__atlas/stop') {

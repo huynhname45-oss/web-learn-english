@@ -35,4 +35,4 @@ VOLUME ["/app/data"]
 
 EXPOSE 3000
 
-CMD ["node", "scripts/server.mjs"]
+CMD ["node", "BE/scripts/portable/server.mjs"]

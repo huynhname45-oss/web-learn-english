@@ -2,7 +2,7 @@ services:
   atlas-english:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: BE/deployment/Dockerfile
     container_name: atlas-english
     restart: unless-stopped
     ports:

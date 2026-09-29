@@ -52,7 +52,12 @@ export function connectPresence({ url, authenticate, onMessage = () => {}, onSta
       if (mine !== generation) return;
       clearSession();
       if ([4001, 4003, 4009].includes(event.code)) {
-        stopped = true; notify(event.code === 4003 ? 'blocked' : event.code === 4009 ? 'superseded' : 'unauthorized');
+        const timeout = /timeout|required/i.test(event.reason || '');
+        if (event.code === 4001 && timeout) {
+          notify('disconnected'); reconnect();
+        } else {
+          stopped = true; notify(event.code === 4003 ? 'blocked' : event.code === 4009 ? 'superseded' : 'unauthorized');
+        }
       } else { notify('disconnected'); reconnect(); }
     });
   }
@@ -61,6 +66,12 @@ export function connectPresence({ url, authenticate, onMessage = () => {}, onSta
     send(message) {
       if (!accepted || stopped || socket?.readyState !== 1) throw new Error('Relay is disconnected');
       socket.send(JSON.stringify(message));
+    },
+    retry() {
+      if (accepted && socket?.readyState === 1) return;
+      stopped = false; failures = 0; clearTimeout(retry); clearSession();
+      try { socket?.close(1000, 'Retry'); } catch {}
+      open();
     },
     close() {
       stopped = true; ++generation; clearTimeout(retry); clearSession();

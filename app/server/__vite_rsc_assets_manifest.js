@@ -1,41 +1,41 @@
 export default {
-  "bootstrapScriptContent": "import(\"/_next/static/chunks/index-WnRqeB2x.js\")",
+  "bootstrapScriptContent": "import(\"/_next/static/chunks/index-Cb1intRg.js\")",
   "clientReferenceDeps": {
-    "97760a3bd76a": {
+    "179d9a9ed97a": {
       "js": [
-        "/_next/static/chunks/academy-DIrfALP9.js",
+        "/_next/static/chunks/academy-DLdjIlPI.js",
         "/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
-        "/_next/static/chunks/index-WnRqeB2x.js",
+        "/_next/static/chunks/index-Cb1intRg.js",
         "/_next/static/chunks/framework-D_rUT4EX.js",
-        "/_next/static/chunks/learning-context-BQvDmIdp.js",
-        "/_next/static/chunks/assessment-B_7ocgV4.js",
-        "/_next/static/chunks/answers-DXx4nt1T.js",
-        "/_next/static/chunks/createLucideIcon-DRbKzcQ3.js",
-        "/_next/static/chunks/arrow-right-BofzpbRF.js",
-        "/_next/static/chunks/arrow-up-right-C58m6F5t.js",
-        "/_next/static/chunks/book-open-DyVzBDXf.js",
-        "/_next/static/chunks/chevron-right-CCep04uv.js",
-        "/_next/static/chunks/clock-D-6L7s0R.js",
-        "/_next/static/chunks/headphones-DAqyKt0V.js",
-        "/_next/static/chunks/search-CaWdzS7c.js",
-        "/_next/static/chunks/sparkles-Bv6W45_U.js",
-        "/_next/static/chunks/target-DT7xFE8V.js",
-        "/_next/static/chunks/triangle-alert-BIuTiQug.js"
+        "/_next/static/chunks/learning-context-lg5zGBUi.js",
+        "/_next/static/chunks/assessment-BiyETbQD.js",
+        "/_next/static/chunks/answers-BYYXak-Z.js",
+        "/_next/static/chunks/createLucideIcon-DSOfZ7zZ.js",
+        "/_next/static/chunks/arrow-right-CYyQDefJ.js",
+        "/_next/static/chunks/arrow-up-right-DKg_2e7I.js",
+        "/_next/static/chunks/book-open-C0wRU_Jl.js",
+        "/_next/static/chunks/chevron-right-Bn-IxlGV.js",
+        "/_next/static/chunks/clock-DwooQx2T.js",
+        "/_next/static/chunks/headphones-CcIBCMsB.js",
+        "/_next/static/chunks/search-Blo_PfoQ.js",
+        "/_next/static/chunks/sparkles-COp8vS2v.js",
+        "/_next/static/chunks/target-B-Xra1mn.js",
+        "/_next/static/chunks/triangle-alert-BPOh5EPQ.js"
       ],
       "css": []
     },
-    "25b4469b243f": {
+    "544d1bdb2060": {
       "js": [
         "/_next/static/chunks/update-notice-BNK7r6Gi.js",
         "/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
         "/_next/static/chunks/framework-D_rUT4EX.js",
-        "/_next/static/chunks/index-WnRqeB2x.js"
+        "/_next/static/chunks/index-Cb1intRg.js"
       ],
       "css": []
     },
     "9276801271d6": {
       "js": [
-        "/_next/static/chunks/index-WnRqeB2x.js",
+        "/_next/static/chunks/index-Cb1intRg.js",
         "/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
         "/_next/static/chunks/framework-D_rUT4EX.js"
       ],
@@ -43,7 +43,7 @@ export default {
     },
     "0b874ad30386": {
       "js": [
-        "/_next/static/chunks/index-WnRqeB2x.js",
+        "/_next/static/chunks/index-Cb1intRg.js",
         "/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
         "/_next/static/chunks/framework-D_rUT4EX.js"
       ],
@@ -51,7 +51,7 @@ export default {
     },
     "593f344dc510": {
       "js": [
-        "/_next/static/chunks/index-WnRqeB2x.js",
+        "/_next/static/chunks/index-Cb1intRg.js",
         "/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
         "/_next/static/chunks/framework-D_rUT4EX.js"
       ],
@@ -59,7 +59,7 @@ export default {
     },
     "bad85346fc72": {
       "js": [
-        "/_next/static/chunks/index-WnRqeB2x.js",
+        "/_next/static/chunks/index-Cb1intRg.js",
         "/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
         "/_next/static/chunks/framework-D_rUT4EX.js"
       ],
@@ -67,16 +67,16 @@ export default {
     },
     "15c18cfaeeff": {
       "js": [
-        "/_next/static/chunks/layout-segment-context-BVUtHXLi.js",
+        "/_next/static/chunks/layout-segment-context-k1USnzBk.js",
         "/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
-        "/_next/static/chunks/index-WnRqeB2x.js",
+        "/_next/static/chunks/index-Cb1intRg.js",
         "/_next/static/chunks/framework-D_rUT4EX.js"
       ],
       "css": []
     },
     "8c0f216c4604": {
       "js": [
-        "/_next/static/chunks/index-WnRqeB2x.js",
+        "/_next/static/chunks/index-Cb1intRg.js",
         "/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
         "/_next/static/chunks/framework-D_rUT4EX.js"
       ],
@@ -87,16 +87,16 @@ export default {
         "/_next/static/chunks/streamed-icons-XR4QWZOM.js",
         "/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
         "/_next/static/chunks/framework-D_rUT4EX.js",
-        "/_next/static/chunks/index-WnRqeB2x.js"
+        "/_next/static/chunks/index-Cb1intRg.js"
       ],
       "css": []
     }
   },
   "serverResources": {
-    "app/layout.tsx": {
+    "FE/app/layout.tsx": {
       "js": [],
       "css": [
-        "/_next/static/css/index.CUxce95u.css"
+        "/_next/static/css/index.FRQTjQDQ.css"
       ]
     }
   }

@@ -12,6 +12,7 @@ const base = 'http://localhost:3000';
 const data = resolve(home, 'data'), versions = resolve(home, 'versions');
 let current, app, innerPort, proxy, stopping = false, active = 0, draining = false, updateBusy = false, recovering = false;
 const token = randomBytes(24).toString('hex');
+const closeToken = randomBytes(24).toString('hex');
 const state = { enabled: true, home, ready: false, phase: 'idle', current: '', latest: '', message: '', percent: 0, token };
 function setState(phase, message, percent = 0) { Object.assign(state, { phase, message, percent }); }
 function appRoot(version) { return resolve(versions, versionName(version)); }
@@ -286,6 +287,21 @@ async function handle(req, res) {
     res.writeHead(403).end(); return;
   }
   const path = new URL(req.url, base).pathname;
+  if (path === '/__atlas/close') {
+    res.setHeader('Cache-Control', 'no-store');
+    if (req.method === 'GET') {
+      res.writeHead(200, { 'Content-Type': 'application/json' })
+        .end(JSON.stringify({ available: true, token: closeToken }));
+      return;
+    }
+    if (req.method !== 'POST') { res.writeHead(405).end(); return; }
+    if (req.headers.origin !== `http://${req.headers.host}` ||
+        req.headers['x-atlas-close'] !== closeToken) { res.writeHead(403).end(); return; }
+    if (updateBusy || recovering) { res.writeHead(409).end('Atlas đang cập nhật hoặc khôi phục.'); return; }
+    res.writeHead(200, { 'Content-Type': 'application/json' })
+      .end(JSON.stringify({ closing: true }), () => setImmediate(() => { void shutdown().then(() => process.exit(0)); }));
+    return;
+  }
   if (path === '/__atlas/update') {
     if (req.method === 'POST') {
       if (req.headers['x-atlas-update'] !== token) { res.writeHead(403).end(); return; }
@@ -323,6 +339,8 @@ async function handle(req, res) {
 async function shutdown() {
   if (stopping) return;
   stopping = true;
+  draining = true;
+  for (let i = 0; active > 0 && i < 30; i++) await pause(100);
   await stopApp();
   proxy?.closeAllConnections();
   proxy?.close();
