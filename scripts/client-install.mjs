@@ -11,5 +11,9 @@ const info=JSON.parse(await fs.readFile(resolve(root,'atlas-distribution.json'),
 if(info.format!=='atlas-git-v1')throw new Error('Incomplete distribution');
 await verifyCore(root);
 await syncMedia(home,root,sha,(count,total)=>{if(count%50===0||count===total)console.log(`MEDIA ${count}/${total}`);});
+if (process.argv.includes('--prepare-only')) {
+  console.log('ATLAS_PREPARED');
+  process.exit(0);
+}
 await atomicJson(resolve(home,'current.json'),{version:`git-${sha.slice(0,12)}`});
 console.log('ATLAS_INSTALLED');

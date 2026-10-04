@@ -16,7 +16,9 @@ export async function git(home, args, report = () => {}, timeout = 30 * 60 * 100
     child.stdout.on('data',b=>{text+=b;if(text.length>4*1024*1024){child.kill();reject(new Error('Git output exceeded limit'));}});
     child.stderr.on('data',b=>{errors=(errors+b).slice(-4000);report(errors);});
     child.once('error',reject);
-    child.once('exit',code=>code===0?done(text):reject(new Error(errors.slice(-1000)||`Git failed (${code})`)));
+    child.once('exit',code=>code===0?done(text):reject(new Error(
+      code===null ? `Git quá thời gian chờ (${Math.round(timeout / 60000)} phút). Có thể thử lại để tiếp tục tải. ${errors.slice(-500)}` :
+      errors.slice(-1000)||`Git failed (${code})`)));
   });
 }
 function revision(value) {
@@ -29,6 +31,64 @@ export async function latestGit(home) {
   const text=await git(home,['ls-remote','origin','refs/heads/main'],undefined,20000);
   const sha=revision(text.trim().split(/\s/)[0]);
   return {mode:'git',revision:sha,version:`git-${sha.slice(0,12)}`};
+}
+async function fetchMissingBlobs(home, sha, report) {
+  const manifestText = await git(home, ['show', `${sha}:package-integrity.json`]);
+  const manifest = JSON.parse(manifestText);
+  if (manifest.format !== 'atlas-package-v1' || !manifest.files)
+    throw new Error('Bản kê tệp cập nhật không hợp lệ.');
+  const tree = await git(home, ['ls-tree', '-r', '-z', sha]);
+  const sizes = new Map();
+  let count = 0;
+  for (const entry of tree.split('\0').filter(Boolean)) {
+    const match = /^100(?:644|755) blob ([a-f0-9]{40})\t(.+)$/s.exec(entry);
+    if (!match) throw new Error('Cây tệp Git không hợp lệ.');
+    const name = match[2];
+    assertClientPackagePath(name);
+    const bytes = name === 'package-integrity.json'
+      ? Buffer.byteLength(manifestText)
+      : manifest.files[name]?.bytes;
+    if (!Number.isSafeInteger(bytes) || bytes < 0 || bytes >= 100 * 1024 * 1024)
+      throw new Error(`Bản kê không khớp tệp Git: ${name}`);
+    sizes.set(match[1], bytes);
+    count++;
+  }
+  if (count !== Object.keys(manifest.files).length + 1)
+    throw new Error('Cây tệp Git khác bản kê cập nhật.');
+  const missing = new Set((await git(home, ['rev-list', '--objects', '--missing=print', sha]))
+    .split(/\r?\n/).filter(line => /^\?[a-f0-9]{40}$/.test(line)).map(line => line.slice(1)));
+  const pending = [...sizes].filter(([id]) => missing.has(id));
+  const total = pending.reduce((sum, [, bytes]) => sum + bytes, 0);
+  let done = 0;
+  for (let offset = 0; offset < pending.length;) {
+    const batch = [];
+    let bytes = 0;
+    while (offset < pending.length && batch.length < 96) {
+      const [id, size] = pending[offset];
+      if (batch.length && bytes + size > 32 * 1024 * 1024) break;
+      batch.push(id);
+      bytes += size;
+      offset++;
+    }
+    report('downloading', `Đang tải các tệp thay đổi ${Math.round(done / 1048576)} / ${Math.round(total / 1048576)} MB…`,
+      5 + Math.round(done / total * 60));
+    await git(home, ['-c', 'fetch.negotiationAlgorithm=noop', 'fetch', '--no-tags',
+      '--no-write-fetch-head', '--recurse-submodules=no', '--filter=blob:none',
+      '--progress', 'origin', ...batch], text => {
+        const receiving = [...text.matchAll(/Receiving objects:\s+(\d+)%/g)].at(-1);
+        if (receiving) report('downloading',
+          `Đang tải các tệp thay đổi · ${receiving[1]}% của phần hiện tại`,
+          5 + Math.round((done + bytes * Number(receiving[1]) / 100) / total * 60));
+      }, 10 * 60 * 1000);
+    done += bytes;
+    report('downloading', `Đã tải các tệp thay đổi ${Math.round(done / 1048576)} / ${Math.round(total / 1048576)} MB`, 5 + Math.round(done / total * 60));
+  }
+  const remaining = new Set((await git(home, ['rev-list', '--objects', '--missing=print', sha]))
+    .split(/\r?\n/).filter(line => /^\?[a-f0-9]{40}$/.test(line)).map(line => line.slice(1)));
+  if ([...sizes.keys()].some(id => remaining.has(id)))
+    throw new Error('Git chưa tải đủ tệp của bản cập nhật. Hãy thử lại để tiếp tục.');
+  if (!pending.length) report('downloading', 'Các tệp ứng dụng và bộ đề đã có sẵn.', 65);
+  return pending.length;
 }
 export async function syncMedia(home, root, sha, report = () => {}) {
   revision(sha);
@@ -83,21 +143,13 @@ export async function syncMedia(home, root, sha, report = () => {}) {
 }
 export async function prepareGit(home,target,stage,report) {
   revision(target.revision);
-  let progress = 2;
-  await git(home,['fetch','--depth=1','--no-tags','--progress','origin',target.revision],
-    (text)=>{
-      const receiving=[...text.matchAll(/Receiving objects:\s+(\d+)%[^\r\n]*/g)].at(-1);
-      const resolving=[...text.matchAll(/Resolving deltas:\s+(\d+)%/g)].at(-1);
-      progress = Math.max(progress, resolving ? 60 + Math.round(Number(resolving[1]) * .08) : receiving ? Math.round(Number(receiving[1]) * .6) : 2);
-      const detail = receiving?.[0].match(/,\s*([\d.]+\s*[KMGT]?i?B(?:\s*\|\s*[\d.]+\s*[KMGT]?i?B\/s)?)/)?.[1];
-      report('downloading', resolving ? `Đang xử lý thay đổi · ${resolving[1]}%` : `Đang tải bản cập nhật${detail ? ' · ' + detail : ' từ GitHub…'}`, progress);
-    });
+  report('downloading', 'Đang lấy danh mục bản cập nhật từ GitHub…', 2);
+  await git(home,['fetch','--filter=blob:none','--depth=1','--no-tags','--progress','origin',target.revision]);
   const info=JSON.parse(await git(home,['show',`${target.revision}:atlas-distribution.json`]));
   if(info.format!=='atlas-git-v1')throw new Error('Repo chưa có bản đóng gói hoàn chỉnh.');
   const names=(await git(home,['ls-tree','--name-only','-z',target.revision])).split('\0').filter(Boolean);
   if(names.some(n=>['data','backups','.wrangler','.env','settings.json'].includes(n)))throw new Error('Repo chứa đường dẫn dữ liệu riêng; dừng cập nhật.');
-  const paths = (await git(home, ['ls-tree', '-r', '--name-only', '-z', target.revision])).split('\0').filter(Boolean);
-  for (const name of paths) assertClientPackagePath(name);
+  await fetchMissingBlobs(home, target.revision, report);
   const archive=resolve(home,`core-${target.revision}.zip`);
   // This archive never crosses the network. Store locally without recompressing
   // bundled executables, reducing CPU use while the old application is running.
