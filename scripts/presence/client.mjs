@@ -6,6 +6,17 @@ import { connectPresence } from './connection.mjs';
 import { proofText, publicKey, relayAddress } from './protocol.mjs';
 import { readSealed, writeSealed } from './sealed-store.mjs';
 
+export async function isOwnerMachine(localAppData = process.env.LOCALAPPDATA) {
+  if (!localAppData) return false;
+  try {
+    await fs.access(resolve(localAppData, 'AtlasEnglish-Dev/presence/presence-owner.dpapi'));
+    return true;
+  } catch (error) {
+    if (error.code === 'ENOENT') return false;
+    throw error;
+  }
+}
+
 export async function createIdentity() {
   const pair = await crypto.subtle.generateKey({ name: 'ECDSA', namedCurve: 'P-256' }, true, ['sign', 'verify']);
   return { id: randomUUID(), publicKey: publicKey(await crypto.subtle.exportKey('jwk', pair.publicKey)),
@@ -24,7 +35,7 @@ export async function clientAuthentication(identity, machine, version, nonce) {
 export function startClientPresence({ root, data, version = 'portable', disabled = false }) {
   let stopped = false, connection;
   void (async () => {
-    if (disabled) return;
+    if (disabled || await isOwnerMachine()) return;
     const config = JSON.parse(await fs.readFile(resolve(root, 'app/presence-public.json'), 'utf8'));
     if (config.enabled !== true) return;
     const url = relayAddress(config.url);
