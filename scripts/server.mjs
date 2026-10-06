@@ -5,6 +5,7 @@ import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { spawn } from 'node:child_process';
 import { randomBytes } from 'node:crypto';
+import { performance } from 'node:perf_hooks';
 import { Miniflare, Log, LogLevel } from 'miniflare';
 import { contained, sendFile } from './files.mjs';
 import { createSpeechMiddleware } from './speech.mjs';
@@ -19,6 +20,11 @@ const lockFile = resolve(data, 'running.lock');
 const stateFile = resolve(data, 'runtime.json');
 const closeToken = randomBytes(24).toString('hex');
 let mf, server, lock, presence, speech, closing = false;
+const startupAt = performance.now();
+function startupMark(stage) {
+  if (process.env.ATLAS_STARTUP_TRACE === '1')
+    console.log(`ATLAS_STARTUP ${stage} ${Math.round(performance.now() - startupAt)}ms`);
+}
 function openBrowser() {
   if (process.platform !== 'win32') return;
   const child = spawn('rundll32.exe', ['url.dll,FileProtocolHandler', base], { windowsHide: true, stdio: 'ignore' });
@@ -79,12 +85,14 @@ async function main() {
     lock = await fs.open(lockFile, 'wx');
   }
   await lock.writeFile(String(process.pid));
+  startupMark('lock');
   const workerRoot = resolve(root, 'app/server');
   const entries = await fs.readdir(workerRoot, { recursive: true, withFileTypes: true });
   const modules = entries.filter((d) => d.isFile() && d.name.endsWith('.js'))
     .map((d) => resolve(d.parentPath, d.name));
   const entry = resolve(workerRoot, 'index.js');
   modules.sort((a, b) => a === entry ? -1 : b === entry ? 1 : a.localeCompare(b));
+  startupMark('modules');
   const bindings = {};
   try {
     const settings = JSON.parse(await fs.readFile(resolve(data, 'settings.json'), 'utf8'));
@@ -103,16 +111,19 @@ async function main() {
     bindings,
   });
   await mf.ready;
+  startupMark('miniflare');
   const db = await mf.getD1Database('DB');
   const expected = ['activity', 'attempts', 'completions', 'notes', 'profiles', 'reviews', 'sessions', 'tests'];
   const tables = (await db.prepare("SELECT name FROM sqlite_master WHERE type='table'").all()).results.map((r) => r.name);
   const count = expected.filter((t) => tables.includes(t)).length;
+  startupMark('tables');
   if (!count) {
     const migration = await fs.readFile(resolve(root, 'app/schema.sql'), 'utf8');
     await db.batch(migration.split('--> statement-breakpoint').filter((s) => s.trim()).map((s) => db.prepare(s)));
   } else if (count !== expected.length) throw new Error('Du lieu thieu bang. Da dung de tranh lam hong du lieu.');
   const integrity = await db.prepare('PRAGMA quick_check').all();
   if (integrity.results.some((row) => Object.values(row)[0] !== 'ok')) throw new Error('Kiem tra du lieu khong dat.');
+  startupMark('integrity');
   // Preserve the profile ID used by older offline builds when restoring data.
   // No database rows or content IDs are renamed during migration.
   const profileRows = await db.batch(expected.map((table) => db.prepare(`SELECT DISTINCT user_id FROM ${table}`)));
@@ -120,7 +131,9 @@ async function main() {
   const userId = profileIds.includes('local-offline-user') ? 'local-offline-user'
     : profileIds.includes('local-user') ? 'local-user'
       : profileIds.length === 1 ? profileIds[0] : 'local-offline-user';
+  startupMark('profiles');
   const media = JSON.parse(await fs.readFile(resolve(root, 'app/media-map.json'), 'utf8'));
+  startupMark('media-map');
   const pythonPath = process.env.ATLAS_PYTHON_EXE || (process.platform === 'win32' ? resolve(root, 'runtime/python/python.exe') : 'python3');
   speech = createSpeechMiddleware(
     root,
@@ -222,6 +235,7 @@ async function main() {
     stream.pipe(res);
   }
   console.log(`ATLAS_READY ${base}`);
+  startupMark('ready');
   presence = startClientPresence({ root, data, version: process.env.ATLAS_CLIENT_VERSION || 'portable',
     disabled: process.env.ATLAS_PRESENCE_DISABLED === '1' });
   console.log('Du lieu cua ban: data. Giu cua so nay; Ctrl+C de dong Atlas.');

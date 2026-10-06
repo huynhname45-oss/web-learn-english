@@ -4,6 +4,7 @@ import fs from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { randomBytes } from 'node:crypto';
 import { spawn } from 'node:child_process';
+import { performance } from 'node:perf_hooks';
 import { validateRelease, versionName, downloadAsset, hashFile, expandArchive, verifyCore, atomicJson, run } from './update-core.mjs';
 import { latestGit, prepareGit } from './git-update.mjs';
 
@@ -29,33 +30,43 @@ async function freshPort() {
   await new Promise((done) => reservation.close(done));
   return port;
 }
-async function boot(version) {
+async function boot(version, verifyHttp = true) {
   state.ready = false;
+  const started = performance.now();
   const root = appRoot(version);
   innerPort = await freshPort();
   const child = spawn(resolve(root, 'runtime/node.exe'), ['scripts/server.mjs'], {
     cwd: root, windowsHide: true,
     env: { ...process.env, ATLAS_DATA_DIR: data, ATLAS_MEDIA_DIR: resolve(home, 'media'), ATLAS_PORT: String(innerPort),
-      ATLAS_CLIENT_VERSION: version },
+      ATLAS_CLIENT_VERSION: version, ATLAS_STARTUP_TRACE: '1' },
     stdio: ['ignore', 'pipe', 'pipe'],
   });
   app = child;
   await new Promise((done, reject) => {
     let text = '';
+    let lines = '';
     const timer = setTimeout(() => reject(new Error('Ứng dụng mới chưa khởi động được.')), 45000);
     child.stdout.on('data', (chunk) => {
       text = (text + chunk).slice(-6000);
+      lines += chunk.toString();
+      const complete = lines.split(/\r?\n/);
+      lines = complete.pop() || '';
+      for (const line of complete) if (line.startsWith('ATLAS_STARTUP ')) console.log(line);
       if (text.includes('ATLAS_READY')) { clearTimeout(timer); done(); }
     });
     child.stderr.on('data', (chunk) => { text = (text + chunk).slice(-3000); });
     child.on('error', (e) => { clearTimeout(timer); reject(e); });
     child.on('exit', (code) => { clearTimeout(timer); reject(new Error(text || `Ứng dụng dừng (${code}).`)); });
   });
-  await Promise.all(['/', '/api/progress'].map(async (path) => {
-    const response = await fetch(`http://localhost:${innerPort}${path}`, { signal: AbortSignal.timeout(15000) });
-    if (!response.ok) throw new Error(`Kiểm tra sau cập nhật thất bại (${response.status}).`);
-    await response.arrayBuffer();
-  }));
+  console.log(`ATLAS_BOOT server ${Math.round(performance.now() - started)}ms`);
+  if (verifyHttp) {
+    await Promise.all(['/', '/api/progress'].map(async (path) => {
+      const response = await fetch(`http://localhost:${innerPort}${path}`, { signal: AbortSignal.timeout(15000) });
+      if (!response.ok) throw new Error(`Kiểm tra sau cập nhật thất bại (${response.status}).`);
+      await response.arrayBuffer();
+    }));
+    console.log(`ATLAS_BOOT verified ${Math.round(performance.now() - started)}ms`);
+  }
   if (child.exitCode !== null) throw new Error('Ứng dụng đã dừng trong khi khởi động.');
   state.ready = true;
   child.once('exit', () => {
@@ -271,13 +282,13 @@ async function main() {
   }
   current = JSON.parse(await fs.readFile(resolve(home, 'current.json'), 'utf8'));
   versionName(current.version);
+  openBrowser();
   const recovered = await recoverPending();
-  await boot(current.version);
+  await boot(current.version, Boolean(recovered));
   if (recovered) await fs.unlink(resolve(home, 'pending-update.json'));
   state.current = current.version;
   await atomicJson(resolve(home, 'manager.json'), { pid: process.pid, token, home });
   console.log('ATLAS_CLIENT_READY');
-  openBrowser();
   void check();
   setInterval(() => { void check(); }, 15 * 60 * 1000).unref();
 }
@@ -287,6 +298,11 @@ async function handle(req, res) {
     res.writeHead(403).end(); return;
   }
   const path = new URL(req.url, base).pathname;
+  if (path === '/' && req.method === 'GET' && !state.ready && !draining) {
+    res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' })
+      .end(`<!doctype html><html lang="vi"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Atlas English - Đang mở</title><style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#f5f7f8;color:#20343b;font:16px system-ui,sans-serif}main{width:min(480px,calc(100% - 48px))}h1{font-size:24px;margin:0 0 12px}p{color:#586a70;line-height:1.5}progress{width:100%;height:8px;accent-color:#138c79}</style><main><h1>Atlas English</h1><p id="status" role="status" aria-live="polite">Đang mở ứng dụng...</p><progress></progress></main><script>async function check(){try{const r=await fetch('/__atlas/update',{cache:'no-store'});const s=await r.json();if(s.ready){location.reload();return}if(s.message)document.getElementById('status').textContent=s.message}catch{document.getElementById('status').textContent='Chưa kết nối được ứng dụng. Kiểm tra nhật ký khởi động nếu tình trạng kéo dài.'}setTimeout(check,700)}check()</script></html>`);
+    return;
+  }
   if (path === '/__atlas/close') {
     res.setHeader('Cache-Control', 'no-store');
     if (req.method === 'GET') {
